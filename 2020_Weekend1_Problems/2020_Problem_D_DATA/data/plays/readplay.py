@@ -20,6 +20,8 @@ def read_a_play_for_spectral_passing_adj_mats(path):
                             data.EventSubType == "Smart pass") |
                     (data.TeamID == 'Huskies') &
                     (data.DestinationPlayerID != None)]
+    if len(data) == 0:
+        return None
 
     return data.to_dict(orient='records')
 

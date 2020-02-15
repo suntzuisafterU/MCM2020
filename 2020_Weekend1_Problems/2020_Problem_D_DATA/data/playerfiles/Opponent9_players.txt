@@ -1,0 +1,17 @@
+Opponent9_D1
+Opponent9_D2
+Opponent9_D3
+Opponent9_D4
+Opponent9_D5
+Opponent9_D6
+Opponent9_F1
+Opponent9_F2
+Opponent9_F3
+Opponent9_G1
+Opponent9_G2
+Opponent9_M1
+Opponent9_M2
+Opponent9_M3
+Opponent9_M4
+Opponent9_M5
+Opponent9_M6

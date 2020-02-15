@@ -1,0 +1,14 @@
+Opponent7_D1
+Opponent7_D2
+Opponent7_D3
+Opponent7_D4
+Opponent7_F1
+Opponent7_F2
+Opponent7_G1
+Opponent7_M1
+Opponent7_M2
+Opponent7_M3
+Opponent7_M4
+Opponent7_M5
+Opponent7_M6
+Opponent7_M7
