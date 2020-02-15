@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 37,Opponent13,Opponent13_D4,,1H,2087.49073,Duel,Air duel,61.0,4.0,53.0,11.0
 37,Huskies,Huskies_M12,,1H,2087.723613,Duel,Air duel,39.0,96.0,47.0,89.0
 37,Huskies,Huskies_F5,,1H,2087.730687,Duel,Ground loose ball duel,47.0,89.0,47.0,85.0

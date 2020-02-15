@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 2,Huskies,Huskies_F1,,2H,2892.8883109999997,Others on the ball,Clearance,3.0,64.0,26.0,80.0
 2,Opponent2,Opponent2_F3,,2H,2897.219717,Pass,Cross,74.0,20.0,0.0,0.0
 2,Huskies,Huskies_G1,,2H,2899.516686,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,26.0,80.0

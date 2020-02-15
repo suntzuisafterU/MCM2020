@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 16,Huskies,Huskies_F4,Huskies_M6,1H,1553.145648,Pass,Smart pass,69.0,22.0,87.0,28.0
 16,Huskies,Huskies_M6,,1H,1553.61066,Others on the ball,Touch,87.0,28.0,87.0,27.0
 16,Huskies,Huskies_M6,,1H,1554.379776,Duel,Ground loose ball duel,87.0,27.0,90.0,32.0

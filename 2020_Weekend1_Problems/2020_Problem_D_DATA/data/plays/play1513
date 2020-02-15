@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 34,Huskies,Huskies_G1,Huskies_M12,1H,2774.208559,Pass,Launch,18.0,45.0,72.0,20.0
 34,Huskies,Huskies_M12,,1H,2778.221891,Duel,Ground attacking duel,72.0,20.0,75.0,31.0
 34,Opponent18,Opponent18_D3,,1H,2778.221891,Duel,Ground defending duel,28.0,80.0,25.0,69.0

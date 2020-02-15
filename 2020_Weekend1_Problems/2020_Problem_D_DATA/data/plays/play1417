@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 32,Opponent2,Opponent2_M5,Opponent2_D4,2H,2339.987,Pass,Simple pass,29.0,70.0,18.0,47.0
 32,Opponent2,Opponent2_D4,,2H,2341.480125,Others on the ball,Touch,18.0,47.0,35.0,39.0
 32,Opponent2,Opponent2_D4,Opponent2_M6,2H,2344.540438,Pass,Simple pass,35.0,39.0,48.0,68.0

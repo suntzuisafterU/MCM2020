@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 10,Opponent10,Opponent10_G1,,2H,1162.7358709999999,Goalkeeper leaving line,Goalkeeper leaving line,0.0,0.0,0.0,0.0
 10,Huskies,Huskies_D2,,2H,1164.8964130000004,Duel,Air duel,89.0,47.0,87.0,44.0
 10,Opponent10,Opponent10_D5,,2H,1165.410538,Others on the ball,Touch,13.0,56.0,9.0,42.0

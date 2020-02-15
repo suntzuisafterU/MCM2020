@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 10,Opponent10,Opponent10_M1,,2H,1486.0775030000004,Others on the ball,Clearance,10.0,70.0,16.0,90.0
 10,Huskies,Huskies_M4,,2H,1488.7900200000004,Duel,Ground loose ball duel,84.0,10.0,73.0,14.0
 10,Opponent10,Opponent10_M2,,2H,1489.3807960000004,Duel,Ground loose ball duel,16.0,90.0,27.0,86.0

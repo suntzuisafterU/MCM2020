@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 35,Huskies,Huskies_M1,Huskies_D4,1H,1376.765126,Pass,Simple pass,74.0,17.0,70.0,2.0
 35,Huskies,Huskies_D4,,1H,1377.719791,Pass,Simple pass,70.0,2.0,77.0,8.0
 35,Opponent17,Opponent17_M2,,1H,1380.831454,Duel,Ground defending duel,23.0,92.0,21.0,79.0

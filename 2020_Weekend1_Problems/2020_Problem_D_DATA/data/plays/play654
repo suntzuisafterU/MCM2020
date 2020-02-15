@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 13,Huskies,Huskies_G1,Huskies_F1,2H,2150.4577660000004,Pass,Launch,13.0,39.0,63.0,44.0
 13,Huskies,Huskies_F1,,2H,2153.6068910000004,Duel,Air duel,63.0,44.0,53.0,55.0
 13,Opponent13,Opponent13_D1,,2H,2154.105114,Duel,Air duel,37.0,56.0,47.0,45.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 16,Opponent16,Opponent16_D3,,1H,469.97552900000005,Others on the ball,Touch,61.0,12.0,77.0,13.0
 16,Opponent16,Opponent16_D3,Opponent16_M3,1H,472.93726100000003,Pass,Simple pass,77.0,13.0,74.0,26.0
 16,Opponent16,Opponent16_M3,,1H,474.53436999999997,Pass,Simple pass,74.0,26.0,82.0,54.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 38,Opponent14,Opponent14_D1,,2H,953.6652860000004,Pass,Cross,67.0,76.0,89.0,56.0
 38,Huskies,Huskies_D3,,2H,955.0438080000004,Others on the ball,Clearance,11.0,44.0,29.0,60.0
 38,Huskies,Huskies_F4,,2H,957.4145950000002,Duel,Ground attacking duel,29.0,60.0,41.0,60.0

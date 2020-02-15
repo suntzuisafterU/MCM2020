@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 20,Opponent19,Opponent19_M1,,1H,1886.5289,Pass,Head pass,40.0,53.0,54.0,47.0
 20,Huskies,Huskies_D2,,1H,1888.403265,Pass,Launch,46.0,53.0,74.0,73.0
 20,Opponent19,Opponent19_D2,,1H,1891.377712,Pass,Head pass,26.0,27.0,38.0,9.0

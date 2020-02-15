@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 35,Huskies,Huskies_F2,Huskies_M3,1H,1767.095163,Pass,Simple pass,39.0,66.0,38.0,59.0
 35,Huskies,Huskies_M3,,1H,1767.600474,Others on the ball,Touch,38.0,59.0,35.0,30.0
 35,Huskies,Huskies_M3,Huskies_D4,1H,1771.965599,Pass,Simple pass,35.0,30.0,38.0,5.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 13,Huskies,Huskies_M3,,2H,247.71651800000018,Duel,Ground loose ball duel,6.0,69.0,6.0,67.0
 13,Opponent13,Opponent13_F1,,2H,247.71651800000018,Duel,Ground loose ball duel,94.0,31.0,94.0,33.0
 13,Huskies,Huskies_M3,,2H,249.22549299999991,Pass,Simple pass,6.0,67.0,20.0,98.0

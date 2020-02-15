@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 27,Huskies,Huskies_M6,,2H,1010.4457659999998,Duel,Ground defending duel,17.0,5.0,21.0,4.0
 27,Opponent12,Opponent12_M3,,2H,1011.6072750000003,Duel,Ground attacking duel,83.0,95.0,79.0,96.0
 27,Opponent12,Opponent12_M3,,2H,1012.3219939999999,Pass,Cross,79.0,96.0,92.0,63.0

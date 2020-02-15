@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 17,Opponent17,Opponent17_M5,Opponent17_D3,1H,2052.833491,Pass,Simple pass,41.0,61.0,34.0,24.0
 17,Opponent17,Opponent17_D3,Opponent17_D4,1H,2056.190505,Pass,Simple pass,34.0,24.0,56.0,7.0
 17,Opponent17,Opponent17_D4,Opponent17_M1,1H,2058.351921,Pass,Simple pass,56.0,7.0,52.0,21.0

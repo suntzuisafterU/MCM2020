@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 20,Opponent19,Opponent19_D1,,2H,1536.7545980000004,Others on the ball,Touch,38.0,17.0,66.0,14.0
 20,Opponent19,Opponent19_D1,,2H,1540.522892,Pass,Simple pass,66.0,14.0,73.0,21.0
 20,Huskies,Huskies_D6,,2H,1541.4342029999998,Duel,Ground defending duel,27.0,79.0,29.0,80.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 15,Huskies,Huskies_D7,,2H,905.4741830000003,Others on the ball,Touch,4.0,58.0,25.0,83.0
 15,Opponent15,Opponent15_M2,Opponent15_M3,2H,909.0263020000002,Pass,Simple pass,75.0,17.0,78.0,8.0
 15,Opponent15,Opponent15_M3,,2H,910.0848260000002,Pass,Cross,78.0,8.0,100.0,100.0

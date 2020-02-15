@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 27,Opponent12,Opponent12_F1,,1H,1594.608496,Others on the ball,Clearance,6.0,56.0,28.0,51.0
 27,Huskies,Huskies_M1,,1H,1597.253978,Duel,Ground attacking duel,72.0,49.0,72.0,48.0
 27,Opponent12,Opponent12_M4,,1H,1597.818254,Duel,Ground defending duel,28.0,51.0,28.0,52.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 18,Opponent18,Opponent18_D1,,2H,1860.1689889999998,Others on the ball,Clearance,8.0,56.0,29.0,73.0
 18,Huskies,Huskies_M8,,2H,1863.8134799999998,Others on the ball,Touch,71.0,27.0,79.0,16.0
 18,Opponent18,Opponent18_D3,,2H,1864.1301210000001,Duel,Ground defending duel,21.0,84.0,27.0,83.0

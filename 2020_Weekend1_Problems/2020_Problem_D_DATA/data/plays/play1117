@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 22,Huskies,Huskies_D2,,2H,1721.3188600000003,Duel,Ground loose ball duel,92.0,48.0,95.0,50.0
 22,Huskies,Huskies_F4,,2H,1722.2216939999998,Others on the ball,Touch,95.0,50.0,98.0,37.0
 22,Opponent5,Opponent5_M7,,2H,1724.5486380000002,Others on the ball,Clearance,2.0,63.0,22.0,76.0

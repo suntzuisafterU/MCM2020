@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 10,Huskies,Huskies_D2,Huskies_F1,1H,923.495954,Pass,High pass,23.0,25.0,78.0,5.0
 10,Huskies,Huskies_F1,,1H,929.4733779999999,Others on the ball,Touch,78.0,5.0,86.0,14.0
 10,Huskies,Huskies_F1,,1H,931.485747,Duel,Ground attacking duel,86.0,14.0,82.0,12.0

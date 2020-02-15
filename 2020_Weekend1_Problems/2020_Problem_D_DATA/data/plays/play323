@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 6,Opponent6,Opponent6_M1,Opponent6_D1,1H,1501.671477,Pass,Simple pass,47.0,39.0,52.0,2.0
 6,Opponent6,Opponent6_D1,,1H,1506.758178,Others on the ball,Acceleration,52.0,2.0,79.0,26.0
 6,Opponent6,Opponent6_D1,,1H,1512.321006,Pass,Smart pass,79.0,26.0,89.0,36.0

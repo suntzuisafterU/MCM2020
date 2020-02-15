@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 5,Huskies,Huskies_M3,,2H,2057.8155530000004,Duel,Ground defending duel,16.0,77.0,56.0,87.0
 5,Huskies,Huskies_D1,,2H,2058.89797,Duel,Ground defending duel,56.0,87.0,16.0,77.0
 5,Opponent5,Opponent5_D3,,2H,2059.2316339999998,Duel,Ground attacking duel,84.0,23.0,80.0,27.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 23,Opponent4,Opponent4_D6,,2H,1120.5039040000001,Duel,Air duel,23.0,71.0,22.0,70.0
 23,Huskies,Huskies_F1,,2H,1120.67292,Duel,Ground attacking duel,78.0,30.0,76.0,26.0
 23,Huskies,Huskies_F1,,2H,1121.6131329999998,Pass,Head pass,76.0,26.0,77.0,38.0

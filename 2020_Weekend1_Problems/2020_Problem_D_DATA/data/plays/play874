@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 17,Opponent17,Opponent17_D3,Opponent17_G1,1H,2593.492646,Pass,Simple pass,18.0,16.0,8.0,49.0
 17,Opponent17,Opponent17_G1,Opponent17_M3,1H,2596.626775,Pass,Launch,8.0,49.0,56.0,49.0
 17,Opponent17,Opponent17_M3,,1H,2600.073543,Duel,Air duel,56.0,49.0,66.0,46.0
