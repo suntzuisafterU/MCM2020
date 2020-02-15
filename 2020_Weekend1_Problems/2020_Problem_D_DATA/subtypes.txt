@@ -5,7 +5,6 @@ Ball out of the field
 Clearance
 Corner
 Cross
-EventSubType
 Foul
 Free Kick
 Free kick cross

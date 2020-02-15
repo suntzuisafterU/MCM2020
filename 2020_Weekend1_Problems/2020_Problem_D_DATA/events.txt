@@ -1,5 +1,4 @@
 Duel
-EventType
 Foul
 Free Kick
 Goalkeeper leaving line
