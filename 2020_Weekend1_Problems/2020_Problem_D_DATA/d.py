@@ -11,7 +11,8 @@ import glob
 
 class ConnectivityMats(object):
     def __init__(self, infile):
-        self.srcdat = pd.read_csv(infile)
+        srcdat = pd.read_csv(infile)
+        self.srcdat = srcdat[(srcdat.EventType == "Pass") & (srcdat.TeamID == 'Huskies')]
         self.idx_to_name = { i:name for i,name in enumerate(self.srcdat['OriginPlayerID'].unique()) }
         self.name_to_idx = { name:i for i,name in enumerate(self.srcdat['OriginPlayerID'].unique()) }
 
