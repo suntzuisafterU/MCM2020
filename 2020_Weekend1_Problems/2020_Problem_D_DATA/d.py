@@ -17,8 +17,8 @@ name_to_idx = { name:i for i,name in enumerate(srcdat['OriginPlayerID'].unique()
 
 dim = len(idx_to_name)
 
-diadjmat = np.zeros((dim,dim))
-uadjmat = np.zeros((dim,dim))
+diadjmat = np.zeros((dim,dim), np.int)
+uadjmat = np.zeros((dim,dim), np.int)
 
 
 def dimat_incr(rrow):
