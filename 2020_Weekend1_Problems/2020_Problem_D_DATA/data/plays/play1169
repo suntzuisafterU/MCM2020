@@ -1,0 +1,25 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+23,Opponent4,Opponent4_M5,Opponent4_M7,2H,1861.3573669999996,Pass,Simple pass,42.0,69.0,69.0,75.0
+23,Opponent4,Opponent4_M7,,2H,1863.498708,Duel,Ground attacking duel,69.0,75.0,67.0,66.0
+23,Huskies,Huskies_D5,,2H,1864.2396879999997,Duel,Ground defending duel,31.0,25.0,33.0,34.0
+23,Opponent4,Opponent4_M7,Opponent4_M4,2H,1866.1243789999999,Pass,Simple pass,67.0,66.0,73.0,41.0
+23,Opponent4,Opponent4_M4,Opponent4_F2,2H,1867.7054280000002,Pass,Simple pass,73.0,41.0,92.0,35.0
+23,Opponent4,Opponent4_F2,,2H,1868.8030870000002,Duel,Ground attacking duel,92.0,35.0,89.0,35.0
+23,Huskies,Huskies_D7,,2H,1869.8172560000003,Duel,Ground defending duel,8.0,65.0,11.0,65.0
+23,Opponent4,Opponent4_F2,,2H,1870.5015190000004,Shot,Shot,89.0,35.0,0.0,0.0
+23,Huskies,Huskies_G1,,2H,1871.537018,Save attempt,Reflexes,100.0,100.0,11.0,65.0
+23,Opponent4,Opponent4_M4,,2H,1872.1694930000003,Shot,Shot,88.0,44.0,0.0,0.0
+23,Huskies,Huskies_G1,,2H,1874.5561580000003,Save attempt,Reflexes,100.0,100.0,100.0,100.0
+23,Huskies,Huskies_G1,Huskies_F1,2H,1876.1548830000002,Pass,High pass,10.0,53.0,71.0,63.0
+23,Huskies,Huskies_F1,,2H,1879.6414569999997,Duel,Air duel,71.0,63.0,67.0,100.0
+23,Opponent4,Opponent4_D1,,2H,1880.791569,Duel,Air duel,29.0,37.0,33.0,0.0
+23,Huskies,Huskies_D5,,2H,1907.35588,Pass,High pass,59.0,15.0,90.0,52.0
+23,Opponent4,Opponent4_G1,Opponent4_D1,2H,1921.098478,Pass,Hand pass,10.0,48.0,20.0,12.0
+23,Opponent4,Opponent4_D1,Opponent4_F1,2H,1925.0677079999996,Pass,High pass,20.0,12.0,66.0,51.0
+23,Opponent4,Opponent4_F1,,2H,1927.8517389999997,Duel,Ground loose ball duel,66.0,51.0,71.0,64.0
+23,Huskies,Huskies_D3,,2H,1928.0904970000001,Others on the ball,Touch,29.0,36.0,36.0,54.0
+23,Opponent4,Opponent4_F1,,2H,1929.21623,Others on the ball,Touch,69.0,48.0,64.0,46.0
+23,Huskies,Huskies_M3,Huskies_M1,2H,1930.5740999999998,Pass,Simple pass,36.0,54.0,45.0,66.0
+23,Huskies,Huskies_M1,Huskies_M8,2H,1933.7176339999996,Pass,Simple pass,45.0,66.0,59.0,84.0
+23,Huskies,Huskies_M8,Huskies_D7,2H,1935.552358,Pass,Simple pass,59.0,84.0,37.0,83.0
+23,Huskies,Huskies_D7,Huskies_M1,2H,1938.2050449999997,Pass,Simple pass,37.0,83.0,46.0,65.0

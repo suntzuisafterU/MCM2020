@@ -1,0 +1,32 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+33,Opponent16,Opponent16_M4,,1H,1847.480978,Others on the ball,Touch,32.0,69.0,46.0,49.0
+33,Opponent16,Opponent16_M4,Opponent13_D1,1H,1855.2988690000002,Pass,Simple pass,46.0,49.0,32.0,30.0
+33,Opponent16,Opponent13_D1,Opponent16_M1,1H,1857.4740740000002,Pass,Simple pass,32.0,30.0,55.0,73.0
+33,Opponent16,Opponent16_M1,Opponent16_F6,1H,1861.2507300000002,Pass,Simple pass,55.0,73.0,69.0,92.0
+33,Opponent16,Opponent16_F6,Opponent16_M1,1H,1864.5752510000002,Pass,Simple pass,69.0,92.0,61.0,72.0
+33,Opponent16,Opponent16_M1,Opponent16_M4,1H,1867.1448810000002,Pass,Simple pass,61.0,72.0,57.0,64.0
+33,Opponent16,Opponent16_M4,Opponent13_D1,1H,1868.8163490000002,Pass,Simple pass,57.0,64.0,44.0,41.0
+33,Opponent16,Opponent13_D1,Opponent16_M3,1H,1871.9391460000002,Pass,Simple pass,44.0,41.0,62.0,29.0
+33,Opponent16,Opponent16_M3,Opponent13_D1,1H,1873.464969,Pass,Simple pass,62.0,29.0,43.0,32.0
+33,Opponent16,Opponent13_D1,Opponent16_M3,1H,1874.151973,Pass,Simple pass,43.0,32.0,57.0,22.0
+33,Opponent16,Opponent16_M3,Opponent16_M4,1H,1875.8850389999998,Pass,Simple pass,57.0,22.0,57.0,41.0
+33,Opponent16,Opponent16_M4,Opponent16_F3,1H,1877.9671239999998,Pass,Simple pass,57.0,41.0,68.0,41.0
+33,Opponent16,Opponent16_F3,Opponent16_F6,1H,1878.326502,Pass,Simple pass,68.0,41.0,67.0,76.0
+33,Opponent16,Opponent16_F6,Opponent16_D4,1H,1880.825229,Pass,Simple pass,67.0,76.0,72.0,88.0
+33,Opponent16,Opponent16_D4,Opponent16_F6,1H,1885.0390940000002,Pass,Simple pass,72.0,88.0,55.0,79.0
+33,Opponent16,Opponent16_F6,Opponent13_D1,1H,1887.727528,Pass,Simple pass,55.0,79.0,45.0,48.0
+33,Opponent16,Opponent13_D1,,1H,1889.306502,Others on the ball,Touch,45.0,48.0,47.0,22.0
+33,Opponent16,Opponent16_M3,Opponent16_M4,1H,1894.879336,Pass,Simple pass,47.0,22.0,48.0,50.0
+33,Opponent16,Opponent16_M4,Opponent16_D4,1H,1897.9103289999998,Pass,Simple pass,48.0,50.0,65.0,86.0
+33,Opponent16,Opponent16_D4,Opponent16_M1,1H,1902.8126000000002,Pass,Simple pass,65.0,86.0,47.0,48.0
+33,Opponent16,Opponent16_M1,Opponent13_D1,1H,1906.5061620000001,Pass,Simple pass,47.0,48.0,33.0,30.0
+33,Opponent16,Opponent13_D1,Opponent16_M1,1H,1909.575366,Pass,Simple pass,33.0,30.0,48.0,48.0
+33,Opponent16,Opponent16_M1,,1H,1911.189288,Pass,Simple pass,48.0,48.0,40.0,50.0
+33,Huskies,Huskies_F5,,1H,1912.5542580000001,Others on the ball,Touch,60.0,50.0,48.0,46.0
+33,Opponent16,Opponent16_M4,Opponent16_F1,1H,1913.1409939999999,Pass,Simple pass,52.0,54.0,66.0,55.0
+33,Opponent16,Opponent16_F1,,1H,1915.2213080000001,Pass,Simple pass,66.0,55.0,69.0,47.0
+33,Huskies,Huskies_D3,,1H,1916.951368,Others on the ball,Touch,31.0,53.0,24.0,30.0
+33,Opponent16,Opponent16_F3,,1H,1917.004414,Others on the ball,Touch,64.0,67.0,76.0,70.0
+33,Huskies,Huskies_D4,,1H,1918.226212,Pass,Launch,24.0,30.0,32.0,36.0
+33,Opponent16,Opponent16_F3,,1H,1918.871834,Others on the ball,Touch,68.0,64.0,68.0,100.0
+33,Huskies,Huskies_D4,,1H,1947.6977740000002,Free Kick,Throw in,28.0,0.0,28.0,27.0

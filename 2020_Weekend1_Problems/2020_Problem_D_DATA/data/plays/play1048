@@ -1,0 +1,7 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+20,Opponent19,Opponent19_F3,,2H,1378.4466869999997,Others on the ball,Clearance,6.0,65.0,20.0,31.0
+20,Huskies,Huskies_M4,,2H,1380.4459070000003,Others on the ball,Touch,80.0,69.0,80.0,66.0
+20,Opponent19,Opponent19_M2,,2H,1381.3431440000004,Others on the ball,Touch,19.0,42.0,20.0,34.0
+20,Huskies,Huskies_M4,,2H,1381.9528639999999,Duel,Ground attacking duel,80.0,66.0,81.0,63.0
+20,Huskies,Huskies_M4,,2H,1382.9699600000004,Shot,Shot,81.0,63.0,100.0,100.0
+20,Opponent19,Opponent19_G1,,2H,1423.7026400000004,Free Kick,Goal kick,0.0,0.0,67.0,93.0

@@ -1,0 +1,17 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+16,Opponent16,Opponent16_M1,Opponent16_D1,2H,3.0663570000001528,Pass,Simple pass,41.0,61.0,29.0,36.0
+16,Opponent16,Opponent16_D1,Opponent16_D4,2H,5.53068200000007,Pass,Simple pass,29.0,36.0,30.0,67.0
+16,Opponent16,Opponent16_D4,Opponent16_D2,2H,7.9254940000000715,Pass,Simple pass,30.0,67.0,28.0,88.0
+16,Opponent16,Opponent16_D2,Opponent16_F2,2H,11.234528999999839,Pass,Simple pass,28.0,88.0,64.0,95.0
+16,Opponent16,Opponent16_F2,Opponent16_D2,2H,11.800063000000137,Pass,Simple pass,64.0,95.0,29.0,90.0
+16,Opponent16,Opponent16_D2,Opponent16_D4,2H,16.39455799999996,Pass,Simple pass,29.0,90.0,29.0,79.0
+16,Opponent16,Opponent16_D4,Opponent16_D2,2H,21.74567900000011,Pass,Simple pass,29.0,79.0,38.0,95.0
+16,Opponent16,Opponent16_D2,Opponent16_D4,2H,24.15405099999998,Pass,Simple pass,38.0,95.0,26.0,86.0
+16,Opponent16,Opponent16_D4,Opponent16_G1,2H,27.41405500000019,Pass,Simple pass,26.0,86.0,8.0,67.0
+16,Opponent16,Opponent16_G1,Opponent16_D4,2H,29.319601000000148,Pass,Simple pass,8.0,67.0,28.0,88.0
+16,Opponent16,Opponent16_D4,Opponent16_D2,2H,32.9021130000001,Pass,Simple pass,28.0,88.0,32.0,93.0
+16,Opponent16,Opponent16_D2,Opponent16_D4,2H,35.576212999999825,Pass,Simple pass,32.0,93.0,32.0,82.0
+16,Opponent16,Opponent16_D4,Opponent16_D2,2H,42.28728099999989,Pass,Simple pass,32.0,82.0,34.0,95.0
+16,Opponent16,Opponent16_D2,,2H,45.99588300000005,Pass,High pass,34.0,95.0,83.0,89.0
+16,Huskies,Huskies_D2,,2H,49.04409799999985,Others on the ball,Clearance,17.0,11.0,16.0,0.0
+16,Huskies,Huskies_M4,Huskies_M8,2H,60.0,Substitution,Substitution,,,,

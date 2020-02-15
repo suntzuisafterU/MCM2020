@@ -1,0 +1,21 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+23,Opponent4,Opponent4_D2,Opponent4_D6,1H,992.0870669999999,Pass,Simple pass,47.0,37.0,61.0,68.0
+23,Opponent4,Opponent4_D6,Opponent4_D2,1H,995.608628,Pass,Simple pass,61.0,68.0,54.0,53.0
+23,Opponent4,Opponent4_D2,Opponent4_M5,1H,999.663906,Pass,Simple pass,54.0,53.0,60.0,41.0
+23,Opponent4,Opponent4_M5,Opponent4_M3,1H,1000.88582,Pass,Simple pass,60.0,41.0,56.0,65.0
+23,Opponent4,Opponent4_M3,Opponent4_M5,1H,1003.4774849999999,Pass,Simple pass,56.0,65.0,66.0,43.0
+23,Opponent4,Opponent4_M5,Opponent4_M1,1H,1005.279863,Pass,Simple pass,66.0,43.0,76.0,34.0
+23,Opponent4,Opponent4_M1,Opponent4_M4,1H,1006.5571030000001,Pass,Smart pass,76.0,34.0,85.0,38.0
+23,Opponent4,Opponent4_M4,,1H,1007.917682,Duel,Ground loose ball duel,85.0,38.0,86.0,37.0
+23,Huskies,Huskies_D6,Huskies_M6,1H,1008.2961459999999,Pass,High pass,14.0,63.0,15.0,32.0
+23,Huskies,Huskies_M6,Huskies_F5,1H,1010.8053110000001,Pass,High pass,15.0,32.0,39.0,55.0
+23,Huskies,Huskies_F5,,1H,1013.0477960000001,Duel,Air duel,39.0,55.0,52.0,48.0
+23,Opponent4,Opponent4_D1,,1H,1013.3762770000001,Duel,Air duel,61.0,45.0,48.0,52.0
+23,Opponent4,Opponent4_D2,Opponent4_M3,1H,1015.569293,Pass,Simple pass,48.0,52.0,55.0,67.0
+23,Opponent4,Opponent4_M3,Opponent4_M5,1H,1020.2322590000001,Pass,Simple pass,55.0,67.0,62.0,56.0
+23,Opponent4,Opponent4_M5,,1H,1021.6227859999999,Duel,Ground attacking duel,62.0,56.0,65.0,50.0
+23,Huskies,Huskies_M13,,1H,1022.6287910000001,Duel,Ground defending duel,38.0,44.0,35.0,50.0
+23,Huskies,Huskies_M13,,1H,1023.2078939999999,Pass,Simple pass,35.0,50.0,46.0,40.0
+23,Opponent4,Opponent4_M5,,1H,1024.316942,Duel,Ground defending duel,54.0,60.0,57.0,64.0
+23,Huskies,Huskies_F2,,1H,1024.871056,Duel,Ground attacking duel,46.0,40.0,43.0,36.0
+23,Opponent4,Opponent4_M5,,1H,1025.76769,Foul,Foul,57.0,64.0,54.0,60.0

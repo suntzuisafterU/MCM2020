@@ -1,0 +1,19 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+18,Opponent18,Opponent18_D2,Opponent18_G1,2H,777.015429,Pass,Simple pass,27.0,66.0,11.0,48.0
+18,Opponent18,Opponent18_G1,Opponent18_D2,2H,781.2662359999999,Pass,Simple pass,11.0,48.0,29.0,63.0
+18,Opponent18,Opponent18_D2,Opponent18_M4,2H,784.1182020000001,Pass,Simple pass,29.0,63.0,25.0,60.0
+18,Opponent18,Opponent18_M4,,2H,784.6411640000001,Others on the ball,Touch,25.0,60.0,30.0,28.0
+18,Opponent18,Opponent18_M4,Opponent18_D1,2H,788.2248869999999,Pass,Simple pass,30.0,28.0,21.0,27.0
+18,Opponent18,Opponent18_D1,Opponent18_G1,2H,790.488699,Pass,Simple pass,21.0,27.0,10.0,53.0
+18,Opponent18,Opponent18_G1,,2H,795.220343,Pass,Launch,10.0,53.0,63.0,66.0
+18,Huskies,Huskies_D2,,2H,798.261614,Duel,Ground loose ball duel,37.0,34.0,42.0,34.0
+18,Huskies,Huskies_D2,Huskies_F2,2H,799.4171860000001,Pass,Simple pass,42.0,34.0,70.0,27.0
+18,Huskies,Huskies_F2,,2H,802.696496,Pass,Smart pass,70.0,27.0,70.0,35.0
+18,Opponent18,Opponent18_D2,Opponent18_M1,2H,805.3106309999998,Pass,Simple pass,30.0,65.0,43.0,29.0
+18,Opponent18,Opponent18_M1,Opponent18_M5,2H,808.4798649999998,Pass,Simple pass,43.0,29.0,73.0,15.0
+18,Opponent18,Opponent18_M5,Opponent18_M1,2H,811.1838579999999,Pass,Simple pass,73.0,15.0,60.0,24.0
+18,Opponent18,Opponent18_M1,,2H,812.68712,Pass,Simple pass,60.0,24.0,67.0,18.0
+18,Huskies,Huskies_M1,,2H,813.7454269999998,Others on the ball,Touch,33.0,82.0,35.0,78.0
+18,Huskies,Huskies_M8,Huskies_M1,2H,816.4273840000001,Pass,Simple pass,35.0,78.0,58.0,57.0
+18,Huskies,Huskies_M1,Huskies_F2,2H,821.778202,Pass,Simple pass,58.0,57.0,53.0,47.0
+18,Huskies,Huskies_F2,Huskies_M3,2H,825.793639,Pass,Simple pass,53.0,47.0,60.0,65.0

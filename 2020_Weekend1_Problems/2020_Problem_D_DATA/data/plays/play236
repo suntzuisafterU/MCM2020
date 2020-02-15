@@ -1,0 +1,26 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+5,Huskies,Huskies_F2,,1H,26.10329999999999,Duel,Ground attacking duel,34.0,10.0,33.0,7.0
+5,Opponent5,Opponent5_M1,,1H,26.376160000000027,Duel,Ground defending duel,66.0,90.0,67.0,93.0
+5,Opponent5,Opponent5_M1,,1H,27.432484999999986,Pass,Simple pass,67.0,93.0,73.0,86.0
+5,Huskies,Huskies_M3,,1H,28.084554000000026,Duel,Ground loose ball duel,27.0,14.0,30.0,24.0
+5,Opponent5,Opponent5_M2,,1H,28.35381799999999,Duel,Ground loose ball duel,73.0,86.0,70.0,76.0
+5,Huskies,Huskies_M4,,1H,29.037799000000007,Duel,Air duel,30.0,24.0,28.0,16.0
+5,Opponent5,Opponent5_M3,,1H,29.58891399999999,Duel,Air duel,70.0,76.0,72.0,84.0
+5,Huskies,Huskies_M3,,1H,30.808740999999998,Duel,Air duel,28.0,16.0,30.0,29.0
+5,Opponent5,Opponent5_M2,,1H,31.20455199999998,Duel,Air duel,72.0,84.0,70.0,71.0
+5,Huskies,Huskies_F2,Huskies_M4,1H,32.72502800000001,Pass,Simple pass,30.0,29.0,67.0,67.0
+5,Huskies,Huskies_M4,,1H,34.24419,Duel,Ground attacking duel,67.0,67.0,32.0,37.0
+5,Huskies,Huskies_F2,Huskies_D1,1H,36.41070100000002,Pass,Simple pass,32.0,37.0,33.0,67.0
+5,Huskies,Huskies_D1,Huskies_D5,1H,39.18742400000002,Pass,Simple pass,33.0,67.0,36.0,91.0
+5,Huskies,Huskies_D5,Huskies_D1,1H,41.26854700000001,Pass,Simple pass,36.0,91.0,26.0,79.0
+5,Huskies,Huskies_D1,,1H,42.918199000000016,Duel,Ground attacking duel,26.0,79.0,22.0,82.0
+5,Opponent5,Opponent5_F1,,1H,44.13143100000002,Duel,Ground defending duel,74.0,21.0,78.0,18.0
+5,Huskies,Huskies_D1,Huskies_G1,1H,45.39382999999998,Pass,Simple pass,22.0,82.0,12.0,53.0
+5,Huskies,Huskies_G1,Huskies_D4,1H,50.711738000000025,Pass,Launch,12.0,53.0,51.0,7.0
+5,Huskies,Huskies_D4,,1H,53.654065,Duel,Air duel,51.0,7.0,30.0,5.0
+5,Opponent5,Opponent5_D2,,1H,54.44264500000003,Duel,Air duel,49.0,93.0,70.0,95.0
+5,Opponent5,Opponent5_M4,,1H,55.973153000000025,Others on the ball,Touch,70.0,95.0,76.0,80.0
+5,Huskies,Huskies_D3,,1H,59.60272900000001,Pass,High pass,24.0,20.0,43.0,36.0
+5,Opponent5,Opponent5_M1,Opponent5_M2,1H,62.687973,Pass,Simple pass,57.0,64.0,63.0,77.0
+5,Opponent5,Opponent5_M2,Opponent5_M1,1H,63.80713900000001,Pass,Simple pass,63.0,77.0,61.0,72.0
+5,Opponent5,Opponent5_M1,Opponent5_D3,1H,65.152447,Pass,Simple pass,61.0,72.0,65.0,5.0

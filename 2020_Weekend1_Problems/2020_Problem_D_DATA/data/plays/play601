@@ -1,0 +1,24 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+13,Opponent13,Opponent13_M3,,1H,936.044511,Pass,Simple pass,63.0,97.0,58.0,96.0
+13,Huskies,Huskies_F1,,1H,938.3906010000001,Duel,Ground defending duel,42.0,4.0,45.0,2.0
+13,Opponent13,Opponent13_D1,,1H,938.3906010000001,Duel,Ground attacking duel,58.0,96.0,55.0,98.0
+13,Opponent13,Opponent13_D1,Opponent13_G1,1H,940.1866869999999,Pass,Simple pass,55.0,98.0,26.0,80.0
+13,Opponent13,Opponent13_G1,Opponent13_D2,1H,944.5951,Pass,Simple pass,26.0,80.0,32.0,53.0
+13,Opponent13,Opponent13_D2,,1H,945.700572,Others on the ball,Touch,32.0,53.0,40.0,56.0
+13,Opponent13,Opponent13_D2,Opponent13_D1,1H,949.942204,Pass,Simple pass,40.0,56.0,42.0,93.0
+13,Opponent13,Opponent13_D1,,1H,951.564664,Others on the ball,Touch,42.0,93.0,56.0,87.0
+13,Opponent13,Opponent13_D1,,1H,955.181939,Pass,High pass,56.0,87.0,82.0,21.0
+13,Huskies,Huskies_D7,Huskies_G1,1H,957.3558,Pass,Head pass,18.0,79.0,13.0,38.0
+13,Huskies,Huskies_G1,Huskies_F1,1H,973.845597,Pass,Launch,13.0,38.0,63.0,23.0
+13,Huskies,Huskies_F1,,1H,977.9011760000001,Duel,Air duel,63.0,23.0,64.0,8.0
+13,Opponent13,Opponent13_M3,,1H,978.2026350000001,Duel,Air duel,37.0,77.0,36.0,92.0
+13,Opponent13,Opponent13_D1,Opponent13_M3,1H,981.8621519999999,Pass,Simple pass,36.0,92.0,32.0,56.0
+13,Opponent13,Opponent13_M3,Opponent13_M2,1H,983.980955,Pass,Simple pass,32.0,56.0,27.0,52.0
+13,Opponent13,Opponent13_M2,,1H,984.295683,Others on the ball,Touch,27.0,52.0,30.0,54.0
+13,Opponent13,Opponent13_M3,Opponent13_M2,1H,985.8091320000001,Pass,Simple pass,30.0,54.0,24.0,54.0
+13,Opponent13,Opponent13_M2,,1H,986.353705,Others on the ball,Touch,24.0,54.0,15.0,70.0
+13,Huskies,Huskies_M5,,1H,986.7824049999999,Duel,Ground attacking duel,85.0,30.0,94.0,31.0
+13,Opponent13,Opponent13_D2,,1H,987.809626,Duel,Ground defending duel,15.0,70.0,6.0,69.0
+13,Huskies,Huskies_M5,,1H,988.324815,Others on the ball,Touch,94.0,31.0,96.0,38.0
+13,Opponent13,Opponent13_G1,,1H,989.71282,Others on the ball,Clearance,4.0,62.0,16.0,100.0
+13,Huskies,Huskies_D4,,1H,1008.3328080000001,Free Kick,Throw in,86.0,0.0,84.0,12.0

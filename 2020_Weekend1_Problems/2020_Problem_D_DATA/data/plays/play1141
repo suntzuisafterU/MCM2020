@@ -1,0 +1,23 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+23,Opponent4,Opponent4_D2,Opponent4_D1,1H,1680.018192,Pass,Simple pass,34.0,51.0,38.0,31.0
+23,Opponent4,Opponent4_D1,Opponent4_M4,1H,1681.690687,Pass,Simple pass,38.0,31.0,45.0,6.0
+23,Opponent4,Opponent4_M4,Opponent4_D2,1H,1686.682118,Pass,Simple pass,45.0,6.0,36.0,65.0
+23,Opponent4,Opponent4_D2,Opponent4_M3,1H,1690.637837,Pass,Simple pass,36.0,65.0,54.0,54.0
+23,Opponent4,Opponent4_M3,Opponent4_D2,1H,1691.10893,Pass,Simple pass,54.0,54.0,38.0,70.0
+23,Opponent4,Opponent4_D2,Opponent4_D6,1H,1692.925808,Pass,Simple pass,38.0,70.0,65.0,91.0
+23,Opponent4,Opponent4_D6,,1H,1694.91792,Pass,Simple pass,65.0,91.0,77.0,83.0
+23,Huskies,Huskies_D3,,1H,1697.91677,Duel,Ground defending duel,23.0,17.0,20.0,7.0
+23,Opponent4,Opponent4_M1,,1H,1698.172081,Duel,Ground attacking duel,77.0,83.0,80.0,93.0
+23,Opponent4,Opponent4_M1,Opponent4_D6,1H,1699.223956,Pass,Simple pass,80.0,93.0,91.0,91.0
+23,Opponent4,Opponent4_D6,Opponent4_M1,1H,1701.035282,Pass,Simple pass,91.0,91.0,72.0,88.0
+23,Opponent4,Opponent4_M1,Opponent4_D1,1H,1705.577203,Pass,Simple pass,72.0,88.0,54.0,48.0
+23,Opponent4,Opponent4_D1,,1H,1709.219675,Others on the ball,Touch,54.0,48.0,69.0,41.0
+23,Opponent4,Opponent4_D1,,1H,1711.506663,Shot,Shot,69.0,41.0,0.0,0.0
+23,Huskies,Huskies_M13,,1H,1713.294451,Others on the ball,Touch,25.0,60.0,22.0,75.0
+23,Huskies,Huskies_M12,,1H,1715.788383,Duel,Ground defending duel,22.0,75.0,14.0,84.0
+23,Opponent4,Opponent4_F2,,1H,1715.827789,Others on the ball,Touch,86.0,16.0,78.0,25.0
+23,Opponent4,Opponent4_F2,,1H,1717.264942,Duel,Ground attacking duel,78.0,25.0,81.0,25.0
+23,Huskies,Huskies_M13,,1H,1717.665055,Duel,Ground defending duel,19.0,75.0,21.0,68.0
+23,Huskies,Huskies_M12,,1H,1717.904802,Duel,Ground loose ball duel,21.0,68.0,21.0,67.0
+23,Huskies,Huskies_M12,Huskies_M1,1H,1719.237331,Pass,Simple pass,21.0,67.0,24.0,59.0
+23,Huskies,Huskies_M1,Huskies_F2,1H,1719.688507,Pass,Simple pass,24.0,59.0,39.0,70.0

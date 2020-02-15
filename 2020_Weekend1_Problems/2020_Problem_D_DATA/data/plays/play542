@@ -1,0 +1,15 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+10,Opponent10,Opponent10_D5,Opponent10_G1,2H,273.8198520000001,Pass,Simple pass,19.0,9.0,6.0,33.0
+10,Opponent10,Opponent10_G1,Opponent10_D3,2H,277.3136880000002,Pass,Launch,6.0,33.0,34.0,30.0
+10,Opponent10,Opponent10_D3,,2H,279.20380699999987,Duel,Air duel,34.0,30.0,46.0,32.0
+10,Huskies,Huskies_M11,,2H,279.2870109999999,Duel,Air duel,66.0,70.0,54.0,68.0
+10,Opponent10,Opponent10_M4,,2H,280.87658199999987,Pass,Simple pass,46.0,32.0,37.0,42.0
+10,Huskies,Huskies_F2,,2H,283.1079669999999,Duel,Ground defending duel,63.0,58.0,64.0,55.0
+10,Opponent10,Opponent10_D3,,2H,283.46296299999995,Duel,Ground attacking duel,37.0,42.0,36.0,45.0
+10,Opponent10,Opponent10_D3,Opponent10_D2,2H,284.59233099999983,Pass,Simple pass,36.0,45.0,25.0,64.0
+10,Opponent10,Opponent10_D2,Opponent10_F1,2H,286.5223820000001,Pass,High pass,25.0,64.0,67.0,76.0
+10,Opponent10,Opponent10_F1,,2H,288.64501100000007,Duel,Air duel,67.0,76.0,70.0,73.0
+10,Huskies,Huskies_D3,,2H,289.000626,Duel,Air duel,33.0,24.0,30.0,27.0
+10,Huskies,Huskies_D2,Huskies_D4,2H,290.7680300000002,Pass,Simple pass,30.0,27.0,35.0,4.0
+10,Huskies,Huskies_D4,Huskies_M1,2H,292.6245549999999,Pass,Simple pass,35.0,4.0,39.0,30.0
+10,Huskies,Huskies_M1,Huskies_D2,2H,293.8894829999999,Pass,Simple pass,39.0,30.0,25.0,20.0

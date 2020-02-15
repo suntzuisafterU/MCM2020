@@ -1,0 +1,23 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+34,Huskies,Huskies_D1,Huskies_F2,2H,448.58371799999986,Pass,Simple pass,23.0,32.0,31.0,46.0
+34,Huskies,Huskies_F2,,2H,449.58174400000007,Pass,Simple pass,31.0,46.0,35.0,60.0
+34,Opponent18,Opponent18_M7,,2H,450.3303649999998,Duel,Ground attacking duel,65.0,40.0,77.0,37.0
+34,Huskies,Huskies_D3,Huskies_D8,2H,451.1103629999998,Pass,Simple pass,23.0,63.0,28.0,78.0
+34,Huskies,Huskies_D8,,2H,452.56655,Others on the ball,Acceleration,28.0,78.0,62.0,90.0
+34,Huskies,Huskies_D8,,2H,457.3081280000001,Duel,Ground attacking duel,62.0,90.0,69.0,83.0
+34,Opponent18,Opponent18_M1,,2H,457.4821200000001,Duel,Ground defending duel,38.0,10.0,31.0,17.0
+34,Huskies,Huskies_D8,Huskies_F5,2H,458.627117,Pass,High pass,69.0,83.0,88.0,46.0
+34,Huskies,Huskies_F5,,2H,461.26708400000007,Duel,Ground attacking duel,88.0,46.0,89.0,38.0
+34,Opponent18,Opponent18_D3,,2H,461.26708400000007,Duel,Ground defending duel,12.0,54.0,11.0,62.0
+34,Huskies,Huskies_F5,,2H,462.65141200000016,Shot,Shot,89.0,38.0,100.0,100.0
+34,Opponent18,Opponent18_D2,,2H,464.69472399999995,Others on the ball,Touch,12.0,68.0,12.0,61.0
+34,Opponent18,Opponent18_D3,,2H,465.8184339999998,Pass,Launch,12.0,61.0,61.0,58.0
+34,Huskies,Huskies_D1,,2H,468.12313200000017,Duel,Air duel,39.0,42.0,11.0,34.0
+34,Opponent18,Opponent18_F3,,2H,468.3874270000001,Duel,Air duel,61.0,58.0,89.0,66.0
+34,Huskies,Huskies_D3,,2H,473.6364239999998,Duel,Ground defending duel,11.0,34.0,18.0,35.0
+34,Opponent18,Opponent14_F2,,2H,473.6364239999998,Duel,Ground attacking duel,89.0,66.0,82.0,65.0
+34,Huskies,Huskies_M3,Huskies_M12,2H,476.4198120000001,Pass,Simple pass,18.0,35.0,45.0,18.0
+34,Huskies,Huskies_M12,,2H,482.148064,Others on the ball,Acceleration,45.0,18.0,78.0,11.0
+34,Huskies,Huskies_M12,,2H,485.93594600000006,Duel,Ground attacking duel,78.0,11.0,81.0,8.0
+34,Opponent18,Opponent18_D3,,2H,485.93594600000006,Duel,Ground defending duel,22.0,89.0,19.0,92.0
+34,Opponent18,Opponent18_D3,,2H,489.7557190000002,Foul,Foul,19.0,92.0,22.0,89.0

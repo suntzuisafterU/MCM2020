@@ -1,0 +1,27 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+8,Opponent8,Opponent8_M5,Opponent8_D1,1H,1771.57768,Pass,Simple pass,41.0,68.0,41.0,93.0
+8,Opponent8,Opponent8_D1,Opponent8_D2,1H,1773.307611,Pass,Simple pass,41.0,93.0,14.0,69.0
+8,Opponent8,Opponent8_D2,Opponent8_G1,1H,1776.697831,Pass,Simple pass,14.0,69.0,11.0,42.0
+8,Opponent8,Opponent8_G1,Opponent8_F1,1H,1781.131827,Pass,Launch,11.0,42.0,66.0,30.0
+8,Opponent8,Opponent8_F1,,1H,1784.1166,Duel,Ground attacking duel,66.0,30.0,55.0,34.0
+8,Huskies,Huskies_D1,,1H,1784.343996,Duel,Ground defending duel,34.0,70.0,45.0,66.0
+8,Opponent8,Opponent8_M1,Opponent8_M4,1H,1787.102628,Pass,Simple pass,55.0,34.0,58.0,4.0
+8,Opponent8,Opponent8_M4,Opponent8_M1,1H,1789.670418,Pass,Simple pass,58.0,4.0,59.0,24.0
+8,Opponent8,Opponent8_M1,Opponent8_D3,1H,1793.272,Pass,Simple pass,59.0,24.0,44.0,34.0
+8,Opponent8,Opponent8_D3,Opponent8_D2,1H,1797.639273,Pass,Simple pass,44.0,34.0,42.0,76.0
+8,Opponent8,Opponent8_D2,,1H,1798.723711,Others on the ball,Touch,42.0,76.0,64.0,85.0
+8,Opponent8,Opponent8_D2,,1H,1802.571939,Pass,Simple pass,64.0,85.0,81.0,89.0
+8,Huskies,Huskies_D4,,1H,1804.543904,Duel,Ground defending duel,19.0,11.0,24.0,12.0
+8,Opponent8,Opponent8_M2,,1H,1804.864022,Duel,Ground attacking duel,81.0,89.0,76.0,88.0
+8,Huskies,Huskies_D3,Huskies_F1,1H,1805.370427,Pass,Simple pass,24.0,12.0,29.0,17.0
+8,Huskies,Huskies_F1,Huskies_M1,1H,1806.449966,Pass,Simple pass,29.0,17.0,26.0,38.0
+8,Huskies,Huskies_M1,,1H,1808.932697,Pass,Simple pass,26.0,38.0,35.0,64.0
+8,Opponent8,Opponent8_M4,,1H,1810.178743,Others on the ball,Touch,65.0,36.0,75.0,32.0
+8,Opponent8,Opponent8_M4,,1H,1815.865205,Pass,Simple pass,75.0,32.0,79.0,27.0
+8,Huskies,Huskies_M3,,1H,1816.496688,Duel,Ground loose ball duel,21.0,73.0,19.0,81.0
+8,Opponent8,Opponent8_F1,,1H,1816.62605,Duel,Ground loose ball duel,79.0,27.0,81.0,19.0
+8,Opponent8,Opponent8_M4,,1H,1817.929408,Duel,Ground attacking duel,81.0,19.0,95.0,14.0
+8,Huskies,Huskies_D6,,1H,1818.274017,Duel,Ground defending duel,19.0,81.0,5.0,86.0
+8,Opponent8,Opponent8_M4,,1H,1820.322992,Pass,Cross,95.0,14.0,90.0,45.0
+8,Huskies,Huskies_D1,,1H,1821.250566,Others on the ball,Clearance,10.0,55.0,0.0,82.0
+8,Opponent8,Opponent8_M2,,1H,1853.195875,Free Kick,Corner,100.0,0.0,83.0,7.0

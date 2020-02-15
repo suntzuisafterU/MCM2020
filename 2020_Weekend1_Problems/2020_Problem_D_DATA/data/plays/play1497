@@ -1,0 +1,14 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+34,Opponent18,Opponent18_M1,Opponent18_D4,1H,1019.173333,Pass,Simple pass,74.0,22.0,83.0,6.0
+34,Opponent18,Opponent18_D4,Opponent18_M7,1H,1020.713612,Pass,Simple pass,83.0,6.0,63.0,9.0
+34,Opponent18,Opponent18_M7,Opponent18_M1,1H,1021.0095859999999,Pass,Simple pass,63.0,9.0,73.0,19.0
+34,Opponent18,Opponent18_M1,Opponent18_F3,1H,1021.6597360000001,Pass,Simple pass,73.0,19.0,78.0,18.0
+34,Opponent18,Opponent18_F3,Opponent18_M7,1H,1024.023119,Pass,Simple pass,78.0,18.0,64.0,9.0
+34,Opponent18,Opponent18_M7,Opponent18_M1,1H,1024.846766,Pass,Simple pass,64.0,9.0,75.0,13.0
+34,Opponent18,Opponent18_M1,Opponent18_F3,1H,1030.275014,Pass,Simple pass,75.0,13.0,69.0,50.0
+34,Opponent18,Opponent18_F3,Opponent18_D3,1H,1033.03242,Pass,Simple pass,69.0,50.0,61.0,78.0
+34,Opponent18,Opponent18_D3,,1H,1034.955106,Pass,Simple pass,61.0,78.0,76.0,80.0
+34,Huskies,Huskies_D1,,1H,1036.750584,Duel,Ground loose ball duel,24.0,20.0,33.0,17.0
+34,Huskies,Huskies_M12,,1H,1038.133834,Others on the ball,Acceleration,33.0,17.0,66.0,28.0
+34,Huskies,Huskies_M12,Huskies_F5,1H,1042.266224,Pass,Simple pass,66.0,28.0,78.0,10.0
+34,Huskies,Huskies_F5,,1H,1044.794094,Duel,Ground attacking duel,78.0,10.0,80.0,13.0

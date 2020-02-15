@@ -1,0 +1,22 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+19,Opponent3,Opponent3_D4,Opponent3_D1,1H,113.50464199999999,Pass,Simple pass,36.0,5.0,23.0,9.0
+19,Opponent3,Opponent3_D1,Opponent3_G1,1H,115.80479500000001,Pass,Simple pass,23.0,9.0,5.0,50.0
+19,Opponent3,Opponent3_G1,Opponent3_D2,1H,120.60276800000003,Pass,Simple pass,5.0,50.0,10.0,74.0
+19,Opponent3,Opponent3_D2,Opponent3_D1,1H,123.57728400000002,Pass,Simple pass,10.0,74.0,33.0,17.0
+19,Opponent3,Opponent3_D1,Opponent3_F2,1H,130.67631599999999,Pass,Simple pass,33.0,17.0,55.0,28.0
+19,Opponent3,Opponent3_F2,Opponent3_D1,1H,131.64767999999998,Pass,Simple pass,55.0,28.0,38.0,8.0
+19,Opponent3,Opponent3_D1,Opponent3_M5,1H,133.168496,Pass,Simple pass,38.0,8.0,30.0,35.0
+19,Opponent3,Opponent3_M5,Opponent3_D5,1H,135.589228,Pass,Simple pass,30.0,35.0,35.0,44.0
+19,Opponent3,Opponent3_D5,Opponent3_D1,1H,137.72916800000002,Pass,Simple pass,35.0,44.0,35.0,15.0
+19,Opponent3,Opponent3_D1,Opponent3_M2,1H,142.62973699999998,Pass,High pass,35.0,15.0,79.0,92.0
+19,Opponent3,Opponent3_M2,Opponent3_M3,1H,147.795182,Pass,Simple pass,79.0,92.0,64.0,79.0
+19,Opponent3,Opponent3_M3,Opponent3_M5,1H,150.041377,Pass,Simple pass,64.0,79.0,62.0,68.0
+19,Opponent3,Opponent3_M5,,1H,151.45697,Pass,Simple pass,62.0,68.0,76.0,49.0
+19,Huskies,Huskies_D1,,1H,151.58205400000003,Duel,Ground loose ball duel,24.0,51.0,38.0,85.0
+19,Opponent3,Opponent3_F2,,1H,152.039804,Duel,Ground loose ball duel,76.0,49.0,62.0,15.0
+19,Opponent3,Opponent3_D1,Opponent3_M5,1H,158.22689300000002,Pass,Simple pass,62.0,15.0,66.0,49.0
+19,Opponent3,Opponent3_M5,,1H,161.32061800000002,Pass,Simple pass,66.0,49.0,72.0,50.0
+19,Huskies,Huskies_M3,Huskies_M4,1H,161.819722,Pass,Simple pass,28.0,50.0,30.0,43.0
+19,Huskies,Huskies_M4,Huskies_D5,1H,163.30954200000002,Pass,Simple pass,30.0,43.0,27.0,29.0
+19,Huskies,Huskies_D5,Huskies_F1,1H,165.64299,Pass,Simple pass,27.0,29.0,64.0,8.0
+19,Huskies,Huskies_F1,,1H,169.18041799999997,Duel,Ground attacking duel,64.0,8.0,61.0,4.0

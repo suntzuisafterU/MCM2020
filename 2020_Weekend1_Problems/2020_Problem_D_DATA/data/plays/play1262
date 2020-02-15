@@ -1,0 +1,16 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+26,Opponent9,Opponent9_D6,Opponent9_D3,2H,2798.4113340000004,Pass,Simple pass,30.0,71.0,29.0,41.0
+26,Opponent9,Opponent9_D3,Opponent9_M1,2H,2801.54194,Pass,Simple pass,29.0,41.0,43.0,30.0
+26,Opponent9,Opponent9_M1,Opponent9_M6,2H,2803.897959,Pass,Simple pass,43.0,30.0,61.0,34.0
+26,Opponent9,Opponent9_M6,Opponent9_M1,2H,2805.0370860000003,Pass,Simple pass,61.0,34.0,43.0,28.0
+26,Opponent9,Opponent9_M1,Opponent9_D3,2H,2810.4512109999996,Pass,Simple pass,43.0,28.0,28.0,41.0
+26,Opponent9,Opponent9_D3,Opponent9_D6,2H,2814.1195369999996,Pass,Simple pass,28.0,41.0,30.0,68.0
+26,Opponent9,Opponent9_D6,Opponent9_D5,2H,2816.452991,Pass,Simple pass,30.0,68.0,53.0,94.0
+26,Opponent9,Opponent9_D5,,2H,2819.8728709999996,Others on the ball,Acceleration,53.0,94.0,70.0,94.0
+26,Opponent9,Opponent9_D5,Opponent5_M3,2H,2821.5633639999996,Pass,Simple pass,70.0,94.0,72.0,82.0
+26,Opponent9,Opponent5_M3,Opponent9_D5,2H,2823.270534,Pass,Simple pass,72.0,82.0,93.0,90.0
+26,Opponent9,Opponent9_D5,,2H,2824.0449790000002,Pass,Cross,93.0,90.0,0.0,0.0
+26,Huskies,Huskies_G1,,2H,2825.9979240000002,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,7.0,10.0
+26,Opponent9,Opponent9_F3,,2H,2827.078874,Duel,Air duel,89.0,52.0,0.0,0.0
+26,Huskies,Huskies_G1,,2H,2827.4256210000003,Duel,Air duel,11.0,48.0,100.0,100.0
+27,Huskies,Huskies_F6,Huskies_D1,1H,1.495603999999986,Pass,Simple pass,50.0,51.0,36.0,71.0

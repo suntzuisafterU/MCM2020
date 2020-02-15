@@ -1,0 +1,18 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+5,Huskies,Huskies_D1,,1H,2023.562871,Pass,Head pass,30.0,85.0,42.0,80.0
+5,Opponent5,Opponent5_M3,,1H,2024.120182,Duel,Air duel,58.0,20.0,65.0,13.0
+5,Huskies,Huskies_M3,,1H,2025.0993199999998,Duel,Air duel,42.0,80.0,35.0,87.0
+5,Opponent5,Opponent5_F2,,1H,2025.5691510000001,Duel,Ground attacking duel,65.0,13.0,35.0,7.0
+5,Opponent5,Opponent5_F2,,1H,2026.2289810000002,Duel,Ground attacking duel,35.0,7.0,65.0,6.0
+5,Huskies,Huskies_D1,,1H,2026.2527479999999,Duel,Ground defending duel,35.0,87.0,35.0,94.0
+5,Opponent5,Opponent5_F2,,1H,2029.2252749999998,Others on the ball,Acceleration,65.0,6.0,82.0,15.0
+5,Opponent5,Opponent5_F2,,1H,2030.5075430000002,Pass,Simple pass,82.0,15.0,81.0,24.0
+5,Huskies,Huskies_D1,,1H,2031.277567,Others on the ball,Touch,19.0,76.0,9.0,73.0
+5,Huskies,Huskies_D1,,1H,2032.184326,Duel,Ground defending duel,9.0,73.0,54.0,85.0
+5,Opponent5,Opponent5_F2,,1H,2033.263156,Duel,Ground attacking duel,91.0,27.0,46.0,15.0
+5,Opponent5,Opponent5_F2,,1H,2034.2308750000002,Duel,Ground attacking duel,46.0,15.0,88.0,34.0
+5,Opponent5,Opponent5_F2,,1H,2035.6913180000001,Shot,Shot,88.0,34.0,0.0,0.0
+5,Huskies,Huskies_M1,,1H,2036.1765169999999,Others on the ball,Touch,11.0,62.0,12.0,53.0
+5,Huskies,Huskies_G1,Huskies_D3,1H,2051.327686,Pass,Hand pass,12.0,53.0,22.0,29.0
+5,Huskies,Huskies_D3,Huskies_M3,1H,2055.848903,Pass,Simple pass,22.0,29.0,25.0,27.0
+5,Huskies,Huskies_M3,,1H,2056.285329,Others on the ball,Touch,25.0,27.0,32.0,25.0

@@ -1,0 +1,11 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+14,Huskies,Huskies_M4,,2H,1807.999761,Others on the ball,Touch,32.0,39.0,48.0,39.0
+14,Huskies,Huskies_M4,Huskies_M6,2H,1811.8111719999997,Pass,Simple pass,48.0,39.0,62.0,23.0
+14,Huskies,Huskies_M6,,2H,1814.4046500000004,Duel,Ground attacking duel,62.0,23.0,65.0,19.0
+14,Huskies,Huskies_M6,Huskies_M8,2H,1815.430174,Pass,Simple pass,65.0,19.0,73.0,34.0
+14,Huskies,Huskies_M8,Huskies_M4,2H,1816.6653139999999,Pass,Simple pass,73.0,34.0,73.0,59.0
+14,Huskies,Huskies_M4,Huskies_D7,2H,1818.1561510000001,Pass,Simple pass,73.0,59.0,88.0,73.0
+14,Huskies,Huskies_D7,Huskies_F1,2H,1819.845421,Pass,Cross,88.0,73.0,90.0,54.0
+14,Huskies,Huskies_F1,,2H,1820.5993360000002,Shot,Shot,90.0,54.0,0.0,0.0
+14,Opponent14,Opponent14_D3,,2H,1822.1092840000001,Others on the ball,Touch,6.0,46.0,0.0,34.0
+14,Opponent14,Opponent14_D3,Opponent14_D6,2H,1920.0,Substitution,Substitution,,,,

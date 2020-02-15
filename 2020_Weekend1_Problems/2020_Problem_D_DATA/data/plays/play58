@@ -1,0 +1,23 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+2,Opponent2,Opponent2_M4,,2H,107.57502299999987,Duel,Ground attacking duel,49.0,19.0,48.0,17.0
+2,Huskies,Huskies_M3,,2H,107.57502299999987,Duel,Ground defending duel,51.0,81.0,52.0,83.0
+2,Opponent2,Opponent2_M4,Opponent2_M3,2H,108.55161899999985,Pass,Simple pass,48.0,17.0,38.0,18.0
+2,Opponent2,Opponent2_M3,Opponent2_D4,2H,109.58471800000007,Pass,Simple pass,38.0,18.0,20.0,13.0
+2,Opponent2,Opponent2_D4,Opponent2_G1,2H,113.1370350000002,Pass,Simple pass,20.0,13.0,4.0,42.0
+2,Opponent2,Opponent2_G1,Opponent2_D3,2H,115.54891499999985,Pass,Simple pass,4.0,42.0,15.0,47.0
+2,Opponent2,Opponent2_D3,Opponent2_D4,2H,117.53416199999992,Pass,Simple pass,15.0,47.0,19.0,12.0
+2,Opponent2,Opponent2_D4,,2H,120.54743400000007,Others on the ball,Touch,19.0,12.0,27.0,23.0
+2,Opponent2,Opponent2_D4,Opponent2_D2,2H,125.84167200000002,Pass,High pass,27.0,23.0,33.0,88.0
+2,Opponent2,Opponent2_D2,Opponent2_F3,2H,129.61029300000018,Pass,Simple pass,33.0,88.0,59.0,98.0
+2,Opponent2,Opponent2_F3,Opponent2_D2,2H,130.38169400000015,Pass,Simple pass,59.0,98.0,30.0,94.0
+2,Opponent2,Opponent2_D2,Opponent2_D3,2H,134.06357799999978,Pass,Simple pass,30.0,94.0,9.0,70.0
+2,Opponent2,Opponent2_D3,Opponent2_G1,2H,136.3787480000001,Pass,Simple pass,9.0,70.0,11.0,33.0
+2,Opponent2,Opponent2_G1,,2H,139.67007299999977,Pass,Simple pass,11.0,33.0,51.0,53.0
+2,Huskies,Huskies_D2,,2H,142.9856679999998,Duel,Ground defending duel,49.0,47.0,44.0,30.0
+2,Opponent2,Opponent2_F2,,2H,143.58353100000022,Duel,Ground attacking duel,51.0,53.0,56.0,70.0
+2,Opponent2,Opponent2_F2,Opponent2_F3,2H,144.49569699999984,Pass,Simple pass,56.0,70.0,82.0,79.0
+2,Opponent2,Opponent2_F3,,2H,147.14747100000022,Duel,Ground loose ball duel,82.0,79.0,99.0,65.0
+2,Huskies,Huskies_D4,,2H,147.74897999999985,Duel,Ground loose ball duel,18.0,21.0,1.0,35.0
+2,Huskies,Huskies_G1,,2H,149.9493950000001,Others on the ball,Touch,1.0,35.0,28.0,74.0
+2,Huskies,Huskies_D1,Huskies_M1,2H,157.8595610000002,Pass,Simple pass,28.0,74.0,32.0,61.0
+2,Huskies,Huskies_M1,Huskies_D2,2H,159.9086440000001,Pass,Simple pass,32.0,61.0,25.0,65.0

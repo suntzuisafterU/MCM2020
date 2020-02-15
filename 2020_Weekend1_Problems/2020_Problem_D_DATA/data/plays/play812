@@ -1,0 +1,25 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+16,Opponent16,Opponent16_M3,,2H,113.4049829999999,Duel,Ground loose ball duel,35.0,10.0,34.0,10.0
+16,Huskies,Huskies_F1,,2H,114.02445799999987,Duel,Ground loose ball duel,65.0,90.0,66.0,90.0
+16,Opponent16,Opponent16_D3,,2H,115.09753600000022,Pass,Head pass,34.0,10.0,42.0,11.0
+16,Huskies,Huskies_M1,,2H,116.44089500000018,Duel,Ground loose ball duel,58.0,89.0,57.0,87.0
+16,Huskies,Huskies_D7,,2H,118.64340399999992,Pass,Simple pass,57.0,87.0,70.0,91.0
+16,Opponent16,Opponent16_M3,,2H,119.18550899999991,Others on the ball,Touch,30.0,9.0,37.0,30.0
+16,Huskies,Huskies_M3,,2H,120.0654340000001,Duel,Ground attacking duel,63.0,70.0,66.0,78.0
+16,Opponent16,Opponent16_M2,,2H,120.59638200000018,Duel,Ground defending duel,37.0,30.0,34.0,22.0
+16,Opponent16,Opponent16_M1,,2H,120.98877099999982,Duel,Ground loose ball duel,34.0,22.0,45.0,27.0
+16,Huskies,Huskies_M3,,2H,121.54416300000003,Duel,Ground loose ball duel,66.0,78.0,55.0,73.0
+16,Huskies,Huskies_M1,Huskies_M3,2H,122.09757300000001,Pass,Simple pass,55.0,73.0,66.0,75.0
+16,Huskies,Huskies_M3,Huskies_M8,2H,122.94923599999993,Pass,Simple pass,66.0,75.0,71.0,95.0
+16,Huskies,Huskies_M8,Huskies_M1,2H,124.06635400000005,Pass,Simple pass,71.0,95.0,60.0,79.0
+16,Huskies,Huskies_M1,,2H,124.88704199999984,Pass,Simple pass,60.0,79.0,61.0,70.0
+16,Opponent16,Opponent16_M1,Opponent16_M3,2H,126.24420400000008,Pass,Simple pass,39.0,30.0,25.0,25.0
+16,Opponent16,Opponent16_M3,,2H,127.34733499999993,Others on the ball,Touch,25.0,25.0,39.0,20.0
+16,Huskies,Huskies_M1,Huskies_M8,2H,128.53340100000014,Pass,Simple pass,61.0,80.0,74.0,90.0
+16,Huskies,Huskies_M8,Huskies_F1,2H,130.07783599999993,Pass,Simple pass,74.0,90.0,67.0,82.0
+16,Huskies,Huskies_F1,Huskies_M8,2H,130.93144699999993,Pass,Simple pass,67.0,82.0,67.0,87.0
+16,Huskies,Huskies_M8,,2H,131.74538900000016,Pass,Simple pass,67.0,87.0,64.0,54.0
+16,Opponent16,Opponent16_M2,Opponent16_F2,2H,134.85949100000016,Pass,Simple pass,36.0,46.0,40.0,83.0
+16,Opponent16,Opponent16_F2,,2H,138.04784599999994,Others on the ball,Acceleration,40.0,83.0,78.0,95.0
+16,Opponent16,Opponent16_F2,Opponent16_D2,2H,142.42735399999992,Pass,Simple pass,78.0,95.0,55.0,88.0
+16,Opponent16,Opponent16_D2,Opponent16_F2,2H,144.91485199999988,Pass,Simple pass,55.0,88.0,71.0,97.0

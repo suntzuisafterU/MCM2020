@@ -1,0 +1,23 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+31,Huskies,Huskies_M1,Huskies_F2,2H,1524.1009569999997,Pass,Simple pass,41.0,12.0,44.0,46.0
+31,Huskies,Huskies_F2,Huskies_D8,2H,1526.3302569999996,Pass,Simple pass,44.0,46.0,36.0,81.0
+31,Huskies,Huskies_D8,Huskies_F6,2H,1529.7601249999998,Pass,Simple pass,36.0,81.0,56.0,91.0
+31,Huskies,Huskies_F6,Huskies_D8,2H,1531.4441450000004,Pass,Simple pass,56.0,91.0,50.0,83.0
+31,Huskies,Huskies_D8,Huskies_F2,2H,1532.3390069999996,Pass,Simple pass,50.0,83.0,53.0,66.0
+31,Huskies,Huskies_F2,Huskies_D4,2H,1537.1946660000003,Pass,High pass,53.0,66.0,57.0,5.0
+31,Huskies,Huskies_D4,Huskies_M1,2H,1541.6041910000004,Pass,Simple pass,57.0,5.0,55.0,17.0
+31,Huskies,Huskies_M1,Huskies_F2,2H,1545.4181550000003,Pass,Simple pass,55.0,17.0,53.0,49.0
+31,Huskies,Huskies_F2,Huskies_D3,2H,1546.951403,Pass,Simple pass,53.0,49.0,36.0,62.0
+31,Huskies,Huskies_D3,Huskies_D1,2H,1549.702268,Pass,Simple pass,36.0,62.0,34.0,25.0
+31,Huskies,Huskies_D1,Huskies_D4,2H,1552.5498120000002,Pass,Simple pass,34.0,25.0,33.0,7.0
+31,Huskies,Huskies_D4,Huskies_M1,2H,1554.5896089999997,Pass,Simple pass,33.0,7.0,39.0,18.0
+31,Huskies,Huskies_M1,Huskies_D1,2H,1556.067043,Pass,Simple pass,39.0,18.0,30.0,16.0
+31,Huskies,Huskies_D1,Huskies_G1,2H,1558.675206,Pass,Simple pass,30.0,16.0,13.0,48.0
+31,Huskies,Huskies_G1,Huskies_D3,2H,1560.515203,Pass,Simple pass,13.0,48.0,26.0,68.0
+31,Huskies,Huskies_D3,Huskies_D8,2H,1563.8513810000004,Pass,Simple pass,26.0,68.0,33.0,88.0
+31,Huskies,Huskies_D8,Huskies_D3,2H,1565.3876719999998,Pass,Simple pass,33.0,88.0,26.0,72.0
+31,Huskies,Huskies_D3,Huskies_F2,2H,1568.2039940000004,Pass,Simple pass,26.0,72.0,30.0,56.0
+31,Huskies,Huskies_F2,Huskies_D3,2H,1570.2607930000004,Pass,Simple pass,30.0,56.0,32.0,70.0
+31,Huskies,Huskies_D3,,2H,1572.8635489999997,Pass,High pass,32.0,70.0,93.0,82.0
+31,Opponent1,Opponent1_G1,,2H,1577.5644650000004,Others on the ball,Clearance,7.0,18.0,26.0,0.0
+31,Huskies,Huskies_D8,,2H,1610.1329450000003,Free Kick,Throw in,74.0,100.0,96.0,93.0

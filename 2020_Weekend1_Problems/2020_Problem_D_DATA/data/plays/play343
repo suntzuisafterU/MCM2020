@@ -1,0 +1,24 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+6,Opponent6,Opponent6_M1,Opponent6_D1,2H,392.3122790000002,Pass,Simple pass,32.0,58.0,21.0,14.0
+6,Opponent6,Opponent6_D1,,2H,398.10738200000014,Pass,High pass,21.0,14.0,54.0,6.0
+6,Huskies,Huskies_D5,,2H,401.1693930000001,Duel,Ground attacking duel,46.0,94.0,50.0,100.0
+6,Opponent6,Opponent6_F2,,2H,401.4981170000001,Duel,Ground defending duel,54.0,6.0,50.0,0.0
+6,Opponent6,Opponent6_D3,Opponent6_D4,2H,430.4830539999998,Pass,Simple pass,25.0,70.0,33.0,33.0
+6,Opponent6,Opponent6_D4,Opponent6_D1,2H,436.1635889999998,Pass,Simple pass,33.0,33.0,65.0,4.0
+6,Opponent6,Opponent6_D1,,2H,437.73672399999987,Pass,Simple pass,65.0,4.0,88.0,17.0
+6,Huskies,Huskies_D5,Huskies_G1,2H,441.00970499999994,Pass,Simple pass,12.0,83.0,6.0,56.0
+6,Huskies,Huskies_G1,,2H,442.836331,Pass,Launch,6.0,56.0,56.0,40.0
+6,Opponent6,Opponent6_D3,,2H,445.8079130000001,Duel,Air duel,44.0,60.0,49.0,87.0
+6,Huskies,Huskies_F2,,2H,445.94531700000016,Duel,Air duel,56.0,40.0,51.0,13.0
+6,Opponent6,Opponent6_D3,,2H,450.0057689999999,Pass,Simple pass,49.0,87.0,63.0,92.0
+6,Huskies,Huskies_D4,,2H,450.91703800000005,Others on the ball,Touch,37.0,8.0,43.0,19.0
+6,Opponent6,Opponent6_M3,,2H,452.457171,Duel,Ground attacking duel,57.0,81.0,64.0,88.0
+6,Huskies,Huskies_M2,,2H,452.6531100000002,Duel,Ground defending duel,43.0,19.0,36.0,12.0
+6,Opponent6,Opponent6_M3,,2H,454.47887200000014,Pass,Simple pass,64.0,88.0,69.0,84.0
+6,Huskies,Huskies_M3,,2H,455.3069129999999,Others on the ball,Touch,31.0,16.0,26.0,12.0
+6,Opponent6,Opponent6_M4,,2H,456.25313099999994,Duel,Ground attacking duel,74.0,88.0,99.0,84.0
+6,Huskies,Huskies_D2,,2H,456.3269190000001,Duel,Ground defending duel,26.0,12.0,1.0,16.0
+6,Opponent6,Opponent6_M4,,2H,460.0647530000001,Duel,Ground attacking duel,99.0,84.0,86.0,64.0
+6,Huskies,Huskies_D2,,2H,460.21751300000005,Duel,Ground defending duel,1.0,16.0,14.0,36.0
+6,Huskies,Huskies_G1,,2H,464.86756400000013,Pass,High pass,14.0,36.0,92.0,100.0
+6,Opponent6,Opponent6_D1,,2H,493.140034,Free Kick,Throw in,18.0,0.0,34.0,21.0

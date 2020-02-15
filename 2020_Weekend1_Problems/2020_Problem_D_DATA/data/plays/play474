@@ -1,0 +1,25 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+9,Opponent9,Opponent9_D1,Opponent9_D3,2H,224.27998200000002,Pass,Simple pass,25.0,74.0,29.0,93.0
+9,Opponent9,Opponent9_D3,Opponent9_M1,2H,225.56971999999996,Pass,Simple pass,29.0,93.0,60.0,93.0
+9,Opponent9,Opponent9_M1,Opponent9_M3,2H,227.89019999999982,Pass,Simple pass,60.0,93.0,60.0,59.0
+9,Opponent9,Opponent9_M3,Opponent9_D4,2H,233.41969900000004,Pass,Simple pass,60.0,59.0,77.0,4.0
+9,Opponent9,Opponent9_D4,Opponent9_F1,2H,237.16981699999997,Pass,Simple pass,77.0,4.0,74.0,20.0
+9,Opponent9,Opponent9_F1,Opponent9_D2,2H,237.71047,Pass,Simple pass,74.0,20.0,64.0,14.0
+9,Opponent9,Opponent9_D2,Opponent9_D4,2H,242.70629099999996,Pass,Simple pass,64.0,14.0,70.0,21.0
+9,Opponent9,Opponent9_D4,Opponent9_D2,2H,245.37186699999984,Pass,Simple pass,70.0,21.0,68.0,18.0
+9,Opponent9,Opponent9_D2,Opponent9_M1,2H,247.25047499999982,Pass,Simple pass,68.0,18.0,76.0,38.0
+9,Opponent9,Opponent9_M1,,2H,249.93229400000018,Duel,Ground attacking duel,76.0,38.0,75.0,36.0
+9,Opponent9,Opponent9_M1,Opponent9_M3,2H,250.84854799999994,Pass,Simple pass,75.0,36.0,66.0,24.0
+9,Opponent9,Opponent9_M3,Opponent9_F1,2H,252.10537299999987,Pass,Simple pass,66.0,24.0,81.0,13.0
+9,Opponent9,Opponent9_F1,,2H,256.5164770000001,Duel,Ground attacking duel,81.0,13.0,79.0,26.0
+9,Huskies,Huskies_D7,,2H,256.75789399999985,Duel,Ground defending duel,19.0,87.0,21.0,74.0
+9,Opponent9,Opponent9_F1,,2H,257.6009119999999,Pass,High pass,79.0,26.0,87.0,67.0
+9,Huskies,Huskies_M6,,2H,259.66950899999983,Others on the ball,Clearance,13.0,33.0,30.0,30.0
+9,Opponent9,Opponent9_D3,Opponent9_F1,2H,261.937551,Pass,Simple pass,70.0,70.0,79.0,35.0
+9,Opponent9,Opponent9_F1,,2H,264.05074000000013,Others on the ball,Touch,79.0,35.0,72.0,59.0
+9,Opponent9,Opponent9_F1,Opponent9_D5,2H,267.35150699999986,Pass,Smart pass,72.0,59.0,92.0,73.0
+9,Opponent9,Opponent9_D5,,2H,269.81003499999997,Pass,Cross,92.0,73.0,90.0,34.0
+9,Huskies,Huskies_D4,,2H,270.8948740000001,Others on the ball,Touch,12.0,25.0,10.0,66.0
+9,Huskies,Huskies_D7,,2H,272.0687600000001,Others on the ball,Clearance,10.0,66.0,26.0,7.0
+9,Opponent9,Opponent9_D3,,2H,274.0000570000002,Pass,Cross,74.0,93.0,100.0,33.0
+9,Huskies,Huskies_G1,,2H,310.17090599999983,Free Kick,Goal kick,0.0,0.0,72.0,72.0

@@ -1,0 +1,21 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+18,Huskies,Huskies_D5,Huskies_M1,2H,330.82067300000017,Pass,Head pass,35.0,5.0,35.0,22.0
+18,Huskies,Huskies_M1,,2H,332.2886010000002,Others on the ball,Touch,35.0,22.0,33.0,21.0
+18,Opponent18,Opponent18_F2,,2H,333.79081099999985,Duel,Ground loose ball duel,67.0,79.0,63.0,77.0
+18,Opponent18,Opponent18_F2,Opponent18_M2,2H,333.9074420000002,Pass,Simple pass,63.0,77.0,55.0,78.0
+18,Opponent18,Opponent18_M2,,2H,335.2640449999999,Others on the ball,Acceleration,55.0,78.0,69.0,71.0
+18,Opponent18,Opponent18_M2,Opponent18_M1,2H,336.88047300000017,Pass,Simple pass,69.0,71.0,71.0,38.0
+18,Opponent18,Opponent18_M1,,2H,338.4058789999999,Pass,Simple pass,71.0,38.0,87.0,31.0
+18,Huskies,Huskies_D7,,2H,340.692176,Others on the ball,Touch,13.0,69.0,9.0,72.0
+18,Opponent18,Opponent18_M5,,2H,340.946817,Duel,Ground loose ball duel,91.0,28.0,81.0,21.0
+18,Opponent18,Opponent18_M5,Opponent18_M1,2H,341.9925750000002,Pass,Simple pass,81.0,21.0,81.0,7.0
+18,Opponent18,Opponent18_M1,,2H,343.185966,Duel,Ground attacking duel,81.0,7.0,75.0,14.0
+18,Opponent18,Opponent18_M1,,2H,349.4168850000001,Others on the ball,Touch,75.0,14.0,67.0,19.0
+18,Opponent18,Opponent18_M1,Opponent18_M4,2H,352.0978799999998,Pass,Simple pass,67.0,19.0,59.0,14.0
+18,Opponent18,Opponent18_M4,Opponent18_D1,2H,354.2632960000001,Pass,Simple pass,59.0,14.0,46.0,28.0
+18,Opponent18,Opponent18_D1,Opponent18_D2,2H,357.81036600000016,Pass,Simple pass,46.0,28.0,33.0,75.0
+18,Opponent18,Opponent18_D2,,2H,361.25619499999993,Pass,Simple pass,33.0,75.0,66.0,78.0
+18,Huskies,Huskies_M3,Huskies_D5,2H,365.64406400000007,Pass,Simple pass,34.0,22.0,28.0,8.0
+18,Huskies,Huskies_D5,Huskies_M6,2H,367.0430500000002,Pass,Simple pass,28.0,8.0,45.0,14.0
+18,Huskies,Huskies_M6,Huskies_F1,2H,369.0002989999998,Pass,Simple pass,45.0,14.0,65.0,8.0
+18,Huskies,Huskies_F1,,2H,370.6872629999998,Duel,Ground attacking duel,65.0,8.0,73.0,8.0

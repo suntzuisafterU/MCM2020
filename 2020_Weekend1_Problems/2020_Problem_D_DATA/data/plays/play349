@@ -1,0 +1,24 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+6,Huskies,Huskies_D4,Huskies_M6,2H,1291.225947,Pass,Simple pass,68.0,1.0,71.0,18.0
+6,Huskies,Huskies_M6,Huskies_D4,2H,1294.4113360000001,Pass,Simple pass,71.0,18.0,78.0,1.0
+6,Huskies,Huskies_D4,Huskies_M1,2H,1295.5605379999997,Pass,Simple pass,78.0,1.0,63.0,21.0
+6,Huskies,Huskies_M1,Huskies_M4,2H,1298.297998,Pass,Simple pass,63.0,21.0,70.0,50.0
+6,Huskies,Huskies_M4,Huskies_D5,2H,1300.183344,Pass,Simple pass,70.0,50.0,86.0,92.0
+6,Huskies,Huskies_D5,,2H,1303.4364770000002,Pass,Cross,86.0,92.0,93.0,53.0
+6,Opponent6,Opponent6_D4,,2H,1304.7057960000002,Duel,Air duel,7.0,47.0,8.0,49.0
+6,Huskies,Huskies_F4,,2H,1305.0425590000004,Duel,Air duel,93.0,53.0,92.0,51.0
+6,Huskies,Huskies_F4,,2H,1305.4919120000004,Duel,Air duel,92.0,51.0,0.0,0.0
+6,Opponent6,Opponent6_D3,,2H,1305.757904,Duel,Air duel,8.0,49.0,100.0,100.0
+6,Opponent6,Opponent6_G1,,2H,1305.912445,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,8.0,49.0
+6,Huskies,Huskies_F1,,2H,1306.98139,Duel,Air duel,97.0,60.0,67.0,52.0
+6,Opponent6,Opponent6_G1,,2H,1307.311756,Duel,Air duel,3.0,40.0,33.0,48.0
+6,Opponent6,Opponent6_D3,,2H,1341.9993969999996,Duel,Air duel,33.0,48.0,60.0,30.0
+6,Huskies,Huskies_F1,,2H,1342.0097299999998,Duel,Air duel,67.0,52.0,40.0,70.0
+6,Huskies,Huskies_M1,Huskies_D5,2H,1346.8805309999998,Pass,Simple pass,40.0,70.0,42.0,90.0
+6,Huskies,Huskies_D5,Huskies_F1,2H,1348.5139980000004,Pass,High pass,42.0,90.0,77.0,82.0
+6,Huskies,Huskies_F1,,2H,1350.8112060000003,Others on the ball,Touch,77.0,82.0,92.0,73.0
+6,Huskies,Huskies_F1,,2H,1351.9423729999999,Duel,Ground attacking duel,92.0,73.0,46.0,51.0
+6,Opponent6,Opponent6_D4,,2H,1352.527357,Duel,Ground defending duel,8.0,27.0,54.0,49.0
+6,Opponent6,Opponent6_M3,Opponent6_D2,2H,1386.5545339999999,Pass,Simple pass,54.0,49.0,58.0,93.0
+6,Opponent6,Opponent6_D2,Opponent6_M4,2H,1389.5986670000002,Pass,Simple pass,58.0,93.0,68.0,81.0
+6,Opponent6,Opponent6_M4,Opponent6_M3,2H,1390.6455500000002,Pass,Simple pass,68.0,81.0,56.0,83.0

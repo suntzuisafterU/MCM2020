@@ -3,33 +3,60 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-import ipdb
+import sys
+import glob
 
-fdata = pd.read_csv("data/fullevents.csv")
-mdat = pd.read_csv("data/matches.csv")
-pdat = pd.read_csv("data/passingevents.csv")
-hpdat = pd.read_csv("data/huskiespassingevents.csv")
+################################
+# Begin Connectivity Matrix ####
 
-# pass matrix, game by game
-srcdat = hpdat
+class ConnectivityMats(object):
+    def __init__(self, infile):
+        srcdat = pd.read_csv(infile)
+        self.srcdat = srcdat[(srcdat.EventType == "Pass") & (srcdat.TeamID == 'Huskies')]
+        self.idx_to_name = { i:name for i,name in enumerate(self.srcdat['OriginPlayerID'].unique()) }
+        self.name_to_idx = { name:i for i,name in enumerate(self.srcdat['OriginPlayerID'].unique()) }
 
-# filter out only our players
-idx_to_name = { i:name for i,name in enumerate(srcdat['OriginPlayerID'].unique()) }
-name_to_idx = { name:i for i,name in enumerate(srcdat['OriginPlayerID'].unique()) }
+        self.dim = len(self.idx_to_name)
+        dim = self.dim
 
-dim = len(idx_to_name)
+        self.diadjmat = np.zeros((dim,dim), np.int)
+        self.uadjmat = np.zeros((dim,dim), np.int)
+        for row in self.srcdat.to_dict(orient='records'):
+            self.umat_incr(row)
+            self.dimat_incr(row)
 
-adjmat = np.zeros((dim,dim))
+    def dimat_incr(self, rrow):
+        res = ( self.name_to_idx[ rrow['OriginPlayerID'] ],
+                self.name_to_idx[ rrow['DestinationPlayerID']])
+        self.diadjmat[res] += 1
 
-def dimat_idexs(row):
-    ipdb.set_trace()
-    res = ( name_to_idx[ row['OriginPlayerID'] ],
-            name_to_idx[ row['DestinationPlayerID']])
-    return res
+    def umat_incr(self, rrow):
+        res = ( self.name_to_idx[ rrow['OriginPlayerID'] ],
+                self.name_to_idx[ rrow['DestinationPlayerID']])
+        self.uadjmat[res] += 1
+        res = ( self.name_to_idx[rrow['DestinationPlayerID']],
+                self.name_to_idx[rrow['OriginPlayerID']] )
+        self.uadjmat[res] += 1
+
+# End Connectivity Matrix ######
+################################
 
 
-for row in hpdat.values[:10]:
-    res = dimat_idexs(row)
-    print(res)
-    adjmat[ res ] += 1
+
+
+def heatmap(mat: np.array):
+    plt.imshow(mat)
+    plt.show()
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        infiles = ['data/huskiespassingevents.csv']
+    else:
+        infiles = glob.glob(sys.argv[1])
+    for inputfile in infiles:
+        M = ConnectivityMats(inputfile)
+        # heatmap(M.diadjmat)
+        heatmap(M.uadjmat)
+
 

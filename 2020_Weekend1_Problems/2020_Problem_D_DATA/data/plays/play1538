@@ -1,0 +1,12 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+35,Opponent17,Opponent17_D3,Opponent17_M3,1H,1740.552787,Pass,Simple pass,33.0,32.0,43.0,31.0
+35,Opponent17,Opponent17_M3,Opponent17_D1,1H,1741.650301,Pass,Simple pass,43.0,31.0,30.0,64.0
+35,Opponent17,Opponent17_D1,,1H,1743.698779,Others on the ball,Touch,30.0,64.0,48.0,74.0
+35,Opponent17,Opponent17_D1,Opponent17_M2,1H,1746.393312,Pass,Simple pass,48.0,74.0,67.0,70.0
+35,Opponent17,Opponent17_M2,Opponent17_D1,1H,1747.158395,Pass,Simple pass,67.0,70.0,60.0,83.0
+35,Opponent17,Opponent17_D1,Opponent17_M2,1H,1750.129643,Pass,Smart pass,60.0,83.0,90.0,76.0
+35,Opponent17,Opponent17_M2,,1H,1754.066237,Pass,Cross,90.0,76.0,100.0,100.0
+35,Huskies,Huskies_G1,,1H,1755.421248,Goalkeeper leaving line,Goalkeeper leaving line,0.0,0.0,10.0,24.0
+35,Huskies,Huskies_G1,,1H,1756.112579,Duel,Air duel,5.0,56.0,9.0,75.0
+35,Huskies,Huskies_G1,Huskies_F6,1H,1759.048767,Pass,Hand pass,9.0,75.0,42.0,94.0
+35,Huskies,Huskies_F6,Huskies_F2,1H,1763.523975,Pass,Simple pass,42.0,94.0,39.0,66.0

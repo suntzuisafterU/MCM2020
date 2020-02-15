@@ -1,0 +1,22 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+9,Opponent9,Opponent9_M4,Opponent9_M3,2H,2055.852686,Pass,Simple pass,73.0,30.0,65.0,21.0
+9,Opponent9,Opponent9_M3,Opponent9_M2,2H,2057.1040949999997,Pass,Simple pass,65.0,21.0,79.0,31.0
+9,Opponent9,Opponent9_M2,Opponent9_M1,2H,2058.9893190000003,Pass,Simple pass,79.0,31.0,72.0,35.0
+9,Opponent9,Opponent9_M1,Opponent9_D4,2H,2059.423947,Pass,Simple pass,72.0,35.0,89.0,13.0
+9,Opponent9,Opponent9_D4,Opponent9_D2,2H,2063.4871350000003,Pass,Simple pass,89.0,13.0,71.0,8.0
+9,Opponent9,Opponent9_D2,Opponent9_M3,2H,2065.784253,Pass,Simple pass,71.0,8.0,73.0,32.0
+9,Opponent9,Opponent9_M3,Opponent9_M4,2H,2067.515939,Pass,Simple pass,73.0,32.0,77.0,61.0
+9,Opponent9,Opponent9_M4,Opponent9_D5,2H,2069.511622,Pass,Simple pass,77.0,61.0,86.0,89.0
+9,Opponent9,Opponent9_D5,Opponent9_M4,2H,2072.148502,Pass,Simple pass,86.0,89.0,68.0,75.0
+9,Opponent9,Opponent9_M4,,2H,2074.6260679999996,Duel,Ground attacking duel,68.0,75.0,68.0,67.0
+9,Huskies,Huskies_M9,,2H,2075.1969639999998,Duel,Ground defending duel,32.0,25.0,32.0,33.0
+9,Opponent9,Opponent9_M4,Opponent9_M3,2H,2077.539009,Pass,Simple pass,68.0,67.0,66.0,44.0
+9,Opponent9,Opponent9_M3,Opponent9_M1,2H,2079.008409,Pass,Simple pass,66.0,44.0,78.0,27.0
+9,Opponent9,Opponent9_M1,Opponent9_M2,2H,2082.3223820000003,Pass,Simple pass,78.0,27.0,80.0,28.0
+9,Opponent9,Opponent9_M2,Opponent9_M1,2H,2085.37922,Pass,Simple pass,80.0,28.0,89.0,29.0
+9,Opponent9,Opponent9_M1,Opponent9_D4,2H,2085.698461,Pass,Simple pass,89.0,29.0,88.0,32.0
+9,Opponent9,Opponent9_D4,Opponent9_M1,2H,2087.1769480000003,Pass,Simple pass,88.0,32.0,90.0,28.0
+9,Opponent9,Opponent9_M1,Opponent9_M2,2H,2088.520891,Pass,Simple pass,90.0,28.0,88.0,35.0
+9,Opponent9,Opponent9_M2,,2H,2090.5402670000003,Duel,Ground attacking duel,88.0,35.0,88.0,38.0
+9,Opponent9,Opponent9_M2,,2H,2092.7787749999998,Shot,Shot,88.0,38.0,100.0,100.0
+9,Huskies,Huskies_G1,,2H,2124.252001,Free Kick,Goal kick,0.0,0.0,72.0,72.0

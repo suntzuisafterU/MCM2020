@@ -1,0 +1,22 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+2,Opponent2,Opponent2_F3,,2H,2169.3948389999996,Others on the ball,Acceleration,76.0,83.0,89.0,76.0
+2,Opponent2,Opponent2_F3,,2H,2172.905439,Pass,Cross,89.0,76.0,91.0,45.0
+2,Huskies,Huskies_D1,,2H,2174.5302089999996,Others on the ball,Clearance,9.0,55.0,25.0,22.0
+2,Opponent2,Opponent2_M4,,2H,2176.9266150000003,Others on the ball,Touch,75.0,78.0,69.0,85.0
+2,Huskies,Huskies_M6,,2H,2178.0274170000002,Others on the ball,Clearance,31.0,15.0,62.0,19.0
+2,Opponent2,Opponent2_D4,Opponent2_D5,2H,2180.1919319999997,Pass,Simple pass,38.0,81.0,62.0,94.0
+2,Opponent2,Opponent2_D5,Opponent2_M4,2H,2182.809609,Pass,Simple pass,62.0,94.0,63.0,81.0
+2,Opponent2,Opponent2_M4,Opponent2_M5,2H,2187.4296569999997,Pass,Simple pass,63.0,81.0,63.0,78.0
+2,Opponent2,Opponent2_M5,Opponent2_D2,2H,2193.643806,Pass,Simple pass,63.0,78.0,66.0,35.0
+2,Opponent2,Opponent2_D2,Opponent2_M1,2H,2196.5275220000003,Pass,Simple pass,66.0,35.0,67.0,20.0
+2,Opponent2,Opponent2_M1,Opponent2_M5,2H,2200.0330110000004,Pass,Simple pass,67.0,20.0,72.0,37.0
+2,Opponent2,Opponent2_M5,Opponent2_D2,2H,2201.968514,Pass,Simple pass,72.0,37.0,64.0,30.0
+2,Opponent2,Opponent2_D2,,2H,2203.3944090000005,Others on the ball,Touch,64.0,30.0,71.0,61.0
+2,Opponent2,Opponent2_D2,Opponent2_M4,2H,2208.2114979999997,Pass,Simple pass,71.0,61.0,73.0,82.0
+2,Opponent2,Opponent2_M4,Opponent2_D5,2H,2210.807261,Pass,Simple pass,73.0,82.0,85.0,93.0
+2,Opponent2,Opponent2_D5,Opponent2_M2,2H,2213.2314939999997,Pass,Cross,85.0,93.0,90.0,43.0
+2,Opponent2,Opponent2_M2,,2H,2214.9221900000002,Duel,Air duel,90.0,43.0,90.0,49.0
+2,Huskies,Huskies_D6,,2H,2214.9221900000002,Duel,Air duel,10.0,57.0,10.0,51.0
+2,Opponent2,Opponent2_F3,,2H,2216.138172,Shot,Shot,90.0,49.0,0.0,0.0
+2,Huskies,Huskies_G1,,2H,2218.605294,Save attempt,Reflexes,100.0,100.0,10.0,57.0
+2,Huskies,Huskies_D6,,2H,2275.3817310000004,Free Kick,Throw in,83.0,100.0,81.0,82.0

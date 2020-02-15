@@ -1,0 +1,15 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+28,Opponent11,Opponent11_D5,Opponent11_D2,1H,1212.191862,Pass,Simple pass,35.0,38.0,41.0,11.0
+28,Opponent11,Opponent11_D2,Opponent11_D5,1H,1214.323186,Pass,Simple pass,41.0,11.0,34.0,42.0
+28,Opponent11,Opponent11_D5,Opponent11_M5,1H,1220.673643,Pass,Simple pass,34.0,42.0,37.0,29.0
+28,Opponent11,Opponent11_M5,Opponent11_F1,1H,1223.828771,Pass,Simple pass,37.0,29.0,48.0,29.0
+28,Opponent11,Opponent11_F1,Opponent11_M2,1H,1225.812844,Pass,Simple pass,48.0,29.0,32.0,48.0
+28,Opponent11,Opponent11_M2,Opponent11_D7,1H,1228.572996,Pass,Simple pass,32.0,48.0,39.0,70.0
+28,Opponent11,Opponent11_D7,Opponent11_M2,1H,1229.943021,Pass,Simple pass,39.0,70.0,28.0,54.0
+28,Opponent11,Opponent11_M2,Opponent11_M5,1H,1232.686896,Pass,Simple pass,28.0,54.0,39.0,29.0
+28,Opponent11,Opponent11_M5,Opponent11_M2,1H,1236.347051,Pass,Simple pass,39.0,29.0,32.0,40.0
+28,Opponent11,Opponent11_M2,Opponent11_G2,1H,1239.670825,Pass,Simple pass,32.0,40.0,26.0,49.0
+28,Opponent11,Opponent11_G2,Opponent11_F1,1H,1247.479101,Pass,High pass,26.0,49.0,58.0,9.0
+28,Opponent11,Opponent11_F1,,1H,1251.298452,Duel,Ground attacking duel,58.0,9.0,60.0,8.0
+28,Huskies,Huskies_D7,,1H,1251.394999,Duel,Ground defending duel,42.0,91.0,40.0,92.0
+28,Huskies,Huskies_D7,,1H,1253.095489,Foul,Foul,40.0,92.0,42.0,91.0

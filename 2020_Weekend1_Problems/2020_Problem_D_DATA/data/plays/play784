@@ -1,0 +1,12 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+16,Opponent16,Opponent16_D2,Opponent16_D4,1H,1301.934579,Pass,Simple pass,52.0,98.0,30.0,62.0
+16,Opponent16,Opponent16_D4,Opponent16_D1,1H,1307.619521,Pass,Simple pass,30.0,62.0,38.0,33.0
+16,Opponent16,Opponent16_D1,Opponent16_M3,1H,1309.580676,Pass,Simple pass,38.0,33.0,44.0,47.0
+16,Opponent16,Opponent16_M3,Opponent16_D3,1H,1310.664885,Pass,Simple pass,44.0,47.0,59.0,6.0
+16,Opponent16,Opponent16_D3,Opponent16_M3,1H,1313.512119,Pass,Simple pass,59.0,6.0,58.0,41.0
+16,Opponent16,Opponent16_M3,Opponent16_D4,1H,1317.110409,Pass,Simple pass,58.0,41.0,37.0,67.0
+16,Opponent16,Opponent16_D4,Opponent16_D2,1H,1319.979762,Pass,Simple pass,37.0,67.0,61.0,90.0
+16,Opponent16,Opponent16_D2,,1H,1322.297751,Pass,Simple pass,61.0,90.0,67.0,89.0
+16,Huskies,Huskies_D5,,1H,1323.667762,Duel,Ground attacking duel,33.0,11.0,27.0,9.0
+16,Opponent16,Opponent16_F2,,1H,1325.115589,Others on the ball,Touch,73.0,91.0,79.0,100.0
+16,Huskies,Huskies_D5,,1H,1342.522177,Free Kick,Throw in,24.0,0.0,42.0,12.0

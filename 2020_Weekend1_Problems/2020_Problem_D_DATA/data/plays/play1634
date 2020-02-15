@@ -1,0 +1,18 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+38,Huskies,Huskies_M4,,1H,1857.961992,Pass,Head pass,51.0,59.0,66.0,52.0
+38,Opponent14,Opponent14_D2,,1H,1859.956443,Pass,Simple pass,34.0,48.0,43.0,21.0
+38,Huskies,Huskies_M4,,1H,1861.980375,Duel,Ground defending duel,57.0,79.0,58.0,74.0
+38,Opponent14,Opponent14_M4,Opponent14_M6,1H,1862.304933,Pass,Simple pass,42.0,26.0,36.0,3.0
+38,Opponent14,Opponent14_M6,Opponent14_G2,1H,1865.817153,Pass,Simple pass,36.0,3.0,8.0,32.0
+38,Opponent14,Opponent14_G2,,1H,1868.2694390000001,Pass,Launch,8.0,32.0,43.0,19.0
+38,Huskies,Huskies_D1,,1H,1871.078857,Duel,Ground loose ball duel,57.0,81.0,41.0,84.0
+38,Opponent14,Opponent14_M1,,1H,1871.878197,Duel,Ground loose ball duel,43.0,19.0,59.0,16.0
+38,Huskies,Huskies_D3,,1H,1873.2798710000002,Pass,Launch,41.0,84.0,81.0,58.0
+38,Opponent14,Opponent14_D4,,1H,1876.502253,Others on the ball,Touch,19.0,42.0,20.0,35.0
+38,Huskies,Huskies_F4,,1H,1877.00036,Duel,Ground attacking duel,80.0,65.0,88.0,61.0
+38,Opponent14,Opponent14_D4,,1H,1878.086773,Duel,Ground defending duel,20.0,35.0,12.0,39.0
+38,Huskies,Huskies_F4,,1H,1879.076551,Shot,Shot,88.0,61.0,100.0,100.0
+38,Opponent14,Opponent14_G2,,1H,1880.200112,Save attempt,Reflexes,0.0,0.0,12.0,39.0
+38,Huskies,Huskies_M4,,1H,1882.9470500000002,Pass,Simple pass,88.0,75.0,90.0,48.0
+38,Opponent14,Opponent14_M3,Opponent14_M5,1H,1885.013516,Pass,Simple pass,10.0,52.0,25.0,63.0
+38,Opponent14,Opponent14_M5,,1H,1889.1205920000002,Duel,Ground attacking duel,25.0,63.0,20.0,57.0

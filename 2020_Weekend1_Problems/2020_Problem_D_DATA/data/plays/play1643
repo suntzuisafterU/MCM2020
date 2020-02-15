@@ -1,0 +1,27 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+38,Huskies,Huskies_M3,Huskies_M1,1H,2606.363859,Pass,Simple pass,57.0,40.0,47.0,32.0
+38,Huskies,Huskies_M1,Huskies_D1,1H,2607.806282,Pass,Simple pass,47.0,32.0,59.0,88.0
+38,Huskies,Huskies_D1,Huskies_M4,1H,2612.094949,Pass,Simple pass,59.0,88.0,65.0,77.0
+38,Huskies,Huskies_M4,Huskies_D1,1H,2613.38999,Pass,Simple pass,65.0,77.0,58.0,94.0
+38,Huskies,Huskies_D1,Huskies_M4,1H,2615.272062,Pass,Simple pass,58.0,94.0,60.0,72.0
+38,Huskies,Huskies_M4,Huskies_M1,1H,2618.139266,Pass,Simple pass,60.0,72.0,56.0,49.0
+38,Huskies,Huskies_M1,Huskies_M4,1H,2621.892543,Pass,Simple pass,56.0,49.0,64.0,69.0
+38,Huskies,Huskies_M4,Huskies_D1,1H,2623.766281,Pass,Simple pass,64.0,69.0,53.0,83.0
+38,Huskies,Huskies_D1,Huskies_M1,1H,2626.146872,Pass,Simple pass,53.0,83.0,53.0,71.0
+38,Huskies,Huskies_M1,,1H,2628.975717,Duel,Ground attacking duel,53.0,71.0,38.0,72.0
+38,Huskies,Huskies_M1,Huskies_D1,1H,2630.195776,Pass,Simple pass,38.0,72.0,44.0,94.0
+38,Huskies,Huskies_D1,Huskies_M1,1H,2631.919381,Pass,Simple pass,44.0,94.0,36.0,69.0
+38,Huskies,Huskies_M1,Huskies_M4,1H,2633.354737,Pass,High pass,36.0,69.0,60.0,96.0
+38,Huskies,Huskies_M4,,1H,2636.20163,Pass,Simple pass,60.0,96.0,77.0,84.0
+38,Opponent14,Opponent14_D2,Opponent14_G2,1H,2639.089911,Pass,Simple pass,23.0,16.0,4.0,33.0
+38,Opponent14,Opponent14_G2,,1H,2642.728152,Pass,Launch,4.0,33.0,54.0,32.0
+38,Huskies,Huskies_D1,,1H,2645.779831,Duel,Air duel,46.0,68.0,35.0,56.0
+38,Opponent14,Opponent14_F1,,1H,2647.054337,Duel,Air duel,54.0,32.0,65.0,44.0
+38,Huskies,Huskies_D3,Huskies_D10,1H,2651.331028,Pass,Simple pass,35.0,56.0,29.0,4.0
+38,Huskies,Huskies_D10,Huskies_D4,1H,2654.686721,Pass,Simple pass,29.0,4.0,44.0,6.0
+38,Huskies,Huskies_D4,,1H,2656.191832,Duel,Ground attacking duel,44.0,6.0,58.0,17.0
+38,Opponent14,Opponent14_D1,,1H,2658.036515,Duel,Ground defending duel,56.0,94.0,42.0,83.0
+38,Huskies,Huskies_D4,Huskies_F5,1H,2658.670947,Pass,Smart pass,58.0,17.0,76.0,40.0
+38,Huskies,Huskies_F5,Huskies_M4,1H,2662.239385,Pass,Simple pass,76.0,40.0,78.0,63.0
+38,Huskies,Huskies_M4,,1H,2665.00314,Shot,Shot,78.0,63.0,100.0,100.0
+38,Opponent14,Opponent14_G2,,1H,2701.866719,Free Kick,Goal kick,0.0,0.0,57.0,79.0

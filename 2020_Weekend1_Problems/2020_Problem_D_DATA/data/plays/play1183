@@ -1,0 +1,30 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+24,Huskies,Huskies_D5,,1H,728.535846,Others on the ball,Acceleration,28.0,39.0,57.0,17.0
+24,Huskies,Huskies_D5,Huskies_M9,1H,731.656195,Pass,Simple pass,57.0,17.0,62.0,4.0
+24,Huskies,Huskies_M9,,1H,734.319091,Duel,Ground attacking duel,62.0,4.0,65.0,7.0
+24,Huskies,Huskies_M9,,1H,735.557738,Pass,Simple pass,65.0,7.0,78.0,27.0
+24,Opponent19,Opponent19_D2,Opponent19_D3,1H,736.102805,Pass,Simple pass,22.0,73.0,20.0,64.0
+24,Opponent19,Opponent19_D3,,1H,737.928142,Pass,High pass,20.0,64.0,52.0,32.0
+24,Huskies,Huskies_D2,Huskies_D7,1H,741.438959,Pass,Simple pass,48.0,68.0,68.0,90.0
+24,Huskies,Huskies_D7,Huskies_F6,1H,744.817852,Pass,Simple pass,68.0,90.0,74.0,93.0
+24,Huskies,Huskies_F6,Huskies_D7,1H,746.558043,Pass,Simple pass,74.0,93.0,66.0,92.0
+24,Huskies,Huskies_D7,Huskies_D2,1H,749.597549,Pass,Simple pass,66.0,92.0,53.0,72.0
+24,Huskies,Huskies_D2,Huskies_M3,1H,752.667427,Pass,Simple pass,53.0,72.0,54.0,53.0
+24,Huskies,Huskies_M3,Huskies_D6,1H,755.182773,Pass,Simple pass,54.0,53.0,46.0,44.0
+24,Huskies,Huskies_D6,Huskies_D2,1H,756.860129,Pass,Simple pass,46.0,44.0,48.0,73.0
+24,Huskies,Huskies_D2,Huskies_D7,1H,759.488356,Pass,Simple pass,48.0,73.0,59.0,94.0
+24,Huskies,Huskies_D7,Huskies_F6,1H,763.24907,Pass,Simple pass,59.0,94.0,63.0,78.0
+24,Huskies,Huskies_F6,Huskies_D2,1H,765.073955,Pass,Simple pass,63.0,78.0,54.0,90.0
+24,Huskies,Huskies_D2,Huskies_M13,1H,769.019397,Pass,Simple pass,54.0,90.0,60.0,65.0
+24,Huskies,Huskies_M13,Huskies_D2,1H,770.859645,Pass,Simple pass,60.0,65.0,66.0,91.0
+24,Huskies,Huskies_D2,Huskies_M9,1H,773.291622,Pass,High pass,66.0,91.0,87.0,19.0
+24,Huskies,Huskies_M9,Huskies_M6,1H,776.191477,Pass,Head pass,87.0,19.0,87.0,37.0
+24,Huskies,Huskies_M6,,1H,776.961786,Shot,Shot,87.0,37.0,0.0,0.0
+24,Opponent19,Opponent19_D2,,1H,777.841436,Others on the ball,Touch,10.0,66.0,12.0,67.0
+24,Opponent19,Opponent19_M4,,1H,780.743895,Pass,High pass,12.0,67.0,28.0,77.0
+24,Huskies,Huskies_D5,Huskies_M9,1H,783.720415,Pass,Simple pass,72.0,23.0,79.0,9.0
+24,Huskies,Huskies_M9,,1H,787.835941,Pass,Cross,79.0,9.0,0.0,0.0
+24,Opponent19,Opponent19_M4,,1H,788.369761,Others on the ball,Touch,18.0,88.0,27.0,54.0
+24,Opponent19,Opponent19_M5,,1H,789.039031,Others on the ball,Touch,27.0,54.0,24.0,42.0
+24,Opponent19,Opponent19_M3,Opponent19_M5,1H,791.099387,Pass,Simple pass,24.0,42.0,26.0,53.0
+24,Opponent19,Opponent19_M5,,1H,791.77856,Others on the ball,Touch,26.0,53.0,36.0,14.0

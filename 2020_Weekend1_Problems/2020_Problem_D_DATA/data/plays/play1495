@@ -1,0 +1,26 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+34,Huskies,Huskies_G1,Huskies_M12,1H,895.4903589999999,Pass,High pass,10.0,47.0,71.0,10.0
+34,Huskies,Huskies_M12,,1H,899.6786259999999,Duel,Ground attacking duel,71.0,10.0,70.0,31.0
+34,Opponent18,Opponent18_D3,,1H,900.0240369999999,Duel,Ground defending duel,29.0,90.0,30.0,69.0
+34,Huskies,Huskies_F5,Huskies_F2,1H,901.4034340000001,Pass,Simple pass,70.0,31.0,75.0,28.0
+34,Huskies,Huskies_F2,Huskies_M12,1H,903.688056,Pass,Simple pass,75.0,28.0,84.0,14.0
+34,Huskies,Huskies_M12,Huskies_D4,1H,907.272238,Pass,Simple pass,84.0,14.0,97.0,6.0
+34,Huskies,Huskies_D4,,1H,909.431961,Pass,Cross,97.0,6.0,94.0,43.0
+34,Opponent18,Opponent18_D2,Opponent18_M3,1H,910.8001139999999,Pass,Simple pass,6.0,57.0,12.0,75.0
+34,Opponent18,Opponent18_M3,,1H,912.681247,Pass,Launch,12.0,75.0,34.0,91.0
+34,Huskies,Huskies_M3,Huskies_M1,1H,917.2085219999999,Pass,Simple pass,66.0,9.0,66.0,31.0
+34,Huskies,Huskies_M1,Huskies_D1,1H,918.892092,Pass,Simple pass,66.0,31.0,41.0,25.0
+34,Huskies,Huskies_D1,Huskies_D3,1H,920.4149809999999,Pass,Simple pass,41.0,25.0,41.0,65.0
+34,Huskies,Huskies_D3,Huskies_F2,1H,922.947437,Pass,Simple pass,41.0,65.0,59.0,30.0
+34,Huskies,Huskies_F2,Huskies_D1,1H,927.0829839999999,Pass,Simple pass,59.0,30.0,46.0,44.0
+34,Huskies,Huskies_D1,Huskies_D3,1H,930.322465,Pass,Simple pass,46.0,44.0,46.0,87.0
+34,Huskies,Huskies_D3,Huskies_F5,1H,933.8581300000001,Pass,High pass,46.0,87.0,89.0,66.0
+34,Huskies,Huskies_F5,,1H,937.0527890000001,Pass,Head pass,89.0,66.0,82.0,71.0
+34,Opponent18,Opponent18_D1,,1H,940.199357,Duel,Ground attacking duel,18.0,29.0,23.0,33.0
+34,Opponent18,Opponent18_D1,,1H,941.380809,Pass,Simple pass,23.0,33.0,29.0,29.0
+34,Huskies,Huskies_M1,Huskies_D3,1H,942.620259,Pass,Simple pass,71.0,71.0,60.0,74.0
+34,Huskies,Huskies_D3,,1H,944.093476,Pass,Simple pass,60.0,74.0,60.0,83.0
+34,Opponent18,Opponent18_F3,,1H,945.4067279999999,Others on the ball,Touch,40.0,17.0,33.0,23.0
+34,Opponent18,Opponent14_F2,Opponent18_M8,1H,948.335255,Pass,Simple pass,33.0,23.0,30.0,32.0
+34,Opponent18,Opponent18_M8,Opponent18_D4,1H,949.428903,Pass,Simple pass,30.0,32.0,22.0,12.0
+34,Opponent18,Opponent18_D4,,1H,950.5605009999999,Pass,Simple pass,22.0,12.0,29.0,10.0

@@ -1,0 +1,23 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+34,Huskies,Huskies_F2,Huskies_D8,2H,76.48519699999997,Pass,Simple pass,68.0,43.0,69.0,96.0
+34,Huskies,Huskies_D8,,2H,81.46882499999992,Duel,Ground attacking duel,69.0,96.0,69.0,90.0
+34,Opponent18,Opponent18_M1,,2H,81.46882499999992,Duel,Ground defending duel,31.0,4.0,31.0,10.0
+34,Huskies,Huskies_D8,Huskies_F2,2H,83.16678199999978,Pass,Simple pass,69.0,90.0,66.0,80.0
+34,Huskies,Huskies_F2,Huskies_D8,2H,86.15639599999986,Pass,High pass,66.0,80.0,92.0,92.0
+34,Huskies,Huskies_D8,,2H,89.77075699999978,Duel,Ground attacking duel,92.0,92.0,88.0,89.0
+34,Opponent18,Opponent18_M1,,2H,89.77075699999978,Duel,Ground defending duel,8.0,8.0,12.0,11.0
+34,Huskies,Huskies_D8,,2H,92.36277000000018,Duel,Ground attacking duel,88.0,89.0,91.0,96.0
+34,Opponent18,Opponent18_D4,,2H,92.36277000000018,Duel,Ground defending duel,12.0,11.0,9.0,4.0
+34,Huskies,Huskies_D8,,2H,94.1097249999998,Duel,Ground attacking duel,91.0,96.0,98.0,98.0
+34,Opponent18,Opponent18_M1,,2H,94.1097249999998,Duel,Ground defending duel,9.0,4.0,2.0,2.0
+34,Huskies,Huskies_D8,,2H,96.50019500000008,Pass,Simple pass,98.0,98.0,89.0,86.0
+34,Opponent18,Opponent18_M7,,2H,99.61643999999978,Pass,High pass,11.0,14.0,45.0,19.0
+34,Huskies,Huskies_D3,,2H,101.49183700000003,Duel,Air duel,55.0,81.0,32.0,72.0
+34,Opponent18,Opponent14_F2,,2H,102.4330500000001,Duel,Air duel,45.0,19.0,68.0,28.0
+34,Huskies,Huskies_D1,Huskies_G1,2H,103.78312700000015,Pass,Simple pass,32.0,72.0,12.0,45.0
+34,Huskies,Huskies_G1,Huskies_M12,2H,109.09683300000006,Pass,Launch,12.0,45.0,72.0,18.0
+34,Huskies,Huskies_M12,,2H,112.78221799999983,Duel,Ground loose ball duel,72.0,18.0,62.0,12.0
+34,Opponent18,Opponent18_D3,,2H,113.97538399999985,Duel,Ground loose ball duel,28.0,82.0,38.0,88.0
+34,Opponent18,Opponent18_M5,Opponent18_M8,2H,115.665794,Pass,Simple pass,38.0,88.0,38.0,77.0
+34,Opponent18,Opponent18_M8,Opponent18_M5,2H,116.69461199999978,Pass,Simple pass,38.0,77.0,31.0,94.0
+34,Opponent18,Opponent18_M5,Opponent18_D3,2H,118.0097609999998,Pass,Simple pass,31.0,94.0,34.0,82.0

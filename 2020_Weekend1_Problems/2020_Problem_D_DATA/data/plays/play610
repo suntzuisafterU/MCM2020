@@ -1,0 +1,9 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+13,Huskies,Huskies_F1,,1H,1589.898145,Duel,Air duel,68.0,40.0,65.0,68.0
+13,Opponent13,Opponent13_D1,,1H,1589.950145,Duel,Air duel,32.0,60.0,35.0,32.0
+13,Opponent13,Opponent13_M5,Opponent13_F1,1H,1591.996853,Pass,Launch,35.0,32.0,54.0,47.0
+13,Opponent13,Opponent13_F1,,1H,1593.884872,Pass,Head pass,54.0,47.0,56.0,63.0
+13,Huskies,Huskies_D1,Huskies_M6,1H,1594.853212,Pass,Head pass,44.0,37.0,65.0,54.0
+13,Huskies,Huskies_M6,,1H,1595.946087,Duel,Ground loose ball duel,65.0,54.0,61.0,40.0
+13,Opponent13,Opponent13_M2,,1H,1595.946087,Duel,Ground loose ball duel,35.0,46.0,39.0,60.0
+13,Huskies,Huskies_M6,,1H,1598.361274,Foul,Foul,61.0,40.0,65.0,54.0

@@ -1,0 +1,30 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+7,Huskies,Huskies_M3,Huskies_M1,1H,1585.919854,Pass,Simple pass,39.0,34.0,35.0,45.0
+7,Huskies,Huskies_M1,Huskies_D5,1H,1588.550555,Pass,Simple pass,35.0,45.0,34.0,83.0
+7,Huskies,Huskies_D5,Huskies_D1,1H,1593.011746,Pass,Simple pass,34.0,83.0,38.0,67.0
+7,Huskies,Huskies_D1,Huskies_D2,1H,1595.157877,Pass,Simple pass,38.0,67.0,42.0,30.0
+7,Huskies,Huskies_D2,Huskies_D4,1H,1600.427023,Pass,Simple pass,42.0,30.0,42.0,7.0
+7,Huskies,Huskies_D4,Huskies_D2,1H,1603.015145,Pass,Simple pass,42.0,7.0,47.0,22.0
+7,Huskies,Huskies_D2,Huskies_D4,1H,1604.707334,Pass,Simple pass,47.0,22.0,35.0,13.0
+7,Huskies,Huskies_D4,,1H,1607.91839,Pass,High pass,35.0,13.0,72.0,22.0
+7,Opponent7,Opponent7_D4,,1H,1610.424525,Duel,Air duel,28.0,78.0,42.0,57.0
+7,Huskies,Huskies_F4,,1H,1610.774953,Duel,Air duel,72.0,22.0,58.0,43.0
+7,Huskies,Huskies_M1,,1H,1612.925558,Pass,High pass,58.0,43.0,75.0,11.0
+7,Opponent7,Opponent7_D4,,1H,1615.356753,Duel,Ground defending duel,25.0,89.0,19.0,89.0
+7,Huskies,Huskies_M6,,1H,1615.394776,Duel,Ground attacking duel,75.0,11.0,81.0,11.0
+7,Huskies,Huskies_M6,Huskies_F4,1H,1619.23671,Pass,Cross,81.0,11.0,90.0,44.0
+7,Huskies,Huskies_F4,,1H,1621.290315,Duel,Air duel,90.0,44.0,92.0,46.0
+7,Opponent7,Opponent7_D1,,1H,1621.328524,Duel,Air duel,10.0,56.0,8.0,54.0
+7,Huskies,Huskies_F1,,1H,1622.026547,Duel,Air duel,92.0,46.0,88.0,28.0
+7,Opponent7,Opponent7_M2,,1H,1622.529429,Others on the ball,Clearance,12.0,72.0,19.0,38.0
+7,Huskies,Huskies_M9,Huskies_M1,1H,1625.611378,Pass,Simple pass,81.0,62.0,67.0,51.0
+7,Huskies,Huskies_M1,Huskies_M1,1H,1626.006859,Pass,Simple pass,67.0,51.0,72.0,38.0
+7,Huskies,Huskies_M1,Huskies_M3,1H,1628.604623,Pass,Simple pass,72.0,38.0,64.0,39.0
+7,Huskies,Huskies_M3,Huskies_M6,1H,1629.786376,Pass,Simple pass,64.0,39.0,72.0,22.0
+7,Huskies,Huskies_M6,,1H,1631.657077,Pass,Simple pass,72.0,22.0,80.0,43.0
+7,Opponent7,Opponent7_M3,,1H,1633.620151,Duel,Ground defending duel,20.0,57.0,26.0,76.0
+7,Huskies,Huskies_M1,,1H,1633.980259,Duel,Ground attacking duel,80.0,43.0,74.0,24.0
+7,Opponent7,Opponent7_M1,,1H,1636.611313,Pass,High pass,26.0,76.0,85.0,83.0
+7,Huskies,Huskies_D2,,1H,1641.150084,Others on the ball,Clearance,15.0,17.0,13.0,15.0
+7,Opponent7,Opponent7_F1,,1H,1641.19562,Duel,Ground defending duel,87.0,85.0,100.0,100.0
+7,Opponent7,Opponent7_M4,,1H,1681.398859,Free Kick,Corner,100.0,100.0,93.0,36.0

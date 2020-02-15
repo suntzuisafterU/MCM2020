@@ -1,0 +1,28 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+38,Opponent14,Opponent14_F1,Opponent14_M1,1H,786.772034,Pass,Simple pass,68.0,45.0,69.0,33.0
+38,Opponent14,Opponent14_M1,Opponent14_M1,1H,786.818926,Pass,Simple pass,69.0,33.0,53.0,51.0
+38,Opponent14,Opponent14_M1,Opponent14_D6,1H,789.807878,Pass,Simple pass,53.0,51.0,53.0,72.0
+38,Opponent14,Opponent14_D6,Opponent14_D1,1H,791.754903,Pass,Simple pass,53.0,72.0,72.0,90.0
+38,Opponent14,Opponent14_D1,Opponent14_M1,1H,795.582865,Pass,Simple pass,72.0,90.0,56.0,85.0
+38,Opponent14,Opponent14_M1,,1H,797.504622,Duel,Ground attacking duel,56.0,85.0,66.0,84.0
+38,Huskies,Huskies_M4,,1H,797.548125,Duel,Ground defending duel,44.0,15.0,34.0,16.0
+38,Opponent14,Opponent14_M1,Opponent14_M5,1H,801.623922,Pass,Simple pass,66.0,84.0,84.0,88.0
+38,Opponent14,Opponent14_M5,Opponent14_D1,1H,803.419641,Pass,Simple pass,84.0,88.0,88.0,70.0
+38,Opponent14,Opponent14_D1,Opponent14_M5,1H,804.297955,Pass,Simple pass,88.0,70.0,90.0,72.0
+38,Opponent14,Opponent14_M5,,1H,805.645072,Pass,Simple pass,90.0,72.0,87.0,57.0
+38,Huskies,Huskies_D1,,1H,805.851534,Others on the ball,Clearance,13.0,43.0,32.0,23.0
+38,Opponent14,Opponent14_M3,Opponent14_M4,1H,808.766837,Pass,Simple pass,68.0,77.0,66.0,63.0
+38,Opponent14,Opponent14_M4,Opponent14_F1,1H,811.598777,Pass,Simple pass,66.0,63.0,72.0,41.0
+38,Opponent14,Opponent14_F1,Opponent14_D2,1H,813.557292,Pass,Simple pass,72.0,41.0,63.0,24.0
+38,Opponent14,Opponent14_D2,Opponent14_D5,1H,815.633183,Pass,Simple pass,63.0,24.0,76.0,9.0
+38,Opponent14,Opponent14_D5,Opponent14_D2,1H,818.264729,Pass,Simple pass,76.0,9.0,59.0,23.0
+38,Opponent14,Opponent14_D2,Opponent14_D5,1H,820.280804,Pass,Simple pass,59.0,23.0,85.0,10.0
+38,Opponent14,Opponent14_D5,Opponent14_M1,1H,825.505038,Pass,Simple pass,85.0,10.0,71.0,37.0
+38,Opponent14,Opponent14_M1,Opponent14_M3,1H,827.861984,Pass,Simple pass,71.0,37.0,60.0,46.0
+38,Opponent14,Opponent14_M3,Opponent14_D6,1H,830.153141,Pass,Simple pass,60.0,46.0,61.0,76.0
+38,Opponent14,Opponent14_D6,Opponent14_D4,1H,835.521221,Pass,Simple pass,61.0,76.0,50.0,58.0
+38,Opponent14,Opponent14_D4,Opponent14_D2,1H,838.298303,Pass,Simple pass,50.0,58.0,50.0,7.0
+38,Opponent14,Opponent14_D2,Opponent14_D5,1H,843.612312,Pass,Simple pass,50.0,7.0,77.0,10.0
+38,Opponent14,Opponent14_D5,Opponent14_D2,1H,844.909289,Pass,Simple pass,77.0,10.0,58.0,5.0
+38,Opponent14,Opponent14_D2,Opponent14_F1,1H,848.972839,Pass,Smart pass,58.0,5.0,76.0,34.0
+38,Opponent14,Opponent14_F1,,1H,853.798965,Offside,,76.0,34.0,0.0,0.0

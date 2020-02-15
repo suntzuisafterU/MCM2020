@@ -1,0 +1,18 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+17,Opponent17,Opponent17_M5,Opponent17_M1,2H,634.1698820000001,Pass,Simple pass,66.0,92.0,57.0,57.0
+17,Opponent17,Opponent17_M1,Opponent17_D3,2H,636.7616050000001,Pass,Simple pass,57.0,57.0,62.0,32.0
+17,Opponent17,Opponent17_D3,Opponent17_D4,2H,638.6150809999999,Pass,Simple pass,62.0,32.0,69.0,13.0
+17,Opponent17,Opponent17_D4,Opponent17_M2,2H,640.4730460000001,Pass,Simple pass,69.0,13.0,82.0,8.0
+17,Opponent17,Opponent17_M2,Opponent17_D4,2H,642.005017,Pass,Simple pass,82.0,8.0,65.0,7.0
+17,Opponent17,Opponent17_D4,Opponent17_M1,2H,644.584214,Pass,Simple pass,65.0,7.0,67.0,38.0
+17,Opponent17,Opponent17_M1,Opponent17_M4,2H,646.867358,Pass,Simple pass,67.0,38.0,76.0,75.0
+17,Opponent17,Opponent17_M4,Opponent17_M5,2H,650.4924219999998,Pass,Simple pass,76.0,75.0,82.0,59.0
+17,Opponent17,Opponent17_M5,,2H,651.1794239999999,Others on the ball,Touch,82.0,59.0,81.0,57.0
+17,Huskies,Huskies_D5,,2H,651.6981780000001,Duel,Ground loose ball duel,19.0,43.0,20.0,43.0
+17,Opponent17,Opponent17_M3,,2H,652.9731919999999,Duel,Ground loose ball duel,81.0,57.0,80.0,57.0
+17,Huskies,Huskies_M1,,2H,653.4132970000001,Duel,Ground loose ball duel,20.0,43.0,21.0,41.0
+17,Opponent17,Opponent17_M5,,2H,654.5385849999998,Duel,Ground loose ball duel,80.0,57.0,79.0,59.0
+17,Huskies,Huskies_M1,,2H,654.6306930000001,Duel,Ground defending duel,21.0,41.0,24.0,39.0
+17,Huskies,Huskies_M1,,2H,655.956271,Duel,Ground attacking duel,24.0,39.0,24.0,36.0
+17,Opponent17,Opponent17_M5,,2H,657.2598119999998,Duel,Ground defending duel,76.0,61.0,76.0,64.0
+17,Opponent17,Opponent17_M5,,2H,659.11807,Foul,Foul,76.0,64.0,76.0,61.0

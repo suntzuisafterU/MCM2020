@@ -1,0 +1,24 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+4,Huskies,Huskies_F2,Huskies_F2,2H,2850.205159,Pass,Simple pass,76.0,36.0,77.0,33.0
+4,Huskies,Huskies_F2,Huskies_M4,2H,2853.3073350000004,Pass,Simple pass,77.0,33.0,67.0,45.0
+4,Huskies,Huskies_M4,Huskies_D5,2H,2856.8865690000002,Pass,High pass,67.0,45.0,97.0,67.0
+4,Huskies,Huskies_D5,Huskies_M6,2H,2859.952779,Pass,Simple pass,97.0,67.0,91.0,67.0
+4,Huskies,Huskies_M6,,2H,2861.63058,Duel,Ground attacking duel,91.0,67.0,88.0,63.0
+4,Opponent4,Opponent4_M3,,2H,2862.0367610000003,Duel,Ground defending duel,9.0,33.0,12.0,37.0
+4,Opponent4,Opponent4_M6,,2H,2864.730848,Others on the ball,Touch,12.0,37.0,11.0,30.0
+4,Huskies,Huskies_M6,,2H,2865.110662,Shot,Shot,89.0,70.0,0.0,0.0
+4,Opponent4,Opponent4_M6,,2H,2867.916596,Others on the ball,Touch,14.0,33.0,16.0,52.0
+4,Huskies,Huskies_M4,,2H,2868.9433390000004,Pass,Simple pass,84.0,48.0,72.0,91.0
+4,Opponent4,Opponent4_M4,,2H,2869.3196230000003,Others on the ball,Acceleration,28.0,9.0,11.0,29.0
+4,Huskies,Huskies_M6,Huskies_M3,2H,2869.4571029999997,Pass,Simple pass,89.0,71.0,13.0,13.0
+4,Huskies,Huskies_M3,,2H,2875.642299,Duel,Ground defending duel,13.0,13.0,13.0,13.0
+4,Opponent4,Opponent4_M4,,2H,2875.9519419999997,Duel,Ground attacking duel,87.0,87.0,87.0,87.0
+4,Huskies,Huskies_M4,,2H,2877.774993,Duel,Ground defending duel,13.0,13.0,23.0,94.0
+4,Opponent4,Opponent4_M4,,2H,2878.466475,Duel,Ground attacking duel,87.0,87.0,77.0,6.0
+4,Opponent4,Opponent4_M6,,2H,2884.8884019999996,Duel,Ground attacking duel,77.0,6.0,81.0,7.0
+4,Huskies,Huskies_D5,,2H,2885.441017,Duel,Ground defending duel,23.0,94.0,19.0,93.0
+4,Huskies,Huskies_D5,,2H,2886.031777,Duel,Ground attacking duel,19.0,93.0,17.0,94.0
+4,Opponent4,Opponent4_M6,,2H,2887.080349,Duel,Ground defending duel,81.0,7.0,83.0,6.0
+4,Huskies,Huskies_M3,,2H,2887.875693,Duel,Ground defending duel,17.0,94.0,10.0,100.0
+4,Opponent4,Opponent4_M4,,2H,2888.2317650000005,Duel,Ground attacking duel,83.0,6.0,90.0,0.0
+4,Opponent4,Opponent4_D5,,2H,2904.796332,Free Kick,Throw in,90.0,0.0,91.0,5.0

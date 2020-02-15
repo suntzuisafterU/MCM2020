@@ -1,0 +1,22 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+18,Opponent18,Opponent18_D4,Opponent18_M5,1H,611.343477,Pass,Simple pass,71.0,4.0,65.0,15.0
+18,Opponent18,Opponent18_M5,Opponent18_M2,1H,616.371368,Pass,Simple pass,65.0,15.0,53.0,52.0
+18,Opponent18,Opponent18_M2,Opponent18_D3,1H,619.26681,Pass,Simple pass,53.0,52.0,58.0,72.0
+18,Opponent18,Opponent18_D3,Opponent18_M1,1H,624.32489,Pass,Simple pass,58.0,72.0,66.0,40.0
+18,Opponent18,Opponent18_M1,Opponent18_D4,1H,628.907839,Pass,Simple pass,66.0,40.0,63.0,12.0
+18,Opponent18,Opponent18_D4,Opponent18_M1,1H,632.113547,Pass,Simple pass,63.0,12.0,65.0,34.0
+18,Opponent18,Opponent18_M1,Opponent18_M4,1H,634.465682,Pass,Simple pass,65.0,34.0,62.0,33.0
+18,Opponent18,Opponent18_M4,,1H,636.187256,Pass,Simple pass,62.0,33.0,66.0,25.0
+18,Huskies,Huskies_D7,,1H,636.604356,Duel,Ground defending duel,34.0,75.0,33.0,77.0
+18,Opponent18,Opponent18_M5,Opponent18_M5,1H,637.55625,Pass,Simple pass,67.0,23.0,66.0,19.0
+18,Opponent18,Opponent18_M5,Opponent18_M1,1H,639.291997,Pass,Simple pass,66.0,19.0,61.0,14.0
+18,Opponent18,Opponent18_M1,Opponent18_M1,1H,639.308108,Pass,Simple pass,61.0,14.0,67.0,22.0
+18,Opponent18,Opponent18_M1,Opponent18_M4,1H,642.824692,Pass,Simple pass,67.0,22.0,41.0,26.0
+18,Opponent18,Opponent18_M4,Opponent18_D2,1H,645.254832,Pass,High pass,41.0,26.0,57.0,72.0
+18,Opponent18,Opponent18_D2,Opponent18_M2,1H,651.330774,Pass,Simple pass,57.0,72.0,72.0,75.0
+18,Opponent18,Opponent18_M2,Opponent18_M3,1H,653.070609,Pass,Simple pass,72.0,75.0,81.0,91.0
+18,Opponent18,Opponent18_M3,,1H,656.855754,Duel,Ground attacking duel,81.0,91.0,89.0,91.0
+18,Huskies,Huskies_D5,,1H,657.35304,Duel,Ground defending duel,19.0,9.0,11.0,9.0
+18,Opponent18,Opponent18_M3,,1H,658.775625,Duel,Ground attacking duel,89.0,91.0,88.0,100.0
+18,Huskies,Huskies_M6,,1H,659.421714,Duel,Ground defending duel,11.0,9.0,12.0,0.0
+18,Opponent18,Opponent18_D3,,1H,677.796819,Free Kick,Throw in,88.0,100.0,84.0,85.0

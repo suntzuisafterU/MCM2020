@@ -1,0 +1,14 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+13,Opponent13,Opponent13_M3,Opponent13_D1,1H,1513.733964,Pass,Simple pass,40.0,90.0,29.0,84.0
+13,Opponent13,Opponent13_D1,Opponent13_D4,1H,1516.229541,Pass,Simple pass,29.0,84.0,39.0,25.0
+13,Opponent13,Opponent13_D4,Opponent13_D2,1H,1523.56332,Pass,Simple pass,39.0,25.0,36.0,35.0
+13,Opponent13,Opponent13_D2,Opponent13_D3,1H,1525.639183,Pass,High pass,36.0,35.0,59.0,90.0
+13,Opponent13,Opponent13_D3,,1H,1530.04726,Pass,Simple pass,59.0,90.0,80.0,95.0
+13,Huskies,Huskies_M1,,1H,1532.742872,Duel,Ground defending duel,20.0,5.0,22.0,5.0
+13,Opponent13,Opponent13_M1,,1H,1532.742872,Duel,Ground attacking duel,80.0,95.0,78.0,95.0
+13,Opponent13,Opponent13_M1,Opponent13_D3,1H,1534.398416,Pass,Simple pass,78.0,95.0,97.0,96.0
+13,Opponent13,Opponent13_D3,,1H,1536.583848,Pass,Cross,97.0,96.0,94.0,31.0
+13,Huskies,Huskies_D7,,1H,1538.07613,Duel,Air duel,6.0,69.0,8.0,56.0
+13,Opponent13,Opponent13_M5,,1H,1538.07613,Duel,Air duel,94.0,31.0,92.0,44.0
+13,Opponent13,Opponent13_M5,,1H,1539.539757,Shot,Shot,92.0,44.0,0.0,0.0
+13,Huskies,Huskies_G1,,1H,1585.414832,Free Kick,Goal kick,100.0,100.0,68.0,40.0

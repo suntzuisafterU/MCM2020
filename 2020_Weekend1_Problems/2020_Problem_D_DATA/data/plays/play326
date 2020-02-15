@@ -1,0 +1,16 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+6,Opponent6,Opponent6_D3,Opponent6_M4,1H,1799.07796,Pass,Simple pass,28.0,75.0,45.0,74.0
+6,Opponent6,Opponent6_M4,Opponent6_D3,1H,1799.915646,Pass,Simple pass,45.0,74.0,33.0,74.0
+6,Opponent6,Opponent6_D3,Opponent6_M1,1H,1801.927565,Pass,Simple pass,33.0,74.0,27.0,58.0
+6,Opponent6,Opponent6_M1,Opponent6_D4,1H,1805.459418,Pass,Simple pass,27.0,58.0,25.0,20.0
+6,Opponent6,Opponent6_D4,Opponent6_G1,1H,1808.50461,Pass,Simple pass,25.0,20.0,8.0,41.0
+6,Opponent6,Opponent6_G1,Opponent6_D3,1H,1812.4815170000002,Pass,Simple pass,8.0,41.0,16.0,77.0
+6,Opponent6,Opponent6_D3,Opponent6_M1,1H,1815.513742,Pass,Simple pass,16.0,77.0,24.0,61.0
+6,Opponent6,Opponent6_M1,Opponent6_M3,1H,1817.145176,Pass,Simple pass,24.0,61.0,29.0,72.0
+6,Opponent6,Opponent6_M3,Opponent6_D3,1H,1818.323695,Pass,Simple pass,29.0,72.0,26.0,74.0
+6,Opponent6,Opponent6_D3,Opponent6_D1,1H,1822.579764,Pass,High pass,26.0,74.0,46.0,10.0
+6,Opponent6,Opponent6_D1,Opponent6_M2,1H,1828.300561,Pass,Simple pass,46.0,10.0,47.0,7.0
+6,Opponent6,Opponent6_M2,Opponent6_D4,1H,1831.559777,Pass,Simple pass,47.0,7.0,32.0,20.0
+6,Opponent6,Opponent6_D4,Opponent6_D3,1H,1834.546692,Pass,Simple pass,32.0,20.0,35.0,74.0
+6,Opponent6,Opponent6_D3,,1H,1838.486712,Pass,High pass,35.0,74.0,86.0,100.0
+6,Huskies,Huskies_D4,,1H,1860.916075,Free Kick,Throw in,28.0,0.0,43.0,8.0

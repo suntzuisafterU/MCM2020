@@ -1,0 +1,35 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+21,Opponent6,Opponent6_M5,Opponent6_D3,1H,1319.362043,Pass,Simple pass,35.0,87.0,37.0,97.0
+21,Opponent6,Opponent6_D3,,1H,1321.208579,Pass,High pass,37.0,97.0,74.0,93.0
+21,Huskies,Huskies_D3,Huskies_D5,1H,1323.148665,Pass,Head pass,26.0,7.0,37.0,7.0
+21,Huskies,Huskies_D5,,1H,1324.917441,Pass,Head pass,37.0,7.0,43.0,10.0
+21,Opponent6,Opponent6_D3,,1H,1326.352356,Pass,Simple pass,57.0,90.0,66.0,90.0
+21,Huskies,Huskies_M6,,1H,1327.062527,Duel,Ground loose ball duel,34.0,10.0,38.0,7.0
+21,Opponent6,Opponent6_M4,,1H,1327.719017,Duel,Ground loose ball duel,66.0,90.0,62.0,93.0
+21,Opponent6,Opponent6_D3,,1H,1329.463986,Pass,Simple pass,62.0,93.0,75.0,96.0
+21,Huskies,Huskies_D3,,1H,1329.62934,Duel,Ground defending duel,25.0,4.0,37.0,3.0
+21,Opponent6,Opponent6_F2,,1H,1330.532973,Duel,Ground attacking duel,75.0,96.0,63.0,97.0
+21,Huskies,Huskies_M6,,1H,1334.209177,Duel,Ground defending duel,37.0,3.0,36.0,6.0
+21,Opponent6,Opponent6_F2,,1H,1334.890933,Pass,Simple pass,64.0,94.0,68.0,92.0
+21,Huskies,Huskies_D5,,1H,1336.211288,Pass,Simple pass,32.0,8.0,48.0,10.0
+21,Opponent6,Opponent6_D5,,1H,1337.633069,Others on the ball,Clearance,52.0,90.0,81.0,75.0
+21,Huskies,Huskies_D1,Huskies_M13,1H,1340.00079,Pass,Head pass,19.0,25.0,38.0,23.0
+21,Huskies,Huskies_M13,,1H,1341.794203,Others on the ball,Touch,38.0,23.0,37.0,29.0
+21,Opponent6,Opponent6_M3,Opponent6_M5,1H,1343.168914,Pass,Simple pass,63.0,71.0,56.0,57.0
+21,Opponent6,Opponent6_M5,Opponent6_D2,1H,1345.07956,Pass,Simple pass,56.0,57.0,53.0,29.0
+21,Opponent6,Opponent6_D2,,1H,1348.804612,Pass,Simple pass,53.0,29.0,69.0,32.0
+21,Huskies,Huskies_D7,,1H,1350.052885,Pass,Simple pass,31.0,68.0,33.0,76.0
+21,Opponent6,Opponent6_M6,,1H,1350.709239,Others on the ball,Touch,67.0,24.0,67.0,21.0
+21,Huskies,Huskies_D7,,1H,1351.155685,Duel,Ground loose ball duel,33.0,79.0,45.0,92.0
+21,Opponent6,Opponent6_M6,,1H,1351.703722,Duel,Ground loose ball duel,67.0,21.0,55.0,8.0
+21,Opponent6,Opponent6_D2,Opponent6_D4,1H,1354.306826,Pass,Simple pass,55.0,8.0,39.0,30.0
+21,Opponent6,Opponent6_D4,Opponent6_D2,1H,1363.3402,Pass,Simple pass,39.0,30.0,38.0,9.0
+21,Opponent6,Opponent6_D2,Opponent6_D4,1H,1365.112077,Pass,Simple pass,38.0,9.0,28.0,37.0
+21,Opponent6,Opponent6_D4,,1H,1371.331272,Others on the ball,Touch,28.0,37.0,51.0,45.0
+21,Opponent6,Opponent6_D4,,1H,1372.053484,Pass,Simple pass,51.0,45.0,60.0,69.0
+21,Huskies,Huskies_M6,,1H,1372.695089,Duel,Ground loose ball duel,40.0,31.0,48.0,38.0
+21,Opponent6,Opponent6_F2,,1H,1373.031089,Duel,Ground loose ball duel,60.0,69.0,52.0,62.0
+21,Huskies,Huskies_M13,Huskies_D5,1H,1374.272347,Pass,Simple pass,48.0,38.0,34.0,16.0
+21,Huskies,Huskies_D5,Huskies_M3,1H,1377.890262,Pass,Simple pass,34.0,16.0,37.0,44.0
+21,Huskies,Huskies_M3,Huskies_M1,1H,1379.916707,Pass,Simple pass,37.0,44.0,31.0,53.0
+21,Huskies,Huskies_M1,Huskies_D1,1H,1382.23258,Pass,Simple pass,31.0,53.0,28.0,58.0

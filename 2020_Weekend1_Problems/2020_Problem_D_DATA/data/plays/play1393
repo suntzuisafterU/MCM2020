@@ -1,0 +1,25 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+32,Opponent2,Opponent2_M3,Opponent2_M1,1H,2756.792652,Pass,Simple pass,38.0,8.0,28.0,19.0
+32,Opponent2,Opponent2_M1,Opponent2_M2,1H,2758.880603,Pass,Simple pass,28.0,19.0,35.0,22.0
+32,Opponent2,Opponent2_M2,,1H,2759.489695,Duel,Ground attacking duel,35.0,22.0,31.0,29.0
+32,Huskies,Huskies_M3,,1H,2759.579801,Duel,Ground defending duel,65.0,78.0,69.0,71.0
+32,Huskies,Huskies_F1,,1H,2759.938202,Others on the ball,Touch,69.0,71.0,69.0,87.0
+32,Opponent2,Opponent2_M1,Opponent2_D6,1H,2760.717571,Pass,Simple pass,31.0,13.0,32.0,5.0
+32,Opponent2,Opponent2_D6,Opponent2_M2,1H,2761.588739,Pass,Simple pass,32.0,5.0,35.0,9.0
+32,Opponent2,Opponent2_M2,,1H,2763.092877,Duel,Ground attacking duel,35.0,9.0,32.0,13.0
+32,Opponent2,Opponent2_M2,Opponent2_M4,1H,2764.718971,Pass,Simple pass,32.0,13.0,31.0,34.0
+32,Opponent2,Opponent2_M4,Opponent2_D2,1H,2765.137173,Pass,Simple pass,31.0,34.0,24.0,61.0
+32,Opponent2,Opponent2_D2,Opponent2_D1,1H,2768.18187,Pass,Simple pass,24.0,61.0,25.0,74.0
+32,Opponent2,Opponent2_D1,Opponent2_F1,1H,2771.310631,Pass,Simple pass,25.0,74.0,100.0,100.0
+32,Opponent2,Opponent2_F1,Opponent2_D2,2H,5.223965000000135,Pass,Simple pass,49.0,50.0,31.0,67.0
+32,Opponent2,Opponent2_D2,Opponent2_M4,2H,7.907153000000108,Pass,Simple pass,31.0,67.0,34.0,68.0
+32,Opponent2,Opponent2_M4,Opponent2_D4,2H,10.535115000000133,Pass,Simple pass,34.0,68.0,35.0,36.0
+32,Opponent2,Opponent2_D4,Opponent2_D2,2H,13.68224199999986,Pass,Simple pass,35.0,36.0,39.0,57.0
+32,Opponent2,Opponent2_D2,Opponent2_M4,2H,16.106736000000183,Pass,Simple pass,39.0,57.0,46.0,54.0
+32,Opponent2,Opponent2_M4,Opponent2_D4,2H,16.90884099999994,Pass,Simple pass,46.0,54.0,34.0,37.0
+32,Opponent2,Opponent2_D4,Opponent2_M1,2H,18.731000000000222,Pass,Simple pass,34.0,37.0,43.0,45.0
+32,Opponent2,Opponent2_M1,Opponent2_D2,2H,19.743786999999884,Pass,Simple pass,43.0,45.0,29.0,74.0
+32,Opponent2,Opponent2_D2,Opponent2_D4,2H,22.98022200000014,Pass,Simple pass,29.0,74.0,26.0,55.0
+32,Opponent2,Opponent2_D4,,2H,26.479821999999785,Pass,Simple pass,26.0,55.0,32.0,95.0
+32,Huskies,Huskies_M12,,2H,29.297775,Others on the ball,Clearance,68.0,5.0,69.0,0.0
+32,Opponent2,Opponent2_D1,,2H,42.00073500000008,Free Kick,Throw in,29.0,100.0,42.0,72.0

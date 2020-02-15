@@ -1,0 +1,22 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+5,Opponent5,Opponent5_M1,,1H,455.36213899999996,Pass,Cross,88.0,13.0,0.0,0.0
+5,Huskies,Huskies_D1,,1H,456.992076,Others on the ball,Touch,12.0,82.0,16.0,92.0
+5,Huskies,Huskies_M4,,1H,459.18616099999997,Duel,Ground defending duel,16.0,92.0,20.0,93.0
+5,Opponent5,Opponent5_D3,,1H,459.56819099999996,Duel,Ground attacking duel,84.0,8.0,80.0,7.0
+5,Opponent5,Opponent5_D3,Opponent5_D1,1H,460.58534599999996,Pass,Simple pass,80.0,7.0,66.0,32.0
+5,Opponent5,Opponent5_D1,Opponent5_M2,1H,463.35192500000005,Pass,Simple pass,66.0,32.0,71.0,53.0
+5,Opponent5,Opponent5_M2,Opponent5_M1,1H,466.774726,Pass,Simple pass,71.0,53.0,64.0,29.0
+5,Opponent5,Opponent5_M1,Opponent5_F2,1H,467.701772,Pass,Simple pass,64.0,29.0,81.0,8.0
+5,Opponent5,Opponent5_F2,Opponent5_M3,1H,471.627841,Pass,Simple pass,81.0,8.0,82.0,24.0
+5,Opponent5,Opponent5_M3,,1H,473.17486699999995,Duel,Ground attacking duel,82.0,24.0,75.0,16.0
+5,Huskies,Huskies_M1,,1H,473.34872199999995,Duel,Ground defending duel,18.0,76.0,25.0,84.0
+5,Opponent5,Opponent5_M3,Opponent5_D3,1H,474.57846600000005,Pass,Simple pass,75.0,16.0,71.0,7.0
+5,Opponent5,Opponent5_D3,Opponent5_M1,1H,476.287863,Pass,Simple pass,71.0,7.0,74.0,45.0
+5,Opponent5,Opponent5_M1,Opponent5_M2,1H,483.19207400000005,Pass,Simple pass,74.0,45.0,80.0,54.0
+5,Opponent5,Opponent5_M2,,1H,483.55815600000005,Pass,Simple pass,80.0,54.0,83.0,46.0
+5,Huskies,Huskies_D2,Huskies_F2,1H,484.15798199999995,Pass,Simple pass,17.0,54.0,46.0,52.0
+5,Huskies,Huskies_F2,,1H,487.787059,Duel,Ground attacking duel,46.0,52.0,30.0,65.0
+5,Opponent5,Opponent5_D1,,1H,488.36034800000004,Duel,Ground defending duel,54.0,48.0,70.0,35.0
+5,Huskies,Huskies_M4,Huskies_M6,1H,488.494771,Pass,Simple pass,30.0,65.0,38.0,36.0
+5,Huskies,Huskies_M6,Huskies_M1,1H,490.69320700000003,Pass,Simple pass,38.0,36.0,36.0,52.0
+5,Huskies,Huskies_M1,Huskies_D4,1H,491.522289,Pass,Simple pass,36.0,52.0,36.0,3.0

@@ -1,0 +1,34 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+9,Opponent9,Opponent9_D1,Opponent9_M1,1H,1124.403049,Pass,Simple pass,24.0,22.0,48.0,55.0
+9,Opponent9,Opponent9_M1,Opponent9_M3,1H,1129.722094,Pass,Simple pass,48.0,55.0,33.0,58.0
+9,Opponent9,Opponent9_M3,Opponent9_M3,1H,1129.954364,Pass,Simple pass,33.0,58.0,39.0,61.0
+9,Opponent9,Opponent9_M3,Opponent9_M1,1H,1134.556549,Pass,Simple pass,39.0,61.0,38.0,54.0
+9,Opponent9,Opponent9_M1,Opponent9_D3,1H,1136.746474,Pass,Simple pass,38.0,54.0,33.0,88.0
+9,Opponent9,Opponent9_D3,Opponent9_D1,1H,1139.785095,Pass,Simple pass,33.0,88.0,38.0,38.0
+9,Opponent9,Opponent9_D1,Opponent9_D2,1H,1144.33672,Pass,Simple pass,38.0,38.0,39.0,16.0
+9,Opponent9,Opponent9_D2,Opponent9_D4,1H,1147.610863,Pass,Simple pass,39.0,16.0,57.0,3.0
+9,Opponent9,Opponent9_D4,Opponent9_M3,1H,1150.540826,Pass,Simple pass,57.0,3.0,56.0,28.0
+9,Opponent9,Opponent9_M3,Opponent9_D2,1H,1152.182558,Pass,Simple pass,56.0,28.0,41.0,11.0
+9,Opponent9,Opponent9_D2,Opponent9_M3,1H,1155.621591,Pass,Simple pass,41.0,11.0,47.0,25.0
+9,Opponent9,Opponent9_M3,Opponent9_D2,1H,1156.347105,Pass,Simple pass,47.0,25.0,43.0,14.0
+9,Opponent9,Opponent9_D2,Opponent9_M3,1H,1158.467772,Pass,Simple pass,43.0,14.0,55.0,32.0
+9,Opponent9,Opponent9_M3,Opponent9_D2,1H,1163.632729,Pass,Simple pass,55.0,32.0,67.0,16.0
+9,Opponent9,Opponent9_D2,Opponent9_D4,1H,1167.574712,Pass,Simple pass,67.0,16.0,80.0,6.0
+9,Opponent9,Opponent9_D4,Opponent9_F1,1H,1169.74851,Pass,Simple pass,80.0,6.0,72.0,9.0
+9,Opponent9,Opponent9_F1,Opponent9_D4,1H,1171.472858,Pass,Simple pass,72.0,9.0,77.0,19.0
+9,Opponent9,Opponent9_D4,,1H,1172.051757,Duel,Ground attacking duel,77.0,19.0,77.0,25.0
+9,Huskies,Huskies_D7,,1H,1172.500462,Duel,Ground defending duel,23.0,81.0,23.0,75.0
+9,Opponent9,Opponent9_D4,,1H,1173.752012,Pass,Simple pass,77.0,25.0,88.0,52.0
+9,Huskies,Huskies_D3,,1H,1175.035256,Others on the ball,Clearance,12.0,48.0,37.0,46.0
+9,Opponent9,Opponent9_D3,,1H,1176.901558,Duel,Ground loose ball duel,63.0,54.0,53.0,55.0
+9,Huskies,Huskies_F1,,1H,1177.103971,Duel,Ground loose ball duel,37.0,46.0,47.0,45.0
+9,Opponent9,Opponent9_D1,Opponent9_M3,1H,1181.204235,Pass,Simple pass,53.0,55.0,53.0,45.0
+9,Opponent9,Opponent9_M3,Opponent9_D1,1H,1181.649295,Pass,Simple pass,53.0,45.0,51.0,53.0
+9,Opponent9,Opponent9_D1,Opponent9_M1,1H,1183.895901,Pass,Simple pass,51.0,53.0,67.0,49.0
+9,Opponent9,Opponent9_M1,,1H,1183.988487,Others on the ball,Touch,67.0,49.0,71.0,50.0
+9,Opponent9,Opponent9_M1,,1H,1186.546416,Duel,Ground attacking duel,71.0,50.0,71.0,49.0
+9,Huskies,Huskies_M9,,1H,1186.804056,Duel,Ground defending duel,29.0,50.0,29.0,51.0
+9,Opponent9,Opponent9_M1,,1H,1187.331062,Duel,Ground attacking duel,71.0,49.0,73.0,48.0
+9,Opponent9,Opponent9_F2,,1H,1188.120331,Duel,Ground defending duel,73.0,48.0,73.0,50.0
+9,Huskies,Huskies_M1,,1H,1188.325777,Duel,Ground attacking duel,27.0,52.0,27.0,50.0
+9,Opponent9,Opponent9_F2,,1H,1190.889614,Foul,Foul,73.0,50.0,73.0,48.0
