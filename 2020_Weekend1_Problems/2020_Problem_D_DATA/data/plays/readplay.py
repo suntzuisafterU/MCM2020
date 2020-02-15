@@ -3,7 +3,7 @@
 def readplay(playnum):
     
 
-    f = open("play" + str(playnum), "r")
+    f = open("Hplay" + f"{playnum:04d}", "r")
 
     data = []
 

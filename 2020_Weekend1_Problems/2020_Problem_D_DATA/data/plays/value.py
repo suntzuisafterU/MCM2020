@@ -1,6 +1,7 @@
 from readplay import readplay
 from timing import *
-
+from scipy.stats import linregress
+from os import listdir
 class Play:
     
     def __init__(self, bEV, tEV, fEV, sEV, playnum):
@@ -25,7 +26,7 @@ class Play:
 
 def EV(play):
 
-
+    
     myplay = readplay(play)
             
     bEV = breadthEV(myplay)
@@ -87,11 +88,21 @@ def shotsEV(play):
     return shots
 
 
+thisdir = listdir(".")
+totalH = sum([1 for i in thisdir if "Hplay" in i])
+
 playlist = []
-for i in range(1,1600):
+for i in range(1,totalH):
     playlist.append(EV(i)) 
 
-playlist.sort(key=lambda x: x.tEV)
+playlist.sort(key=lambda x: x.sEV)
 
-for i in playlist:
-    i.query()
+shots = [i.sEV for i in playlist]
+tempo = [i.tEV for i in playlist]
+breadth = [i.bEV for i in playlist]
+flow = [i.fEV for i in playlist]
+
+#for i in playlist:
+#    i.query()
+
+print(linregress(breadth, tempo))

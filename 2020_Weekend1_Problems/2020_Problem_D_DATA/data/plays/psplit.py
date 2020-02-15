@@ -40,9 +40,15 @@ def playParser(ev_list, init_max):
 
         current_play.append(play)
 
-    playnum = 0    
+    Hplaynum = 0 
+    Oplaynum = 0   
     for play in plays:
-        f = open("play" + str(playnum), "w")
+        playboys = play[0][1][0]
+        if playboys == "H":
+            fname = f"{Hplaynum:04d}"
+        else:
+            fname = f"{Oplaynum:04d}"
+        f = open( playboys + "play" + fname, "w")
         f.write(header)
         for ev in play:
             for el in ev:
@@ -50,8 +56,12 @@ def playParser(ev_list, init_max):
                 if not "\n" in el:
                     f.write(",")
         f.close()
-        playnum += 1
+        if playboys == "H":
+            Hplaynum += 1
+        else:
+            Oplaynum += 1
     return plays
+
 playParser(event_list, 4)
         
     
