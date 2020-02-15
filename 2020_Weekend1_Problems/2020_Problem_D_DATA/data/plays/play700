@@ -1,0 +1,12 @@
+14,Huskies,Huskies_M4,Huskies_D7,1H,2445.957777,Pass,Simple pass,76.0,90.0,71.0,93.0
+14,Huskies,Huskies_D7,Huskies_F1,1H,2447.361432,Pass,High pass,71.0,93.0,81.0,81.0
+14,Huskies,Huskies_F1,,1H,2449.606851,Duel,Air duel,81.0,81.0,85.0,69.0
+14,Opponent14,Opponent14_D4,,1H,2449.688584,Duel,Air duel,19.0,19.0,15.0,31.0
+14,Opponent14,Opponent14_D3,,1H,2451.595554,Pass,Launch,15.0,31.0,39.0,36.0
+14,Huskies,Huskies_M1,Huskies_D5,1H,2454.279866,Pass,Simple pass,61.0,64.0,55.0,20.0
+14,Huskies,Huskies_D5,Huskies_M6,1H,2457.258326,Pass,Simple pass,55.0,20.0,67.0,50.0
+14,Huskies,Huskies_M6,,1H,2458.194691,Duel,Ground attacking duel,67.0,50.0,64.0,50.0
+14,Opponent14,Opponent14_M2,,1H,2458.575341,Duel,Ground defending duel,33.0,50.0,36.0,50.0
+14,Opponent14,Opponent14_M3,Opponent14_D3,1H,2461.713289,Pass,Simple pass,36.0,50.0,26.0,55.0
+14,Opponent14,Opponent14_D3,Opponent14_D1,1H,2463.676903,Pass,Simple pass,26.0,55.0,26.0,70.0
+14,Opponent14,Opponent14_D1,Opponent14_G1,1H,2466.183389,Pass,Simple pass,26.0,70.0,2.0,55.0

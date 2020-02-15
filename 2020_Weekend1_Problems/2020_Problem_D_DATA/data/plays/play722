@@ -1,0 +1,26 @@
+14,Huskies,Huskies_M6,Huskies_M8,2H,2060.1402390000003,Pass,Simple pass,71.0,16.0,57.0,5.0
+14,Huskies,Huskies_M8,Huskies_D5,2H,2061.625339,Pass,Simple pass,57.0,5.0,38.0,10.0
+14,Huskies,Huskies_D5,Huskies_M6,2H,2063.0121120000003,Pass,High pass,38.0,10.0,67.0,22.0
+14,Huskies,Huskies_M6,,2H,2065.542144,Duel,Ground attacking duel,67.0,22.0,73.0,24.0
+14,Opponent14,Opponent14_D6,,2H,2065.587464,Duel,Ground defending duel,33.0,78.0,27.0,76.0
+14,Huskies,Huskies_M6,Huskies_M8,2H,2069.0622409999996,Pass,Simple pass,73.0,24.0,66.0,13.0
+14,Huskies,Huskies_M8,Huskies_M1,2H,2070.6478939999997,Pass,Simple pass,66.0,13.0,62.0,29.0
+14,Huskies,Huskies_M1,Huskies_F2,2H,2072.234047,Pass,Simple pass,62.0,29.0,53.0,29.0
+14,Huskies,Huskies_F2,Huskies_D6,2H,2074.5204110000004,Pass,Simple pass,53.0,29.0,31.0,76.0
+14,Huskies,Huskies_D6,,2H,2077.1031270000003,Others on the ball,Touch,31.0,76.0,55.0,73.0
+14,Huskies,Huskies_D6,Huskies_F1,2H,2080.607341,Pass,Simple pass,55.0,73.0,68.0,40.0
+14,Huskies,Huskies_F1,,2H,2081.695254,Others on the ball,Touch,68.0,40.0,62.0,31.0
+14,Huskies,Huskies_F1,,2H,2085.2419529999997,Duel,Ground defending duel,62.0,31.0,56.0,33.0
+14,Opponent14,Opponent14_F4,,2H,2085.2529210000002,Duel,Ground attacking duel,38.0,69.0,44.0,67.0
+14,Huskies,Huskies_M1,,2H,2087.516248,Duel,Ground defending duel,56.0,33.0,50.0,26.0
+14,Opponent14,Opponent14_F4,,2H,2087.9002840000003,Duel,Ground attacking duel,44.0,67.0,50.0,74.0
+14,Opponent14,Opponent14_F4,,2H,2090.183148,Others on the ball,Acceleration,50.0,74.0,71.0,72.0
+14,Huskies,Huskies_D5,,2H,2090.846633,Duel,Ground defending duel,29.0,28.0,22.0,36.0
+14,Opponent14,Opponent14_F4,,2H,2091.5595860000003,Duel,Ground attacking duel,71.0,72.0,78.0,64.0
+14,Opponent14,Opponent14_F4,,2H,2092.5368280000002,Pass,Smart pass,78.0,64.0,74.0,31.0
+14,Huskies,Huskies_D7,Huskies_G1,2H,2092.9163070000004,Pass,Simple pass,26.0,69.0,9.0,45.0
+14,Huskies,Huskies_G1,,2H,2110.9073689999996,Pass,Launch,9.0,45.0,71.0,23.0
+14,Opponent14,Opponent14_D6,,2H,2115.487798,Duel,Air duel,29.0,77.0,43.0,91.0
+14,Huskies,Huskies_D5,,2H,2117.711587,Duel,Ground defending duel,57.0,9.0,61.0,2.0
+14,Opponent14,Opponent14_F4,,2H,2118.0831470000003,Duel,Ground attacking duel,43.0,91.0,39.0,98.0
+14,Huskies,Huskies_D5,,2H,2119.3104970000004,Foul,Foul,61.0,2.0,57.0,9.0

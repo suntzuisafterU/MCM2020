@@ -1,0 +1,27 @@
+6,Huskies,Huskies_M1,Huskies_D5,1H,401.48708,Pass,Simple pass,70.0,89.0,61.0,98.0
+6,Huskies,Huskies_D5,Huskies_D6,1H,402.471909,Pass,Simple pass,61.0,98.0,38.0,88.0
+6,Huskies,Huskies_D6,Huskies_D2,1H,404.67966,Pass,Simple pass,38.0,88.0,33.0,44.0
+6,Huskies,Huskies_D2,Huskies_D4,1H,406.728481,Pass,Simple pass,33.0,44.0,46.0,8.0
+6,Huskies,Huskies_D4,Huskies_M3,1H,409.315646,Pass,Simple pass,46.0,8.0,44.0,23.0
+6,Huskies,Huskies_M3,Huskies_D4,1H,411.61755000000005,Pass,Simple pass,44.0,23.0,43.0,3.0
+6,Huskies,Huskies_D4,Huskies_M2,1H,412.286517,Pass,Simple pass,43.0,3.0,61.0,25.0
+6,Huskies,Huskies_M2,Huskies_M3,1H,413.76339099999996,Pass,Simple pass,61.0,25.0,45.0,24.0
+6,Huskies,Huskies_M3,Huskies_D5,1H,415.70625900000005,Pass,High pass,45.0,24.0,66.0,98.0
+6,Huskies,Huskies_D5,Huskies_M1,1H,420.137642,Pass,Simple pass,66.0,98.0,72.0,79.0
+6,Huskies,Huskies_M1,Huskies_F2,1H,423.489422,Pass,Simple pass,72.0,79.0,75.0,63.0
+6,Huskies,Huskies_F2,Huskies_D5,1H,424.31386399999997,Pass,Simple pass,75.0,63.0,91.0,95.0
+6,Huskies,Huskies_D5,,1H,426.245307,Pass,Cross,91.0,95.0,0.0,0.0
+6,Opponent6,Opponent6_G1,,1H,428.542419,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,9.0,5.0
+6,Huskies,Huskies_D2,Huskies_G1,1H,447.30301199999997,Pass,Simple pass,17.0,84.0,7.0,53.0
+6,Huskies,Huskies_G1,,1H,449.563851,Pass,Launch,7.0,53.0,70.0,71.0
+6,Opponent6,Opponent6_D4,,1H,453.64769,Duel,Air duel,30.0,29.0,29.0,52.0
+6,Huskies,Huskies_F1,,1H,453.89036799999997,Duel,Air duel,70.0,71.0,71.0,48.0
+6,Huskies,Huskies_M6,,1H,456.941907,Duel,Ground attacking duel,71.0,48.0,75.0,50.0
+6,Opponent6,Opponent6_M3,,1H,457.18612599999994,Duel,Ground defending duel,29.0,52.0,25.0,50.0
+6,Huskies,Huskies_M6,Huskies_M2,1H,458.17338400000006,Pass,Simple pass,75.0,50.0,75.0,38.0
+6,Huskies,Huskies_M2,Huskies_D4,1H,459.003291,Pass,Simple pass,75.0,38.0,90.0,13.0
+6,Huskies,Huskies_D4,,1H,461.205644,Pass,Cross,90.0,13.0,93.0,44.0
+6,Opponent6,Opponent6_D3,Opponent6_M3,1H,462.112388,Pass,Simple pass,7.0,56.0,12.0,55.0
+6,Opponent6,Opponent6_M3,Opponent6_M4,1H,464.27533900000003,Pass,Simple pass,12.0,55.0,22.0,68.0
+6,Opponent6,Opponent6_M4,,1H,467.360548,Others on the ball,Acceleration,22.0,68.0,47.0,73.0
+6,Opponent6,Opponent6_M4,Opponent6_F2,1H,469.24796100000003,Pass,Simple pass,47.0,73.0,69.0,71.0

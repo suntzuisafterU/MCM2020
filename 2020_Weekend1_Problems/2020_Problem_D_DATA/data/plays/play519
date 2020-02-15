@@ -1,0 +1,8 @@
+10,Huskies,Huskies_M1,Huskies_D4,1H,1785.7506170000001,Pass,Simple pass,42.0,40.0,31.0,20.0
+10,Huskies,Huskies_D4,Huskies_M1,1H,1787.001138,Pass,Simple pass,31.0,20.0,38.0,36.0
+10,Huskies,Huskies_M1,Huskies_D3,1H,1789.268962,Pass,Simple pass,38.0,36.0,53.0,78.0
+10,Huskies,Huskies_D3,,1H,1793.881871,Pass,High pass,53.0,78.0,86.0,88.0
+10,Opponent10,Opponent10_D5,Opponent10_D4,1H,1796.413533,Pass,Simple pass,14.0,12.0,23.0,2.0
+10,Opponent10,Opponent10_D4,Opponent10_F1,1H,1798.015442,Pass,Launch,23.0,2.0,45.0,14.0
+10,Opponent10,Opponent10_F1,Opponent10_M2,1H,1799.9031570000002,Pass,Head pass,45.0,14.0,36.0,37.0
+10,Opponent10,Opponent10_M2,,1H,1802.3990520000002,Others on the ball,Touch,36.0,37.0,32.0,55.0

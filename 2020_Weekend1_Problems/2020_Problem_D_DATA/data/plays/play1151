@@ -1,0 +1,14 @@
+23,Opponent4,Opponent4_D1,Opponent4_D5,2H,634.911889,Pass,Simple pass,44.0,28.0,34.0,12.0
+23,Opponent4,Opponent4_D5,Opponent4_G1,2H,637.5162610000002,Pass,Simple pass,34.0,12.0,16.0,30.0
+23,Opponent4,Opponent4_G1,Opponent4_D2,2H,643.0915220000002,Pass,Simple pass,16.0,30.0,17.0,84.0
+23,Opponent4,Opponent4_D2,Opponent4_M5,2H,645.832218,Pass,Simple pass,17.0,84.0,32.0,77.0
+23,Opponent4,Opponent4_M5,Opponent4_M3,2H,647.8545140000001,Pass,Simple pass,32.0,77.0,25.0,88.0
+23,Opponent4,Opponent4_M3,Opponent4_M1,2H,648.9297110000002,Pass,Simple pass,25.0,88.0,41.0,73.0
+23,Opponent4,Opponent4_M1,Opponent4_F1,2H,652.3001199999999,Pass,Simple pass,41.0,73.0,57.0,65.0
+23,Opponent4,Opponent4_F1,,2H,653.4595340000001,Duel,Ground attacking duel,57.0,65.0,31.0,55.0
+23,Huskies,Huskies_D3,,2H,654.8480049999998,Duel,Ground defending duel,43.0,35.0,69.0,45.0
+23,Opponent4,Opponent4_D1,,2H,655.4001159999998,Pass,High pass,31.0,55.0,69.0,83.0
+23,Huskies,Huskies_D5,Huskies_M13,2H,657.6042440000001,Pass,Head pass,31.0,17.0,52.0,25.0
+23,Huskies,Huskies_M13,Huskies_D5,2H,658.0434369999998,Pass,Simple pass,52.0,25.0,39.0,14.0
+23,Huskies,Huskies_D5,Huskies_D3,2H,664.9744609999998,Pass,Simple pass,39.0,14.0,25.0,35.0
+23,Huskies,Huskies_D3,Huskies_D6,2H,669.2241359999998,Pass,Simple pass,25.0,35.0,25.0,71.0

@@ -1,0 +1,30 @@
+7,Opponent7,Opponent7_M2,Opponent7_D2,1H,672.610092,Pass,Simple pass,58.0,17.0,62.0,8.0
+7,Opponent7,Opponent7_D2,Opponent7_M2,1H,674.318682,Pass,Simple pass,62.0,8.0,47.0,26.0
+7,Opponent7,Opponent7_M2,Opponent7_D3,1H,676.15384,Pass,Simple pass,47.0,26.0,40.0,66.0
+7,Opponent7,Opponent7_D3,Opponent7_D1,1H,679.961933,Pass,Simple pass,40.0,66.0,30.0,29.0
+7,Opponent7,Opponent7_D1,Opponent7_M2,1H,682.278275,Pass,Simple pass,30.0,29.0,40.0,23.0
+7,Opponent7,Opponent7_M2,Opponent7_M1,1H,684.44486,Pass,Simple pass,40.0,23.0,49.0,21.0
+7,Opponent7,Opponent7_M1,Opponent7_M2,1H,685.941824,Pass,Simple pass,49.0,21.0,35.0,24.0
+7,Opponent7,Opponent7_M2,Opponent7_D1,1H,687.302591,Pass,Simple pass,35.0,24.0,24.0,43.0
+7,Opponent7,Opponent7_D1,Opponent7_G1,1H,690.124991,Pass,Simple pass,24.0,43.0,10.0,56.0
+7,Opponent7,Opponent7_G1,Opponent7_M5,1H,693.041851,Pass,High pass,10.0,56.0,63.0,31.0
+7,Opponent7,Opponent7_M5,,1H,696.473207,Duel,Ground attacking duel,63.0,31.0,71.0,59.0
+7,Huskies,Huskies_M1,,1H,696.723655,Duel,Ground defending duel,37.0,69.0,29.0,41.0
+7,Opponent7,Opponent7_M5,,1H,700.357069,Pass,Smart pass,71.0,59.0,71.0,78.0
+7,Huskies,Huskies_D4,Huskies_F4,1H,703.891931,Pass,Simple pass,29.0,22.0,57.0,4.0
+7,Huskies,Huskies_F4,,1H,706.92032,Duel,Ground attacking duel,57.0,4.0,60.0,6.0
+7,Opponent7,Opponent7_D3,,1H,707.302476,Duel,Ground defending duel,43.0,96.0,40.0,94.0
+7,Opponent7,Opponent7_D3,Opponent7_M3,1H,708.886377,Pass,Simple pass,40.0,94.0,35.0,82.0
+7,Opponent7,Opponent7_M3,Opponent7_D3,1H,710.052881,Pass,Simple pass,35.0,82.0,43.0,98.0
+7,Opponent7,Opponent7_D3,Opponent7_F1,1H,712.140395,Pass,High pass,43.0,98.0,97.0,89.0
+7,Opponent7,Opponent7_F1,Opponent7_M4,1H,717.472117,Pass,Simple pass,97.0,89.0,87.0,75.0
+7,Opponent7,Opponent7_M4,,1H,720.709625,Shot,Shot,87.0,75.0,100.0,100.0
+7,Huskies,Huskies_D2,,1H,722.085514,Others on the ball,Touch,5.0,41.0,13.0,20.0
+7,Opponent7,Opponent7_F1,Opponent7_M4,1H,725.876396,Pass,Simple pass,87.0,80.0,79.0,83.0
+7,Opponent7,Opponent7_M4,Opponent7_M3,1H,727.941948,Pass,Simple pass,79.0,83.0,75.0,82.0
+7,Opponent7,Opponent7_M3,Opponent7_D4,1H,730.539697,Pass,Simple pass,75.0,82.0,93.0,84.0
+7,Opponent7,Opponent7_D4,,1H,732.282397,Pass,Cross,93.0,84.0,93.0,24.0
+7,Huskies,Huskies_D4,,1H,732.667654,Others on the ball,Touch,8.0,17.0,2.0,50.0
+7,Huskies,Huskies_G1,,1H,733.86339,Others on the ball,Touch,2.0,50.0,7.0,76.0
+7,Huskies,Huskies_D5,Huskies_M9,1H,736.033624,Pass,Simple pass,7.0,76.0,24.0,86.0
+7,Huskies,Huskies_M9,,1H,737.086198,Others on the ball,Touch,24.0,86.0,45.0,72.0

@@ -1,0 +1,20 @@
+27,Opponent12,Opponent12_D6,Opponent12_M2,1H,2487.040111,Pass,Simple pass,35.0,22.0,45.0,47.0
+27,Opponent12,Opponent12_M2,Opponent12_D2,1H,2488.643131,Pass,Simple pass,45.0,47.0,44.0,86.0
+27,Opponent12,Opponent12_D2,Opponent12_M2,1H,2492.217005,Pass,Simple pass,44.0,86.0,43.0,63.0
+27,Opponent12,Opponent12_M2,Opponent12_M5,1H,2495.513624,Pass,Simple pass,43.0,63.0,48.0,46.0
+27,Opponent12,Opponent12_M5,Opponent12_M4,1H,2497.561165,Pass,Simple pass,48.0,46.0,58.0,31.0
+27,Opponent12,Opponent12_M4,Opponent12_F2,1H,2500.37614,Pass,Simple pass,58.0,31.0,70.0,29.0
+27,Opponent12,Opponent12_F2,Opponent12_D7,1H,2502.488588,Pass,Simple pass,70.0,29.0,71.0,4.0
+27,Opponent12,Opponent12_D7,,1H,2503.612508,Pass,Smart pass,71.0,4.0,84.0,30.0
+27,Huskies,Huskies_M1,,1H,2504.330098,Pass,Simple pass,16.0,70.0,45.0,94.0
+27,Opponent12,Opponent12_D6,Opponent12_D7,1H,2507.650928,Pass,Simple pass,55.0,6.0,56.0,4.0
+27,Opponent12,Opponent12_D7,Opponent12_M5,1H,2510.655729,Pass,Simple pass,56.0,4.0,52.0,20.0
+27,Opponent12,Opponent12_M5,Opponent12_M2,1H,2512.656037,Pass,Simple pass,52.0,20.0,47.0,52.0
+27,Opponent12,Opponent12_M2,Opponent12_D2,1H,2514.219712,Pass,Simple pass,47.0,52.0,62.0,75.0
+27,Opponent12,Opponent12_D2,,1H,2518.789862,Pass,High pass,62.0,75.0,80.0,51.0
+27,Huskies,Huskies_D1,,1H,2520.238112,Duel,Ground defending duel,20.0,49.0,23.0,36.0
+27,Opponent12,Opponent12_F1,,1H,2522.251932,Duel,Ground attacking duel,80.0,51.0,77.0,64.0
+27,Huskies,Huskies_M1,Huskies_M4,1H,2522.962001,Pass,Simple pass,23.0,36.0,52.0,9.0
+27,Huskies,Huskies_M4,,1H,2528.785668,Duel,Ground attacking duel,52.0,9.0,55.0,7.0
+27,Opponent12,Opponent12_M5,,1H,2529.857695,Duel,Ground defending duel,48.0,91.0,45.0,93.0
+27,Opponent12,Opponent12_M5,,1H,2530.372525,Foul,Foul,45.0,93.0,48.0,91.0

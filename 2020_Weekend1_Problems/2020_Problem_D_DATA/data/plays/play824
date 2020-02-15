@@ -1,0 +1,26 @@
+16,Opponent16,Opponent16_D4,Opponent16_D1,2H,1500.6721829999997,Pass,Simple pass,34.0,61.0,32.0,36.0
+16,Opponent16,Opponent16_D1,Opponent16_F1,2H,1501.738518,Pass,Simple pass,32.0,36.0,59.0,31.0
+16,Opponent16,Opponent16_F1,Opponent16_M1,2H,1502.7678020000003,Pass,Simple pass,59.0,31.0,46.0,54.0
+16,Opponent16,Opponent16_M1,Opponent16_D2,2H,1507.0736349999997,Pass,Simple pass,46.0,54.0,66.0,98.0
+16,Opponent16,Opponent16_D2,Opponent16_F4,2H,1510.4811730000001,Pass,Simple pass,66.0,98.0,93.0,70.0
+16,Opponent16,Opponent16_F4,,2H,1514.320597,Duel,Ground attacking duel,93.0,70.0,87.0,70.0
+16,Huskies,Huskies_D2,,2H,1514.4835510000003,Duel,Ground defending duel,7.0,30.0,13.0,30.0
+16,Opponent16,Opponent16_F4,,2H,1515.962098,Duel,Ground attacking duel,87.0,70.0,87.0,87.0
+16,Huskies,Huskies_M1,,2H,1516.133578,Duel,Ground defending duel,13.0,30.0,13.0,13.0
+16,Huskies,Huskies_M1,,2H,1519.2115889999995,Pass,Simple pass,13.0,13.0,19.0,14.0
+16,Opponent16,Opponent16_F4,Opponent16_D2,2H,1521.1422119999997,Pass,Simple pass,81.0,86.0,78.0,93.0
+16,Opponent16,Opponent16_D2,,2H,1524.1442939999997,Duel,Ground attacking duel,78.0,93.0,81.0,93.0
+16,Huskies,Huskies_M6,,2H,1524.5850289999998,Duel,Ground defending duel,22.0,7.0,19.0,7.0
+16,Opponent16,Opponent16_D2,Opponent16_F4,2H,1525.253678,Pass,Simple pass,81.0,93.0,77.0,89.0
+16,Opponent16,Opponent16_F4,Opponent16_M3,2H,1527.1251069999998,Pass,Simple pass,77.0,89.0,68.0,78.0
+16,Opponent16,Opponent16_M3,Opponent16_D3,2H,1529.6057600000004,Pass,Simple pass,68.0,78.0,60.0,31.0
+16,Opponent16,Opponent16_D3,Opponent16_M3,2H,1533.1068779999996,Pass,Simple pass,60.0,31.0,67.0,75.0
+16,Opponent16,Opponent16_M3,Opponent16_M2,2H,1535.8971849999998,Pass,Simple pass,67.0,75.0,71.0,67.0
+16,Opponent16,Opponent16_M2,Opponent16_D2,2H,1537.0366729999996,Pass,Simple pass,71.0,67.0,62.0,95.0
+16,Opponent16,Opponent16_D2,Opponent16_F4,2H,1538.0740029999997,Pass,Simple pass,62.0,95.0,80.0,94.0
+16,Opponent16,Opponent16_F4,,2H,1539.6066819999996,Duel,Ground attacking duel,80.0,94.0,78.0,90.0
+16,Huskies,Huskies_M6,,2H,1539.654829,Duel,Ground defending duel,20.0,6.0,22.0,10.0
+16,Opponent16,Opponent16_F4,Opponent16_D2,2H,1541.3599729999996,Pass,Simple pass,78.0,90.0,65.0,87.0
+16,Opponent16,Opponent16_D2,Opponent16_M1,2H,1543.3339859999996,Pass,Simple pass,65.0,87.0,68.0,56.0
+16,Opponent16,Opponent16_M1,Opponent16_M2,2H,1544.3151090000001,Pass,Simple pass,68.0,56.0,81.0,72.0
+16,Opponent16,Opponent16_M2,,2H,1546.6167500000001,Offside,,81.0,72.0,0.0,0.0

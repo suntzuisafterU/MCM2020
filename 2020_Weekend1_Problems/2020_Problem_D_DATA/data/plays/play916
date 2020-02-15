@@ -1,0 +1,19 @@
+18,Opponent18,Opponent18_M2,,1H,1186.009016,Duel,Air duel,57.0,74.0,71.0,90.0
+18,Huskies,Huskies_M3,,1H,1186.367304,Duel,Air duel,43.0,26.0,29.0,10.0
+18,Opponent18,Opponent18_M3,,1H,1188.154047,Duel,Ground attacking duel,71.0,90.0,76.0,93.0
+18,Huskies,Huskies_D5,,1H,1188.318824,Duel,Ground defending duel,29.0,10.0,24.0,7.0
+18,Huskies,Huskies_D5,,1H,1190.406396,Pass,Simple pass,24.0,7.0,34.0,16.0
+18,Opponent18,Opponent18_D3,Opponent18_M2,1H,1192.51391,Pass,Simple pass,66.0,84.0,64.0,65.0
+18,Opponent18,Opponent18_M2,Opponent18_D2,1H,1193.565914,Pass,Simple pass,64.0,65.0,30.0,72.0
+18,Opponent18,Opponent18_D2,Opponent18_G1,1H,1196.954159,Pass,Simple pass,30.0,72.0,11.0,44.0
+18,Opponent18,Opponent18_G1,Opponent18_D1,1H,1199.182621,Pass,Simple pass,11.0,44.0,20.0,19.0
+18,Opponent18,Opponent18_D1,Opponent18_G1,1H,1201.239259,Pass,Simple pass,20.0,19.0,2.0,47.0
+18,Opponent18,Opponent18_G1,Opponent18_D2,1H,1203.807422,Pass,Simple pass,2.0,47.0,10.0,84.0
+18,Opponent18,Opponent18_D2,Opponent18_M4,1H,1206.300492,Pass,Simple pass,10.0,84.0,37.0,70.0
+18,Opponent18,Opponent18_M4,Opponent18_F2,1H,1210.97042,Pass,Simple pass,37.0,70.0,51.0,78.0
+18,Opponent18,Opponent18_F2,Opponent18_M2,1H,1212.864166,Pass,Simple pass,51.0,78.0,45.0,75.0
+18,Opponent18,Opponent18_M2,Opponent18_M1,1H,1215.950266,Pass,Simple pass,45.0,75.0,41.0,35.0
+18,Opponent18,Opponent18_M1,Opponent18_M5,1H,1218.125903,Pass,Simple pass,41.0,35.0,68.0,10.0
+18,Opponent18,Opponent18_M5,,1H,1221.362601,Pass,Simple pass,68.0,10.0,83.0,13.0
+18,Huskies,Huskies_D6,,1H,1223.579225,Others on the ball,Clearance,17.0,87.0,16.0,100.0
+18,Opponent18,Opponent18_D4,,1H,1242.983253,Free Kick,Throw in,84.0,0.0,85.0,5.0

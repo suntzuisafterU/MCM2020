@@ -1,0 +1,25 @@
+24,Huskies,Huskies_D7,Huskies_F6,1H,1309.361111,Pass,Simple pass,71.0,87.0,73.0,90.0
+24,Huskies,Huskies_F6,Huskies_M13,1H,1312.728916,Pass,Simple pass,73.0,90.0,68.0,76.0
+24,Huskies,Huskies_M13,Huskies_D7,1H,1313.902339,Pass,Simple pass,68.0,76.0,69.0,76.0
+24,Huskies,Huskies_D7,Huskies_M3,1H,1316.945638,Pass,Simple pass,69.0,76.0,54.0,68.0
+24,Huskies,Huskies_M3,,1H,1317.899725,Others on the ball,Touch,54.0,68.0,66.0,39.0
+24,Huskies,Huskies_M3,Huskies_M13,1H,1322.539558,Pass,Simple pass,66.0,39.0,72.0,55.0
+24,Huskies,Huskies_M13,,1H,1324.034675,Duel,Ground attacking duel,72.0,55.0,70.0,21.0
+24,Opponent19,Opponent19_M5,,1H,1324.288423,Duel,Ground defending duel,28.0,45.0,30.0,79.0
+24,Huskies,Huskies_M13,Huskies_D5,1H,1330.563829,Pass,Simple pass,70.0,21.0,77.0,4.0
+24,Huskies,Huskies_D5,Huskies_M13,1H,1333.354373,Pass,Simple pass,77.0,4.0,74.0,14.0
+24,Huskies,Huskies_M13,,1H,1335.248892,Pass,Cross,74.0,14.0,0.0,0.0
+24,Opponent19,Opponent19_G1,,1H,1336.769925,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,26.0,86.0
+24,Opponent19,Opponent19_G1,Opponent19_M5,1H,1339.117478,Pass,Hand pass,13.0,42.0,31.0,46.0
+24,Opponent19,Opponent19_M5,,1H,1343.12189,Pass,High pass,31.0,46.0,86.0,96.0
+24,Huskies,Huskies_G1,,1H,1350.088183,Pass,Launch,14.0,4.0,64.0,24.0
+24,Opponent19,Opponent19_D2,,1H,1353.614262,Duel,Air duel,36.0,76.0,42.0,67.0
+24,Huskies,Huskies_F5,,1H,1353.994385,Duel,Air duel,64.0,24.0,58.0,33.0
+24,Opponent19,Opponent19_M1,,1H,1355.394989,Pass,Head pass,42.0,67.0,38.0,66.0
+24,Huskies,Huskies_M6,,1H,1355.709792,Duel,Ground defending duel,62.0,34.0,79.0,31.0
+24,Opponent19,Opponent19_D3,,1H,1359.303468,Duel,Ground defending duel,21.0,69.0,15.0,62.0
+24,Huskies,Huskies_M6,,1H,1359.746491,Duel,Ground attacking duel,79.0,31.0,85.0,38.0
+24,Huskies,Huskies_M6,,1H,1361.30946,Pass,Simple pass,85.0,38.0,85.0,34.0
+24,Opponent19,Opponent19_M5,,1H,1361.493622,Duel,Ground defending duel,15.0,66.0,11.0,61.0
+24,Opponent19,Opponent19_G1,Opponent19_G1,1H,1379.126676,Pass,Hand pass,11.0,61.0,16.0,100.0
+24,Opponent19,Opponent19_G1,,1H,1465.954998,Pass,Launch,15.0,52.0,68.0,63.0

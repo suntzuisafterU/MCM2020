@@ -1,0 +1,18 @@
+17,Huskies,Huskies_D5,Huskies_M6,1H,2014.9956710000001,Pass,Simple pass,39.0,13.0,44.0,6.0
+17,Huskies,Huskies_M6,Huskies_M1,1H,2015.340337,Pass,Simple pass,44.0,6.0,55.0,12.0
+17,Huskies,Huskies_M1,,1H,2017.6878299999998,Others on the ball,Acceleration,55.0,12.0,73.0,29.0
+17,Huskies,Huskies_M1,,1H,2020.0341119999998,Duel,Ground attacking duel,73.0,29.0,78.0,23.0
+17,Opponent17,Opponent17_M1,,1H,2020.3992979999998,Duel,Ground defending duel,27.0,71.0,22.0,77.0
+17,Huskies,Huskies_M1,,1H,2022.277979,Pass,Smart pass,78.0,23.0,88.0,56.0
+17,Opponent17,Opponent17_D4,,1H,2024.464857,Others on the ball,Clearance,12.0,44.0,45.0,87.0
+17,Huskies,Huskies_D5,Huskies_M3,1H,2026.8696009999999,Pass,Head pass,55.0,13.0,59.0,34.0
+17,Huskies,Huskies_M3,Huskies_D5,1H,2028.414588,Pass,Simple pass,59.0,34.0,55.0,13.0
+17,Huskies,Huskies_D5,Huskies_D6,1H,2029.899632,Pass,Simple pass,55.0,13.0,35.0,46.0
+17,Huskies,Huskies_D6,Huskies_D2,1H,2031.439667,Pass,Simple pass,35.0,46.0,34.0,16.0
+17,Huskies,Huskies_D2,Huskies_D5,1H,2033.992358,Pass,Simple pass,34.0,16.0,47.0,7.0
+17,Huskies,Huskies_D5,Huskies_D2,1H,2036.258331,Pass,Simple pass,47.0,7.0,36.0,24.0
+17,Huskies,Huskies_D2,,1H,2040.833039,Pass,High pass,36.0,24.0,74.0,41.0
+17,Opponent17,Opponent17_D1,Opponent17_M1,1H,2043.650948,Pass,Head pass,26.0,59.0,39.0,54.0
+17,Opponent17,Opponent17_M1,Opponent17_M3,1H,2045.2255989999999,Pass,Simple pass,39.0,54.0,55.0,71.0
+17,Opponent17,Opponent17_M3,Opponent17_M4,1H,2046.9907640000001,Pass,Simple pass,55.0,71.0,57.0,68.0
+17,Opponent17,Opponent17_M4,Opponent17_M5,1H,2050.908585,Pass,Simple pass,57.0,68.0,41.0,61.0

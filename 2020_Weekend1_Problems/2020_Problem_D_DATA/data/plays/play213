@@ -1,0 +1,14 @@
+4,Huskies,Huskies_D1,,2H,958.2284319999999,Duel,Air duel,31.0,93.0,46.0,98.0
+4,Opponent4,Opponent4_F1,,2H,958.661814,Duel,Air duel,69.0,7.0,54.0,2.0
+4,Opponent4,Opponent4_M1,Opponent4_D5,2H,961.1954380000002,Pass,Simple pass,54.0,2.0,40.0,2.0
+4,Opponent4,Opponent4_D5,Opponent4_M3,2H,962.1355359999998,Pass,Simple pass,40.0,2.0,40.0,17.0
+4,Opponent4,Opponent4_M3,Opponent4_D2,2H,963.3802129999999,Pass,Simple pass,40.0,17.0,27.0,26.0
+4,Opponent4,Opponent4_D2,Opponent4_D4,2H,965.7594720000002,Pass,Simple pass,27.0,26.0,35.0,83.0
+4,Opponent4,Opponent4_D4,,2H,968.5328800000002,Others on the ball,Touch,35.0,83.0,53.0,80.0
+4,Opponent4,Opponent4_D4,Opponent4_M2,2H,971.5114039999999,Pass,Simple pass,53.0,80.0,77.0,79.0
+4,Opponent4,Opponent4_M2,Opponent4_D4,2H,976.7009629999998,Pass,Simple pass,77.0,79.0,76.0,92.0
+4,Opponent4,Opponent4_D4,Opponent4_F1,2H,979.3239899999999,Pass,Smart pass,76.0,92.0,91.0,75.0
+4,Opponent4,Opponent4_F1,,2H,981.6952500000002,Others on the ball,Touch,91.0,75.0,85.0,88.0
+4,Huskies,Huskies_D1,,2H,986.1655689999998,Duel,Ground defending duel,15.0,12.0,23.0,0.0
+4,Opponent4,Opponent4_F1,,2H,986.6130969999999,Duel,Ground attacking duel,85.0,88.0,77.0,100.0
+4,Opponent4,Opponent4_D4,,2H,993.1936759999999,Free Kick,Throw in,77.0,100.0,75.0,86.0

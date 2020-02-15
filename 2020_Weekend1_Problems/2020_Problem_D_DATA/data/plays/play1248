@@ -1,0 +1,12 @@
+26,Huskies,Huskies_D5,Huskies_M1,2H,2005.5174969999998,Pass,Simple pass,62.0,8.0,62.0,19.0
+26,Huskies,Huskies_M1,Huskies_D9,2H,2007.3920779999999,Pass,Simple pass,62.0,19.0,46.0,41.0
+26,Huskies,Huskies_D9,Huskies_D7,2H,2009.8595759999998,Pass,Simple pass,46.0,41.0,60.0,89.0
+26,Huskies,Huskies_D7,Huskies_M12,2H,2013.5224230000003,Pass,Simple pass,60.0,89.0,70.0,91.0
+26,Huskies,Huskies_M12,Huskies_D7,2H,2015.1135000000004,Pass,Simple pass,70.0,91.0,64.0,83.0
+26,Huskies,Huskies_D7,,2H,2017.4770170000002,Pass,High pass,64.0,83.0,82.0,40.0
+26,Opponent9,Opponent9_D6,,2H,2019.919903,Duel,Air duel,18.0,60.0,2.0,66.0
+26,Huskies,Huskies_F1,,2H,2019.9384899999995,Duel,Air duel,82.0,40.0,98.0,34.0
+26,Opponent9,Opponent9_G2,,2H,2024.7120839999998,Others on the ball,Touch,2.0,66.0,24.0,34.0
+26,Opponent9,Opponent9_D3,Opponent9_M4,2H,2036.7970160000004,Pass,Simple pass,24.0,34.0,38.0,51.0
+26,Opponent9,Opponent9_M4,Opponent9_D3,2H,2038.5574749999996,Pass,Simple pass,38.0,51.0,25.0,30.0
+26,Opponent9,Opponent9_D3,,2H,2042.9778910000005,Others on the ball,Touch,25.0,30.0,41.0,28.0

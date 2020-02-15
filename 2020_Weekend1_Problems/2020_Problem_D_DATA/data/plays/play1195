@@ -1,0 +1,14 @@
+24,Huskies,Huskies_D2,Huskies_M3,1H,1853.31802,Pass,Simple pass,41.0,37.0,36.0,20.0
+24,Huskies,Huskies_M3,Huskies_D5,1H,1855.012017,Pass,Simple pass,36.0,20.0,37.0,7.0
+24,Huskies,Huskies_D5,Huskies_D2,1H,1855.989391,Pass,Simple pass,37.0,7.0,31.0,35.0
+24,Huskies,Huskies_D2,Huskies_D6,1H,1858.04027,Pass,Simple pass,31.0,35.0,40.0,62.0
+24,Huskies,Huskies_D6,Huskies_D7,1H,1861.221238,Pass,Simple pass,40.0,62.0,44.0,89.0
+24,Huskies,Huskies_D7,,1H,1863.631783,Pass,High pass,44.0,89.0,83.0,83.0
+24,Opponent19,Opponent19_G1,Opponent19_F2,1H,1881.657385,Pass,Launch,17.0,17.0,68.0,42.0
+24,Opponent19,Opponent19_F2,,1H,1885.432757,Duel,Ground loose ball duel,68.0,42.0,68.0,41.0
+24,Opponent19,Opponent19_F2,,1H,1885.6389519999998,Duel,Ground loose ball duel,68.0,41.0,77.0,26.0
+24,Huskies,Huskies_D6,,1H,1885.969932,Duel,Ground loose ball duel,32.0,58.0,32.0,59.0
+24,Huskies,Huskies_M3,,1H,1886.084876,Duel,Ground loose ball duel,32.0,59.0,23.0,74.0
+24,Opponent19,Opponent19_F1,Opponent19_M3,1H,1889.456847,Pass,Simple pass,77.0,26.0,75.0,12.0
+24,Opponent19,Opponent19_M3,,1H,1890.862948,Duel,Ground attacking duel,75.0,12.0,76.0,19.0
+24,Opponent19,Opponent19_M3,,1H,1891.0982250000002,Pass,Simple pass,76.0,19.0,86.0,5.0

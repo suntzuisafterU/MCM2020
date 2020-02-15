@@ -1,0 +1,52 @@
+26,Opponent9,Opponent9_M1,Opponent9_D6,1H,1479.451492,Pass,Simple pass,35.0,34.0,18.0,59.0
+26,Opponent9,Opponent9_D6,Opponent9_M3,1H,1488.148514,Pass,Simple pass,18.0,59.0,28.0,38.0
+26,Opponent9,Opponent9_M3,Opponent9_M6,1H,1490.366401,Pass,Simple pass,28.0,38.0,38.0,1.0
+26,Opponent9,Opponent9_M6,,1H,1491.582061,Others on the ball,Touch,38.0,1.0,33.0,4.0
+26,Opponent9,Opponent9_D2,Opponent9_M6,1H,1492.657563,Pass,Simple pass,33.0,4.0,30.0,14.0
+26,Opponent9,Opponent9_M6,,1H,1495.53139,Pass,Simple pass,30.0,14.0,43.0,20.0
+26,Huskies,Huskies_M1,,1H,1496.421549,Others on the ball,Touch,57.0,80.0,59.0,76.0
+26,Opponent9,Opponent9_M1,,1H,1497.218309,Pass,Simple pass,41.0,24.0,24.0,41.0
+26,Huskies,Huskies_F4,,1H,1498.31891,Duel,Ground loose ball duel,76.0,59.0,70.0,46.0
+26,Opponent9,Opponent9_D3,,1H,1498.583646,Duel,Ground loose ball duel,24.0,41.0,30.0,54.0
+26,Huskies,Huskies_M12,,1H,1501.285895,Others on the ball,Acceleration,70.0,46.0,87.0,36.0
+26,Opponent9,Opponent9_D5,Opponent9_D6,1H,1502.645879,Pass,Simple pass,13.0,64.0,9.0,47.0
+26,Opponent9,Opponent9_D6,,1H,1503.354885,Others on the ball,Clearance,9.0,47.0,14.0,87.0
+26,Huskies,Huskies_M12,,1H,1510.598077,Duel,Ground attacking duel,86.0,13.0,92.0,12.0
+26,Opponent9,Opponent9_D5,,1H,1511.340564,Duel,Ground defending duel,14.0,87.0,8.0,88.0
+26,Huskies,Huskies_M12,,1H,1511.748782,Pass,Cross,92.0,12.0,94.0,56.0
+26,Opponent9,Opponent9_D6,,1H,1512.14532,Others on the ball,Touch,8.0,59.0,6.0,44.0
+26,Opponent9,Opponent9_D3,Opponent9_D3,1H,1513.002477,Pass,Head pass,6.0,44.0,6.0,45.0
+26,Opponent9,Opponent9_D3,,1H,1513.145747,Others on the ball,Clearance,6.0,45.0,5.0,83.0
+26,Opponent9,Opponent9_D5,,1H,1514.136634,Others on the ball,Touch,5.0,83.0,37.0,54.0
+26,Opponent9,Opponent9_D5,Opponent9_M3,1H,1521.716051,Pass,Simple pass,37.0,54.0,32.0,65.0
+26,Opponent9,Opponent9_M3,Opponent9_M2,1H,1522.366273,Pass,Simple pass,32.0,65.0,36.0,41.0
+26,Opponent9,Opponent9_M2,Opponent9_M6,1H,1525.242513,Pass,Simple pass,36.0,41.0,44.0,16.0
+26,Opponent9,Opponent9_M6,Opponent9_F3,1H,1527.7478,Pass,Simple pass,44.0,16.0,76.0,18.0
+26,Opponent9,Opponent9_F3,Opponent9_M6,1H,1531.485748,Pass,Simple pass,76.0,18.0,65.0,4.0
+26,Opponent9,Opponent9_M6,Opponent9_M2,1H,1533.439811,Pass,Simple pass,65.0,4.0,63.0,26.0
+26,Opponent9,Opponent9_M2,Opponent9_D2,1H,1535.093381,Pass,Simple pass,63.0,26.0,48.0,12.0
+26,Opponent9,Opponent9_D2,Opponent9_M3,1H,1536.656383,Pass,Simple pass,48.0,12.0,56.0,37.0
+26,Opponent9,Opponent9_M3,Opponent9_D2,1H,1537.715272,Pass,Simple pass,56.0,37.0,50.0,13.0
+26,Opponent9,Opponent9_D2,Opponent9_D3,1H,1538.900486,Pass,Simple pass,50.0,13.0,36.0,40.0
+26,Opponent9,Opponent9_D3,Opponent9_D6,1H,1541.373379,Pass,Simple pass,36.0,40.0,33.0,69.0
+26,Opponent9,Opponent9_D6,Opponent9_D5,1H,1543.855444,Pass,Simple pass,33.0,69.0,61.0,81.0
+26,Opponent9,Opponent9_D5,Opponent5_M3,1H,1546.944591,Pass,Simple pass,61.0,81.0,68.0,94.0
+26,Opponent9,Opponent5_M3,Opponent9_D5,1H,1547.845714,Pass,Simple pass,68.0,94.0,54.0,79.0
+26,Opponent9,Opponent9_D5,Opponent5_M3,1H,1549.916853,Pass,Simple pass,54.0,79.0,61.0,77.0
+26,Opponent9,Opponent5_M3,Opponent9_D3,1H,1550.622872,Pass,Simple pass,61.0,77.0,49.0,29.0
+26,Opponent9,Opponent9_D3,Opponent9_D2,1H,1554.884235,Pass,Simple pass,49.0,29.0,52.0,10.0
+26,Opponent9,Opponent9_D2,Opponent9_M1,1H,1556.423747,Pass,Simple pass,52.0,10.0,54.0,25.0
+26,Opponent9,Opponent9_M1,Opponent9_M3,1H,1562.145707,Pass,Simple pass,54.0,25.0,64.0,33.0
+26,Opponent9,Opponent9_M3,Opponent9_M1,1H,1563.478665,Pass,Simple pass,64.0,33.0,54.0,20.0
+26,Opponent9,Opponent9_M1,Opponent9_D3,1H,1564.936213,Pass,Simple pass,54.0,20.0,37.0,36.0
+26,Opponent9,Opponent9_D3,Opponent9_M1,1H,1568.488773,Pass,Simple pass,37.0,36.0,42.0,19.0
+26,Opponent9,Opponent9_M1,Opponent9_D2,1H,1570.273569,Pass,Simple pass,42.0,19.0,63.0,6.0
+26,Opponent9,Opponent9_D2,Opponent9_M1,1H,1572.444885,Pass,Simple pass,63.0,6.0,38.0,21.0
+26,Opponent9,Opponent9_M1,Opponent9_D6,1H,1576.142941,Pass,Simple pass,38.0,21.0,33.0,71.0
+26,Opponent9,Opponent9_D6,,1H,1577.134661,Others on the ball,Touch,33.0,71.0,57.0,77.0
+26,Opponent9,Opponent9_D6,Opponent9_M2,1H,1581.31513,Pass,Simple pass,57.0,77.0,76.0,66.0
+26,Opponent9,Opponent9_M2,,1H,1582.390504,Pass,Simple pass,76.0,66.0,72.0,65.0
+26,Huskies,Huskies_D9,Huskies_F4,1H,1583.656273,Pass,Simple pass,28.0,35.0,48.0,44.0
+26,Huskies,Huskies_F4,Huskies_F6,1H,1585.22751,Pass,Simple pass,48.0,44.0,55.0,59.0
+26,Huskies,Huskies_F6,,1H,1586.330279,Others on the ball,Acceleration,55.0,59.0,89.0,38.0
+26,Huskies,Huskies_F6,,1H,1590.507977,Duel,Ground attacking duel,89.0,38.0,88.0,44.0

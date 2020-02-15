@@ -1,0 +1,49 @@
+17,Opponent17,Opponent17_D3,Opponent17_M1,1H,853.5788130000001,Pass,Simple pass,54.0,7.0,66.0,12.0
+17,Opponent17,Opponent17_M1,Opponent17_D3,1H,854.8030610000001,Pass,Simple pass,66.0,12.0,51.0,16.0
+17,Opponent17,Opponent17_D3,Opponent17_M1,1H,857.1957560000001,Pass,Simple pass,51.0,16.0,64.0,9.0
+17,Opponent17,Opponent17_M1,Opponent17_D3,1H,859.1448849999999,Pass,Simple pass,64.0,9.0,43.0,20.0
+17,Opponent17,Opponent17_D3,Opponent17_M4,1H,861.4795079999999,Pass,High pass,43.0,20.0,72.0,93.0
+17,Opponent17,Opponent17_M4,Opponent17_D2,1H,866.2618829999999,Pass,Simple pass,72.0,93.0,61.0,86.0
+17,Opponent17,Opponent17_D2,Opponent17_M5,1H,867.8655229999999,Pass,Simple pass,61.0,86.0,70.0,71.0
+17,Opponent17,Opponent17_M5,Opponent17_M3,1H,870.476083,Pass,Simple pass,70.0,71.0,88.0,88.0
+17,Opponent17,Opponent17_M3,,1H,874.9523240000001,Pass,Simple pass,88.0,88.0,88.0,72.0
+17,Huskies,Huskies_D5,Huskies_F2,1H,875.932556,Pass,Simple pass,12.0,28.0,20.0,32.0
+17,Huskies,Huskies_F2,,1H,878.046274,Pass,Simple pass,20.0,32.0,20.0,50.0
+17,Opponent17,Opponent17_F1,,1H,879.377252,Duel,Ground defending duel,80.0,50.0,67.0,58.0
+17,Opponent17,Opponent17_M1,Opponent17_M4,1H,881.165857,Pass,Simple pass,67.0,58.0,78.0,64.0
+17,Opponent17,Opponent17_M4,Opponent17_M3,1H,882.3000529999999,Pass,Simple pass,78.0,64.0,89.0,79.0
+17,Opponent17,Opponent17_M3,Opponent17_M2,1H,884.680106,Pass,Cross,89.0,79.0,94.0,37.0
+17,Opponent17,Opponent17_M2,,1H,886.129185,Duel,Air duel,94.0,37.0,88.0,6.0
+17,Huskies,Huskies_D7,,1H,886.2416430000001,Duel,Air duel,6.0,63.0,12.0,94.0
+17,Opponent17,Opponent17_D4,Opponent17_M1,1H,892.0319689999999,Pass,Simple pass,88.0,6.0,73.0,7.0
+17,Opponent17,Opponent17_M1,Opponent17_M5,1H,894.265629,Pass,Simple pass,73.0,7.0,71.0,27.0
+17,Opponent17,Opponent17_M5,,1H,897.109606,Pass,Cross,71.0,27.0,93.0,67.0
+17,Huskies,Huskies_D5,,1H,898.9224569999999,Others on the ball,Clearance,7.0,33.0,30.0,36.0
+17,Opponent17,Opponent17_D2,Opponent17_M5,1H,901.788704,Pass,Head pass,70.0,64.0,71.0,43.0
+17,Opponent17,Opponent17_M5,Opponent17_M1,1H,905.73489,Pass,Simple pass,71.0,43.0,66.0,50.0
+17,Opponent17,Opponent17_M1,Opponent17_M3,1H,906.8173959999999,Pass,Simple pass,66.0,50.0,87.0,85.0
+17,Opponent17,Opponent17_M3,Opponent17_M4,1H,914.059334,Pass,Simple pass,87.0,85.0,73.0,53.0
+17,Opponent17,Opponent17_M4,,1H,916.907334,Pass,Simple pass,73.0,53.0,79.0,55.0
+17,Huskies,Huskies_M1,,1H,917.1988590000001,Duel,Ground loose ball duel,21.0,45.0,28.0,39.0
+17,Opponent17,Opponent17_M1,Opponent17_M5,1H,924.223909,Pass,Simple pass,72.0,61.0,67.0,49.0
+17,Opponent17,Opponent17_M5,,1H,928.0253359999999,Shot,Shot,67.0,49.0,0.0,0.0
+17,Huskies,Huskies_D2,,1H,929.6225280000001,Others on the ball,Clearance,11.0,43.0,26.0,27.0
+17,Opponent17,Opponent17_M1,,1H,930.2068630000001,Duel,Ground loose ball duel,74.0,73.0,65.0,63.0
+17,Huskies,Huskies_F2,,1H,931.3356269999999,Duel,Ground loose ball duel,26.0,27.0,35.0,37.0
+17,Opponent17,Opponent17_M5,,1H,933.387197,Pass,Simple pass,65.0,63.0,93.0,94.0
+17,Huskies,Huskies_M6,,1H,938.140555,Duel,Ground defending duel,7.0,6.0,4.0,7.0
+17,Opponent17,Opponent17_M1,,1H,938.252802,Duel,Ground attacking duel,93.0,94.0,96.0,93.0
+17,Opponent17,Opponent17_M1,,1H,939.362108,Pass,Cross,96.0,93.0,96.0,63.0
+17,Huskies,Huskies_D2,,1H,941.539687,Others on the ball,Clearance,4.0,37.0,11.0,20.0
+17,Huskies,Huskies_M3,Huskies_F1,1H,944.1082220000001,Pass,High pass,11.0,20.0,44.0,25.0
+17,Huskies,Huskies_F1,,1H,947.177559,Duel,Ground attacking duel,44.0,25.0,37.0,30.0
+17,Opponent17,Opponent17_D1,,1H,947.264835,Duel,Ground defending duel,56.0,75.0,63.0,70.0
+17,Huskies,Huskies_F1,,1H,948.6028980000001,Duel,Ground defending duel,37.0,30.0,42.0,32.0
+17,Opponent17,Opponent17_M5,,1H,948.734864,Duel,Ground attacking duel,63.0,70.0,58.0,68.0
+17,Opponent17,Opponent17_D2,Opponent17_D1,1H,950.343269,Pass,Simple pass,58.0,68.0,41.0,73.0
+17,Opponent17,Opponent17_D1,Opponent17_G1,1H,954.2889050000001,Pass,Simple pass,41.0,73.0,19.0,59.0
+17,Opponent17,Opponent17_G1,,1H,958.566859,Pass,Launch,19.0,59.0,66.0,24.0
+17,Huskies,Huskies_D6,,1H,962.4074430000001,Duel,Air duel,34.0,76.0,20.0,95.0
+17,Huskies,Huskies_D7,,1H,965.4794830000001,Pass,Launch,20.0,95.0,22.0,92.0
+17,Opponent17,Opponent17_M2,,1H,967.544488,Others on the ball,Touch,78.0,8.0,83.0,0.0
+17,Huskies,Huskies_D7,,1H,986.5153929999999,Free Kick,Throw in,21.0,100.0,36.0,95.0

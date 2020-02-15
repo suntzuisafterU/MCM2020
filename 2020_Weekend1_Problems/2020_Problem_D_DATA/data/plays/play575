@@ -1,0 +1,16 @@
+12,Opponent12,Opponent12_D3,Opponent12_M4,1H,2046.1702959999998,Pass,Simple pass,31.0,23.0,38.0,24.0
+12,Opponent12,Opponent12_M4,Opponent12_D3,1H,2047.8921799999998,Pass,Simple pass,38.0,24.0,35.0,14.0
+12,Opponent12,Opponent12_D3,Opponent12_M2,1H,2049.70362,Pass,Simple pass,35.0,14.0,58.0,16.0
+12,Opponent12,Opponent12_M2,Opponent12_M5,1H,2050.380047,Pass,Simple pass,58.0,16.0,40.0,59.0
+12,Opponent12,Opponent12_M5,Opponent12_D1,1H,2054.129661,Pass,Simple pass,40.0,59.0,62.0,69.0
+12,Opponent12,Opponent12_D1,Opponent12_M6,1H,2057.718962,Pass,Simple pass,62.0,69.0,74.0,45.0
+12,Opponent12,Opponent12_M6,Opponent12_M3,1H,2058.748975,Pass,Simple pass,74.0,45.0,69.0,59.0
+12,Opponent12,Opponent12_M3,Opponent12_D2,1H,2060.445069,Pass,Smart pass,69.0,59.0,90.0,87.0
+12,Opponent12,Opponent12_D2,Opponent12_M6,1H,2062.426602,Pass,Cross,90.0,87.0,94.0,46.0
+12,Opponent12,Opponent12_M6,,1H,2063.607796,Shot,Shot,94.0,46.0,0.0,0.0
+12,Huskies,Huskies_G1,,1H,2066.818641,Save attempt,Reflexes,100.0,100.0,6.0,54.0
+12,Huskies,Huskies_D3,,1H,2123.070458,Pass,High pass,35.0,61.0,69.0,31.0
+12,Opponent12,Opponent12_D1,,1H,2125.313596,Duel,Air duel,31.0,69.0,56.0,71.0
+12,Huskies,Huskies_F4,,1H,2125.313596,Duel,Air duel,69.0,31.0,44.0,29.0
+12,Huskies,Huskies_D1,Huskies_F4,1H,2127.524637,Pass,Head pass,44.0,29.0,100.0,100.0
+12,Huskies,Huskies_F4,,1H,2132.307584,Interruption,Whistle,100.0,100.0,100.0,100.0

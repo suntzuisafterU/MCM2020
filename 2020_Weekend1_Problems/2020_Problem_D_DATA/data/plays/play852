@@ -1,0 +1,14 @@
+17,Opponent17,Opponent17_M5,Opponent17_M4,1H,1238.499454,Pass,Simple pass,55.0,80.0,67.0,82.0
+17,Opponent17,Opponent17_M4,Opponent17_M5,1H,1241.457854,Pass,Simple pass,67.0,82.0,57.0,86.0
+17,Opponent17,Opponent17_M5,Opponent17_M4,1H,1243.224403,Pass,Simple pass,57.0,86.0,58.0,76.0
+17,Opponent17,Opponent17_M4,Opponent17_D1,1H,1245.649137,Pass,Simple pass,58.0,76.0,30.0,86.0
+17,Opponent17,Opponent17_D1,Opponent17_G1,1H,1247.521932,Pass,Simple pass,30.0,86.0,19.0,60.0
+17,Opponent17,Opponent17_G1,Opponent17_D1,1H,1251.200595,Pass,Simple pass,19.0,60.0,35.0,77.0
+17,Opponent17,Opponent17_D1,Opponent17_F1,1H,1255.359558,Pass,Simple pass,35.0,77.0,68.0,53.0
+17,Opponent17,Opponent17_F1,,1H,1256.762735,Pass,Smart pass,68.0,53.0,75.0,66.0
+17,Huskies,Huskies_D2,,1H,1258.059317,Pass,Launch,25.0,34.0,61.0,26.0
+17,Opponent17,Opponent17_D3,,1H,1260.281339,Duel,Air duel,39.0,74.0,49.0,73.0
+17,Huskies,Huskies_F1,,1H,1260.820564,Duel,Air duel,61.0,26.0,51.0,27.0
+17,Huskies,Huskies_F2,Huskies_M1,1H,1263.25225,Pass,Simple pass,51.0,27.0,48.0,40.0
+17,Huskies,Huskies_M1,Huskies_F2,1H,1265.224388,Pass,Simple pass,48.0,40.0,52.0,40.0
+17,Huskies,Huskies_F2,Huskies_D7,1H,1267.11193,Pass,Simple pass,52.0,40.0,45.0,92.0

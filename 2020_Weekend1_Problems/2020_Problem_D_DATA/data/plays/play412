@@ -1,0 +1,15 @@
+8,Huskies,Huskies_D6,Huskies_M1,1H,610.694791,Pass,Simple pass,60.0,94.0,58.0,64.0
+8,Huskies,Huskies_M1,Huskies_F2,1H,614.25119,Pass,Simple pass,58.0,64.0,71.0,52.0
+8,Huskies,Huskies_F2,Huskies_D1,1H,615.189309,Pass,Simple pass,71.0,52.0,45.0,68.0
+8,Huskies,Huskies_D1,Huskies_D3,1H,617.279584,Pass,Simple pass,45.0,68.0,49.0,43.0
+8,Huskies,Huskies_D3,Huskies_D4,1H,620.953322,Pass,Simple pass,49.0,43.0,54.0,6.0
+8,Huskies,Huskies_D4,Huskies_M3,1H,624.179772,Pass,Simple pass,54.0,6.0,58.0,18.0
+8,Huskies,Huskies_M3,Huskies_D4,1H,625.204452,Pass,Simple pass,58.0,18.0,44.0,9.0
+8,Huskies,Huskies_D4,Huskies_M3,1H,627.156371,Pass,Simple pass,44.0,9.0,53.0,25.0
+8,Huskies,Huskies_M3,Huskies_D4,1H,628.744582,Pass,Simple pass,53.0,25.0,47.0,9.0
+8,Huskies,Huskies_D4,Huskies_M3,1H,630.243969,Pass,Simple pass,47.0,9.0,55.0,25.0
+8,Huskies,Huskies_M3,,1H,633.132089,Pass,High pass,55.0,25.0,86.0,59.0
+8,Opponent8,Opponent8_G1,Opponent8_D3,1H,637.395923,Pass,Hand pass,14.0,41.0,26.0,31.0
+8,Opponent8,Opponent8_D3,Opponent8_M1,1H,643.00875,Pass,Simple pass,26.0,31.0,33.0,58.0
+8,Opponent8,Opponent8_M1,Opponent8_D2,1H,645.088496,Pass,Simple pass,33.0,58.0,25.0,81.0
+8,Opponent8,Opponent8_D2,Opponent8_M5,1H,647.964233,Pass,Simple pass,25.0,81.0,46.0,94.0

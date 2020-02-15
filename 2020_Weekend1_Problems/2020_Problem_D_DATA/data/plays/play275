@@ -1,0 +1,25 @@
+5,Opponent5,Opponent5_D4,Opponent5_D1,1H,2495.502509,Pass,Simple pass,36.0,62.0,33.0,33.0
+5,Opponent5,Opponent5_D1,Opponent5_M1,1H,2498.123129,Pass,Simple pass,33.0,33.0,42.0,39.0
+5,Opponent5,Opponent5_M1,Opponent5_D3,1H,2501.032169,Pass,Simple pass,42.0,39.0,59.0,9.0
+5,Opponent5,Opponent5_D3,Opponent5_M1,1H,2501.42372,Pass,Simple pass,59.0,9.0,57.0,28.0
+5,Opponent5,Opponent5_M1,Opponent5_D2,1H,2506.481614,Pass,High pass,57.0,28.0,66.0,94.0
+5,Opponent5,Opponent5_D2,Opponent5_M4,1H,2510.464423,Pass,Simple pass,66.0,94.0,62.0,85.0
+5,Opponent5,Opponent5_M4,Opponent5_M2,1H,2511.820762,Pass,Simple pass,62.0,85.0,58.0,77.0
+5,Opponent5,Opponent5_M2,Opponent5_D4,1H,2513.054516,Pass,Simple pass,58.0,77.0,34.0,65.0
+5,Opponent5,Opponent5_D4,Opponent5_M1,1H,2515.193123,Pass,Simple pass,34.0,65.0,57.0,64.0
+5,Opponent5,Opponent5_M1,Opponent5_F1,1H,2519.477144,Pass,Simple pass,57.0,64.0,70.0,55.0
+5,Opponent5,Opponent5_F1,Opponent5_D1,1H,2520.954778,Pass,Simple pass,70.0,55.0,55.0,36.0
+5,Opponent5,Opponent5_D1,Opponent5_D3,1H,2522.408721,Pass,Simple pass,55.0,36.0,64.0,9.0
+5,Opponent5,Opponent5_D3,Opponent5_M3,1H,2525.423591,Pass,Simple pass,64.0,9.0,91.0,11.0
+5,Opponent5,Opponent5_M3,,1H,2527.144506,Duel,Ground attacking duel,91.0,11.0,93.0,12.0
+5,Huskies,Huskies_M4,,1H,2527.65568,Duel,Ground defending duel,9.0,89.0,7.0,88.0
+5,Opponent5,Opponent5_M3,,1H,2528.526458,Pass,Cross,93.0,12.0,94.0,41.0
+5,Huskies,Huskies_D1,,1H,2529.959796,Others on the ball,Clearance,6.0,59.0,18.0,33.0
+5,Huskies,Huskies_M6,,1H,2532.030306,Others on the ball,Clearance,18.0,33.0,35.0,78.0
+5,Opponent5,Opponent5_D1,Opponent5_M1,1H,2536.474206,Pass,Simple pass,65.0,22.0,77.0,15.0
+5,Opponent5,Opponent5_M1,Opponent5_D3,1H,2541.923447,Pass,Simple pass,77.0,15.0,89.0,10.0
+5,Opponent5,Opponent5_D3,,1H,2544.272512,Duel,Ground attacking duel,89.0,10.0,90.0,10.0
+5,Huskies,Huskies_D5,,1H,2544.735248,Duel,Ground defending duel,11.0,90.0,10.0,90.0
+5,Opponent5,Opponent5_D3,,1H,2546.353235,Pass,Cross,90.0,10.0,96.0,45.0
+5,Huskies,Huskies_D2,,1H,2547.654194,Others on the ball,Clearance,4.0,55.0,15.0,100.0
+5,Opponent5,Opponent5_M1,,1H,2555.378818,Free Kick,Throw in,79.0,0.0,81.0,7.0

@@ -1,0 +1,26 @@
+2,Opponent2,Opponent2_M4,Opponent2_M1,2H,2308.7476319999996,Pass,Simple pass,47.0,56.0,57.0,28.0
+2,Opponent2,Opponent2_M1,Opponent2_D5,2H,2314.1368839999996,Pass,High pass,57.0,28.0,63.0,96.0
+2,Opponent2,Opponent2_D5,Opponent2_M2,2H,2318.777467,Pass,Simple pass,63.0,96.0,62.0,83.0
+2,Opponent2,Opponent2_M2,Opponent2_D5,2H,2321.004366,Pass,Simple pass,62.0,83.0,70.0,79.0
+2,Opponent2,Opponent2_D5,Opponent2_M5,2H,2322.795363,Pass,Simple pass,70.0,79.0,74.0,69.0
+2,Opponent2,Opponent2_M5,Opponent2_D5,2H,2324.268408,Pass,Simple pass,74.0,69.0,73.0,65.0
+2,Opponent2,Opponent2_D5,Opponent2_F2,2H,2324.5049529999997,Pass,Simple pass,73.0,65.0,12.0,9.0
+2,Opponent2,Opponent2_F2,,2H,2327.6195479999997,Duel,Ground attacking duel,12.0,9.0,92.0,83.0
+2,Opponent2,Opponent2_F2,Opponent2_M2,2H,2328.9729829999997,Pass,Simple pass,92.0,83.0,79.0,87.0
+2,Opponent2,Opponent2_M2,Opponent2_M5,2H,2331.6742190000004,Pass,Simple pass,79.0,87.0,89.0,86.0
+2,Opponent2,Opponent2_M5,Opponent2_D5,2H,2333.5692310000004,Pass,Simple pass,89.0,86.0,90.0,75.0
+2,Opponent2,Opponent2_D5,,2H,2335.769211,Pass,Cross,90.0,75.0,92.0,42.0
+2,Huskies,Huskies_D6,,2H,2337.104563,Others on the ball,Clearance,8.0,58.0,20.0,51.0
+2,Huskies,Huskies_M1,,2H,2339.577875,Pass,Head pass,20.0,51.0,31.0,59.0
+2,Opponent2,Opponent2_M4,,2H,2343.2399960000002,Pass,Simple pass,69.0,41.0,75.0,30.0
+2,Huskies,Huskies_F2,,2H,2344.237395,Others on the ball,Touch,25.0,70.0,25.0,53.0
+2,Opponent2,Opponent2_M4,,2H,2346.427044,Duel,Ground attacking duel,75.0,47.0,75.0,66.0
+2,Huskies,Huskies_M2,,2H,2346.5106029999997,Duel,Ground defending duel,25.0,53.0,25.0,34.0
+2,Opponent2,Opponent2_M4,Opponent2_D5,2H,2348.700938,Pass,Simple pass,75.0,66.0,87.0,81.0
+2,Opponent2,Opponent2_D5,,2H,2350.8834770000003,Duel,Ground attacking duel,87.0,81.0,89.0,83.0
+2,Huskies,Huskies_M6,,2H,2351.3269149999996,Duel,Ground defending duel,13.0,19.0,11.0,17.0
+2,Opponent2,Opponent2_D5,Opponent2_M5,2H,2352.793458,Pass,Simple pass,89.0,83.0,75.0,49.0
+2,Opponent2,Opponent2_M5,Opponent2_F3,2H,2354.811686,Pass,Simple pass,75.0,49.0,75.0,42.0
+2,Opponent2,Opponent2_F3,Opponent2_F2,2H,2357.6422700000003,Pass,Simple pass,75.0,42.0,96.0,39.0
+2,Opponent2,Opponent2_F2,,2H,2359.86208,Others on the ball,Touch,96.0,39.0,98.0,39.0
+2,Huskies,Huskies_G1,,2H,2386.992185,Free Kick,Goal kick,100.0,100.0,96.0,98.0

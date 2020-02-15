@@ -1,0 +1,25 @@
+32,Huskies,Huskies_F4,Huskies_D8,2H,2794.902088,Pass,Head pass,65.0,77.0,47.0,95.0
+32,Huskies,Huskies_D8,Huskies_M11,2H,2797.798028,Pass,Simple pass,47.0,95.0,43.0,87.0
+32,Huskies,Huskies_M11,Huskies_F4,2H,2798.8031469999996,Pass,Simple pass,43.0,87.0,65.0,87.0
+32,Huskies,Huskies_F4,,2H,2799.9874739999996,Others on the ball,Touch,65.0,87.0,67.0,88.0
+32,Opponent2,Opponent2_D5,,2H,2800.7691729999997,Duel,Ground loose ball duel,33.0,12.0,38.0,9.0
+32,Huskies,Huskies_F4,,2H,2801.1748340000004,Duel,Ground loose ball duel,67.0,88.0,62.0,91.0
+32,Huskies,Huskies_D8,Huskies_F6,2H,2801.6091100000003,Pass,Simple pass,62.0,91.0,85.0,73.0
+32,Huskies,Huskies_F6,Huskies_D8,2H,2806.7500950000003,Pass,Simple pass,85.0,73.0,92.0,76.0
+32,Huskies,Huskies_D8,,2H,2807.396415,Pass,Cross,92.0,76.0,89.0,57.0
+32,Opponent2,Opponent2_D4,Opponent2_D5,2H,2808.70381,Pass,Simple pass,11.0,43.0,12.0,28.0
+32,Opponent2,Opponent2_D5,,2H,2810.1096799999996,Pass,Simple pass,12.0,28.0,23.0,20.0
+32,Huskies,Huskies_M11,Huskies_D8,2H,2812.651592,Pass,Simple pass,77.0,80.0,92.0,87.0
+32,Huskies,Huskies_D8,,2H,2814.33604,Pass,Cross,92.0,87.0,94.0,6.0
+32,Opponent2,Opponent2_M5,,2H,2819.914288,Duel,Ground defending duel,6.0,94.0,1.0,87.0
+32,Huskies,Huskies_D4,,2H,2820.0417989999996,Duel,Ground attacking duel,94.0,6.0,99.0,13.0
+32,Huskies,Huskies_D4,,2H,2822.483811,Pass,Simple pass,99.0,13.0,91.0,7.0
+32,Opponent2,Opponent2_M5,,2H,2822.903676,Others on the ball,Touch,9.0,93.0,15.0,83.0
+32,Opponent2,Opponent2_M6,,2H,2825.816898,Pass,Simple pass,15.0,83.0,55.0,88.0
+32,Huskies,Huskies_D1,Huskies_D3,2H,2829.9754139999995,Pass,Simple pass,45.0,12.0,44.0,51.0
+32,Huskies,Huskies_D3,Huskies_M12,2H,2834.3380500000003,Pass,High pass,44.0,51.0,85.0,8.0
+32,Huskies,Huskies_M12,,2H,2839.5961310000002,Pass,Cross,85.0,8.0,90.0,43.0
+32,Opponent2,Opponent2_M1,Opponent2_M6,2H,2841.335712,Pass,Simple pass,10.0,57.0,16.0,77.0
+32,Opponent2,Opponent2_M6,Opponent2_M5,2H,2842.9095500000003,Pass,Simple pass,16.0,77.0,27.0,78.0
+32,Opponent2,Opponent2_M5,Opponent2_D1,2H,2847.279585,Pass,Simple pass,27.0,78.0,11.0,89.0
+32,Opponent2,Opponent2_D1,Opponent2_M2,2H,2849.787158,Pass,High pass,11.0,89.0,30.0,63.0

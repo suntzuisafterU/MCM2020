@@ -1,0 +1,34 @@
+8,Huskies,Huskies_G1,,1H,1895.513797,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,0.0,3.0
+8,Huskies,Huskies_M9,,1H,1897.1182829999998,Pass,Simple pass,25.0,35.0,44.0,17.0
+8,Opponent8,Opponent8_D1,,1H,1899.943252,Others on the ball,Touch,56.0,83.0,69.0,88.0
+8,Opponent8,Opponent8_D1,Opponent8_M5,1H,1902.651492,Pass,Simple pass,69.0,88.0,87.0,94.0
+8,Opponent8,Opponent8_M5,,1H,1903.7654429999998,Duel,Ground attacking duel,87.0,94.0,86.0,88.0
+8,Huskies,Huskies_F1,,1H,1904.2376789999998,Duel,Ground defending duel,13.0,6.0,14.0,12.0
+8,Opponent8,Opponent8_M5,Opponent8_D3,1H,1907.880951,Pass,Cross,86.0,88.0,92.0,31.0
+8,Opponent8,Opponent8_D3,,1H,1909.887272,Duel,Air duel,92.0,31.0,90.0,12.0
+8,Huskies,Huskies_D6,,1H,1909.894506,Duel,Air duel,8.0,69.0,10.0,88.0
+8,Opponent8,Opponent8_M4,,1H,1916.5951909999999,Duel,Ground attacking duel,90.0,12.0,92.0,13.0
+8,Huskies,Huskies_F2,,1H,1918.072322,Duel,Ground defending duel,10.0,88.0,8.0,87.0
+8,Opponent8,Opponent8_M4,,1H,1920.083925,Duel,Ground attacking duel,92.0,13.0,90.0,15.0
+8,Huskies,Huskies_M1,,1H,1920.2214290000002,Duel,Ground defending duel,8.0,87.0,10.0,85.0
+8,Opponent8,Opponent8_M4,,1H,1920.5828860000001,Duel,Ground attacking duel,90.0,15.0,92.0,17.0
+8,Huskies,Huskies_F2,,1H,1923.7505849999998,Pass,Simple pass,8.0,83.0,53.0,88.0
+8,Opponent8,Opponent8_M3,,1H,1929.375963,Others on the ball,Touch,47.0,12.0,59.0,30.0
+8,Huskies,Huskies_M6,,1H,1929.7022229999998,Pass,Simple pass,41.0,70.0,65.0,99.0
+8,Opponent8,Opponent8_M4,Opponent8_D4,1H,1933.3028370000002,Pass,Simple pass,35.0,1.0,22.0,2.0
+8,Opponent8,Opponent8_D4,Opponent8_M2,1H,1935.9665730000002,Pass,Launch,22.0,2.0,67.0,38.0
+8,Opponent8,Opponent8_M2,,1H,1939.9920470000002,Duel,Air duel,67.0,38.0,53.0,54.0
+8,Huskies,Huskies_D1,,1H,1940.163889,Duel,Air duel,33.0,62.0,47.0,46.0
+8,Opponent8,Opponent8_F1,,1H,1943.8341180000002,Duel,Ground attacking duel,53.0,54.0,44.0,64.0
+8,Huskies,Huskies_M3,,1H,1944.5501920000002,Duel,Ground defending duel,47.0,46.0,56.0,36.0
+8,Opponent8,Opponent8_F1,Opponent8_D1,1H,1944.720655,Pass,Simple pass,44.0,64.0,40.0,85.0
+8,Opponent8,Opponent8_D1,Opponent8_M3,1H,1948.1210740000001,Pass,Simple pass,40.0,85.0,42.0,69.0
+8,Opponent8,Opponent8_M3,Opponent8_D3,1H,1949.4841310000002,Pass,Simple pass,42.0,69.0,30.0,12.0
+8,Opponent8,Opponent8_D3,,1H,1952.338897,Others on the ball,Touch,30.0,12.0,26.0,55.0
+8,Opponent8,Opponent8_D2,Opponent8_D3,1H,1953.322084,Pass,Simple pass,26.0,55.0,40.0,18.0
+8,Opponent8,Opponent8_D3,Opponent8_F1,1H,1956.4121,Pass,High pass,40.0,18.0,78.0,26.0
+8,Opponent8,Opponent8_F1,,1H,1958.5767460000002,Others on the ball,Touch,78.0,26.0,88.0,50.0
+8,Huskies,Huskies_G1,Huskies_M3,1H,1963.0939560000002,Pass,Hand pass,12.0,50.0,35.0,59.0
+8,Huskies,Huskies_M3,Huskies_M1,1H,1966.9297780000002,Pass,Simple pass,35.0,59.0,52.0,59.0
+8,Huskies,Huskies_M1,Huskies_M3,1H,1968.024683,Pass,Simple pass,52.0,59.0,46.0,68.0
+8,Huskies,Huskies_M3,Huskies_M6,1H,1969.27479,Pass,Simple pass,46.0,68.0,52.0,81.0

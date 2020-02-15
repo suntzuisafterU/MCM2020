@@ -1,0 +1,18 @@
+1,Huskies,Huskies_M2,Huskies_M3,1H,648.788178,Pass,Simple pass,58.0,25.0,44.0,45.0
+1,Huskies,Huskies_M3,Huskies_D1,1H,654.272547,Pass,Simple pass,44.0,45.0,45.0,88.0
+1,Huskies,Huskies_D1,Huskies_M1,1H,656.786591,Pass,Simple pass,45.0,88.0,46.0,66.0
+1,Huskies,Huskies_M1,Huskies_D2,1H,658.984182,Pass,Simple pass,46.0,66.0,35.0,53.0
+1,Huskies,Huskies_D2,Huskies_D3,1H,660.927154,Pass,Simple pass,35.0,53.0,36.0,26.0
+1,Huskies,Huskies_D3,Huskies_D4,1H,662.816659,Pass,Simple pass,36.0,26.0,44.0,9.0
+1,Huskies,Huskies_D4,Huskies_D3,1H,664.192536,Pass,Simple pass,44.0,9.0,29.0,28.0
+1,Huskies,Huskies_D3,Huskies_D1,1H,666.398299,Pass,Simple pass,29.0,28.0,30.0,88.0
+1,Huskies,Huskies_D1,Huskies_M1,1H,670.794207,Pass,Simple pass,30.0,88.0,54.0,98.0
+1,Huskies,Huskies_M1,Huskies_D1,1H,672.485389,Pass,Simple pass,54.0,98.0,40.0,88.0
+1,Huskies,Huskies_D1,Huskies_D2,1H,677.030895,Pass,Simple pass,40.0,88.0,39.0,58.0
+1,Huskies,Huskies_D2,Huskies_D3,1H,679.627443,Pass,Simple pass,39.0,58.0,42.0,22.0
+1,Huskies,Huskies_D3,Huskies_D4,1H,681.346038,Pass,Simple pass,42.0,22.0,45.0,7.0
+1,Huskies,Huskies_D4,,1H,683.979176,Pass,High pass,45.0,7.0,86.0,29.0
+1,Opponent1,Opponent1_G1,,1H,687.071588,Others on the ball,Touch,14.0,71.0,13.0,69.0
+1,Opponent1,Opponent1_G1,Opponent1_D3,1H,694.414732,Pass,Hand pass,13.0,69.0,28.0,96.0
+1,Opponent1,Opponent1_D3,Opponent1_M2,1H,698.002619,Pass,Simple pass,28.0,96.0,32.0,91.0
+1,Opponent1,Opponent1_M2,Opponent1_G1,1H,699.267219,Pass,Simple pass,32.0,91.0,9.0,64.0

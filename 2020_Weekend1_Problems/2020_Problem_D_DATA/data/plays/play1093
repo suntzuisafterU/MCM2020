@@ -1,0 +1,9 @@
+22,Huskies,Huskies_D2,Huskies_M3,2H,144.17028200000004,Pass,Simple pass,11.0,17.0,26.0,39.0
+22,Huskies,Huskies_M3,Huskies_F2,2H,151.92295599999989,Pass,Simple pass,26.0,39.0,32.0,22.0
+22,Huskies,Huskies_F2,Huskies_D2,2H,153.07332899999983,Pass,Simple pass,32.0,22.0,33.0,3.0
+22,Huskies,Huskies_D2,Huskies_M12,2H,155.39892800000007,Pass,Simple pass,33.0,3.0,58.0,15.0
+22,Huskies,Huskies_M12,,2H,157.60079499999983,Duel,Ground attacking duel,58.0,15.0,37.0,18.0
+22,Opponent5,Opponent5_D7,,2H,157.61589099999992,Duel,Ground defending duel,42.0,85.0,63.0,82.0
+22,Opponent5,Opponent5_M6,Opponent5_M4,2H,157.88421500000004,Pass,Simple pass,63.0,82.0,41.0,95.0
+22,Opponent5,Opponent5_M4,Opponent5_M6,2H,159.44306700000016,Pass,Simple pass,41.0,95.0,49.0,81.0
+22,Opponent5,Opponent5_M6,Opponent5_D7,2H,160.1208230000002,Pass,Simple pass,49.0,81.0,37.0,88.0

@@ -1,0 +1,34 @@
+23,Opponent4,Opponent4_D5,Opponent4_F2,2H,2237.063002,Pass,Simple pass,78.0,36.0,70.0,21.0
+23,Opponent4,Opponent4_F2,Opponent4_M4,2H,2239.151302,Pass,Simple pass,70.0,21.0,71.0,27.0
+23,Opponent4,Opponent4_M4,Opponent4_M1,2H,2241.246927,Pass,Simple pass,71.0,27.0,71.0,34.0
+23,Opponent4,Opponent4_M1,Opponent4_M2,2H,2242.9003089999997,Pass,Simple pass,71.0,34.0,70.0,62.0
+23,Opponent4,Opponent4_M2,Opponent4_M2,2H,2244.1867789999997,Pass,Simple pass,70.0,62.0,66.0,69.0
+23,Opponent4,Opponent4_M2,Opponent4_M1,2H,2249.4635959999996,Pass,Simple pass,66.0,69.0,69.0,53.0
+23,Opponent4,Opponent4_M1,Opponent4_D6,2H,2249.5367349999997,Pass,Simple pass,69.0,53.0,74.0,91.0
+23,Opponent4,Opponent4_D6,Opponent4_M2,2H,2254.1437320000005,Pass,Simple pass,74.0,91.0,69.0,79.0
+23,Opponent4,Opponent4_M2,Opponent4_D6,2H,2254.4650110000002,Pass,Simple pass,69.0,79.0,65.0,85.0
+23,Opponent4,Opponent4_D6,Opponent4_M2,2H,2255.570651,Pass,Simple pass,65.0,85.0,77.0,75.0
+23,Opponent4,Opponent4_M2,Opponent4_M1,2H,2259.0952239999997,Pass,Simple pass,77.0,75.0,93.0,86.0
+23,Opponent4,Opponent4_M1,,2H,2261.2095520000003,Duel,Ground attacking duel,93.0,86.0,88.0,87.0
+23,Huskies,Huskies_D5,,2H,2261.944369,Duel,Ground defending duel,7.0,14.0,12.0,13.0
+23,Opponent4,Opponent4_M1,Opponent4_D6,2H,2263.220752,Pass,Simple pass,88.0,87.0,64.0,93.0
+23,Opponent4,Opponent4_D6,Opponent4_D6,2H,2266.46572,Pass,Simple pass,64.0,93.0,64.0,90.0
+23,Opponent4,Opponent4_D6,Opponent4_D2,2H,2269.7070489999996,Pass,Simple pass,64.0,90.0,58.0,91.0
+23,Opponent4,Opponent4_D2,Opponent4_G1,2H,2269.8260819999996,Pass,Simple pass,58.0,91.0,24.0,74.0
+23,Opponent4,Opponent4_G1,Opponent4_D2,2H,2275.661373,Pass,Simple pass,24.0,74.0,32.0,78.0
+23,Opponent4,Opponent4_D2,Opponent4_G1,2H,2275.904829,Pass,Simple pass,32.0,78.0,18.0,50.0
+23,Opponent4,Opponent4_G1,Opponent4_D1,2H,2279.9957569999997,Pass,Simple pass,18.0,50.0,32.0,24.0
+23,Opponent4,Opponent4_D1,Opponent4_D5,2H,2282.216574,Pass,Simple pass,32.0,24.0,44.0,6.0
+23,Opponent4,Opponent4_D5,Opponent4_F2,2H,2286.9587869999996,Pass,Simple pass,44.0,6.0,64.0,7.0
+23,Opponent4,Opponent4_F2,Opponent4_D5,2H,2288.9003869999997,Pass,Simple pass,64.0,7.0,42.0,10.0
+23,Opponent4,Opponent4_D5,Opponent4_D1,2H,2289.9924849999998,Pass,Simple pass,42.0,10.0,41.0,15.0
+23,Opponent4,Opponent4_D1,Opponent4_M2,2H,2293.014077,Pass,Simple pass,41.0,15.0,45.0,76.0
+23,Opponent4,Opponent4_M2,Opponent4_D6,2H,2295.9967020000004,Pass,Simple pass,45.0,76.0,47.0,94.0
+23,Opponent4,Opponent4_D6,Opponent4_D6,2H,2297.728303,Pass,Simple pass,47.0,94.0,48.0,96.0
+23,Opponent4,Opponent4_D6,Opponent4_M2,2H,2298.255881,Pass,Simple pass,48.0,96.0,61.0,78.0
+23,Opponent4,Opponent4_M2,Opponent4_M1,2H,2298.870737,Pass,Simple pass,61.0,78.0,59.0,75.0
+23,Opponent4,Opponent4_M1,Opponent4_M2,2H,2303.0869810000004,Pass,High pass,59.0,75.0,86.0,85.0
+23,Opponent4,Opponent4_M2,Opponent4_F2,2H,2305.5167220000003,Pass,Cross,86.0,85.0,84.0,30.0
+23,Opponent4,Opponent4_F2,,2H,2309.1431300000004,Duel,Ground attacking duel,84.0,30.0,87.0,32.0
+23,Opponent4,Opponent4_F2,,2H,2310.213052,Shot,Shot,87.0,32.0,0.0,0.0
+23,Huskies,Huskies_G1,,2H,2340.0456430000004,Free Kick,Goal kick,100.0,100.0,64.0,33.0

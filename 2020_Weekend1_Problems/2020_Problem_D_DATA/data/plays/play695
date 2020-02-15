@@ -1,0 +1,25 @@
+14,Huskies,Huskies_D7,Huskies_D6,1H,2120.324118,Pass,Simple pass,64.0,98.0,36.0,86.0
+14,Huskies,Huskies_D6,Huskies_D2,1H,2124.45992,Pass,Simple pass,36.0,86.0,32.0,30.0
+14,Huskies,Huskies_D2,Huskies_D6,1H,2127.897947,Pass,Simple pass,32.0,30.0,33.0,65.0
+14,Huskies,Huskies_D6,Huskies_M1,1H,2129.831186,Pass,Simple pass,33.0,65.0,49.0,74.0
+14,Huskies,Huskies_M1,Huskies_D7,1H,2136.604349,Pass,Simple pass,49.0,74.0,60.0,95.0
+14,Huskies,Huskies_D7,Huskies_M8,1H,2137.687221,Pass,Simple pass,60.0,95.0,68.0,78.0
+14,Huskies,Huskies_M8,Huskies_M1,1H,2138.879264,Pass,Simple pass,68.0,78.0,61.0,73.0
+14,Huskies,Huskies_M1,Huskies_M4,1H,2139.848079,Pass,Simple pass,61.0,73.0,66.0,64.0
+14,Huskies,Huskies_M4,Huskies_D7,1H,2143.577587,Pass,Simple pass,66.0,64.0,85.0,91.0
+14,Huskies,Huskies_D7,,1H,2144.971419,Pass,Cross,85.0,91.0,92.0,39.0
+14,Opponent14,Opponent14_D1,,1H,2147.041651,Others on the ball,Clearance,8.0,61.0,33.0,67.0
+14,Huskies,Huskies_F2,Huskies_M1,1H,2151.614508,Pass,Simple pass,67.0,33.0,65.0,77.0
+14,Huskies,Huskies_M1,Huskies_D7,1H,2154.918027,Pass,Simple pass,65.0,77.0,68.0,95.0
+14,Huskies,Huskies_D7,Huskies_M1,1H,2157.948625,Pass,Simple pass,68.0,95.0,55.0,84.0
+14,Huskies,Huskies_M1,Huskies_D2,1H,2160.325647,Pass,Simple pass,55.0,84.0,33.0,30.0
+14,Huskies,Huskies_D2,Huskies_D6,1H,2164.954338,Pass,Simple pass,33.0,30.0,29.0,60.0
+14,Huskies,Huskies_D6,Huskies_F2,1H,2166.48436,Pass,Simple pass,29.0,60.0,53.0,54.0
+14,Huskies,Huskies_F2,Huskies_F1,1H,2170.092108,Pass,High pass,53.0,54.0,85.0,35.0
+14,Huskies,Huskies_F1,,1H,2172.364234,Others on the ball,Touch,85.0,35.0,89.0,29.0
+14,Huskies,Huskies_F1,,1H,2173.426478,Duel,Ground loose ball duel,89.0,29.0,95.0,13.0
+14,Opponent14,Opponent14_F1,,1H,2173.872605,Duel,Ground loose ball duel,11.0,71.0,5.0,87.0
+14,Huskies,Huskies_D5,Huskies_M4,1H,2177.516933,Pass,Cross,95.0,13.0,92.0,51.0
+14,Huskies,Huskies_M4,,1H,2178.707897,Duel,Air duel,92.0,51.0,92.0,56.0
+14,Opponent14,Opponent14_D4,,1H,2179.184972,Duel,Air duel,8.0,49.0,8.0,44.0
+14,Huskies,Huskies_M4,,1H,2180.324576,Foul,Foul,92.0,56.0,92.0,51.0

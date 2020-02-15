@@ -1,0 +1,22 @@
+32,Opponent2,Opponent2_M5,Opponent2_M1,2H,1519.1022249999996,Pass,Simple pass,68.0,50.0,56.0,50.0
+32,Opponent2,Opponent2_M1,Opponent2_M4,2H,1519.6473969999997,Pass,Simple pass,56.0,50.0,54.0,65.0
+32,Opponent2,Opponent2_M4,Opponent2_M5,2H,1521.8603739999999,Pass,Simple pass,54.0,65.0,68.0,65.0
+32,Opponent2,Opponent2_M5,Opponent2_D1,2H,1523.8896290000002,Pass,Simple pass,68.0,65.0,72.0,94.0
+32,Opponent2,Opponent2_D1,Opponent2_D2,2H,1527.9388319999998,Pass,Simple pass,72.0,94.0,57.0,84.0
+32,Opponent2,Opponent2_D2,Opponent2_M1,2H,1530.5703380000004,Pass,Simple pass,57.0,84.0,58.0,48.0
+32,Opponent2,Opponent2_M1,Opponent2_D2,2H,1531.3814359999997,Pass,Simple pass,58.0,48.0,59.0,82.0
+32,Opponent2,Opponent2_D2,Opponent2_M5,2H,1533.445122,Pass,Simple pass,59.0,82.0,67.0,89.0
+32,Opponent2,Opponent2_M5,Opponent2_M4,2H,1536.0317960000002,Pass,Simple pass,67.0,89.0,81.0,86.0
+32,Opponent2,Opponent2_M4,Opponent2_D1,2H,1538.3769000000002,Pass,Simple pass,81.0,86.0,78.0,93.0
+32,Opponent2,Opponent2_D1,Opponent2_F1,2H,1539.156935,Pass,Simple pass,78.0,93.0,79.0,72.0
+32,Opponent2,Opponent2_F1,Opponent2_D1,2H,1540.5337609999997,Pass,Smart pass,79.0,72.0,96.0,77.0
+32,Opponent2,Opponent2_D1,,2H,1542.4914200000003,Pass,Cross,96.0,77.0,97.0,68.0
+32,Huskies,Huskies_F1,Huskies_M3,2H,1542.8575460000002,Pass,Launch,3.0,32.0,5.0,43.0
+32,Huskies,Huskies_M3,,2H,1543.0740759999999,Pass,Simple pass,5.0,43.0,30.0,40.0
+32,Opponent2,Opponent2_M1,Opponent2_D6,2H,1546.990449,Pass,Simple pass,70.0,60.0,70.0,27.0
+32,Opponent2,Opponent2_D6,Opponent2_M3,2H,1550.9741119999999,Pass,Simple pass,70.0,27.0,87.0,8.0
+32,Opponent2,Opponent2_M3,Opponent2_M2,2H,1553.9532900000004,Pass,Simple pass,87.0,8.0,79.0,20.0
+32,Opponent2,Opponent2_M2,Opponent2_M3,2H,1556.672442,Pass,Simple pass,79.0,20.0,87.0,14.0
+32,Opponent2,Opponent2_M3,,2H,1559.1164580000004,Duel,Ground attacking duel,87.0,14.0,80.0,20.0
+32,Opponent2,Opponent2_M3,,2H,1560.925746,Shot,Shot,80.0,20.0,100.0,100.0
+32,Huskies,Huskies_G1,,2H,1596.4214220000003,Free Kick,Goal kick,0.0,0.0,73.0,58.0

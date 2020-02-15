@@ -1,0 +1,23 @@
+18,Opponent18,Opponent18_D4,,2H,2334.630365,Duel,Air duel,65.0,12.0,54.0,17.0
+18,Huskies,Huskies_M4,,2H,2335.3182319999996,Duel,Air duel,35.0,88.0,46.0,83.0
+18,Huskies,Huskies_M4,,2H,2337.203909,Duel,Ground attacking duel,46.0,83.0,64.0,71.0
+18,Opponent18,Opponent18_D4,,2H,2337.45038,Duel,Ground defending duel,54.0,17.0,36.0,29.0
+18,Huskies,Huskies_M4,,2H,2339.880507,Duel,Ground attacking duel,64.0,71.0,65.0,73.0
+18,Opponent18,Opponent18_M4,,2H,2340.4531779999998,Duel,Ground defending duel,36.0,29.0,35.0,27.0
+18,Opponent18,Opponent18_M6,Opponent18_D1,2H,2344.421139,Pass,Simple pass,35.0,27.0,25.0,27.0
+18,Opponent18,Opponent18_D1,Opponent18_M4,2H,2348.035036,Pass,Simple pass,25.0,27.0,24.0,17.0
+18,Opponent18,Opponent18_M4,Opponent18_M6,2H,2349.9028049999997,Pass,Simple pass,24.0,17.0,35.0,22.0
+18,Opponent18,Opponent18_M6,Opponent18_F3,2H,2352.2438620000003,Pass,Simple pass,35.0,22.0,34.0,12.0
+18,Opponent18,Opponent18_F3,Opponent18_D4,2H,2354.7942000000003,Pass,Simple pass,34.0,12.0,30.0,21.0
+18,Opponent18,Opponent18_D4,Opponent18_D1,2H,2356.184668,Pass,Simple pass,30.0,21.0,33.0,35.0
+18,Opponent18,Opponent18_D1,Opponent18_F3,2H,2357.047186,Pass,Simple pass,33.0,35.0,28.0,4.0
+18,Opponent18,Opponent18_F3,Opponent18_D4,2H,2365.352231,Pass,Simple pass,28.0,4.0,29.0,7.0
+18,Opponent18,Opponent18_D4,Opponent18_F2,2H,2367.3506399999997,Pass,Simple pass,29.0,7.0,43.0,20.0
+18,Opponent18,Opponent18_F2,Opponent18_M2,2H,2369.994657,Pass,Simple pass,43.0,20.0,53.0,49.0
+18,Opponent18,Opponent18_M2,Opponent18_M6,2H,2372.9078579999996,Pass,Simple pass,53.0,49.0,69.0,40.0
+18,Opponent18,Opponent18_M6,Opponent18_M3,2H,2375.3191960000004,Pass,Simple pass,69.0,40.0,73.0,88.0
+18,Opponent18,Opponent18_M3,,2H,2377.828926,Pass,Simple pass,73.0,88.0,82.0,86.0
+18,Huskies,Huskies_D5,Huskies_D6,2H,2380.048121,Pass,Simple pass,18.0,14.0,12.0,18.0
+18,Huskies,Huskies_D6,,2H,2383.226633,Others on the ball,Touch,12.0,18.0,31.0,40.0
+18,Huskies,Huskies_D6,Huskies_F1,2H,2386.3095670000002,Pass,High pass,31.0,40.0,64.0,27.0
+18,Huskies,Huskies_F1,,2H,2388.6354819999997,Duel,Air duel,64.0,27.0,45.0,50.0

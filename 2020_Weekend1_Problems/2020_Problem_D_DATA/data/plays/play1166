@@ -1,0 +1,26 @@
+23,Opponent4,Opponent4_D2,Opponent4_G1,2H,1635.139169,Pass,Simple pass,10.0,82.0,7.0,53.0
+23,Opponent4,Opponent4_G1,Opponent4_D2,2H,1637.692352,Pass,Simple pass,7.0,53.0,23.0,77.0
+23,Opponent4,Opponent4_D2,Opponent4_M3,2H,1641.4263570000003,Pass,Simple pass,23.0,77.0,29.0,71.0
+23,Opponent4,Opponent4_M3,Opponent4_D2,2H,1642.3520420000004,Pass,Simple pass,29.0,71.0,24.0,72.0
+23,Opponent4,Opponent4_D2,Opponent4_M1,2H,1643.8254479999996,Pass,Simple pass,24.0,72.0,30.0,81.0
+23,Opponent4,Opponent4_M1,Opponent4_D1,2H,1647.3519660000002,Pass,High pass,30.0,81.0,25.0,33.0
+23,Opponent4,Opponent4_D1,Opponent4_D5,2H,1651.5242360000002,Pass,Simple pass,25.0,33.0,56.0,12.0
+23,Opponent4,Opponent4_D5,Opponent4_M5,2H,1658.3436009999996,Pass,Simple pass,56.0,12.0,54.0,16.0
+23,Opponent4,Opponent4_M5,Opponent4_D1,2H,1659.6041420000001,Pass,Simple pass,54.0,16.0,37.0,32.0
+23,Opponent4,Opponent4_D1,Opponent4_M5,2H,1662.052431,Pass,Simple pass,37.0,32.0,57.0,17.0
+23,Opponent4,Opponent4_M5,Opponent4_M1,2H,1665.4673249999996,Pass,Simple pass,57.0,17.0,55.0,34.0
+23,Opponent4,Opponent4_M1,Opponent4_M5,2H,1667.431369,Pass,Simple pass,55.0,34.0,49.0,19.0
+23,Opponent4,Opponent4_M5,Opponent4_D5,2H,1670.793286,Pass,Simple pass,49.0,19.0,70.0,29.0
+23,Opponent4,Opponent4_D5,Opponent4_M1,2H,1672.7043750000003,Pass,Simple pass,70.0,29.0,68.0,56.0
+23,Opponent4,Opponent4_M1,Opponent4_D6,2H,1673.52214,Pass,Simple pass,68.0,56.0,90.0,88.0
+23,Opponent4,Opponent4_D6,,2H,1675.9153999999999,Pass,Cross,90.0,88.0,90.0,58.0
+23,Huskies,Huskies_M1,,2H,1677.950522,Others on the ball,Clearance,10.0,42.0,25.0,23.0
+23,Opponent4,Opponent4_M1,Opponent4_M3,2H,1684.1882429999996,Pass,Simple pass,75.0,77.0,76.0,78.0
+23,Opponent4,Opponent4_M3,Opponent4_D6,2H,1685.0005380000002,Pass,Simple pass,76.0,78.0,74.0,95.0
+23,Opponent4,Opponent4_D6,Opponent4_M3,2H,1688.6499640000002,Pass,Simple pass,74.0,95.0,73.0,93.0
+23,Opponent4,Opponent4_M3,,2H,1692.6077020000002,Pass,Cross,73.0,93.0,93.0,69.0
+23,Huskies,Huskies_D3,Huskies_M1,2H,1695.3825129999996,Pass,Head pass,7.0,31.0,10.0,14.0
+23,Huskies,Huskies_M1,Huskies_D5,2H,1698.5809149999995,Pass,Simple pass,10.0,14.0,25.0,16.0
+23,Huskies,Huskies_D5,,2H,1700.1179679999996,Pass,Simple pass,25.0,16.0,17.0,7.0
+23,Opponent4,Opponent4_D6,,2H,1702.064483,Duel,Ground loose ball duel,83.0,93.0,72.0,100.0
+23,Opponent4,Opponent4_M3,Opponent4_M7,2H,1740.0,Substitution,Substitution,,,,

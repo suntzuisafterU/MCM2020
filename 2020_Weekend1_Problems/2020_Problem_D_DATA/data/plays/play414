@@ -1,0 +1,10 @@
+8,Huskies,Huskies_F2,,1H,684.9046,Duel,Ground attacking duel,37.0,4.0,44.0,6.0
+8,Huskies,Huskies_F2,Huskies_D4,1H,685.743857,Pass,Simple pass,44.0,6.0,32.0,5.0
+8,Huskies,Huskies_D4,Huskies_D1,1H,686.912288,Pass,Simple pass,32.0,5.0,26.0,59.0
+8,Huskies,Huskies_D1,,1H,689.177557,Others on the ball,Touch,26.0,59.0,38.0,64.0
+8,Huskies,Huskies_D1,Huskies_D3,1H,695.943367,Pass,Simple pass,38.0,64.0,40.0,39.0
+8,Huskies,Huskies_D3,Huskies_D4,1H,698.177847,Pass,Simple pass,40.0,39.0,36.0,3.0
+8,Huskies,Huskies_D4,,1H,701.80096,Pass,Simple pass,36.0,3.0,67.0,7.0
+8,Opponent8,Opponent8_D1,,1H,703.150426,Duel,Ground defending duel,33.0,93.0,39.0,100.0
+8,Huskies,Huskies_F1,,1H,703.194993,Duel,Ground attacking duel,67.0,7.0,61.0,0.0
+8,Opponent8,Opponent8_D1,,1H,723.294074,Free Kick,Throw in,39.0,100.0,66.0,89.0

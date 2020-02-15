@@ -1,0 +1,9 @@
+3,Huskies,Huskies_M1,Huskies_M7,2H,195.05585199999996,Pass,Simple pass,73.0,89.0,66.0,87.0
+3,Huskies,Huskies_M7,Huskies_D2,2H,196.2055919999998,Pass,Simple pass,66.0,87.0,55.0,54.0
+3,Huskies,Huskies_D2,Huskies_D3,2H,202.85518300000012,Pass,Simple pass,55.0,54.0,56.0,31.0
+3,Huskies,Huskies_D3,Huskies_D4,2H,204.96884099999988,Pass,Simple pass,56.0,31.0,77.0,11.0
+3,Huskies,Huskies_D4,,2H,205.95286299999998,Pass,Simple pass,77.0,11.0,90.0,60.0
+3,Opponent3,Opponent3_D2,,2H,209.21973900000012,Duel,Ground loose ball duel,10.0,40.0,26.0,75.0
+3,Opponent3,Opponent3_M1,Opponent3_M4,2H,210.64766700000018,Pass,Simple pass,26.0,75.0,33.0,75.0
+3,Opponent3,Opponent3_M4,Opponent3_D4,2H,214.07624299999998,Pass,Simple pass,33.0,75.0,35.0,26.0
+3,Opponent3,Opponent3_D4,Opponent3_D1,2H,216.83833099999993,Pass,Simple pass,35.0,26.0,25.0,34.0

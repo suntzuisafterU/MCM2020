@@ -1,0 +1,25 @@
+13,Opponent13,Opponent13_M3,Opponent13_D2,2H,62.92568200000005,Pass,Simple pass,39.0,58.0,32.0,48.0
+13,Opponent13,Opponent13_D2,Opponent13_D4,2H,64.88457199999993,Pass,Simple pass,32.0,48.0,57.0,5.0
+13,Opponent13,Opponent13_D4,,2H,70.18785100000014,Pass,Simple pass,57.0,5.0,72.0,4.0
+13,Huskies,Huskies_M8,,2H,71.0279300000002,Pass,High pass,28.0,96.0,84.0,99.0
+13,Opponent13,Opponent13_D2,Opponent13_G1,2H,79.03316700000005,Pass,Simple pass,16.0,1.0,3.0,49.0
+13,Opponent13,Opponent13_G1,Opponent13_D1,2H,83.57484699999986,Pass,Simple pass,3.0,49.0,29.0,74.0
+13,Opponent13,Opponent13_D1,Opponent13_D3,2H,86.58400399999982,Pass,Simple pass,29.0,74.0,37.0,94.0
+13,Opponent13,Opponent13_D3,,2H,90.06640000000016,Pass,Simple pass,37.0,94.0,33.0,83.0
+13,Huskies,Huskies_M3,,2H,91.45493299999998,Duel,Ground defending duel,67.0,17.0,63.0,4.0
+13,Opponent13,Opponent13_M2,,2H,91.45493299999998,Duel,Ground attacking duel,33.0,83.0,37.0,96.0
+13,Opponent13,Opponent13_M2,Opponent13_M4,2H,94.76088900000013,Pass,Simple pass,37.0,96.0,44.0,70.0
+13,Opponent13,Opponent13_M4,Opponent13_M5,2H,97.19063300000016,Pass,Simple pass,44.0,70.0,46.0,24.0
+13,Opponent13,Opponent13_M5,,2H,100.10796600000003,Others on the ball,Acceleration,46.0,24.0,69.0,15.0
+13,Opponent13,Opponent13_M5,Opponent13_D4,2H,103.17300699999987,Pass,Simple pass,69.0,15.0,75.0,3.0
+13,Opponent13,Opponent13_D4,Opponent13_M5,2H,105.12286300000005,Pass,Simple pass,75.0,3.0,82.0,7.0
+13,Opponent13,Opponent13_M5,,2H,106.7680650000002,Pass,Simple pass,82.0,7.0,86.0,26.0
+13,Huskies,Huskies_D3,,2H,107.467713,Duel,Ground defending duel,14.0,74.0,14.0,83.0
+13,Opponent13,Opponent13_M1,,2H,107.467713,Duel,Ground attacking duel,86.0,26.0,86.0,17.0
+13,Opponent13,Opponent13_M1,Opponent13_D4,2H,109.1056279999998,Pass,Simple pass,86.0,17.0,88.0,9.0
+13,Opponent13,Opponent13_D4,Opponent13_M1,2H,110.4937890000001,Pass,Simple pass,88.0,9.0,87.0,17.0
+13,Opponent13,Opponent13_M1,,2H,111.55016599999999,Pass,Smart pass,87.0,17.0,93.0,15.0
+13,Huskies,Huskies_M8,,2H,111.74580400000013,Duel,Ground defending duel,7.0,85.0,2.0,77.0
+13,Opponent13,Opponent13_D4,,2H,111.74580400000013,Duel,Ground attacking duel,93.0,15.0,98.0,23.0
+13,Opponent13,Opponent13_D4,,2H,113.31332199999997,Pass,Cross,98.0,23.0,97.0,37.0
+13,Huskies,Huskies_G1,,2H,144.9434150000002,Free Kick,Goal kick,100.0,100.0,58.0,28.0

@@ -1,0 +1,49 @@
+16,Opponent16,Opponent16_D4,Opponent16_M3,1H,1051.039087,Pass,Simple pass,34.0,64.0,60.0,11.0
+16,Opponent16,Opponent16_M3,Opponent16_M1,1H,1058.446294,Pass,Simple pass,60.0,11.0,56.0,43.0
+16,Opponent16,Opponent16_M1,Opponent16_F2,1H,1061.197542,Pass,High pass,56.0,43.0,77.0,95.0
+16,Opponent16,Opponent16_F2,Opponent16_M2,1H,1064.596613,Pass,Smart pass,77.0,95.0,86.0,93.0
+16,Opponent16,Opponent16_M2,,1H,1069.325655,Duel,Ground attacking duel,86.0,93.0,78.0,89.0
+16,Huskies,Huskies_M1,,1H,1069.681689,Duel,Ground defending duel,14.0,7.0,22.0,11.0
+16,Opponent16,Opponent16_M2,Opponent16_M1,1H,1071.794692,Pass,Simple pass,78.0,89.0,73.0,68.0
+16,Opponent16,Opponent16_M1,Opponent16_D3,1H,1073.546211,Pass,Simple pass,73.0,68.0,79.0,16.0
+16,Opponent16,Opponent16_D3,Opponent16_M3,1H,1076.057983,Pass,Simple pass,79.0,16.0,86.0,6.0
+16,Opponent16,Opponent16_M3,Opponent16_F1,1H,1078.771562,Pass,Simple pass,86.0,6.0,96.0,25.0
+16,Opponent16,Opponent16_F1,,1H,1081.158778,Pass,Cross,96.0,25.0,0.0,0.0
+16,Huskies,Huskies_G1,,1H,1083.433554,Save attempt,Save attempt,100.0,100.0,4.0,75.0
+16,Huskies,Huskies_G1,,1H,1099.950706,Pass,Launch,13.0,55.0,61.0,67.0
+16,Opponent16,Opponent16_D1,,1H,1102.838332,Duel,Ground loose ball duel,39.0,33.0,30.0,39.0
+16,Huskies,Huskies_F1,,1H,1103.916469,Pass,Head pass,70.0,61.0,71.0,95.0
+16,Opponent16,Opponent16_D3,Opponent16_F3,1H,1107.085796,Pass,High pass,29.0,5.0,66.0,27.0
+16,Opponent16,Opponent16_F3,Opponent16_F1,1H,1109.09092,Pass,Head pass,66.0,27.0,59.0,18.0
+16,Opponent16,Opponent16_F1,,1H,1111.575882,Others on the ball,Acceleration,59.0,18.0,73.0,69.0
+16,Huskies,Huskies_M1,,1H,1114.305896,Duel,Ground defending duel,27.0,31.0,24.0,43.0
+16,Opponent16,Opponent16_F1,,1H,1114.453059,Duel,Ground attacking duel,73.0,69.0,76.0,57.0
+16,Huskies,Huskies_D6,,1H,1117.307361,Pass,High pass,24.0,43.0,63.0,22.0
+16,Opponent16,Opponent16_D2,Opponent16_D4,1H,1119.142709,Pass,Head pass,37.0,78.0,28.0,67.0
+16,Opponent16,Opponent16_D4,Opponent16_M2,1H,1121.496271,Pass,Head pass,28.0,67.0,45.0,78.0
+16,Opponent16,Opponent16_M2,Opponent16_D4,1H,1122.717921,Pass,Simple pass,45.0,78.0,27.0,68.0
+16,Opponent16,Opponent16_D4,Opponent16_M1,1H,1126.11961,Pass,Simple pass,27.0,68.0,53.0,61.0
+16,Opponent16,Opponent16_M1,Opponent16_F2,1H,1129.94393,Pass,Simple pass,53.0,61.0,78.0,90.0
+16,Opponent16,Opponent16_F2,Opponent16_M2,1H,1134.280275,Pass,Simple pass,78.0,90.0,66.0,77.0
+16,Opponent16,Opponent16_M2,Opponent16_D3,1H,1136.948718,Pass,High pass,66.0,77.0,85.0,16.0
+16,Opponent16,Opponent16_D3,,1H,1143.14703,Duel,Ground attacking duel,85.0,16.0,91.0,8.0
+16,Huskies,Huskies_F2,,1H,1143.221604,Duel,Ground defending duel,15.0,84.0,9.0,92.0
+16,Opponent16,Opponent16_D3,Opponent16_F2,1H,1144.208767,Pass,Cross,91.0,8.0,87.0,93.0
+16,Opponent16,Opponent16_F2,Opponent16_M2,1H,1151.74264,Pass,Simple pass,87.0,93.0,75.0,89.0
+16,Opponent16,Opponent16_M2,,1H,1153.976692,Pass,Cross,75.0,89.0,0.0,0.0
+16,Huskies,Huskies_G1,,1H,1155.365083,Goalkeeper leaving line,Goalkeeper leaving line,100.0,100.0,25.0,11.0
+16,Huskies,Huskies_G1,Huskies_F1,1H,1158.330283,Pass,High pass,12.0,50.0,56.0,61.0
+16,Huskies,Huskies_F1,,1H,1160.687326,Duel,Ground attacking duel,56.0,61.0,53.0,53.0
+16,Opponent16,Opponent16_D1,,1H,1160.718682,Duel,Ground defending duel,44.0,39.0,47.0,47.0
+16,Opponent16,Opponent16_M1,Opponent16_M3,1H,1163.336052,Pass,Simple pass,47.0,47.0,63.0,13.0
+16,Opponent16,Opponent16_M3,Opponent16_D3,1H,1167.814283,Pass,Simple pass,63.0,13.0,76.0,5.0
+16,Opponent16,Opponent16_D3,Opponent16_M3,1H,1169.392804,Pass,Simple pass,76.0,5.0,75.0,20.0
+16,Opponent16,Opponent16_M3,Opponent16_F1,1H,1174.262404,Pass,Simple pass,75.0,20.0,71.0,20.0
+16,Opponent16,Opponent16_F1,,1H,1177.997854,Pass,High pass,71.0,20.0,89.0,66.0
+16,Huskies,Huskies_D5,,1H,1179.73399,Pass,Head pass,11.0,34.0,31.0,33.0
+16,Opponent16,Opponent16_M2,,1H,1182.584432,Pass,Head pass,69.0,67.0,65.0,89.0
+16,Huskies,Huskies_M6,,1H,1184.593546,Duel,Ground defending duel,35.0,11.0,17.0,7.0
+16,Opponent16,Opponent16_D2,,1H,1185.038117,Duel,Ground attacking duel,65.0,89.0,83.0,93.0
+16,Opponent16,Opponent16_D2,,1H,1186.515282,Pass,Cross,83.0,93.0,90.0,66.0
+16,Huskies,Huskies_D2,,1H,1188.211224,Others on the ball,Clearance,10.0,34.0,32.0,0.0
+16,Opponent16,Opponent16_D2,,1H,1198.820668,Free Kick,Throw in,68.0,100.0,39.0,78.0
