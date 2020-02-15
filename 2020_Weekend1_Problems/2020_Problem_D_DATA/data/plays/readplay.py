@@ -1,9 +1,9 @@
 
 
-def readplay(playnum):
+def readplay(playnum, schema):
     
 
-    f = open("Hplay" + f"{playnum:04d}", "r")
+    f = open(schema + f"{playnum:04d}", "r")
 
     data = []
 

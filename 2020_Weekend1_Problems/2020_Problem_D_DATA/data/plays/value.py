@@ -24,10 +24,10 @@ class Play:
         
         
 
-def EV(play):
+def EV(play, schema):
 
     
-    myplay = readplay(play)
+    myplay = readplay(play, schema)
             
     bEV = breadthEV(myplay)
     tEV = tempoEV(myplay, play)
@@ -47,9 +47,22 @@ def breadthEV(play):
     return len(playerset) 
 
 
+def ballX(play):
+    xpos = 0
+    for i in play:
+        xpos += i[9]
+    xpos = xpos / len(play)
+    return xpos
 
 
-def tempoEV(play, playnum):
+def ballY(play):
+    ypos = 0
+    for i in play:
+        ypos += i[10]
+    ypos = ypos / len(play)
+    return ypos
+
+def tempoEV(play):
 
     passtime = 0
     totalpass = 0
@@ -71,9 +84,9 @@ def flowEV(play):
 
     for i in play:
         if i [1] == "Huskies":
-            flowmetric *= 1.1
+            flowmetric += 1.01
         else:
-            flowmetric *= 0.9
+            flowmetric -= 0.99
 
     return flowmetric
 
@@ -82,27 +95,31 @@ def shotsEV(play):
 
     shots = 0
     for i in play:
-        if i[7] == "Shot":
+        if i[7] == "Shot" and i[1] == "Huskies":
             shots += 10
+        elif i[7] == "Shot":
+            shots -= 10
 
     return shots
 
+if __name__ == "__main__":
+    schema = input("What types of files to provide analysis for?")
 
-thisdir = listdir(".")
-totalH = sum([1 for i in thisdir if "Hplay" in i])
+    thisdir = listdir(".")
+    totalH = sum([1 for i in thisdir if schema in i])
 
-playlist = []
-for i in range(1,totalH):
-    playlist.append(EV(i)) 
+    playlist = []
+    for i in range(1,totalH):
+        playlist.append(EV(i, schema)) 
 
-playlist.sort(key=lambda x: x.sEV)
+    playlist.sort(key=lambda x: x.sEV)
 
-shots = [i.sEV for i in playlist]
-tempo = [i.tEV for i in playlist]
-breadth = [i.bEV for i in playlist]
-flow = [i.fEV for i in playlist]
+    shots = [i.sEV for i in playlist]
+    tempo = [i.tEV for i in playlist]
+    breadth = [i.bEV for i in playlist]
+    flow = [i.fEV for i in playlist]
 
-#for i in playlist:
-#    i.query()
+    #for i in playlist:
+    #    i.query()
 
-print(linregress(breadth, tempo))
+    print(linregress(breadth, tempo))
