@@ -1,0 +1,12 @@
+Duel
+EventType
+Foul
+Free Kick
+Goalkeeper leaving line
+Interruption
+Offside
+Others on the ball
+Pass
+Save attempt
+Shot
+Substitution
