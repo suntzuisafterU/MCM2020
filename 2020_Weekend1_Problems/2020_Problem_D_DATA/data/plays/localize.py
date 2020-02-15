@@ -6,8 +6,6 @@ def localize(playname):
 
     data = []
 
-    
-
     for line in f:
         if line [0] == "M":
             continue
