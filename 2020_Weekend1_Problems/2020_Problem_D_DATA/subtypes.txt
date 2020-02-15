@@ -1,0 +1,37 @@
+
+Acceleration
+Air duel
+Ball out of the field
+Clearance
+Corner
+Cross
+Foul
+Free Kick
+Free kick cross
+Free kick shot
+Goalkeeper leaving line
+Goal kick
+Ground attacking duel
+Ground defending duel
+Ground loose ball duel
+Hand foul
+Hand pass
+Head pass
+High pass
+Late card foul
+Launch
+Out of game foul
+Penalty
+Protest
+Reflexes
+Save attempt
+Shot
+Simple pass
+Simulation
+Smart pass
+Substitution
+Throw in
+Time lost foul
+Touch
+Violent Foul
+Whistle
