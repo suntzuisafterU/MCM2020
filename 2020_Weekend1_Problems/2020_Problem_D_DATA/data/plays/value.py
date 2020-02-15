@@ -2,20 +2,24 @@ from readplay import readplay
 from timing import *
 from scipy.stats import linregress
 from os import listdir
+import glob
+
+
 class Play:
     
-    def __init__(self, bEV, tEV, fEV, sEV, playnum):
+    def __init__(self, bEV, tEV, fEV, sEV, play):
         self.bEV = bEV
         self.tEV = tEV
         self.fEV = fEV
         self.sEV = sEV
         self.TEV = sum([bEV, tEV, fEV, sEV])
-        self.playnum = playnum
+        # TODO: Extract actual play number here
+        self.playfile = play
 
     def query(self):
         
         print()
-        print("For Play Number", self.playnum)
+        print("For Play Number", self.playfile)
         print("Breadth EV was:", self.bEV)    
         print("Tempo EV was:",   self.tEV)    
         print("Flow EV was:",    self.fEV)    
@@ -24,17 +28,16 @@ class Play:
         
         
 
-def EV(play, schema):
+def EV(path):
 
-    
-    myplay = readplay(play, schema)
+    myplay = readplay(path)
             
     bEV = breadthEV(myplay)
-    tEV = tempoEV(myplay, play)
+    tEV = tempoEV(myplay)
     fEV = flowEV(myplay)
     sEV = shotsEV(myplay)
 
-    return Play(bEV, tEV, fEV, sEV, play)
+    return Play(bEV, tEV, fEV, sEV, path)
 
 
 def breadthEV(play):
@@ -103,21 +106,20 @@ def shotsEV(play):
     return shots
 
 if __name__ == "__main__":
-    schema = input("What types of files to provide analysis for?")
+    schema = input("Path glob for files? ")
 
-    thisdir = listdir(".")
-    totalH = sum([1 for i in thisdir if schema in i])
+    playlist = glob.glob(schema)
 
-    playlist = []
-    for i in range(1,totalH):
-        playlist.append(EV(i, schema)) 
+    res = []
+    for play in playlist:
+        res.append(EV(play))
 
-    playlist.sort(key=lambda x: x.sEV)
+    res.sort(key=lambda x: x.sEV)
 
-    shots = [i.sEV for i in playlist]
-    tempo = [i.tEV for i in playlist]
-    breadth = [i.bEV for i in playlist]
-    flow = [i.fEV for i in playlist]
+    shots = [i.sEV for i in res]
+    tempo = [i.tEV for i in res]
+    breadth = [i.bEV for i in res]
+    flow = [i.fEV for i in res]
 
     #for i in playlist:
     #    i.query()

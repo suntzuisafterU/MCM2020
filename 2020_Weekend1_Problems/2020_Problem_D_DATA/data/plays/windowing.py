@@ -1,10 +1,13 @@
 from value import *
+from readplay import *
+
 import numpy as np
 import matplotlib.pyplot as mp
 from mpl_toolkits.mplot3d import Axes3D
-def windower(window_size, analysisfn, play, schema):
 
-    myplay = readplay(play, schema)
+import sys
+
+def windower(window_size, analysisfn, myplay):
 
     xs = []
     ys = []
@@ -58,13 +61,17 @@ for i in range(1, 100):
     mp.scatter(xy, yy)
     mp.show()
 """
-for j in range(1, 100):
+
+pathglob = sys.argv[1]
+
+plays = read_a_set_of_plays(pathglob)
+for play in plays:
     for i in range(1, 10):
-        xs, ys = windower(i, flowEV, j, "Hplay")
+        xs, ys = windower(i, flowEV, play)
         mp.scatter(xs, ys, color=(float("0."+str(i)), .5, .5))
-        xt, yt = windower(i, tempoEV, j, "Hplay")
+        xt, yt = windower(i, tempoEV, play)
         mp.scatter(xt, yt, color=(.5, float("0."+str(i)), .5))
-        xx, yx = windower(i, ballX, j, "Hplay")
+        xx, yx = windower(i, ballX, play)
         mp.scatter(xx, yx, color=(.5, .5, float("0."+str(i))))
     mp.show()
 

@@ -1,26 +1,21 @@
 
+import pandas as pd
+import glob
 
-def readplay(playnum, schema):
+def readplay(path):
     
+    f = open(path)
 
-    f = open(schema + f"{playnum:04d}", "r")
+    data = pd.read_csv(path)
 
-    data = []
+    return data.values
 
-    for line in f:
-        if line [0] == "M":
-            continue
-        data.append(line.split(","))
-        data[-1][-1] = data[-1][-1].rstrip()
-        data[-1][0] = int(data[-1][0])
-        data[-1][5] = float(data[-1][5])
-        if data[-1][6] != "Substitution" and data[-1][6] != "Foul":
+def read_a_set_of_plays(pathglob):
+    paths = glob.glob(pathglob)
 
-            for i in range(8, 12):
-                data[-1][i] = float(data[-1][i])    
-        
-        else:
-            for i in range(8, 12):
-                data[-1][i] = 0
+    res = []
+    for filepath in paths:
+        res.append(readplay(filepath))
 
-    return data
+    return res
+
