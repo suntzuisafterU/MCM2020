@@ -1,7 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-9,Opponent9,Opponent9_D3,Opponent9_F2,1H,2148.13466,Pass,Simple pass,25.0,83.0,44.0,84.0
-9,Opponent9,Opponent9_F2,Opponent9_M2,1H,2151.201954,Pass,Simple pass,44.0,84.0,43.0,67.0
-9,Opponent9,Opponent9_M2,Opponent9_D4,1H,2153.972039,Pass,High pass,43.0,67.0,61.0,14.0
-9,Opponent9,Opponent9_D4,,1H,2159.772035,Pass,Smart pass,61.0,14.0,85.0,47.0
-9,Huskies,Huskies_G1,,1H,2175.244795,Pass,Launch,15.0,53.0,60.0,100.0
-9,Opponent9,Opponent9_D4,,1H,2187.508662,Free Kick,Throw in,38.0,0.0,20.0,24.0

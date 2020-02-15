@@ -1,8 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-27,Huskies,Huskies_D1,,1H,2229.491913,Others on the ball,Clearance,7.0,59.0,17.0,41.0
-27,Huskies,Huskies_D5,,1H,2232.5011,Duel,Ground defending duel,17.0,41.0,13.0,33.0
-27,Opponent12,Opponent12_M3,,1H,2232.922331,Duel,Ground attacking duel,83.0,59.0,87.0,67.0
-27,Huskies,Huskies_M4,,1H,2234.057136,Duel,Ground defending duel,13.0,33.0,16.0,25.0
-27,Opponent12,Opponent12_D6,,1H,2235.416945,Duel,Ground attacking duel,87.0,67.0,84.0,75.0
-27,Opponent12,Opponent12_D6,Opponent12_F1,1H,2236.998662,Pass,Cross,84.0,75.0,95.0,52.0
-27,Opponent12,Opponent12_F1,,1H,2238.301576,Offside,,95.0,52.0,100.0,100.0

@@ -1,7 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-20,Opponent19,Opponent19_D2,,2H,1586.8534769999997,Pass,Head pass,29.0,24.0,45.0,35.0
-20,Huskies,Huskies_M3,,2H,1589.4461460000002,Pass,Head pass,55.0,65.0,72.0,53.0
-20,Opponent19,Opponent19_D3,Opponent19_D4,2H,1591.5208359999997,Pass,Head pass,28.0,47.0,31.0,82.0
-20,Opponent19,Opponent19_D4,,2H,1595.5964540000004,Pass,High pass,31.0,82.0,86.0,86.0
-20,Huskies,Huskies_D5,,2H,1598.7788639999999,Others on the ball,Clearance,14.0,14.0,8.0,0.0
-20,Opponent19,Opponent19_M4,,2H,1605.0793130000002,Free Kick,Throw in,78.0,100.0,86.0,94.0

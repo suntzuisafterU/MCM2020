@@ -23,7 +23,6 @@ def playParser(ev_list, init_max):
 
     for play in ev_list:
 
-        current_play.append(play)
 
         if play[1] == current_initiative and initiative_stack < init_max:
             initiative_stack += 1
@@ -39,9 +38,17 @@ def playParser(ev_list, init_max):
             current_initiative = play[1]
             curr_game = play[0]
 
-    playnum = 0    
+        current_play.append(play)
+
+    Hplaynum = 0 
+    Oplaynum = 0   
     for play in plays:
-        f = open("play" + str(playnum), "w")
+        playboys = play[0][1][0]
+        if playboys == "H":
+            fname = f"{Hplaynum:04d}"
+        else:
+            fname = f"{Oplaynum:04d}"
+        f = open( playboys + "play" + fname, "w")
         f.write(header)
         for ev in play:
             for el in ev:
@@ -49,8 +56,12 @@ def playParser(ev_list, init_max):
                 if not "\n" in el:
                     f.write(",")
         f.close()
-        playnum += 1
+        if playboys == "H":
+            Hplaynum += 1
+        else:
+            Oplaynum += 1
     return plays
+
 playParser(event_list, 4)
         
     

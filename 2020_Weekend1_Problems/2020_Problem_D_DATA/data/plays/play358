@@ -1,7 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-6,Opponent6,Opponent6_M2,,2H,3030.5789299999997,Duel,Ground defending duel,2.0,10.0,2.0,4.0
-6,Huskies,Huskies_F1,,2H,3030.598933,Duel,Ground attacking duel,98.0,90.0,98.0,96.0
-6,Huskies,Huskies_F1,,2H,3031.803908,Duel,Ground attacking duel,98.0,96.0,98.0,93.0
-6,Opponent6,Opponent6_D1,,2H,3032.0025809999997,Duel,Ground defending duel,2.0,4.0,2.0,7.0
-6,Opponent6,Opponent6_M2,,2H,3032.7764829999996,Others on the ball,Touch,2.0,7.0,0.0,7.0
-6,Opponent6,Opponent6_M2,,2H,3053.5564489999997,Foul,Protest,3.0,9.0,,
