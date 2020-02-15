@@ -1,4 +1,5 @@
 
+import re
 from d import *
 
 # for each index in the mat
@@ -6,14 +7,21 @@ from d import *
 # second index is Destination player
 
 def directed_network():
+    print("source,target,weight")
     for src,src_row in enumerate(diadjmat):
         for dst,cardinality in enumerate(src_row):
             src_name = idx_to_name[src]
             dst_name = idx_to_name[dst]
             print(f"{src_name},{dst_name},{cardinality}")
 
+def color_node_by_pos():
+    pass
+
+def print_nodes_with_colors():
+    pass
 
 def undirected_network():
+    print("source,target,weight")
     for src,src_row in enumerate(uadjmat):
         src_name = idx_to_name[src]
         for k in range(src):

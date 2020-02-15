@@ -3,13 +3,13 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-import sys
+fdata = pd.read_csv("data/fullevents.csv")
+mdat = pd.read_csv("data/matches.csv")
+pdat = pd.read_csv("data/passingevents.csv")
+hpdat = pd.read_csv("data/huskiespassingevents.csv")
 
-srcdat = {}
-if len(sys.argv) != 2:
-    print("please enter a dataset path")
-else:
-    srcdat = pd.read_csv(sys.argv[1])
+# pass matrix, game by game
+srcdat = hpdat
 
 # filter out only our players
 idx_to_name = { i:name for i,name in enumerate(srcdat['OriginPlayerID'].unique()) }
@@ -36,7 +36,7 @@ def umat_incr(rrow):
     uadjmat[res] += 1
 
 
-for row in srcdat.to_dict(orient='records'):
+for row in hpdat.to_dict(orient='records'):
     umat_incr(row)
     dimat_incr(row)
 
