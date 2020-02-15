@@ -8,6 +8,7 @@ import sys
 srcdat = {}
 if len(sys.argv) != 2:
     print("please enter a dataset path")
+    sys.exit(1)
 else:
     srcdat = pd.read_csv(sys.argv[1])
 
