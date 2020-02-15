@@ -23,7 +23,6 @@ def playParser(ev_list, init_max):
 
     for play in ev_list:
 
-        current_play.append(play)
 
         if play[1] == current_initiative and initiative_stack < init_max:
             initiative_stack += 1
@@ -38,6 +37,8 @@ def playParser(ev_list, init_max):
             initiative = 1
             current_initiative = play[1]
             curr_game = play[0]
+
+        current_play.append(play)
 
     playnum = 0    
     for play in plays:

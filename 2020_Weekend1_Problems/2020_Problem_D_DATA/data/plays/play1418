@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+32,Opponent2,Opponent2_M5,,2H,2410.5310600000003,Free Kick,Corner,100.0,97.0,93.0,93.0
 32,Opponent2,Opponent2_M6,Opponent2_M2,2H,2412.723102,Pass,Simple pass,93.0,93.0,75.0,91.0
 32,Opponent2,Opponent2_M2,Opponent2_D2,2H,2417.6115200000004,Pass,Simple pass,75.0,91.0,63.0,43.0
 32,Opponent2,Opponent2_D2,Opponent2_M1,2H,2422.6644560000004,Pass,Simple pass,63.0,43.0,55.0,27.0
@@ -23,4 +24,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 32,Opponent2,Opponent2_M1,Opponent2_D4,2H,2464.440598,Pass,Simple pass,46.0,31.0,33.0,36.0
 32,Opponent2,Opponent2_D4,Opponent2_D2,2H,2466.4283889999997,Pass,Simple pass,33.0,36.0,30.0,65.0
 32,Opponent2,Opponent2_D2,,2H,2469.731721,Others on the ball,Touch,30.0,65.0,43.0,100.0
-32,Opponent2,Opponent2_D1,,2H,2507.150179,Free Kick,Throw in,42.0,100.0,43.0,58.0

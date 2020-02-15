@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+32,Opponent2,Opponent2_M1,Opponent2_M4,2H,1343.139983,Pass,Simple pass,65.0,48.0,63.0,65.0
 32,Opponent2,Opponent2_M4,Opponent2_M5,2H,1344.0280780000003,Pass,Simple pass,63.0,65.0,69.0,89.0
 32,Opponent2,Opponent2_M5,Opponent2_M4,2H,1346.6370319999996,Pass,Simple pass,69.0,89.0,64.0,70.0
 32,Opponent2,Opponent2_M4,Opponent2_M1,2H,1348.6288109999996,Pass,Simple pass,64.0,70.0,61.0,48.0
@@ -49,4 +50,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 32,Opponent2,Opponent2_M1,Opponent2_M2,2H,1440.7604359999996,Pass,Simple pass,82.0,41.0,88.0,42.0
 32,Opponent2,Opponent2_M2,,2H,1441.9737180000002,Others on the ball,Touch,88.0,42.0,98.0,24.0
 32,Opponent2,Opponent2_M3,,2H,1444.3875930000004,Others on the ball,Touch,98.0,24.0,100.0,20.0
-32,Huskies,Huskies_G1,,2H,1468.9651199999998,Free Kick,Goal kick,0.0,0.0,28.0,34.0

@@ -1,7 +1,7 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+17,Opponent17,Opponent17_D4,,1H,1786.367913,Free Kick,Throw in,89.0,0.0,88.0,13.0
 17,Opponent17,Opponent17_F1,Opponent17_F1,1H,1787.296395,Pass,Simple pass,88.0,13.0,81.0,2.0
 17,Opponent17,Opponent17_F1,,1H,1791.053608,Duel,Ground attacking duel,81.0,2.0,83.0,4.0
 17,Huskies,Huskies_M1,Huskies_M3,1H,1791.743417,Pass,Simple pass,17.0,96.0,21.0,92.0
 17,Huskies,Huskies_M3,Huskies_M8,1H,1792.723993,Pass,Simple pass,21.0,92.0,32.0,80.0
 17,Huskies,Huskies_M8,Huskies_F2,1H,1795.454402,Pass,Simple pass,32.0,80.0,26.0,74.0
-17,Huskies,Huskies_F2,,1H,1797.629472,Duel,Ground attacking duel,26.0,74.0,29.0,75.0

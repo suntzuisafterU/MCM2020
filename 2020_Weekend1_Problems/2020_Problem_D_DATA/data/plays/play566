@@ -1,8 +1,8 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+10,Opponent10,Opponent10_D4,,2H,1950.4650789999996,Free Kick,Throw in,55.0,0.0,76.0,17.0
 10,Opponent10,Opponent10_F2,Opponent10_D3,2H,1951.8101989999996,Pass,Simple pass,76.0,17.0,72.0,29.0
 10,Opponent10,Opponent10_D3,,2H,1953.5925120000002,Pass,Simple pass,72.0,29.0,79.0,15.0
 10,Huskies,Huskies_D7,,2H,1954.239794,Others on the ball,Touch,21.0,85.0,33.0,89.0
 10,Opponent10,Opponent10_D4,,2H,1957.5244229999998,Duel,Ground loose ball duel,67.0,11.0,28.0,8.0
 10,Huskies,Huskies_D7,,2H,1957.7818289999996,Duel,Ground loose ball duel,33.0,89.0,72.0,92.0
 10,Opponent10,Opponent10_D5,Opponent10_D3,2H,1960.8842990000003,Pass,High pass,28.0,8.0,71.0,12.0
-10,Opponent10,Opponent10_D3,,2H,1963.675655,Offside,,71.0,12.0,0.0,0.0

@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+3,Opponent3,Opponent3_D3,Opponent3_G1,1H,1665.180405,Pass,Simple pass,18.0,11.0,6.0,40.0
 3,Opponent3,Opponent3_G1,Opponent3_D3,1H,1667.795859,Pass,Simple pass,6.0,40.0,20.0,46.0
 3,Opponent3,Opponent3_D3,,1H,1671.86272,Others on the ball,Touch,20.0,46.0,54.0,57.0
 3,Opponent3,Opponent3_D3,Opponent3_F2,1H,1678.313471,Pass,Simple pass,54.0,57.0,57.0,51.0
@@ -24,4 +25,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 3,Huskies,Huskies_D2,,1H,1730.86342,Duel,Ground loose ball duel,44.0,31.0,19.0,46.0
 3,Huskies,Huskies_G1,Huskies_D2,1H,1735.464243,Pass,Simple pass,19.0,46.0,26.0,46.0
 3,Huskies,Huskies_D2,Huskies_M4,1H,1739.375036,Pass,Simple pass,26.0,46.0,47.0,46.0
-3,Huskies,Huskies_M4,Huskies_D2,1H,1740.062383,Pass,Simple pass,47.0,46.0,27.0,46.0

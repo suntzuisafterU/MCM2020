@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+26,Opponent9,Opponent9_M3,,1H,2347.796334,Free Kick,Corner,100.0,100.0,92.0,43.0
 26,Opponent9,Opponent9_D2,,1H,2348.563113,Duel,Air duel,92.0,43.0,92.0,39.0
 26,Huskies,Huskies_D7,,1H,2348.586547,Duel,Air duel,8.0,57.0,8.0,61.0
 26,Opponent9,Opponent9_D2,,1H,2349.740418,Shot,Shot,92.0,39.0,0.0,0.0
@@ -13,4 +14,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 26,Huskies,Huskies_D1,,1H,2363.87821,Others on the ball,Clearance,6.0,54.0,13.0,59.0
 26,Opponent9,Opponent9_D2,,1H,2364.229686,Shot,Shot,87.0,41.0,0.0,0.0
 26,Huskies,Huskies_D1,,1H,2365.759495,Others on the ball,Touch,6.0,51.0,0.0,66.0
-26,Opponent9,Opponent9_M1,,1H,2392.058198,Free Kick,Corner,100.0,0.0,91.0,33.0

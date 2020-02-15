@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+27,Opponent12,Opponent12_F1,,1H,2238.301576,Offside,,95.0,52.0,100.0,100.0
 27,Huskies,Huskies_M4,,1H,2275.656865,Pass,Cross,70.0,86.0,83.0,67.0
 27,Opponent12,Opponent12_D6,,1H,2277.731096,Others on the ball,Clearance,17.0,33.0,33.0,39.0
 27,Huskies,Huskies_F2,Huskies_M6,1H,2279.115421,Pass,Simple pass,67.0,61.0,71.0,52.0
@@ -11,4 +12,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 27,Huskies,Huskies_M1,Huskies_M4,1H,2287.960301,Pass,Simple pass,65.0,90.0,73.0,86.0
 27,Huskies,Huskies_M4,,1H,2291.345026,Pass,Smart pass,73.0,86.0,87.0,82.0
 27,Opponent12,Opponent12_D7,,1H,2292.798594,Others on the ball,Touch,13.0,18.0,0.0,15.0
-27,Huskies,Huskies_M6,,1H,2316.35394,Free Kick,Corner,100.0,100.0,93.0,50.0

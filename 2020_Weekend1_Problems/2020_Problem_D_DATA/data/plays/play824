@@ -1,4 +1,5 @@
 MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
+16,Opponent16,Opponent16_D1,Opponent16_D4,2H,1496.734781,Pass,Simple pass,34.0,39.0,34.0,61.0
 16,Opponent16,Opponent16_D4,Opponent16_D1,2H,1500.6721829999997,Pass,Simple pass,34.0,61.0,32.0,36.0
 16,Opponent16,Opponent16_D1,Opponent16_F1,2H,1501.738518,Pass,Simple pass,32.0,36.0,59.0,31.0
 16,Opponent16,Opponent16_F1,Opponent16_M1,2H,1502.7678020000003,Pass,Simple pass,59.0,31.0,46.0,54.0
@@ -24,4 +25,3 @@ MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventTyp
 16,Opponent16,Opponent16_F4,Opponent16_D2,2H,1541.3599729999996,Pass,Simple pass,78.0,90.0,65.0,87.0
 16,Opponent16,Opponent16_D2,Opponent16_M1,2H,1543.3339859999996,Pass,Simple pass,65.0,87.0,68.0,56.0
 16,Opponent16,Opponent16_M1,Opponent16_M2,2H,1544.3151090000001,Pass,Simple pass,68.0,56.0,81.0,72.0
-16,Opponent16,Opponent16_M2,,2H,1546.6167500000001,Offside,,81.0,72.0,0.0,0.0
