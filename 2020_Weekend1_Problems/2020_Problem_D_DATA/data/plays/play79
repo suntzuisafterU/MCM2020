@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 2,Opponent2,Opponent2_F3,Opponent2_D5,2H,1900.5420789999998,Pass,Smart pass,77.0,88.0,93.0,67.0
 2,Opponent2,Opponent2_D5,,2H,1902.1213909999997,Shot,Shot,93.0,67.0,0.0,0.0
 2,Huskies,Huskies_G1,,2H,1903.6342080000004,Save attempt,Reflexes,100.0,100.0,7.0,33.0

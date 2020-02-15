@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 26,Opponent9,Opponent9_M2,Opponent9_D3,1H,1325.451989,Pass,Simple pass,39.0,32.0,24.0,28.0
 26,Opponent9,Opponent9_D3,Opponent9_D6,1H,1328.423447,Pass,Simple pass,24.0,28.0,27.0,61.0
 26,Opponent9,Opponent9_D6,Opponent9_M3,1H,1332.229796,Pass,Simple pass,27.0,61.0,31.0,35.0

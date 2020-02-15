@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 27,Opponent12,Opponent12_M4,Opponent12_D2,2H,1041.3518960000001,Pass,Simple pass,95.0,95.0,87.0,99.0
 27,Opponent12,Opponent12_D2,,2H,1042.817685,Pass,Cross,87.0,99.0,100.0,100.0
 27,Huskies,Huskies_G1,,2H,1043.7092890000004,Goalkeeper leaving line,Goalkeeper leaving line,0.0,0.0,13.0,1.0

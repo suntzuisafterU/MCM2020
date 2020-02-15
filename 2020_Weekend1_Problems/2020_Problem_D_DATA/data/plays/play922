@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 18,Huskies,Huskies_D2,,1H,2090.239673,Duel,Air duel,8.0,49.0,3.0,53.0
 18,Opponent18,Opponent18_M2,,1H,2091.019679,Shot,Shot,97.0,47.0,100.0,100.0
 18,Huskies,Huskies_G1,,1H,2093.268455,Save attempt,Reflexes,0.0,0.0,3.0,53.0

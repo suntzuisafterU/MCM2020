@@ -11,6 +11,7 @@ for line in f:
 
 
 header = event_list.pop(0)
+header = ",".join(header)
 
 def playParser(ev_list, init_max):
     plays = []
@@ -41,6 +42,7 @@ def playParser(ev_list, init_max):
     playnum = 0    
     for play in plays:
         f = open("play" + str(playnum), "w")
+        f.write(header)
         for ev in play:
             for el in ev:
                 f.write(el)
@@ -48,7 +50,6 @@ def playParser(ev_list, init_max):
                     f.write(",")
         f.close()
         playnum += 1
-
     return plays
 playParser(event_list, 4)
         

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 17,Opponent17,Opponent17_M2,,1H,988.373433,Pass,Head pass,64.0,5.0,78.0,26.0
 17,Huskies,Huskies_D2,Huskies_M3,1H,991.389698,Pass,Head pass,22.0,74.0,36.0,73.0
 17,Huskies,Huskies_M3,,1H,993.2632759999999,Pass,Head pass,36.0,73.0,30.0,91.0

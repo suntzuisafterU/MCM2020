@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 10,Opponent10,Opponent10_D5,Opponent10_G1,2H,273.8198520000001,Pass,Simple pass,19.0,9.0,6.0,33.0
 10,Opponent10,Opponent10_G1,Opponent10_D3,2H,277.3136880000002,Pass,Launch,6.0,33.0,34.0,30.0
 10,Opponent10,Opponent10_D3,,2H,279.20380699999987,Duel,Air duel,34.0,30.0,46.0,32.0

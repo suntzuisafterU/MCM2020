@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 34,Opponent18,Opponent18_F3,,2H,305.1548819999998,Others on the ball,Touch,91.0,35.0,88.0,30.0
 34,Huskies,Huskies_G1,,2H,309.2640940000001,Pass,Hand pass,12.0,70.0,48.0,51.0
 34,Opponent18,Opponent18_D2,Opponent18_M5,2H,311.7369749999998,Pass,Simple pass,52.0,49.0,74.0,86.0

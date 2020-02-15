@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 19,Opponent3,Opponent3_D2,,2H,1325.838181,Duel,Ground loose ball duel,35.0,74.0,37.0,74.0
 19,Huskies,Huskies_F1,,2H,1326.7932199999996,Duel,Ground loose ball duel,65.0,26.0,63.0,26.0
 19,Huskies,Huskies_F1,Huskies_F3,2H,1327.5243,Pass,Head pass,63.0,26.0,68.0,45.0

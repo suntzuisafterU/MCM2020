@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 19,Huskies,Huskies_D5,Huskies_G1,1H,1006.780401,Pass,Simple pass,11.0,36.0,4.0,37.0
 19,Huskies,Huskies_G1,Huskies_F1,1H,1007.6339889999999,Pass,Launch,4.0,37.0,74.0,38.0
 19,Huskies,Huskies_F1,,1H,1012.276758,Duel,Ground loose ball duel,74.0,38.0,76.0,36.0

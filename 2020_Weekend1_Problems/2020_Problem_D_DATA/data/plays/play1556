@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 36,Huskies,Huskies_M1,,1H,1696.152741,Others on the ball,Touch,67.0,42.0,69.0,50.0
 36,Huskies,Huskies_M1,,1H,1697.934212,Shot,Shot,69.0,50.0,100.0,100.0
 36,Opponent15,Opponent15_M6,,1H,1699.038548,Others on the ball,Touch,27.0,42.0,37.0,40.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 15,Opponent15,Opponent15_D1,Opponent15_M4,2H,1347.0437439999996,Pass,Simple pass,62.0,93.0,72.0,89.0
 15,Opponent15,Opponent15_M4,,2H,1347.7671060000002,Pass,Simple pass,72.0,89.0,91.0,93.0
 15,Huskies,Huskies_D5,,2H,1349.6242540000003,Duel,Ground loose ball duel,9.0,7.0,11.0,9.0

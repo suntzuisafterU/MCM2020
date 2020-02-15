@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 34,Huskies,Huskies_D8,,2H,356.03410600000007,Duel,Air duel,10.0,67.0,28.0,77.0
 34,Huskies,Huskies_F6,Huskies_D8,2H,357.9380930000002,Pass,Simple pass,28.0,77.0,21.0,79.0
 34,Huskies,Huskies_D8,,2H,358.93396600000005,Pass,Launch,21.0,79.0,57.0,50.0

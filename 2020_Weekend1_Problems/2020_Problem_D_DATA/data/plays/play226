@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 4,Opponent4,Opponent4_M3,Opponent4_D4,2H,1562.8519770000003,Pass,High pass,34.0,27.0,15.0,73.0
 4,Opponent4,Opponent4_D4,Opponent4_G1,2H,1566.4435249999997,Pass,Head pass,15.0,73.0,7.0,57.0
 4,Opponent4,Opponent4_G1,Opponent4_D2,2H,1571.5125829999997,Pass,Hand pass,7.0,57.0,20.0,58.0

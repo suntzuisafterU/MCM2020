@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 3,Huskies,Huskies_F2,,2H,2450.4556409999996,Others on the ball,Clearance,10.0,65.0,34.0,77.0
 3,Opponent3,Opponent3_M3,Opponent3_D2,2H,2453.629489,Pass,Simple pass,66.0,23.0,56.0,55.0
 3,Opponent3,Opponent3_D2,Opponent3_D3,2H,2456.1351839999998,Pass,Simple pass,56.0,55.0,74.0,72.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 16,Opponent16,Opponent16_M1,Opponent16_F3,1H,2221.945951,Pass,Simple pass,70.0,40.0,81.0,48.0
 16,Opponent16,Opponent16_F3,Opponent16_F1,1H,2223.020492,Pass,Simple pass,81.0,48.0,75.0,62.0
 16,Opponent16,Opponent16_F1,,1H,2224.393458,Duel,Ground loose ball duel,75.0,62.0,70.0,63.0

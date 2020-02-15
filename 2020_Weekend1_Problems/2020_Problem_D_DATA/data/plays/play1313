@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 27,Huskies,Huskies_F4,,2H,1732.950304,Duel,Air duel,4.0,56.0,2.0,54.0
 27,Opponent12,Opponent12_D2,,2H,1733.4015559999998,Duel,Air duel,96.0,44.0,98.0,46.0
 27,Opponent12,Opponent12_D2,,2H,1734.136219,Duel,Air duel,98.0,46.0,83.0,44.0

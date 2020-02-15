@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 33,Huskies,Huskies_D8,Huskies_D3,2H,1393.6799199999996,Pass,Simple pass,30.0,94.0,26.0,71.0
 33,Huskies,Huskies_D3,Huskies_D1,2H,1397.3280059999997,Pass,Simple pass,26.0,71.0,26.0,26.0
 33,Huskies,Huskies_D1,Huskies_D4,2H,1402.3822129999999,Pass,Simple pass,26.0,26.0,47.0,2.0

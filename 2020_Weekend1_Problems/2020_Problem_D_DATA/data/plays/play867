@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 17,Opponent17,Opponent17_M3,Opponent17_F1,1H,2195.028188,Pass,Head pass,39.0,81.0,45.0,76.0
 17,Opponent17,Opponent17_F1,Opponent17_M4,1H,2196.052783,Pass,Simple pass,45.0,76.0,41.0,64.0
 17,Opponent17,Opponent17_M4,,1H,2197.602217,Others on the ball,Touch,41.0,64.0,61.0,31.0

@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 27,Huskies,Huskies_D1,,1H,1533.537551,Duel,Ground defending duel,34.0,90.0,40.0,80.0
 27,Opponent12,Opponent12_F1,,1H,1534.94086,Duel,Ground attacking duel,66.0,10.0,60.0,20.0
 27,Huskies,Huskies_F2,,1H,1535.339629,Duel,Ground loose ball duel,40.0,80.0,38.0,80.0

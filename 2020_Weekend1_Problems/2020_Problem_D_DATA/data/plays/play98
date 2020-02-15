@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 3,Opponent3,Opponent3_M3,,1H,657.633705,Duel,Ground loose ball duel,46.0,18.0,53.0,22.0
 3,Huskies,Huskies_M4,,1H,657.635637,Duel,Ground loose ball duel,54.0,82.0,47.0,78.0
 3,Opponent3,Opponent3_F2,,1H,660.197912,Others on the ball,Acceleration,53.0,22.0,68.0,17.0

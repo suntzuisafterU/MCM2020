@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 1,Opponent1,Opponent1_D3,Opponent1_F2,1H,2444.350446,Pass,Simple pass,20.0,71.0,40.0,7.0
 1,Opponent1,Opponent1_F2,Opponent1_M1,1H,2457.132799,Pass,Simple pass,40.0,7.0,41.0,19.0
 1,Opponent1,Opponent1_M1,,1H,2457.469327,Duel,Ground attacking duel,41.0,19.0,35.0,5.0

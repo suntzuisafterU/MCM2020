@@ -1,3 +1,4 @@
+MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
 38,Opponent14,Opponent14_M1,Opponent14_F1,2H,1886.5987729999997,Pass,Simple pass,62.0,33.0,73.0,27.0
 38,Opponent14,Opponent14_F1,,2H,1888.1503080000002,Others on the ball,Acceleration,73.0,27.0,91.0,39.0
 38,Opponent14,Opponent14_F1,,2H,1891.236739,Duel,Ground attacking duel,91.0,39.0,88.0,34.0
