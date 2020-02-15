@@ -1,7 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-16,Opponent16,Opponent16_M3,Opponent16_D2,2H,2445.873557,Pass,Simple pass,28.0,51.0,32.0,96.0
-16,Opponent16,Opponent16_D2,,2H,2450.332214,Others on the ball,Touch,32.0,96.0,56.0,82.0
-16,Opponent16,Opponent16_D2,Opponent16_M1,2H,2453.098481,Pass,Simple pass,56.0,82.0,56.0,65.0
-16,Opponent16,Opponent16_M1,Opponent16_F5,2H,2454.9074739999996,Pass,Simple pass,56.0,65.0,68.0,50.0
-16,Opponent16,Opponent16_F5,Opponent16_F6,2H,2458.340392,Pass,High pass,68.0,50.0,81.0,8.0
-16,Opponent16,Opponent16_F6,,2H,2461.7787,Pass,Cross,81.0,8.0,97.0,76.0

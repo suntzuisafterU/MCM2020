@@ -1,9 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-14,Opponent14,Opponent14_M1,,2H,42.750680999999986,Free Kick,Corner,100.0,100.0,92.0,55.0
-14,Huskies,Huskies_M8,,2H,44.221378000000186,Duel,Air duel,8.0,45.0,12.0,55.0
-14,Huskies,Huskies_M4,,2H,44.85911699999997,Others on the ball,Touch,12.0,55.0,10.0,35.0
-14,Opponent14,Opponent14_F1,,2H,46.08305599999994,Others on the ball,Touch,90.0,66.0,90.0,65.0
-14,Huskies,Huskies_F2,,2H,46.51152899999988,Others on the ball,Clearance,10.0,35.0,38.0,36.0
-14,Opponent14,Opponent14_D5,Opponent14_M1,2H,51.19456300000002,Pass,Simple pass,62.0,64.0,71.0,83.0
-14,Opponent14,Opponent14_M1,Opponent14_D5,2H,56.955363000000034,Pass,Simple pass,71.0,83.0,63.0,69.0
-14,Opponent14,Opponent14_D5,Opponent14_F1,2H,58.79569700000002,Pass,Simple pass,63.0,69.0,82.0,98.0

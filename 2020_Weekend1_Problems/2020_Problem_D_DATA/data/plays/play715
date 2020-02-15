@@ -1,8 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-14,Huskies,Huskies_M4,,2H,440.8953150000002,Foul,Late card foul,38.0,54.0,,
-14,Opponent14,Opponent14_M1,Opponent14_D1,2H,452.01784499999985,Pass,Simple pass,64.0,75.0,82.0,97.0
-14,Opponent14,Opponent14_D1,,2H,453.6848359999999,Pass,Cross,82.0,97.0,89.0,65.0
-14,Huskies,Huskies_D2,,2H,454.8796900000002,Others on the ball,Clearance,11.0,35.0,36.0,29.0
-14,Opponent14,Opponent14_M3,,2H,457.07217200000014,Duel,Air duel,64.0,71.0,56.0,63.0
-14,Huskies,Huskies_F1,,2H,457.407788,Duel,Air duel,36.0,29.0,44.0,37.0
-14,Opponent14,Opponent14_D4,,2H,459.21021900000005,Others on the ball,Clearance,56.0,63.0,94.0,0.0

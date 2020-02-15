@@ -1,9 +1,0 @@
-MatchID,TeamID,OriginPlayerID,DestinationPlayerID,MatchPeriod,EventTime,EventType,EventSubType,EventOrigin_x,EventOrigin_y,EventDestination_x,EventDestination_y
-17,Opponent17,Opponent17_M4,Opponent17_M5,1H,1300.805809,Pass,Simple pass,36.0,84.0,42.0,67.0
-17,Opponent17,Opponent17_M5,Opponent17_M2,1H,1303.620555,Pass,High pass,42.0,67.0,56.0,0.0
-17,Opponent17,Opponent17_M2,Opponent17_F1,1H,1308.947056,Pass,Simple pass,56.0,0.0,66.0,24.0
-17,Opponent17,Opponent17_F1,,1H,1311.103998,Duel,Ground attacking duel,66.0,24.0,63.0,28.0
-17,Opponent17,Opponent17_F1,,1H,1312.174054,Duel,Ground attacking duel,63.0,28.0,61.0,39.0
-17,Huskies,Huskies_M1,,1H,1312.310807,Duel,Ground defending duel,37.0,72.0,39.0,61.0
-17,Huskies,Huskies_M1,Huskies_M6,1H,1314.144581,Pass,Simple pass,39.0,61.0,38.0,40.0
-17,Huskies,Huskies_M6,Huskies_F1,1H,1316.562481,Pass,Simple pass,38.0,40.0,64.0,10.0
