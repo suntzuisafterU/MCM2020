@@ -6,11 +6,15 @@ def localize(playname):
 
     data = []
 
+    
+
     for line in f:
+        if line [0] == "M":
+            continue
         data.append(line.split(",")[8:])
         data[-1][-1] = data[-1][-1].rstrip()
+        
         data[-1] = [int(i[0:-2]) for i in data[-1]]
-    
 
     xs = []
     ys = []
@@ -27,6 +31,8 @@ def localize(playname):
     print(statistics.stdev(xs))
 
     print(avgx, avgy)
+
+
 
 
 playname = input("which play? ")
