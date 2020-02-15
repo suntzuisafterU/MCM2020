@@ -55,7 +55,7 @@ if __name__ == '__main__':
         infiles = glob.glob(sys.argv[1])
     for inputfile in infiles:
         M = ConnectivityMats(inputfile)
-        heatmap(M.diadjmat)
+        # heatmap(M.diadjmat)
         heatmap(M.uadjmat)
 
 
