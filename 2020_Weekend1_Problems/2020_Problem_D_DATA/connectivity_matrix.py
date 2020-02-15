@@ -88,7 +88,8 @@ class ConnectivityMatrixFactory(object):
 
 def CMFGET(pathglob):
     CMF = ConnectivityMatrixFactory('data/huskiespassingevents.csv')
-    mats = CMF.get_all_mats(infiles)
+    mats = CMF.get_all_mats(pathglob)
+    print(mats)
     return mats
 
 if __name__ == '__main__':

@@ -5,12 +5,13 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-import connectivity_matrix as cn
+import d
 
 
-def eigs_eq(m1: cn.Adjmat, m2: cn.Adjmat):
-    eig1 = list(m1.calc_eigs())
-    eig2 = list(m2.calc_eigs())
+def eigs_eq(m1 : d.LocalOnlyConnectivityMats,
+            m2: d.LocalOnlyConnectivityMats):
+    eig1 = list(m1.ueigs)
+    eig2 = list(m2.ueigs)
     temp = eig2.copy()
     for t in eig1:
         if t in temp:
@@ -20,31 +21,26 @@ def eigs_eq(m1: cn.Adjmat, m2: cn.Adjmat):
     if len(temp) != 0:
         return False
     print("============================")
-    # print(m1.name, m1.m, eig1)
-    # print(m2.name, m2.m, eig2)
-    print(m1.name, m2.name)
-    # plt.imshow(m1.m)
-    # plt.show()
-    # plt.imshow(m2.m)
-    # plt.show()
+    print(m1.name, m1.uadjmat, eig1)
+    print(m2.name, m2.uadjmat, eig2)
+    # plt.imshow(m1.uadjmat)
+    # plt.imshow(m2.uadjmat)
 
     return True
 
 def get_all_eigs(ms):
     res = []
     for m in ms:
-        res.append(m.calc_eigs())
+        res.append(m.ueigs)
     return res
-
 
 if __name__ == "__main__":
     assert len(sys.argv) > 1
     ins = sys.argv[1] # glob
-    print(ins)
-    ms = cn.CMFGET(ins)
-    ms = [m['umat'] for m in ms]
+    ms = d.get_all_mats(ins)
     # eig values
     eigpairs = [[eigs_eq(m1, m2) if m1.name is not m2.name else None for m1 in ms] for m2 in ms]
+    print(eigpairs)
     print('here')
 
 
