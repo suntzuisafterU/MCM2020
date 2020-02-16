@@ -5,9 +5,24 @@ from readplay import give_me_spectral_dicts
 
 import inspect
 
-
 ################################
 # Begin Connectivity Matrix ####
+valid_passes = [
+    "Cross",
+    "Hand pass",
+    "Head pass",
+    "High pass",
+    "Launch",
+    "Simple pass",
+    "Smart pass"
+]
+
+
+def filter_play(play, team):
+    return play['EventSubType'] in valid_passes \
+           and team == play["TeamID"] \
+           and play['DestinationPlayerID'] != float("NaN")
+
 
 def get_playerids(filepath):
     f = open(filepath)
@@ -26,7 +41,7 @@ def dimat_incr():
         # This occurs if we have a bad pass, throws this data point away
         return
 
-def big_umat_df(play, team):
+def big_umat_df(play):
     playerids = get_playerids(f"data/playerfiles/{team}_players.txt")
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim,dim), np.int),columns=playerids, index=playerids, dtype=int)
@@ -46,8 +61,6 @@ def largest_eig_value(df):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def evan_call_this_for_eigs(play):
-    if play is tuple:
-        play = play[1]
     team = "Huskies"
     return largest_eig_value(big_umat_df(play, team))
 

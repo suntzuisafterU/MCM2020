@@ -1,6 +1,7 @@
 from value import *
 from readplay import *
 from random import randint
+from connectivity_matrix import *
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -118,7 +119,8 @@ smoothingdist = gaussian(x_values, mu, sig)
 
 
 
-pathglob = input("pathglob?")
+# pathglob = input("pathglob?")
+pathglob = "data/plays/play000?H"
 
 plays = lists_and_spectral_dicts(pathglob)
 
@@ -126,9 +128,9 @@ plays = lists_and_spectral_dicts(pathglob)
 ax = mysurf.gca(projection='3d')
 xss,yss,zss = [], [], []
 
-for playlists, playdicts in plays:
+for playlist, playdicts in plays:
     for i in range(1, 12):
-        xs, ys, zs = windower3d(i, flowEV, playlist)
+        xs, ys, zs = windower3d(i, evan_call_this_for_eigs, playdicts)
         xss += xs
         yss += ys
         zss += zs
