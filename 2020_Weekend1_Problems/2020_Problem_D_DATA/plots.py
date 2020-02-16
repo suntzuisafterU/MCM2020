@@ -13,7 +13,7 @@ def plot2d(playlist, funclist, plottype, smoother=None):
     for play in playlist:
 
         for func in funclist:
-            g, b = random(), random()
+
             for i in range(30,31):  # this parameter is EXTREMELY sensitive actually a window
                                     # size of ~30 gives a strong relation to alg-con
                 xs, ys = windower(i, func, play)
@@ -22,7 +22,7 @@ def plot2d(playlist, funclist, plottype, smoother=None):
                 if smoother is not None:
                     xs = smoothing(xs, smoother)
                     ys = smoothing(ys, smoother)
-                plottype(xs, ys, label=str(func.__name__), color=(float("0."+str(i)), g, b))
+                plottype(xs, ys, label=str(func.__name__))
     plt.legend()
     plt.show()
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 
 
-    funcs = [tempoEV,breadthEV]
+    funcs = [flowEV, triad_sum]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
     plot2d(plays_second, funcs, plt.plot, mysmoother)
 
