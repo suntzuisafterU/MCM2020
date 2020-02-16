@@ -3,11 +3,12 @@
 import statistics
 import numpy as np
 import matplotlib.pyplot as plt
+import sys as sys
 
 #Function will separate data based on the column number given, into files where the column names that
 #had spaces now have _ in the file name.
-def localize(playname, colnum):
-    f = open(playname, "r")
+def localize(filename, colnum):
+    f = open(filename, "r")
 
     for line in f:
         linesplt = line.rstrip("\n").split(",")
@@ -18,7 +19,7 @@ def localize(playname, colnum):
     f.close()
 
 
-def heat_map(eventType, ourTeam):
+def heat_map(eventType):
     plt.ylabel('Y-axis')
     plt.xlabel('X-axis')
 
@@ -28,38 +29,44 @@ def heat_map(eventType, ourTeam):
     f = open("data/events/"+str(eventType))
     for line in f:
         linesplt = line.split(",")
-        if ourTeam and linesplt[1] == "Huskies":
-            heatMPSrc[int(float(linesplt[9]))][int(float(linesplt[8]))] += 1
-            heatMPDst[int(float(linesplt[11].rstrip("\n")))][int(float(linesplt[10]))] += 1
+        heatMPSrc[int(float(linesplt[9]))][int(float(linesplt[8]))] += 1
+        heatMPDst[int(float(linesplt[11].rstrip("\n")))][int(float(linesplt[10]))] += 1
 
+    print("Generating Src Graph.")
     plt.imshow(heatMPDst, cmap='inferno', interpolation="gaussian")
     plt.show()
+
+    print("Generating Dest Graph.")
     plt.imshow(heatMPSrc, cmap='inferno', interpolation="gaussian")
     plt.show()
     f.close()
 
 
 
-def plotEvents(eventType, ourTeam):
+def plotEvents(eventType):
     plt.ylabel('Y-axis')
     plt.xlabel('X-axis')
 
     f = open("data/events/"+str(eventType))
     for line in f:
         linesplt = line.split(",")
-        print(float(linesplt[8]), float(linesplt[9]))
-        if ourTeam and linesplt[1] == "Huskies":
-            plt.plot(float(linesplt[8]), float(linesplt[9]), 'go')
-            plt.plot(float(linesplt[10]), float(linesplt[11].rstrip("\n")), 'g^')
-        #else:
-            #plt.plot(float(linesplt[8]), float(linesplt[9]), 'ro')
-            #plt.plot(float(linesplt[10]), float(linesplt[11].rstrip("\n")), 'r^')
+        plt.plot(float(linesplt[8]), float(linesplt[9]), 'go')
+        plt.plot(float(linesplt[10]), float(linesplt[11].rstrip("\n")), 'g^')
 
     f.close()
     plt.show()
 
 if __name__ == "__main__":
-    heat_map("Cross.csv", True)
+    if(len(sys.argv) != 3):
+        printf("Expected 2 options. The choice of graph (heat or norm) and which event we want to graph.")
+        exit()
+    if(sys.argv[1] == "heat"):
+        heat_map(sys.argv[2])
+    elif(sys.argv[1] == "norm"):
+        plotEvents(sys.argv[2])
+    else:
+        print("Did you mean heat or norm?")
+    exit()
 
 
 
