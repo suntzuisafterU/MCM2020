@@ -64,7 +64,8 @@ def ground_truth(play):
 def calc_offensive_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    play_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
@@ -75,7 +76,8 @@ def calc_offensive_groundtruth_plays():
 def calc_offensive_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    game_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
@@ -86,7 +88,8 @@ def calc_offensive_groundtruth_games():
 def calc_defensive_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    play_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
@@ -97,7 +100,8 @@ def calc_defensive_groundtruth_plays():
 def calc_defensive_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    game_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
@@ -108,7 +112,8 @@ def calc_defensive_groundtruth_games():
 def calc_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    game_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
@@ -119,11 +124,12 @@ def calc_groundtruth_games():
 def calc_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    play_values = []
+    header = f"MatchID,TeamID,GroundTruth"
+    play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename}, {ground_truth(play)}\n")
+        play_values.append(f"{basename},{team},{ground_truth(play)}\n")
     f = open("data/groundtruths/play_groundtruths.csv", "w")
     f.writelines(play_values)
 
