@@ -1,7 +1,7 @@
 from timing import *
 from scipy.stats import linregress
 import glob
-
+import math
 
 def breadthEV(play):
     playerset = set()
@@ -42,7 +42,6 @@ def tempoEV(play):
         return 0    
 
 
-
 def flowEV(play):
     flowmetric = 1
 
@@ -62,5 +61,22 @@ def shotsEV(play):
             shots += 10
         elif i["EventType"] == "Shot":
             shots -= 10
+    return shots
+
+
+def shotsDistEV(play):
+    shots = 0
+
+    for i in play:
+        if i["EventType"] == "Shot" and i["TeamID"] == "Huskies":
+            x = (i["EventOrigin_x"] - 50) ** 2
+            y = (i["EventOrigin_y"] - 50) ** 2
+            dist = abs(math.sqrt(x + y))
+            shots += 1 * dist
+        elif i["EventType"] == "Shot":
+            x = (i["EventOrigin_x"] - 50) ** 2
+            y = (i["EventOrigin_y"] - 50) ** 2
+            dist = abs(math.sqrt(x + y))
+            shots -= 1 * dist
     return shots
 

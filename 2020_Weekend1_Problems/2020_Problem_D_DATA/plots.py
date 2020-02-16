@@ -49,23 +49,28 @@ def plot3d(playlist, funclist, smoother=None):
 
 
 if __name__ == "__main__":
+
+
     mysmoother = gaussian(3, 3, 50)
 
-    gameglob = input("what glob friend? ")
-    plays = read_glob_of_plays("data/plays/" + gameglob)
+    gameglob = int(input("what game friend? "))
+    realgame = gameglob * 2
+
+    plays_first =  read_glob_of_plays("data/plays/game" + f"{realgame:04}")
+    plays_second = read_glob_of_plays("data/plays/game" + f"{realgame+1:04}")
+    gamedata = []
+    f = open("data/matches.csv", "r")
+    f.readline()
+    for line in f:
+        gamedata =line.rstrip().split(",")
+        if int(gamedata[0]) == gameglob:
+            break
+
+    print(gamedata)
 
 
-    funcs = [algebraic_connectivity]
 
-    plot2d(plays, funcs, plt.plot, mysmoother)
+    funcs = [shotsDistEV, shotsEV]
+    plot2d(plays_first, funcs, plt.plot, mysmoother)
+    plot2d(plays_second, funcs, plt.plot, mysmoother)
 
-    funcs = [flowEV]
-
-    plot2d(plays, funcs, plt.plot, mysmoother)
-
-    funcs = [algebraic_connectivity, flowEV, shotsEV]
-
-    plot2d(plays, funcs, plt.plot, mysmoother)
-    #
-    # funcs = [flowEV]
-    # plot3d(plays, funcs, mysmoother)
