@@ -2,22 +2,19 @@ from readplay import readplay
 
 def normtime(play):
 
-    data = readplay(play)
+    data = play
 
     myoffset = data[0][5]
 
     for i in data:
         i[5] -= myoffset
 
-
     return data
 
 
 def playlen(play):
 
-    data = readplay(play)
-
-    return abs(data[0][5] - data[-1][5])
+    return abs(play[0][5] - play[-1][5])
 
 
 def avgplaylen():
