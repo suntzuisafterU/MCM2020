@@ -80,3 +80,57 @@ def shotsDistEV(play):
             shots -= 1 * dist
     return shots
 
+
+def toPolar(x, y):
+    return m.sqrt(x**2 + (y-50)**2), m.atan2(y, x)
+
+def groundLost(play):
+    startTime = play[0]["EventTime"]
+    endTime = play[-1]["EventTime"]
+    groundGained = 0
+
+    for i in play:
+        if i["TeamID"] != "Huskies":
+            rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            rDst, thetaDst = toPolar(float(i["EventDestination_x"]), float(i["EventDestination_y"]))
+            groundGained += rDst - rSrc
+
+    if (endTime - startTime) == 0:
+        return -groundGained
+    else:
+        return  -(groundGained*(1 / (endTime - startTime)))
+
+def shotsAllowedVal(play):
+    totVal = 0
+    count = 0
+    for i in play:
+        if i["TeamID"] != "Huskies" and i["EventSubType"] == "Shot":
+            rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            count += 1
+
+            if(rSrc > 35):
+                totVal += rSrc*(thetaSrc)
+            else:
+                totVal += rSrc - (rSrc/thetaSrc)
+    print(count)
+    return totVal
+
+#def defensiveMacho(play):
+   # for i in play:
+    #    if i["EventType"] == "Defensive"
+
+def clearVal(play):
+    totVal = 0
+
+    for i in play:
+        if i["TeamID"] == "Huskies":
+            if i["EventSubType"] == "Clearance":
+                r, theta = toPolar(i["EventDestination_x"], i["EventDestination_y"])
+                if r < 20:
+                    totVal += (r * theta) - 80
+                elif r*theta < 35:
+                    totVal += (r * theta) - 30
+                else:
+                    totVal += r
+    return totVal
