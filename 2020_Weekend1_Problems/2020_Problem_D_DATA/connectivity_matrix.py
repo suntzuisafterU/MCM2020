@@ -6,6 +6,14 @@ import networkx as nx
 from readplay import read_glob_of_plays
 from globals import *
 
+def accept_invalid_network(func):
+    def wrapper(play):
+        try:
+            return func(play)
+        except nx.NetworkXError:
+            return 0
+    return wrapper
+
 
 ################################
 # Begin Connectivity Matrix ####
@@ -115,12 +123,14 @@ def algebraic_connectivity(play : dict):
     L = laplacian(play)
     return np.sort(np.linalg.eigvals(np.array(L)))[-2]
 
+@accept_invalid_network
 def nx_algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     df = local_umat_df(play)
     G = nx.Graph(df)
     return nx.algebraic_connectivity(G)
 
+@accept_invalid_network
 def normalized_algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     df = local_umat_df(play)
@@ -158,6 +168,11 @@ def network_simplex(play : dict):
     DG = nx.DiGraph(big_dimat_df(play))
     res = nx.network_simplex(DG)
     return res
+
+def min_cut_value(play : dict):
+    raise NotImplementedError
+    DG = nx.DiGraph(big_dimat_df(play))
+    res = nx.minimum_cut_value(DG)
 
 diad = "102"
 weak_triads = [
