@@ -125,7 +125,6 @@ def nx_algebraic_connectivity(play : dict):
 def normalized_algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     df = local_umat_df(play)
-    print(df)
     G = nx.Graph(df)
     return nx.algebraic_connectivity(G, normalized=True)
 
@@ -167,7 +166,9 @@ if __name__ == '__main__':
         # print(betweenness_centrality(p))
         # print(triadic_census(p)['300'])
         # print(normalized_laplacian_spectrum(p))
+        print("========================================")
         print(normalized_algebraic_connectivity(p))
+        print(normalized_algebraic_connectivity(p) )
         print(nx_algebraic_connectivity(p))
 
 
