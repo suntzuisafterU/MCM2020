@@ -34,7 +34,9 @@ opponent_team_defensive_markers = {
 }
 
 team_defensive_duel_markers = {
-    "Ground defending duel": 0.1
+    "Ground loose ball duel": 0.1,
+    "Air duel": 0.1,
+    "Ground defending duel": 0.3
 }
 
 def _ground_truth_defense(play : list):
@@ -52,7 +54,6 @@ def _ground_truth_defense(play : list):
                 value += scalar
         for key, scalar in team_defensive_duel_markers.items():
             if event["TeamID"] == team and last_passer == team:
-                print("here")
                 value += scalar
 
     return value

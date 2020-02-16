@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 
 
-    funcs = [flowEV, triad_sum]
+    funcs = [diadic_sum, triad_sum, shotsEV, algebraic_connectivity]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
     plot2d(plays_second, funcs, plt.plot, mysmoother)
 
