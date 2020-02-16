@@ -98,31 +98,36 @@ def skirmishParser(ev_list, init_max):
     plays = []
     curr_game = ev_list[0][0]
     current_initiative = ev_list[0][1]
-    initiative_stack = 1
+    dual_stack = 10
 
     current_play = []
 
     opstackval = 1
+    dual_flag = 0
     for play in ev_list:
 
-        if play[1] == current_initiative and initiative_stack < init_max:
-            initiative_stack += 1
-            if opstackval > 1:
+        if play[1] == current_initiative:
+            dual_stack -= opstackval
+            opstackval = opstackval * 1.4  # this is really shitty exponential averaging
 
-                opstackval = opstackval * 1.5  # this is really shitty exponential averaging
+        elif play[1] != current_initiative and dual_stack < init_max:
+            if play[6] == "Duel":
+                dual_flag += 1
+                dual_stack += opstackval * 1.2
+                opstackval *= 0.8
+            else:
+                dual_stack += opstackval * 1.1
+            current_initiative = play[1]
 
-        elif play[1] != current_initiative:
-            initiative_stack -= opstackval
-            opstackval *= 0.8
-
-        if initiative_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
-            if len(current_play) > 5:
+        if dual_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
+            if len(current_play) > 5 and dual_flag > 2:
                 plays.append(current_play)
             current_play = []
-            initiative = 1
+            dual_stack = 10
             current_initiative = play[1]
             curr_game = play[0]
             opstackval = 1
+            dual_flag = 0
 
         current_play.append(play)
 
@@ -147,7 +152,7 @@ def skirmishParser(ev_list, init_max):
 # gameParser(event_list)
 # playParser(event_list, 4)
 
-skirmishParser(event_list, 4)
+skirmishParser(event_list, 10)
     
 
 
