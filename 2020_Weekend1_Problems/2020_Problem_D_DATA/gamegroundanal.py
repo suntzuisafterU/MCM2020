@@ -3,7 +3,7 @@ from value import *
 from connectivity_matrix import *
 from readplay import readplay
 
-metrics = [clearVal, shotsAllowedVal, groundLost, shotsEV, flowEV, tempoEV, ballX,
+metrics = [clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
            breadthEV, evan_call_this_for_eigs, algebraic_connectivity,
            normalized_algebraic_connectivity, triad_sum, diadic_sum]
 
@@ -34,6 +34,7 @@ def anal_game_off_metrics():
             thishalf.append(metricval)
 
         metricdata.append(thishalf)
+
 
     f = open("data/groundtruths/metricdata.csv", "w")
 
