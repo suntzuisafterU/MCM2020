@@ -154,6 +154,11 @@ def triadic_census(play : dict):
     res = nx.triadic_census(DG)
     return res
 
+def network_simplex(play : dict):
+    DG = nx.DiGraph(big_dimat_df(play))
+    res = nx.network_simplex(DG)
+    return res
+
 diad = "102"
 weak_triads = [
     "111D",
@@ -161,7 +166,7 @@ weak_triads = [
     "111U",
     "021U",
     "030T",
-    "021C",
+    "021C"
 ]
 playmakers_triad = "120D" # really just a weak triad
 greedy_striker_triad = "120U"
@@ -179,6 +184,12 @@ def triad_sum(play : dict):
     ts = triadic_census(play)
     res = [ts[t] for t in strong_triads]
     return sum(res)
+
+def diadic_sum(play : dict):
+    """ sum of diads """
+    ds = triadic_census(play)
+    res = ds[diad]
+    return res
 
 if __name__ == '__main__':
     paths = "data/games/game*"
