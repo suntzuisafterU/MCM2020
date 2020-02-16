@@ -28,7 +28,7 @@ def get_playerids(filepath):
     f = open(filepath)
     return [x.strip() for x in f.readlines()]
 
-def big_dimat_df(play):
+def big_dimat_df(play : dict):
     """ IMPORTANT: FILTER TO MAKE MATRIX """
     play = [event for event in play if filter_event(event)]
 
@@ -44,7 +44,7 @@ def big_dimat_df(play):
             pass
     return dimat
 
-def big_umat_df(play):
+def big_umat_df(play : dict):
     """ IMPORTANT: FILTER TO MAKE MATRIX """
     play = [event for event in play if filter_event(event)]
 
@@ -64,18 +64,43 @@ def big_umat_df(play):
             pass
     return umat
 
-def largest_eig_value(df):
+def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
 
-def evan_call_this_for_eigs(play):
+def evan_call_this_for_eigs(play : dict):
     return largest_eig_value(big_umat_df(play))
 
+def laplacian(play : dict):
+    """ calculate the laplacian matrix
+    L = D - A
+    D is the degree matrix
+    """
+    A = np.array(big_umat_df(play))
+    temp = np.array(big_dimat_df(play))
+    degrees = np.sum(temp, 0)
+    print(degrees)
+    dim = len(A[0])
+    D = np.zeros((dim,dim), np.int)
+    D[A != 0] = -1
+    for i in range(dim):
+        D[i][i] = degrees[i]
+
+    L = D - A
+    return L
+
+def algebraic_connectivity(play : dict):
+    """ return the second smallest eigen value of the laplacian of the connectivity matrix """
+    L = laplacian(play)
+    return np.sort(np.linalg.eigvals(np.array(L)))[-2]
 
 if __name__ == '__main__':
     paths = "data/plays/play000?H"
     plays = read_glob_of_plays(paths)
 
     for p in plays:
-        res = big_umat_df(p)
-        print(largest_eig_value(res))
+        print(algebraic_connectivity(p))
+
+    # for p in plays:
+    #     res = big_umat_df(p)
+    #     print(largest_eig_value(res))
 
