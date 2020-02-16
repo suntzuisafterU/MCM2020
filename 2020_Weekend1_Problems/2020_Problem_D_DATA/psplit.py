@@ -9,11 +9,11 @@ for line in f:
     event_list.append(line.split(","))
 
 
-
 header = event_list.pop(0)
 header = ",".join(header)
 
 def playParser(ev_list, init_max):
+    prefix = "data/plays/"
     plays = []
     curr_game = ev_list[0][0]
     current_initiative = ev_list[0][1]
@@ -41,7 +41,7 @@ def playParser(ev_list, init_max):
     playnum = 0
     for play in plays:
         playboys = play[0][1][0]
-        fname = f"play{playnum:04d}{playboys}"
+        fname = f"{prefix}play{playnum:04d}{playboys}"
         f = open( fname, "w")
         f.write(header)
         for ev in play:
@@ -55,6 +55,7 @@ def playParser(ev_list, init_max):
 
 
 def gameParser(ev_list):
+    prefix = "data/games/"
 
     games = []
     current_game = []
@@ -69,13 +70,13 @@ def gameParser(ev_list):
         #    gamenum = ev_list[i + 1][0]
         #    current_game = []
         if float(ev_list[i + 1][5]) < float(ev_list[i][5]):
-            print(float(ev_list[i+1][5]), float(ev_list[i][5]), ev_list[i][0]) 
+            # print(float(ev_list[i+1][5]), float(ev_list[i][5]), ev_list[i][0])
             games.append(current_game)
             gamenum = ev_list[i + 1][0]
             current_game = []
     gamenum = 1
     for game in games:
-        f = open( "game" + f"{gamenum:04d}", "w")
+        f = open(f"{prefix}game{int(game[1][0]):02d}_{game[1][4]}", "w")
         f.write(header)
         for ev in game:
             for el in ev:
@@ -85,8 +86,6 @@ def gameParser(ev_list):
         f.close()
         gamenum += 1
 
-
- 
 
 gameParser(event_list)
 playParser(event_list, 4)
