@@ -10,7 +10,7 @@ def readplay(path):
 
     return data.values
 
-def read_a_play_for_spectral_passing_adj_mats(path):
+def read_spectral_play(path):
     f = open(path)
 
     data = pd.read_csv(path)
@@ -26,7 +26,7 @@ def read_a_play_for_spectral_passing_adj_mats(path):
     return data.to_dict(orient='records')
 
 
-def read_a_set_of_plays(pathglob):
+def give_me_plays_as_list(pathglob):
     paths = glob.glob(pathglob)
 
     res = []
@@ -35,11 +35,16 @@ def read_a_set_of_plays(pathglob):
 
     return res
 
-def read_a_bunch_of_plays_for_spectral(pathglob):
+def give_me_spectral_dicts(pathglob):
     paths = glob.glob(pathglob)
 
     res = []
     for filepath in paths:
-        res.append(read_a_play_for_spectral_passing_adj_mats(filepath))
+        res.append(read_spectral_play(filepath))
 
     return res
+
+def lists_and_spectral_dicts(pathglob):
+    lists = give_me_plays_as_list(pathglob)
+    dicts = give_me_spectral_dicts(pathglob)
+    return zip(lists, dicts)

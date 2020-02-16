@@ -120,17 +120,15 @@ smoothingdist = gaussian(x_values, mu, sig)
 
 pathglob = input("pathglob?")
 
-plays = read_a_set_of_plays(pathglob)
+plays = lists_and_spectral_dicts(pathglob)
 
 #ax = mysurf.add_subplot(111, projection='3d')
 ax = mysurf.gca(projection='3d')
 xss,yss,zss = [], [], []
 
-for play in plays:
-
-
+for playlists, playdicts in plays:
     for i in range(1, 12):
-        xs, ys, zs = windower3d(i, flowEV, play)
+        xs, ys, zs = windower3d(i, flowEV, playlist)
         xss += xs
         yss += ys
         zss += zs
