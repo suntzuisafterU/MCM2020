@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from readplay import give_me_spectral_dicts
+from readplay import read_glob_of_plays
 
 import inspect
 
@@ -17,31 +17,37 @@ valid_passes = [
     "Smart pass"
 ]
 
+team = "Huskies"
 
-def filter_play(play, team):
-    return play['EventSubType'] in valid_passes \
-           and team == play["TeamID"] \
-           and play['DestinationPlayerID'] != float("NaN")
-
+def filter_event(event):
+    return event['EventSubType'] in valid_passes \
+           and team == event["TeamID"] \
+           and event['DestinationPlayerID'] != float("NaN")
 
 def get_playerids(filepath):
     f = open(filepath)
     return [x.strip() for x in f.readlines()]
 
-def dimat_incr():
-    frame = inspect.currentframe().f_back.f_locals
-    passing_event = frame.passing_event
-    dmat = frame.dmat
-    try:
-        res = ( passing_event['OriginPlayerID'],
-                passing_event['DestinationPlayerID'])
-        dmat[res[0]][res[1]] += 1
-    except KeyError:
-        assert (False, "Why are we here?")
-        # This occurs if we have a bad pass, throws this data point away
-        return
+def big_dimat_df(play):
+    """ IMPORTANT: FILTER TO MAKE MATRIX """
+    play = [event for event in play if filter_event(event)]
+
+    playerids = get_playerids(f"data/playerfiles/{team}_players.txt")
+    dim = len(playerids)
+    dimat = pd.DataFrame(data=np.zeros((dim,dim), np.int),columns=playerids, index=playerids, dtype=int)
+    for passing_event in play:
+        try:
+            res = ( passing_event['OriginPlayerID'],
+                    passing_event['DestinationPlayerID'])
+            dimat[res[0]][res[1]] += 1
+        except (TypeError, KeyError):
+            pass
+    return dimat
 
 def big_umat_df(play):
+    """ IMPORTANT: FILTER TO MAKE MATRIX """
+    play = [event for event in play if filter_event(event)]
+
     playerids = get_playerids(f"data/playerfiles/{team}_players.txt")
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim,dim), np.int),columns=playerids, index=playerids, dtype=int)
@@ -61,15 +67,14 @@ def largest_eig_value(df):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def evan_call_this_for_eigs(play):
-    team = "Huskies"
-    return largest_eig_value(big_umat_df(play, team))
+    return largest_eig_value(big_umat_df(play))
 
 
 if __name__ == '__main__':
     paths = "data/plays/play000?H"
-    plays = give_me_spectral_dicts(paths)
+    plays = read_glob_of_plays(paths)
 
     for p in plays:
-        res = big_umat_df(p, "Huskies")
+        res = big_umat_df(p)
         print(largest_eig_value(res))
 
