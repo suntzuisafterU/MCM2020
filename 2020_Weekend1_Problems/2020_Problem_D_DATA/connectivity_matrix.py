@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+import networkx as nx
+
 from readplay import read_glob_of_plays
 
 import inspect
@@ -78,7 +80,6 @@ def laplacian(play : dict):
     A = np.array(big_umat_df(play))
     temp = np.array(big_dimat_df(play))
     degrees = np.sum(temp, 0)
-    print(degrees)
     dim = len(A[0])
     D = np.zeros((dim,dim), np.int)
     D[A != 0] = -1
@@ -93,12 +94,44 @@ def algebraic_connectivity(play : dict):
     L = laplacian(play)
     return np.sort(np.linalg.eigvals(np.array(L)))[-2]
 
+def degree_centrality(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    res = nx.degree_centrality(G)
+    res = {x : res[x] for x in res if res[x] != 0}
+    return res
+
+def closeness_centralit(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    res = nx.closeness_centrality(G)
+    res = {x : res[x] for x in res if res[x] != 0}
+    return res
+
+def betweenness_centrality(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    res = nx.betweenness_centrality(G)
+    res = {x : res[x] for x in res if res[x] != 0}
+    return res
+
+def triadic_census(play : dict):
+    DG = nx.DiGraph(big_dimat_df(play))
+    res = nx.triadic_census(DG)
+    return res
+
+def plot_network(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    nx.spectral_layout(G)
+
 if __name__ == '__main__':
     paths = "data/plays/play000?H"
     plays = read_glob_of_plays(paths)
 
     for p in plays:
-        print(algebraic_connectivity(p))
+        # print(algebraic_connectivity(p))
+        # print(degree_centrality(p))
+        # print(closeness_centralit(p))
+        # print(betweenness_centrality(p))
+        # print(triadic_census(p))
+        plot_network(p)
 
     # for p in plays:
     #     res = big_umat_df(p)
