@@ -1,7 +1,7 @@
 from timing import *
 from scipy.stats import linregress
 import glob
-import math
+import math as m
 
 from globals import *
 
@@ -13,7 +13,9 @@ class EV:
         self.TEV = tempoEV(play)
         self.FEV = flowEV(play)
         self.SEV = shotsEV(play)
-        self.totalEV = sum([self.BEV, self.TEV, self.FEV, self.SEV])
+        self.CEV = clearVal(play)
+        self.GLEV = groundLost(play)
+        self.totalEV = sum([self.BEV, self.TEV, self.FEV, self.SEV, self.CEV, self.GLEV])
 
     def report(self):
 
@@ -21,6 +23,8 @@ class EV:
         print("Tempo EV for this play was",   self.TEV)
         print("Flow EV for this play was",    self.FEV)
         print("Shots EV for this play was",   self.SEV)
+        print("Clear EV for this play was",   self.SEV)
+        print("Ground Lost EV for this play was", self.SEV)
         print("Total EV for this play was",   self.totalEV)
 
 
@@ -88,6 +92,7 @@ def shotsEV(play):
 def toPolar(x, y):
     return m.sqrt(x**2 + (y-50)**2), m.atan2(y, x)
 
+
 def groundLost(play):
     startTime = play[0]["EventTime"]
     endTime = play[-1]["EventTime"]
@@ -104,25 +109,28 @@ def groundLost(play):
     else:
         return  -(groundGained*(1 / (endTime - startTime)))
 
+
 def shotsAllowedVal(play):
     totVal = 0
     count = 0
     for i in play:
         if i["TeamID"] != team and i["EventSubType"] == "Shot":
             rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
-            print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            #print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             count += 1
 
             if(rSrc > 35):
                 totVal += rSrc*(thetaSrc)
             else:
                 totVal += rSrc - (rSrc/thetaSrc)
-    print(count)
+    #print(count)
     return totVal
+
 
 #def defensiveMacho(play):
    # for i in play:
     #    if i["EventType"] == "Defensive"
+
 
 def clearVal(play):
     totVal = 0
