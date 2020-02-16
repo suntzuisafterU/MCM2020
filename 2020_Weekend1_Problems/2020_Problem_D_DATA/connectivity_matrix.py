@@ -78,7 +78,6 @@ def laplacian(play : dict):
     A = np.array(big_umat_df(play))
     temp = np.array(big_dimat_df(play))
     degrees = np.sum(temp, 0)
-    print(degrees)
     dim = len(A[0])
     D = np.zeros((dim,dim), np.int)
     D[A != 0] = -1

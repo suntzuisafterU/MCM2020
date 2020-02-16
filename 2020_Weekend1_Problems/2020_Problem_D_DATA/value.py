@@ -48,9 +48,9 @@ def flowEV(play):
 
     for i in play:
         if i["TeamID"] == "Huskies":
-            flowmetric *= 1.01
+            flowmetric *= 1.2
         else:
-            flowmetric *= 0.99
+            flowmetric *= 0.8
 
     return flowmetric
 

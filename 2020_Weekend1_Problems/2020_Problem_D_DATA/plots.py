@@ -4,14 +4,18 @@ from windowing import *
 from value import *
 from random import random
 from mpl_toolkits.mplot3d import Axes3D
+from connectivity_matrix import *
 
 
 def plot2d(playlist, funclist, plottype, smoother=None):
 
-    g, b = random(), random()
+
     for play in playlist:
-        for i in range(1, 10):
-            for func in funclist:
+
+        for func in funclist:
+            g, b = random(), random()
+            for i in range(21, 22):
+
                 xs, ys = windower(i, func, play)
                 if smoother is not None:
                     xs = smoothing(xs, smoother)
@@ -41,9 +45,10 @@ def plot3d(playlist, funclist, smoother=None):
 
 if __name__ == "__main__":
 
-    plays = read_glob_of_plays("data/plays/game0002")
-    mysmoother = gaussian(3, 3, 100)
-    funcs = [flowEV]
+    gameglob = input("what glob friend? ")
+    plays = read_glob_of_plays("data/plays/" + gameglob)
+    mysmoother = gaussian(3, 3, 50)
+    funcs = [algebraic_connectivity, tempoEV]
 
-    #plot2d(plays, funcs, plt.scatter)
-    plot3d(plays, funcs)
+    plot2d(plays, funcs, plt.scatter, mysmoother)
+    #plot3d(plays, funcs)
