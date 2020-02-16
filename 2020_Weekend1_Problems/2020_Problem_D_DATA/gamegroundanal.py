@@ -47,4 +47,47 @@ def anal_game_off_metrics():
     print(metricdata)
 
 
-anal_game_off_metrics()
+
+def anal_play_off_metrics():
+    f = open("data/groundtruths/play_offenseive_groundtruths.csv", "r")
+
+    data = []
+    for line in f:
+        data.append(line.rstrip().rsplit(","))
+
+
+    metricdata = []
+    header = ["GameName", "GroundVal"]
+    for metric in metrics:
+        header.append(str(metric.__name__))
+
+    metricdata.append(header)
+
+    for half in data:
+        thishalf = []
+        halfname = half[0]
+        halfgroundval = float(half[1])
+        thishalf.append(halfname)
+        thishalf.append(halfgroundval)
+        print(halfname)
+        thisplay = readplay("data/plays/" + halfname)
+        for metric in metrics:
+            metricval = metric(thisplay)
+            thishalf.append(metricval)
+
+        metricdata.append(thishalf)
+
+
+    f = open("data/groundtruths/playmetricdata.csv", "w")
+
+    for line in metricdata:
+        for item in line:
+            f.write(str(item))
+            f.write(",")
+        f.write("\n")
+
+    print(metricdata)
+
+
+
+anal_play_off_metrics()
