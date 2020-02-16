@@ -64,7 +64,7 @@ def ground_truth(play):
 def calc_offensive_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
@@ -76,7 +76,7 @@ def calc_offensive_groundtruth_plays():
 def calc_offensive_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
@@ -88,7 +88,7 @@ def calc_offensive_groundtruth_games():
 def calc_defensive_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
@@ -100,7 +100,7 @@ def calc_defensive_groundtruth_plays():
 def calc_defensive_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
@@ -112,7 +112,7 @@ def calc_defensive_groundtruth_games():
 def calc_groundtruth_games():
     gameglob = "data/games/game*"
     game_paths = glob.glob(gameglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     game_values = [header]
     for path in game_paths:
         basename = ntpath.basename(path)
@@ -124,7 +124,7 @@ def calc_groundtruth_games():
 def calc_groundtruth_plays():
     playglob = "data/plays/play*"
     play_paths = glob.glob(playglob)
-    header = f"MatchID,TeamID,GroundTruth"
+    header = f"MatchID,TeamID,GroundTruth\n"
     play_values = [header]
     for path in play_paths:
         basename = ntpath.basename(path)
