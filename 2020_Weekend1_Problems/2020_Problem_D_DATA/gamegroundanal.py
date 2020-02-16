@@ -8,7 +8,7 @@ metrics = [clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
            normalized_algebraic_connectivity, triad_sum, diadic_sum]
 
 def anal_game_off_metrics():
-    f = open("data/groundtruths/gameoffensivegroundtruths.csv", "r")
+    f = open(f"data/groundtruths/game_offensive_groundtruths.csv", "r")
 
     data = []
     for line in f:
