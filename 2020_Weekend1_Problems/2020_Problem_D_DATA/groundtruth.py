@@ -30,7 +30,7 @@ our_team_defensive_markers = {
 }
 
 opponent_team_defensive_markers = {
-    "Shot": -1.0
+    # "Shot": -1.0
 }
 
 team_defensive_duel_markers = {
