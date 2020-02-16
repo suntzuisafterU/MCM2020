@@ -1,12 +1,10 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
-from data.plays.readplay import read_a_bunch_of_plays_for_spectral
+from readplay import read_a_bunch_of_plays_for_spectral
 
-import sys
 import inspect
-import glob
+
 
 ################################
 # Begin Connectivity Matrix ####
@@ -27,7 +25,6 @@ def dimat_incr():
         assert (False, "Why are we here?")
         # This occurs if we have a bad pass, throws this data point away
         return
-
 
 def big_umat_df(play, team):
     playerids = get_playerids(f"data/playerfiles/{team}_players.txt")
