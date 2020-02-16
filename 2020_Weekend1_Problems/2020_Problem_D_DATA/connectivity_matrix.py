@@ -125,7 +125,6 @@ def nx_algebraic_connectivity(play : dict):
 def normalized_algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     df = local_umat_df(play)
-    print(df)
     G = nx.Graph(df)
     return nx.algebraic_connectivity(G, normalized=True)
 
@@ -147,14 +146,40 @@ def betweenness_centrality(play : dict):
     res = {x : res[x] for x in res if res[x] != 0}
     return res
 
+def nx_spectral_layout(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    return nx.spectral_layout(G)
+
 def triadic_census(play : dict):
     DG = nx.DiGraph(big_dimat_df(play))
     res = nx.triadic_census(DG)
     return res
 
-def nx_spectral_layout(play : dict):
-    G = nx.Graph(big_umat_df(play))
-    return nx.spectral_layout(G)
+diad = "102"
+weak_triads = [
+    "111D",
+    "021D",
+    "111U",
+    "021U",
+    "030T",
+    "021C",
+]
+playmakers_triad = "120D" # really just a weak triad
+greedy_striker_triad = "120U"
+# strong triads are strongly connected
+strong_triads = [
+    "201",
+    "210",
+    "300",
+    "030C",
+    "120C"
+]
+
+def triad_sum(play : dict):
+    """ sum the strong triads """
+    ts = triadic_census(play)
+    res = [ts[t] for t in strong_triads]
+    return sum(res)
 
 if __name__ == '__main__':
     paths = "data/games/game*"
@@ -167,8 +192,10 @@ if __name__ == '__main__':
         # print(betweenness_centrality(p))
         # print(triadic_census(p)['300'])
         # print(normalized_laplacian_spectrum(p))
-        print(normalized_algebraic_connectivity(p))
+        print("========================================")
+        print(normalized_algebraic_connectivity(p) )
         print(nx_algebraic_connectivity(p))
+        print(triad_sum(p))
 
 
     # for p in plays:
