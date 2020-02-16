@@ -2,50 +2,48 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from windowing import *
 from value import *
+from random import random
+from mpl_toolkits.mplot3d import Axes3D
 
 
 def plot2d(playlist, funclist, plottype, smoother=None):
 
+    g, b = random(), random()
     for play in playlist:
         for i in range(1, 10):
             for func in funclist:
                 xs, ys = windower(i, func, play)
                 if smoother is not None:
-                    xs = smoother(xs)
-                    ys = smoother(ys)
-                plottype(xs, ys, color=(float("0."+str(i)), .5, .5))
+                    xs = smoothing(xs, smoother)
+                    ys = smoothing(ys, smoother)
+                plottype(xs, ys, color=(float("0."+str(i)), g, b))
     plt.show()
 
 
-#
-# #ax = mysurf.add_subplot(111, projection='3d')
-# ax = mysurf.gca(projection='3d')
-# xss,yss,zss = [], [], []
-#
-# for playlists, playdicts in plays:
-#     for i in range(1, 12):
-#         xs, ys, zs = windower3d(i, flowEV, playlist)
-#         xss += xs
-#         yss += ys
-#         zss += zs
-#
-# xss = smoothing(xss, smoothingdist)
-# yss = smoothing(yss, smoothingdist)
-# zss = smoothing(zss, smoothingdist)
-#
-# ax.scatter(xss, yss, zss, cmap=cm.coolwarm)
-# plt.show()
-#
-#
-# "
-# mysurf = plt.figure()
-#
+def plot3d(playlist, funclist, smoother=None):
+
+    mysurf = plt.figure()
+    ax = mysurf.add_subplot(111, projection='3d')
+
+    for play in playlist:
+        for i in range(1, 99):
+            for func in funclist:
+                xs, ys, zs = windower3d(i, func, play)
+                if smoother is not None:
+                    xs = smoothing(xs, smoother)
+                    ys = smoothing(ys, smoother)
+                    zs = smoothing(zs, smoother)
+
+    ax.scatter(xs, ys, zs, cmap=cm.coolwarm)
+    plt.show()
 
 
-#pathglob = input("pathglob?")
-plays = lists_and_spectral_dicts("data/plays/game0002")
 
+if __name__ == "__main__":
 
-funcs = [ballX, ballY]
+    plays = read_glob_of_plays("data/plays/game0002")
+    mysmoother = gaussian(3, 3, 100)
+    funcs = [flowEV]
 
-plot2dscatter(plays, funcs)
+    #plot2d(plays, funcs, plt.scatter)
+    plot3d(plays, funcs)

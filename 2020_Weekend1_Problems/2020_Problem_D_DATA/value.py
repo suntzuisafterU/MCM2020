@@ -28,12 +28,11 @@ def ballY(play):
     return ypos
 
 
-
 def tempoEV(play):
     passtime = 0
     totalpass = 0
     for i in range(len(play) - 1):
-        if play[i][1] == "Huskies" and play[i+1]["TeamID"] == "Huskies":
+        if play[i]["TeamID"] == "Huskies" and play[i+1]["TeamID"] == "Huskies":
             passtime += (play[i+1]["EventTime"] - play[i]["EventTime"])
             totalpass += 1
 
