@@ -26,7 +26,10 @@ def _ground_truth_offense(play):
     return value
 
 our_team_defensive_markers = {
-    "Clearance": 0.5
+    "Clearance": 0.5,
+    "Ground loose ball duel": 0.1,
+    "Air duel": 0.1,
+    "Ground defending duel": 0.3
 }
 
 opponent_team_defensive_markers = {

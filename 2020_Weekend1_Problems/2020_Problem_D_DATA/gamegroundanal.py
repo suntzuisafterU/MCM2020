@@ -69,7 +69,6 @@ def anal_play_off_metrics():
         halfgroundval = float(half[1])
         thishalf.append(halfname)
         thishalf.append(halfgroundval)
-        print(halfname)
         thisplay = readplay("data/plays/" + halfname)
         for metric in metrics:
             metricval = metric(thisplay)
@@ -86,7 +85,7 @@ def anal_play_off_metrics():
             f.write(",")
         f.write("\n")
 
-    print(metricdata)
+
 
 
 
