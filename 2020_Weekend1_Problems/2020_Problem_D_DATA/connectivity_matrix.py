@@ -4,6 +4,7 @@ import numpy as np
 import networkx as nx
 
 from readplay import read_glob_of_plays
+from globals import *
 
 
 ################################
@@ -17,8 +18,6 @@ valid_passes = [
     "Simple pass",
     "Smart pass"
 ]
-
-team = "Huskies"
 
 def filter_event(event):
     return event['EventSubType'] in valid_passes \
