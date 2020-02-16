@@ -51,6 +51,7 @@ def big_umat_df(play):
     playerids = get_playerids(f"data/playerfiles/{team}_players.txt")
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim,dim), np.int),columns=playerids, index=playerids, dtype=int)
+
     for passing_event in play:
         try:
             res = (passing_event['OriginPlayerID'],
