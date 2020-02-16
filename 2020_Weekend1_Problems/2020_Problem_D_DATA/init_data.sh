@@ -1,3 +1,5 @@
 #! /bin/bash
-python3 groundtruth.py
-python3 gamegroundanal.py
+
+### DOESN'T SEEM TO WORK
+# python groundtruth.py
+# python gamegroundanal.py
