@@ -19,7 +19,7 @@ def read_a_play_for_spectral_passing_adj_mats(path):
                             data.EventSubType == "Launch") | (data.EventSubType == "Simple pass") | (
                             data.EventSubType == "Smart pass") |
                     (data.TeamID == 'Huskies') &
-                    (data.DestinationPlayerID != None)]
+                    (data.DestinationPlayerID != float("NaN"))]
     if len(data) == 0:
         return None
 
@@ -35,3 +35,11 @@ def read_a_set_of_plays(pathglob):
 
     return res
 
+def read_a_bunch_of_plays_for_spectral(pathglob):
+    paths = glob.glob(pathglob)
+
+    res = []
+    for filepath in paths:
+        res.append(read_a_play_for_spectral_passing_adj_mats(filepath))
+
+    return res
