@@ -1,1365 +1,1365 @@
 MatchID,TeamID,GroundTruth
-play0000H, 0
-play0001O, 0
-play0002H, 0
-play0003O, 0
-play0004O, 0
-play0005H, 0
-play0006H, 1.0
-play0007O, 0
-play0008O, 0
-play0009H, 0
-play0010H, 0
-play0011H, 0
-play0012O, 0
-play0013H, 0
-play0014H, 0.5
-play0015O, 0
-play0016O, 0
-play0017H, 0
-play0018H, 0
-play0019O, 0
-play0020H, 0
-play0021O, 0
-play0022H, 0
-play0023H, 0
-play0024O, 0
-play0025H, 0
-play0026H, 0
-play0027H, 0.5
-play0028O, 0
-play0029H, 0
-play0030H, 0
-play0031H, 0
-play0032O, 0
-play0033O, 0
-play0034H, 1.5
-play0035O, 0
-play0036H, 0
-play0037H, 0
-play0038O, 0
-play0039O, 0
-play0040O, 0
-play0041O, 0
-play0042O, 0
-play0043O, 0
-play0044O, 0
-play0045O, 0
-play0046O, 0
-play0047H, 0
-play0048H, 0
-play0049H, 0
-play0050O, 0
-play0051O, 0
-play0052H, 0.5
-play0053O, 0
-play0054O, 0
-play0055O, 0
-play0056O, 0
-play0057H, 0
-play0058O, 0
-play0059O, 0
-play0060O, 0
-play0061O, 0
-play0062O, 0
-play0063O, 0
-play0064O, 0
-play0065H, 0
-play0066H, 0
-play0067H, 0
-play0068H, 0
-play0069O, 0
-play0070O, 0
-play0071O, 0
-play0072H, 0
-play0073H, 0
-play0074H, 0
-play0075O, 0
-play0076H, 0
-play0077O, 0
-play0078O, 0
-play0079H, 0
-play0080H, 0
-play0081H, 0
-play0082O, 0
-play0083O, 0
-play0084H, 0
-play0085O, 0
-play0086O, 0
-play0087O, 0
-play0088O, 0
-play0089O, 0
-play0090O, 0
-play0091O, 0
-play0092O, 0
-play0093O, 0
-play0094H, 0
-play0095O, 0
-play0096H, 0
-play0097H, 0
-play0098H, 0
-play0099H, 0.5
-play0100O, 0
-play0101O, 0
-play0102O, 0
-play0103O, 0
-play0104O, 0
-play0105H, 0
-play0106H, 0
-play0107O, 0
-play0108O, 0
-play0109O, 0
-play0110O, 0
-play0111H, 0
-play0112O, 0
-play0113O, 0
-play0114H, 0.5
-play0115O, 0
-play0116H, 0
-play0117O, 0
-play0118H, 0
-play0119H, 0
-play0120H, 0
-play0121H, 0
-play0122O, 0
-play0123O, 0
-play0124H, 0
-play0125O, 0
-play0126O, 0
-play0127H, 0
-play0128O, 0
-play0129O, 0
-play0130H, 0
-play0131O, 0
-play0132O, 0
-play0133H, 1.5
-play0134O, 0
-play0135O, 0
-play0136H, 0
-play0137O, 0
-play0138H, 0
-play0139O, 0
-play0140O, 0
-play0141H, 0
-play0142O, 0
-play0143H, 0
-play0144H, 0
-play0145O, 0
-play0146O, 0
-play0147H, 0
-play0148O, 0
-play0149O, 0
-play0150O, 0
-play0151O, 0
-play0152H, 1.5
-play0153H, 0
-play0154H, 0
-play0155H, 0.5
-play0156H, 0.5
-play0157O, 0
-play0158H, 0.5
-play0159H, 0
-play0160O, 0
-play0161H, 0.5
-play0162O, 0
-play0163H, 0
-play0164O, 0
-play0165O, 0
-play0166H, 0
-play0167O, 0
-play0168H, 0
-play0169H, 0
-play0170O, 0
-play0171O, 0
-play0172H, 0
-play0173O, 0
-play0174O, 0
-play0175O, 0
-play0176H, 0.5
-play0177O, 0
-play0178O, 0
-play0179O, 1.0
-play0180H, 0
-play0181O, 0
-play0182O, 0
-play0183O, 0
-play0184O, 0
-play0185O, 0
-play0186H, 0
-play0187H, 1.5
-play0188H, 1.5
-play0189O, 0
-play0190O, 0
-play0191H, 0.5
-play0192O, 0
-play0193H, 1.0
-play0194O, 0
-play0195O, 0
-play0196O, 0
-play0197O, 0
-play0198O, 0
-play0199H, 0
-play0200O, 0
-play0201O, 0
-play0202H, 0
-play0203O, 0
-play0204H, 0.5
-play0205H, 0
-play0206H, 0
-play0207O, 0
-play0208H, 0
-play0209O, 0
-play0210H, 0
-play0211H, 0
-play0212O, 0
-play0213H, 1.5
-play0214O, 0
-play0215H, 0
-play0216O, 0
-play0217O, 0
-play0218H, 0.5
-play0219O, 0
-play0220O, 0
-play0221O, 0
-play0222H, 0
-play0223H, 0
-play0224O, 0
-play0225H, 0
-play0226H, 0
-play0227H, 0
-play0228H, 0
-play0229H, 0
-play0230O, 0
-play0231O, 0
-play0232H, 0
-play0233H, 1.0
-play0234O, 0
-play0235H, 0
-play0236O, 0
-play0237H, 0
-play0238O, 0
-play0239H, 0.5
-play0240H, 0
-play0241H, 0
-play0242H, 0.5
-play0243O, 0
-play0244O, 0
-play0245O, 0
-play0246H, 0
-play0247H, 0
-play0248O, 0
-play0249O, 0
-play0250H, 1.0
-play0251H, 0
-play0252H, 0
-play0253O, 0
-play0254O, 0
-play0255H, 0
-play0256H, 0.5
-play0257H, 0
-play0258O, 0
-play0259H, 1.5
-play0260H, 1.0
-play0261H, 0
-play0262H, 0
-play0263H, 0.5
-play0264H, 0
-play0265O, 0
-play0266O, 0
-play0267H, 0.5
-play0268O, 0
-play0269H, 0.5
-play0270O, 0
-play0271H, 0
-play0272H, 0
-play0273H, 1.0
-play0274O, 0
-play0275O, 0
-play0276O, 0
-play0277H, 0.5
-play0278O, 0
-play0279H, 0.5
-play0280H, 0
-play0281O, 0
-play0282O, 0
-play0283H, 0
-play0284H, 0
-play0285O, 0
-play0286O, 0
-play0287O, 0
-play0288O, 0
-play0289H, 0
-play0290O, 0
-play0291H, 0
-play0292O, 0
-play0293O, 0
-play0294O, 0
-play0295H, 0
-play0296H, 0.5
-play0297O, 0
-play0298H, 0
-play0299O, 0
-play0300O, 0
-play0301O, 0
-play0302O, 0
-play0303O, 0
-play0304H, 0
-play0305H, 1.5
-play0306O, 0
-play0307H, 1.0
-play0308O, 0
-play0309H, 0
-play0310O, 0
-play0311O, 0
-play0312O, 0
-play0313H, 0.5
-play0314H, 0
-play0315O, 0
-play0316O, 0
-play0317H, 0.5
-play0318H, 1.5
-play0319H, 0.5
-play0320O, 0
-play0321O, 0
-play0322H, 0.5
-play0323O, 0
-play0324H, 1.0
-play0325H, 1.0
-play0326H, 0.5
-play0327O, 0
-play0328H, 0.5
-play0329O, 0
-play0330H, 1.5
-play0331O, 0
-play0332H, 1.5
-play0333H, 1.5
-play0334H, 0
-play0335H, 0
-play0336H, 1.0
-play0337O, 0
-play0338H, 0
-play0339H, 1.5
-play0340H, 0
-play0341H, 0.5
-play0342H, 1.0
-play0343H, 0
-play0344O, 0
-play0345H, 1.0
-play0346O, 0
-play0347H, 0
-play0348O, 0
-play0349H, 0
-play0350O, 0
-play0351H, 0.5
-play0352H, 1.0
-play0353O, 0
-play0354H, 0
-play0355H, 0
-play0356O, 0
-play0357H, 0
-play0358H, 0
-play0359H, 0
-play0360H, 0
-play0361O, 0
-play0362H, 0
-play0363H, 0
-play0364O, 0
-play0365O, 0
-play0366O, 0
-play0367O, 0
-play0368O, 0
-play0369O, 0
-play0370O, 0
-play0371O, 0
-play0372O, 0
-play0373H, 0
-play0374O, 0
-play0375H, 0
-play0376O, 0
-play0377O, 0
-play0378O, 0
-play0379O, 0
-play0380H, 0
-play0381O, 0
-play0382O, 0
-play0383O, 0
-play0384O, 0
-play0385H, 0
-play0386O, 0
-play0387O, 0
-play0388H, 0
-play0389O, 0
-play0390O, 0
-play0391O, 0
-play0392O, 0
-play0393O, 0
-play0394H, 0
-play0395H, 0
-play0396O, 0
-play0397O, 0
-play0398H, 0
-play0399O, 0
-play0400O, 0
-play0401H, 0
-play0402H, 0
-play0403O, 0
-play0404O, 0
-play0405H, 0
-play0406O, 0
-play0407O, 0
-play0408O, 0
-play0409O, 0
-play0410O, 0
-play0411H, 0
-play0412O, 0
-play0413O, 0
-play0414H, 0.5
-play0415O, 0
-play0416O, 0
-play0417H, 0
-play0418H, 0
-play0419H, 0
-play0420H, 0
-play0421H, 0.5
-play0422H, 0
-play0423H, 0
-play0424O, 0
-play0425H, 0
-play0426H, 0
-play0427H, 0
-play0428H, 0
-play0429O, 0
-play0430H, 0
-play0431H, 0
-play0432O, 0
-play0433H, 1.0
-play0434O, 0
-play0435H, 1.0
-play0436H, 0
-play0437H, 0
-play0438H, 0
-play0439O, 0
-play0440H, 0
-play0441H, 1.5
-play0442H, 1.0
-play0443O, 0
-play0444H, 0
-play0445O, 0
-play0446H, 0
-play0447H, 0
-play0448O, 0
-play0449H, 0
-play0450H, 0
-play0451H, 1.0
-play0452H, 0
-play0453H, 0
-play0454H, 2.0
-play0455H, 0
-play0456O, 0
-play0457H, 0
-play0458O, 0
-play0459O, 0
-play0460H, 0.5
-play0461H, 0
-play0462O, 0
-play0463O, 0
-play0464H, 0.5
-play0465H, 0
-play0466O, 0
-play0467O, 0
-play0468O, 0
-play0469H, 0.5
-play0470O, 0
-play0471O, 0
-play0472O, 0
-play0473O, 0
-play0474H, 0
-play0475O, 0
-play0476O, 0
-play0477H, 0
-play0478O, 0
-play0479O, 0
-play0480O, 0
-play0481O, 0
-play0482H, 0
-play0483O, 0
-play0484O, 0
-play0485H, 0.5
-play0486O, 0
-play0487O, 0
-play0488O, 0
-play0489H, 1.0
-play0490O, 0
-play0491O, 0
-play0492O, 0
-play0493H, 0
-play0494O, 0
-play0495O, 0
-play0496O, 0
-play0497O, 0
-play0498O, 0
-play0499O, 0
-play0500O, 0
-play0501O, 0
-play0502O, 0
-play0503H, 0
-play0504O, 0
-play0505O, 0
-play0506H, 0
-play0507O, 0
-play0508O, 0
-play0509H, 0
-play0510H, 0
-play0511O, 0
-play0512O, 0
-play0513O, 0
-play0514O, 0
-play0515H, 0
-play0516H, 0
-play0517O, 0
-play0518O, 0
-play0519H, 0
-play0520O, 0
-play0521O, 0
-play0522O, 0
-play0523H, 0
-play0524H, 0
-play0525O, 0
-play0526O, 0
-play0527H, 0
-play0528O, 0
-play0529H, 0
-play0530H, 0
-play0531H, 0.5
-play0532O, 0
-play0533O, 0
-play0534H, 0.5
-play0535H, 0
-play0536H, 0
-play0537H, 0
-play0538O, 0
-play0539O, 0
-play0540O, 0
-play0541O, 0
-play0542H, 0
-play0543H, 1.5
-play0544H, 0
-play0545O, 0
-play0546H, 0
-play0547H, 0
-play0548O, 0
-play0549H, 0.5
-play0550H, 1.0
-play0551O, 0
-play0552H, 0
-play0553O, 0
-play0554O, 0
-play0555H, 0
-play0556O, 0
-play0557O, 0
-play0558O, 0
-play0559O, 0
-play0560O, 0
-play0561O, 0
-play0562O, 0
-play0563H, 0
-play0564H, 0
-play0565H, 0
-play0566O, 0
-play0567O, 0
-play0568O, 0
-play0569H, 0.5
-play0570O, 0
-play0571O, 0
-play0572H, 0
-play0573O, 0
-play0574H, 0
-play0575H, 0
-play0576O, 0
-play0577H, 0
-play0578H, 1.0
-play0579O, 0
-play0580H, 0
-play0581O, 0
-play0582H, 0
-play0583O, 0
-play0584H, 0
-play0585H, 0
-play0586H, 0.5
-play0587H, 0
-play0588H, 0
-play0589O, 0
-play0590O, 0
-play0591O, 0
-play0592O, 0
-play0593O, 0
-play0594O, 0
-play0595O, 0
-play0596H, 1.5
-play0597H, 0.5
-play0598O, 0
-play0599H, 0
-play0600H, 0
-play0601O, 0
-play0602O, 0
-play0603O, 0
-play0604O, 0
-play0605O, 0
-play0606O, 0
-play0607O, 0
-play0608O, 0
-play0609O, 0
-play0610O, 0
-play0611O, 0
-play0612H, 0
-play0613O, 0
-play0614O, 0
-play0615O, 0
-play0616O, 0
-play0617O, 0
-play0618O, 0
-play0619O, 0
-play0620O, 0
-play0621O, 0
-play0622O, 0
-play0623H, 0
-play0624O, 0
-play0625O, 0
-play0626O, 0
-play0627O, 0
-play0628H, 0
-play0629O, 0
-play0630O, 0
-play0631O, 0
-play0632O, 0
-play0633O, 0
-play0634O, 0
-play0635O, 0
-play0636O, 0
-play0637O, 0
-play0638H, 0
-play0639H, 0
-play0640O, 0
-play0641H, 0
-play0642O, 0
-play0643O, 0
-play0644O, 0
-play0645O, 0
-play0646O, 0
-play0647O, 0
-play0648H, 0.5
-play0649H, 0.5
-play0650O, 0
-play0651O, 0
-play0652O, 0
-play0653O, 0
-play0654O, 0
-play0655O, 0
-play0656H, 0
-play0657O, 0
-play0658H, 0
-play0659O, 0
-play0660O, 0
-play0661O, 0
-play0662O, 0
-play0663O, 0
-play0664O, 0
-play0665H, 0
-play0666H, 0
-play0667H, 0
-play0668H, 1.0
-play0669O, 0
-play0670O, 0
-play0671H, 0
-play0672O, 0
-play0673O, 0
-play0674O, 0
-play0675H, 0
-play0676O, 0
-play0677H, 0
-play0678O, 0
-play0679H, 0.5
-play0680H, 2.5
-play0681O, 0
-play0682O, 0
-play0683H, 0.5
-play0684H, 0
-play0685H, 0
-play0686O, 0
-play0687O, 0
-play0688O, 0
-play0689O, 0
-play0690H, 1.5
-play0691O, 0
-play0692O, 0
-play0693O, 0
-play0694H, 0
-play0695O, 0
-play0696H, 0
-play0697O, 0
-play0698O, 0
-play0699O, 0
-play0700H, 0
-play0701O, 0
-play0702O, 0
-play0703O, 0
-play0704O, 0
-play0705H, 0
-play0706O, 0
-play0707O, 0
-play0708O, 0
-play0709H, 0
-play0710O, 0
-play0711H, 0
-play0712O, 0
-play0713H, 0
-play0714H, 0
-play0715O, 0
-play0716O, 0
-play0717O, 0
-play0718H, 0
-play0719O, 0
-play0720O, 0
-play0721H, 0
-play0722H, 0
-play0723H, 0.5
-play0724O, 0
-play0725H, 0
-play0726H, 0
-play0727H, 0
-play0728H, 0
-play0729H, 1.0
-play0730O, 0
-play0731H, 1.0
-play0732O, 0
-play0733H, 0
-play0734H, 0.5
-play0735H, 0
-play0736O, 0
-play0737O, 0
-play0738H, 0
-play0739O, 0
-play0740H, 0
-play0741H, 0
-play0742O, 0
-play0743O, 0
-play0744O, 0
-play0745O, 0
-play0746H, 0
-play0747O, 0
-play0748O, 0
-play0749O, 0
-play0750H, 1.0
-play0751H, 0
-play0752H, 0
-play0753H, 0
-play0754H, 1.0
-play0755H, 0
-play0756O, 0
-play0757H, 0
-play0758H, 0
-play0759O, 0
-play0760H, 1.0
-play0761O, 0
-play0762O, 0
-play0763H, 1.0
-play0764O, 0
-play0765O, 0
-play0766H, 0
-play0767O, 0
-play0768O, 0
-play0769O, 0
-play0770O, 0
-play0771O, 0
-play0772H, 0
-play0773O, 0
-play0774O, 0
-play0775O, 0
-play0776H, 0
-play0777O, 0
-play0778H, 0
-play0779H, 0
-play0780O, 0
-play0781O, 0
-play0782O, 0
-play0783H, 0
-play0784H, 0
-play0785O, 0
-play0786O, 0
-play0787O, 0
-play0788O, 0
-play0789H, 0
-play0790O, 0
-play0791H, 0
-play0792H, 0.5
-play0793O, 0
-play0794O, 0
-play0795O, 0
-play0796O, 0
-play0797H, 0
-play0798O, 0
-play0799O, 0
-play0800O, 0
-play0801O, 0
-play0802H, 0
-play0803O, 0
-play0804O, 0
-play0805H, 0.5
-play0806H, 0
-play0807O, 0
-play0808H, 0
-play0809O, 0
-play0810O, 0
-play0811H, 0
-play0812H, 0
-play0813O, 0
-play0814O, 0
-play0815O, 0
-play0816O, 0
-play0817O, 0
-play0818O, 0
-play0819O, 0
-play0820H, 0
-play0821H, 0
-play0822O, 0
-play0823O, 0
-play0824O, 0
-play0825H, 0
-play0826H, 0
-play0827H, 0.5
-play0828O, 0
-play0829H, 0
-play0830H, 0.5
-play0831H, 0
-play0832O, 0
-play0833O, 0
-play0834H, 0.5
-play0835O, 0
-play0836O, 0
-play0837H, 1.0
-play0838O, 0
-play0839H, 0
-play0840H, 0.5
-play0841H, 0
-play0842H, 0.5
-play0843H, 0
-play0844H, 0
-play0845O, 0
-play0846H, 0
-play0847H, 0
-play0848O, 0
-play0849O, 0
-play0850H, 0
-play0851H, 1.0
-play0852O, 0
-play0853O, 0
-play0854H, 0
-play0855O, 0
-play0856H, 0.5
-play0857O, 0
-play0858H, 0
-play0859O, 0
-play0860O, 0
-play0861H, 0
-play0862O, 0
-play0863O, 0
-play0864O, 0
-play0865O, 0
-play0866H, 0.5
-play0867O, 0
-play0868O, 0
-play0869H, 0
-play0870O, 0
-play0871O, 0
-play0872H, 0
-play0873H, 0
-play0874O, 0
-play0875O, 0
-play0876O, 0
-play0877O, 0
-play0878H, 0.5
-play0879H, 3.0
-play0880O, 0
-play0881H, 1.0
-play0882O, 0
-play0883O, 0
-play0884O, 0
-play0885O, 0
-play0886O, 0
-play0887H, 0
-play0888H, 0
-play0889O, 0
-play0890O, 0
-play0891H, 0
-play0892O, 0
-play0893O, 0
-play0894H, 0
-play0895O, 0
-play0896O, 0
-play0897O, 0
-play0898H, 0
-play0899H, 0.5
-play0900H, 0
-play0901O, 0
-play0902H, 0.5
-play0903H, 0
-play0904H, 0
-play0905O, 0
-play0906O, 0
-play0907H, 0
-play0908O, 0
-play0909O, 0
-play0910H, 0
-play0911O, 0
-play0912O, 0
-play0913O, 0
-play0914O, 0
-play0915H, 0
-play0916H, 0
-play0917H, 0
-play0918H, 0
-play0919H, 0
-play0920O, 0
-play0921O, 0
-play0922O, 0
-play0923H, 0
-play0924H, 0
-play0925O, 0
-play0926O, 0
-play0927O, 0
-play0928H, 0.5
-play0929O, 0
-play0930O, 0
-play0931O, 0
-play0932O, 0
-play0933O, 0
-play0934H, 0
-play0935H, 0
-play0936O, 0
-play0937O, 0
-play0938H, 0
-play0939H, 1.5
-play0940O, 0
-play0941H, 0
-play0942H, 0
-play0943H, 0
-play0944H, 0.5
-play0945H, 0.5
-play0946H, 0
-play0947H, 1.0
-play0948H, 0
-play0949H, 0
-play0950H, 0
-play0951O, 0
-play0952H, 0
-play0953H, 0
-play0954H, 0
-play0955O, 0
-play0956O, 0
-play0957H, 0
-play0958O, 0
-play0959O, 0
-play0960O, 0
-play0961H, 0.5
-play0962O, 0
-play0963H, 0
-play0964O, 0
-play0965O, 0
-play0966O, 0
-play0967O, 0
-play0968O, 0
-play0969H, 0
-play0970O, 0
-play0971H, 0
-play0972O, 1.5
-play0973O, 0
-play0974O, 0.5
-play0975H, 1.0
-play0976H, 0
-play0977H, 0
-play0978O, 0
-play0979O, 0
-play0980H, 0
-play0981H, 0
-play0982O, 0
-play0983H, 0.5
-play0984H, 0
-play0985O, 0
-play0986O, 0
-play0987O, 0
-play0988O, 0
-play0989O, 0
-play0990O, 0
-play0991O, 0
-play0992O, 0
-play0993O, 0
-play0994H, 0
-play0995O, 0
-play0996H, 0
-play0997O, 0
-play0998H, 0.5
-play0999H, 0
-play1000H, 0
-play1001O, 0
-play1002H, 1.5
-play1003O, 0
-play1004O, 0
-play1005O, 0
-play1006O, 0
-play1007H, 0
-play1008H, 0
-play1009O, 0
-play1010H, 1.0
-play1011O, 0
-play1012O, 0
-play1013H, 0
-play1014O, 0
-play1015H, 0
-play1016O, 0
-play1017H, 0
-play1018H, 0
-play1019H, 1.5
-play1020O, 0
-play1021H, 0.5
-play1022H, 0.5
-play1023H, 1.0
-play1024H, 0
-play1025O, 0
-play1026H, 0
-play1027H, 0.5
-play1028O, 0
-play1029H, 0.5
-play1030O, 0
-play1031O, 0
-play1032O, 0.5
-play1033O, 0
-play1034H, 0
-play1035O, 0
-play1036H, 0
-play1037O, 0
-play1038O, 0
-play1039H, 2.0
-play1040H, 0
-play1041O, 0
-play1042H, 0
-play1043O, 0
-play1044H, 0
-play1045H, 0
-play1046O, 0
-play1047H, 0
-play1048H, 0
-play1049H, 0
-play1050H, 0.5
-play1051O, 0
-play1052H, 0.5
-play1053H, 0
-play1054O, 0
-play1055H, 0
-play1056O, 0
-play1057H, 0
-play1058O, 0
-play1059O, 0
-play1060O, 0
-play1061H, 2.5
-play1062O, 0
-play1063O, 0
-play1064O, 0
-play1065H, 0
-play1066O, 0
-play1067O, 0
-play1068O, 0
-play1069O, 0
-play1070H, 0.5
-play1071O, 0
-play1072O, 0
-play1073H, 0
-play1074H, 1.0
-play1075H, 0
-play1076H, 0.5
-play1077H, 0.5
-play1078O, 0
-play1079O, 0
-play1080H, 0
-play1081H, 0
-play1082H, 0.5
-play1083H, 0
-play1084H, 0
-play1085H, 0
-play1086O, 0
-play1087H, 0
-play1088O, 0
-play1089O, 0
-play1090H, 0
-play1091H, 0
-play1092O, 0
-play1093H, 3.5
-play1094H, 0
-play1095O, 0
-play1096O, 0
-play1097O, 0
-play1098O, 0
-play1099H, 0
-play1100O, 0
-play1101H, 0
-play1102O, 0
-play1103O, 0
-play1104O, 0
-play1105O, 0
-play1106O, 0
-play1107H, 0
-play1108O, 0
-play1109O, 0
-play1110O, 0
-play1111O, 0
-play1112O, 0
-play1113O, 0
-play1114O, 0
-play1115H, 0
-play1116O, 0
-play1117H, 1.0
-play1118O, 0
-play1119O, 0
-play1120O, 0
-play1121O, 0
-play1122O, 0
-play1123O, 0
-play1124O, 0
-play1125O, 0
-play1126O, 0
-play1127H, 0
-play1128O, 0
-play1129O, 0
-play1130O, 0
-play1131O, 0
-play1132O, 0
-play1133O, 0
-play1134O, 0
-play1135O, 0
-play1136O, 0
-play1137H, 0
-play1138O, 0
-play1139O, 0
-play1140H, 0
-play1141O, 0
-play1142H, 0
-play1143O, 0
-play1144H, 0
-play1145O, 0
-play1146O, 0
-play1147O, 0
-play1148H, 0
-play1149O, 0
-play1150H, 1.0
-play1151O, 0
-play1152O, 0
-play1153O, 0
-play1154O, 0
-play1155O, 0
-play1156H, 0
-play1157H, 1.0
-play1158O, 0
-play1159H, 0.5
-play1160H, 0
-play1161O, 0
-play1162H, 0
-play1163O, 0
-play1164H, 0
-play1165O, 0
-play1166O, 0
-play1167O, 0
-play1168O, 0
-play1169H, 0
-play1170O, 0
-play1171O, 0
-play1172H, 0.5
-play1173O, 0
-play1174O, 0
-play1175H, 0
-play1176O, 0
-play1177H, 0
-play1178O, 0
-play1179O, 0
-play1180O, 0
-play1181O, 0
-play1182O, 0
-play1183O, 0
-play1184O, 0
-play1185H, 0
-play1186O, 0
-play1187O, 0
-play1188O, 0
-play1189O, 0
-play1190O, 0
-play1191O, 0
-play1192O, 0
-play1193O, 0
-play1194H, 0
-play1195O, 0
-play1196O, 0
-play1197O, 0
-play1198O, 0
-play1199O, 0
-play1200O, 0
-play1201H, 0
-play1202O, 0
-play1203H, 0
-play1204O, 0
-play1205H, 0
-play1206O, 0
-play1207H, 0.5
-play1208O, 0
-play1209O, 0
-play1210O, 0
-play1211O, 0
-play1212O, 0
-play1213H, 0
-play1214O, 0
-play1215H, 0
-play1216H, 0
-play1217O, 0
-play1218O, 0
-play1219O, 0
-play1220H, 0
-play1221H, 1.0
-play1222H, 0
-play1223O, 0
-play1224H, 0
-play1225O, 0
-play1226H, 0
-play1227O, 0
-play1228H, 0
-play1229H, 0.5
-play1230H, 0
-play1231H, 0
-play1232O, 0
-play1233H, 0
-play1234H, 0
-play1235H, 1.0
-play1236H, 0
-play1237H, 0.5
-play1238H, 0
-play1239H, 0
-play1240H, 0
-play1241O, 0
-play1242O, 0
-play1243H, 0
-play1244O, 0
-play1245H, 0.5
-play1246H, 0.5
-play1247O, 0
-play1248H, 1.0
-play1249O, 0
-play1250O, 0
-play1251H, 1.0
-play1252H, 0
-play1253H, 0
-play1254H, 0
-play1255H, 0
-play1256O, 0
-play1257H, 0
-play1258O, 0
-play1259O, 0
-play1260H, 0.5
-play1261H, 1.0
-play1262H, 1.0
-play1263H, 0
-play1264O, 0
-play1265O, 0
-play1266O, 0
-play1267O, 0
-play1268O, 0
-play1269H, 0
-play1270H, 0.5
-play1271H, 0
-play1272O, 0
-play1273H, 0.5
-play1274O, 0
-play1275H, 0
-play1276O, 0
-play1277H, 1.0
-play1278O, 0
-play1279O, 0
-play1280O, 0
-play1281O, 0
-play1282H, 0
-play1283O, 0
-play1284H, 0
-play1285H, 0
-play1286O, 0
-play1287O, 0
-play1288H, 0
-play1289O, 0
-play1290O, 0
-play1291H, 0
-play1292O, 0
-play1293H, 0
-play1294H, 0.5
-play1295O, 0
-play1296H, 0
-play1297H, 0
-play1298H, 0.5
-play1299H, 0
-play1300O, 0
-play1301O, 0
-play1302H, 0.5
-play1303O, 0
-play1304O, 0
-play1305H, 0.5
-play1306O, 0
-play1307O, 0
-play1308O, 0
-play1309H, 0
-play1310O, 0
-play1311H, 0.5
-play1312O, 0
-play1313H, 0
-play1314H, 0
-play1315O, 0
-play1316H, 0
-play1317H, 0
-play1318O, 0
-play1319H, 0
-play1320O, 0
-play1321H, 0
-play1322O, 0
-play1323O, 0
-play1324H, 0.5
-play1325O, 1.0
-play1326O, 0
-play1327H, 0
-play1328O, 0
-play1329O, 0
-play1330H, 0
-play1331H, 1.0
-play1332O, 0
-play1333O, 0
-play1334H, 0
-play1335O, 0
-play1336O, 0
-play1337H, 1.0
-play1338O, 0
-play1339O, 0
-play1340O, 0
-play1341H, 0
-play1342H, 0
-play1343H, 0
-play1344O, 0
-play1345H, 0
-play1346H, 0
-play1347O, 0
-play1348H, 0
-play1349H, 0
-play1350O, 0
-play1351H, 0
-play1352O, 0
-play1353O, 0
-play1354H, 0
-play1355O, 0
-play1356O, 0
-play1357H, 0
-play1358O, 0
-play1359H, 0
-play1360H, 2.0
-play1361H, 0.5
-play1362H, 0
-play1363O, 0
+play0000H,Huskies,0
+play0001O,Huskies,0
+play0002H,Huskies,0
+play0003O,Huskies,0
+play0004O,Huskies,0
+play0005H,Huskies,0
+play0006H,Huskies,1.0
+play0007O,Huskies,0
+play0008O,Huskies,0
+play0009H,Huskies,0
+play0010H,Huskies,0
+play0011H,Huskies,0
+play0012O,Huskies,0
+play0013H,Huskies,0
+play0014H,Huskies,0.5
+play0015O,Huskies,0
+play0016O,Huskies,0
+play0017H,Huskies,0
+play0018H,Huskies,0
+play0019O,Huskies,0
+play0020H,Huskies,0
+play0021O,Huskies,0
+play0022H,Huskies,0
+play0023H,Huskies,0
+play0024O,Huskies,0
+play0025H,Huskies,0
+play0026H,Huskies,0
+play0027H,Huskies,0.5
+play0028O,Huskies,0
+play0029H,Huskies,0
+play0030H,Huskies,0
+play0031H,Huskies,0
+play0032O,Huskies,0
+play0033O,Huskies,0
+play0034H,Huskies,1.5
+play0035O,Huskies,0
+play0036H,Huskies,0
+play0037H,Huskies,0
+play0038O,Huskies,0
+play0039O,Huskies,0
+play0040O,Huskies,0
+play0041O,Huskies,0
+play0042O,Huskies,0
+play0043O,Huskies,0
+play0044O,Huskies,0
+play0045O,Huskies,0
+play0046O,Huskies,0
+play0047H,Huskies,0
+play0048H,Huskies,0
+play0049H,Huskies,0
+play0050O,Huskies,0
+play0051O,Huskies,0
+play0052H,Huskies,0.5
+play0053O,Huskies,0
+play0054O,Huskies,0
+play0055O,Huskies,0
+play0056O,Huskies,0
+play0057H,Huskies,0
+play0058O,Huskies,0
+play0059O,Huskies,0
+play0060O,Huskies,0
+play0061O,Huskies,0
+play0062O,Huskies,0
+play0063O,Huskies,0
+play0064O,Huskies,0
+play0065H,Huskies,0
+play0066H,Huskies,0
+play0067H,Huskies,0
+play0068H,Huskies,0
+play0069O,Huskies,0
+play0070O,Huskies,0
+play0071O,Huskies,0
+play0072H,Huskies,0
+play0073H,Huskies,0
+play0074H,Huskies,0
+play0075O,Huskies,0
+play0076H,Huskies,0
+play0077O,Huskies,0
+play0078O,Huskies,0
+play0079H,Huskies,0
+play0080H,Huskies,0
+play0081H,Huskies,0
+play0082O,Huskies,0
+play0083O,Huskies,0
+play0084H,Huskies,0
+play0085O,Huskies,0
+play0086O,Huskies,0
+play0087O,Huskies,0
+play0088O,Huskies,0
+play0089O,Huskies,0
+play0090O,Huskies,0
+play0091O,Huskies,0
+play0092O,Huskies,0
+play0093O,Huskies,0
+play0094H,Huskies,0
+play0095O,Huskies,0
+play0096H,Huskies,0
+play0097H,Huskies,0
+play0098H,Huskies,0
+play0099H,Huskies,0.5
+play0100O,Huskies,0
+play0101O,Huskies,0
+play0102O,Huskies,0
+play0103O,Huskies,0
+play0104O,Huskies,0
+play0105H,Huskies,0
+play0106H,Huskies,0
+play0107O,Huskies,0
+play0108O,Huskies,0
+play0109O,Huskies,0
+play0110O,Huskies,0
+play0111H,Huskies,0
+play0112O,Huskies,0
+play0113O,Huskies,0
+play0114H,Huskies,0.5
+play0115O,Huskies,0
+play0116H,Huskies,0
+play0117O,Huskies,0
+play0118H,Huskies,0
+play0119H,Huskies,0
+play0120H,Huskies,0
+play0121H,Huskies,0
+play0122O,Huskies,0
+play0123O,Huskies,0
+play0124H,Huskies,0
+play0125O,Huskies,0
+play0126O,Huskies,0
+play0127H,Huskies,0
+play0128O,Huskies,0
+play0129O,Huskies,0
+play0130H,Huskies,0
+play0131O,Huskies,0
+play0132O,Huskies,0
+play0133H,Huskies,1.5
+play0134O,Huskies,0
+play0135O,Huskies,0
+play0136H,Huskies,0
+play0137O,Huskies,0
+play0138H,Huskies,0
+play0139O,Huskies,0
+play0140O,Huskies,0
+play0141H,Huskies,0
+play0142O,Huskies,0
+play0143H,Huskies,0
+play0144H,Huskies,0
+play0145O,Huskies,0
+play0146O,Huskies,0
+play0147H,Huskies,0
+play0148O,Huskies,0
+play0149O,Huskies,0
+play0150O,Huskies,0
+play0151O,Huskies,0
+play0152H,Huskies,1.5
+play0153H,Huskies,0
+play0154H,Huskies,0
+play0155H,Huskies,0.5
+play0156H,Huskies,0.5
+play0157O,Huskies,0
+play0158H,Huskies,0.5
+play0159H,Huskies,0
+play0160O,Huskies,0
+play0161H,Huskies,0.5
+play0162O,Huskies,0
+play0163H,Huskies,0
+play0164O,Huskies,0
+play0165O,Huskies,0
+play0166H,Huskies,0
+play0167O,Huskies,0
+play0168H,Huskies,0
+play0169H,Huskies,0
+play0170O,Huskies,0
+play0171O,Huskies,0
+play0172H,Huskies,0
+play0173O,Huskies,0
+play0174O,Huskies,0
+play0175O,Huskies,0
+play0176H,Huskies,0.5
+play0177O,Huskies,0
+play0178O,Huskies,0
+play0179O,Huskies,1.0
+play0180H,Huskies,0
+play0181O,Huskies,0
+play0182O,Huskies,0
+play0183O,Huskies,0
+play0184O,Huskies,0
+play0185O,Huskies,0
+play0186H,Huskies,0
+play0187H,Huskies,1.5
+play0188H,Huskies,1.5
+play0189O,Huskies,0
+play0190O,Huskies,0
+play0191H,Huskies,0.5
+play0192O,Huskies,0
+play0193H,Huskies,1.0
+play0194O,Huskies,0
+play0195O,Huskies,0
+play0196O,Huskies,0
+play0197O,Huskies,0
+play0198O,Huskies,0
+play0199H,Huskies,0
+play0200O,Huskies,0
+play0201O,Huskies,0
+play0202H,Huskies,0
+play0203O,Huskies,0
+play0204H,Huskies,0.5
+play0205H,Huskies,0
+play0206H,Huskies,0
+play0207O,Huskies,0
+play0208H,Huskies,0
+play0209O,Huskies,0
+play0210H,Huskies,0
+play0211H,Huskies,0
+play0212O,Huskies,0
+play0213H,Huskies,1.5
+play0214O,Huskies,0
+play0215H,Huskies,0
+play0216O,Huskies,0
+play0217O,Huskies,0
+play0218H,Huskies,0.5
+play0219O,Huskies,0
+play0220O,Huskies,0
+play0221O,Huskies,0
+play0222H,Huskies,0
+play0223H,Huskies,0
+play0224O,Huskies,0
+play0225H,Huskies,0
+play0226H,Huskies,0
+play0227H,Huskies,0
+play0228H,Huskies,0
+play0229H,Huskies,0
+play0230O,Huskies,0
+play0231O,Huskies,0
+play0232H,Huskies,0
+play0233H,Huskies,1.0
+play0234O,Huskies,0
+play0235H,Huskies,0
+play0236O,Huskies,0
+play0237H,Huskies,0
+play0238O,Huskies,0
+play0239H,Huskies,0.5
+play0240H,Huskies,0
+play0241H,Huskies,0
+play0242H,Huskies,0.5
+play0243O,Huskies,0
+play0244O,Huskies,0
+play0245O,Huskies,0
+play0246H,Huskies,0
+play0247H,Huskies,0
+play0248O,Huskies,0
+play0249O,Huskies,0
+play0250H,Huskies,1.0
+play0251H,Huskies,0
+play0252H,Huskies,0
+play0253O,Huskies,0
+play0254O,Huskies,0
+play0255H,Huskies,0
+play0256H,Huskies,0.5
+play0257H,Huskies,0
+play0258O,Huskies,0
+play0259H,Huskies,1.5
+play0260H,Huskies,1.0
+play0261H,Huskies,0
+play0262H,Huskies,0
+play0263H,Huskies,0.5
+play0264H,Huskies,0
+play0265O,Huskies,0
+play0266O,Huskies,0
+play0267H,Huskies,0.5
+play0268O,Huskies,0
+play0269H,Huskies,0.5
+play0270O,Huskies,0
+play0271H,Huskies,0
+play0272H,Huskies,0
+play0273H,Huskies,1.0
+play0274O,Huskies,0
+play0275O,Huskies,0
+play0276O,Huskies,0
+play0277H,Huskies,0.5
+play0278O,Huskies,0
+play0279H,Huskies,0.5
+play0280H,Huskies,0
+play0281O,Huskies,0
+play0282O,Huskies,0
+play0283H,Huskies,0
+play0284H,Huskies,0
+play0285O,Huskies,0
+play0286O,Huskies,0
+play0287O,Huskies,0
+play0288O,Huskies,0
+play0289H,Huskies,0
+play0290O,Huskies,0
+play0291H,Huskies,0
+play0292O,Huskies,0
+play0293O,Huskies,0
+play0294O,Huskies,0
+play0295H,Huskies,0
+play0296H,Huskies,0.5
+play0297O,Huskies,0
+play0298H,Huskies,0
+play0299O,Huskies,0
+play0300O,Huskies,0
+play0301O,Huskies,0
+play0302O,Huskies,0
+play0303O,Huskies,0
+play0304H,Huskies,0
+play0305H,Huskies,1.5
+play0306O,Huskies,0
+play0307H,Huskies,1.0
+play0308O,Huskies,0
+play0309H,Huskies,0
+play0310O,Huskies,0
+play0311O,Huskies,0
+play0312O,Huskies,0
+play0313H,Huskies,0.5
+play0314H,Huskies,0
+play0315O,Huskies,0
+play0316O,Huskies,0
+play0317H,Huskies,0.5
+play0318H,Huskies,1.5
+play0319H,Huskies,0.5
+play0320O,Huskies,0
+play0321O,Huskies,0
+play0322H,Huskies,0.5
+play0323O,Huskies,0
+play0324H,Huskies,1.0
+play0325H,Huskies,1.0
+play0326H,Huskies,0.5
+play0327O,Huskies,0
+play0328H,Huskies,0.5
+play0329O,Huskies,0
+play0330H,Huskies,1.5
+play0331O,Huskies,0
+play0332H,Huskies,1.5
+play0333H,Huskies,1.5
+play0334H,Huskies,0
+play0335H,Huskies,0
+play0336H,Huskies,1.0
+play0337O,Huskies,0
+play0338H,Huskies,0
+play0339H,Huskies,1.5
+play0340H,Huskies,0
+play0341H,Huskies,0.5
+play0342H,Huskies,1.0
+play0343H,Huskies,0
+play0344O,Huskies,0
+play0345H,Huskies,1.0
+play0346O,Huskies,0
+play0347H,Huskies,0
+play0348O,Huskies,0
+play0349H,Huskies,0
+play0350O,Huskies,0
+play0351H,Huskies,0.5
+play0352H,Huskies,1.0
+play0353O,Huskies,0
+play0354H,Huskies,0
+play0355H,Huskies,0
+play0356O,Huskies,0
+play0357H,Huskies,0
+play0358H,Huskies,0
+play0359H,Huskies,0
+play0360H,Huskies,0
+play0361O,Huskies,0
+play0362H,Huskies,0
+play0363H,Huskies,0
+play0364O,Huskies,0
+play0365O,Huskies,0
+play0366O,Huskies,0
+play0367O,Huskies,0
+play0368O,Huskies,0
+play0369O,Huskies,0
+play0370O,Huskies,0
+play0371O,Huskies,0
+play0372O,Huskies,0
+play0373H,Huskies,0
+play0374O,Huskies,0
+play0375H,Huskies,0
+play0376O,Huskies,0
+play0377O,Huskies,0
+play0378O,Huskies,0
+play0379O,Huskies,0
+play0380H,Huskies,0
+play0381O,Huskies,0
+play0382O,Huskies,0
+play0383O,Huskies,0
+play0384O,Huskies,0
+play0385H,Huskies,0
+play0386O,Huskies,0
+play0387O,Huskies,0
+play0388H,Huskies,0
+play0389O,Huskies,0
+play0390O,Huskies,0
+play0391O,Huskies,0
+play0392O,Huskies,0
+play0393O,Huskies,0
+play0394H,Huskies,0
+play0395H,Huskies,0
+play0396O,Huskies,0
+play0397O,Huskies,0
+play0398H,Huskies,0
+play0399O,Huskies,0
+play0400O,Huskies,0
+play0401H,Huskies,0
+play0402H,Huskies,0
+play0403O,Huskies,0
+play0404O,Huskies,0
+play0405H,Huskies,0
+play0406O,Huskies,0
+play0407O,Huskies,0
+play0408O,Huskies,0
+play0409O,Huskies,0
+play0410O,Huskies,0
+play0411H,Huskies,0
+play0412O,Huskies,0
+play0413O,Huskies,0
+play0414H,Huskies,0.5
+play0415O,Huskies,0
+play0416O,Huskies,0
+play0417H,Huskies,0
+play0418H,Huskies,0
+play0419H,Huskies,0
+play0420H,Huskies,0
+play0421H,Huskies,0.5
+play0422H,Huskies,0
+play0423H,Huskies,0
+play0424O,Huskies,0
+play0425H,Huskies,0
+play0426H,Huskies,0
+play0427H,Huskies,0
+play0428H,Huskies,0
+play0429O,Huskies,0
+play0430H,Huskies,0
+play0431H,Huskies,0
+play0432O,Huskies,0
+play0433H,Huskies,1.0
+play0434O,Huskies,0
+play0435H,Huskies,1.0
+play0436H,Huskies,0
+play0437H,Huskies,0
+play0438H,Huskies,0
+play0439O,Huskies,0
+play0440H,Huskies,0
+play0441H,Huskies,1.5
+play0442H,Huskies,1.0
+play0443O,Huskies,0
+play0444H,Huskies,0
+play0445O,Huskies,0
+play0446H,Huskies,0
+play0447H,Huskies,0
+play0448O,Huskies,0
+play0449H,Huskies,0
+play0450H,Huskies,0
+play0451H,Huskies,1.0
+play0452H,Huskies,0
+play0453H,Huskies,0
+play0454H,Huskies,2.0
+play0455H,Huskies,0
+play0456O,Huskies,0
+play0457H,Huskies,0
+play0458O,Huskies,0
+play0459O,Huskies,0
+play0460H,Huskies,0.5
+play0461H,Huskies,0
+play0462O,Huskies,0
+play0463O,Huskies,0
+play0464H,Huskies,0.5
+play0465H,Huskies,0
+play0466O,Huskies,0
+play0467O,Huskies,0
+play0468O,Huskies,0
+play0469H,Huskies,0.5
+play0470O,Huskies,0
+play0471O,Huskies,0
+play0472O,Huskies,0
+play0473O,Huskies,0
+play0474H,Huskies,0
+play0475O,Huskies,0
+play0476O,Huskies,0
+play0477H,Huskies,0
+play0478O,Huskies,0
+play0479O,Huskies,0
+play0480O,Huskies,0
+play0481O,Huskies,0
+play0482H,Huskies,0
+play0483O,Huskies,0
+play0484O,Huskies,0
+play0485H,Huskies,0.5
+play0486O,Huskies,0
+play0487O,Huskies,0
+play0488O,Huskies,0
+play0489H,Huskies,1.0
+play0490O,Huskies,0
+play0491O,Huskies,0
+play0492O,Huskies,0
+play0493H,Huskies,0
+play0494O,Huskies,0
+play0495O,Huskies,0
+play0496O,Huskies,0
+play0497O,Huskies,0
+play0498O,Huskies,0
+play0499O,Huskies,0
+play0500O,Huskies,0
+play0501O,Huskies,0
+play0502O,Huskies,0
+play0503H,Huskies,0
+play0504O,Huskies,0
+play0505O,Huskies,0
+play0506H,Huskies,0
+play0507O,Huskies,0
+play0508O,Huskies,0
+play0509H,Huskies,0
+play0510H,Huskies,0
+play0511O,Huskies,0
+play0512O,Huskies,0
+play0513O,Huskies,0
+play0514O,Huskies,0
+play0515H,Huskies,0
+play0516H,Huskies,0
+play0517O,Huskies,0
+play0518O,Huskies,0
+play0519H,Huskies,0
+play0520O,Huskies,0
+play0521O,Huskies,0
+play0522O,Huskies,0
+play0523H,Huskies,0
+play0524H,Huskies,0
+play0525O,Huskies,0
+play0526O,Huskies,0
+play0527H,Huskies,0
+play0528O,Huskies,0
+play0529H,Huskies,0
+play0530H,Huskies,0
+play0531H,Huskies,0.5
+play0532O,Huskies,0
+play0533O,Huskies,0
+play0534H,Huskies,0.5
+play0535H,Huskies,0
+play0536H,Huskies,0
+play0537H,Huskies,0
+play0538O,Huskies,0
+play0539O,Huskies,0
+play0540O,Huskies,0
+play0541O,Huskies,0
+play0542H,Huskies,0
+play0543H,Huskies,1.5
+play0544H,Huskies,0
+play0545O,Huskies,0
+play0546H,Huskies,0
+play0547H,Huskies,0
+play0548O,Huskies,0
+play0549H,Huskies,0.5
+play0550H,Huskies,1.0
+play0551O,Huskies,0
+play0552H,Huskies,0
+play0553O,Huskies,0
+play0554O,Huskies,0
+play0555H,Huskies,0
+play0556O,Huskies,0
+play0557O,Huskies,0
+play0558O,Huskies,0
+play0559O,Huskies,0
+play0560O,Huskies,0
+play0561O,Huskies,0
+play0562O,Huskies,0
+play0563H,Huskies,0
+play0564H,Huskies,0
+play0565H,Huskies,0
+play0566O,Huskies,0
+play0567O,Huskies,0
+play0568O,Huskies,0
+play0569H,Huskies,0.5
+play0570O,Huskies,0
+play0571O,Huskies,0
+play0572H,Huskies,0
+play0573O,Huskies,0
+play0574H,Huskies,0
+play0575H,Huskies,0
+play0576O,Huskies,0
+play0577H,Huskies,0
+play0578H,Huskies,1.0
+play0579O,Huskies,0
+play0580H,Huskies,0
+play0581O,Huskies,0
+play0582H,Huskies,0
+play0583O,Huskies,0
+play0584H,Huskies,0
+play0585H,Huskies,0
+play0586H,Huskies,0.5
+play0587H,Huskies,0
+play0588H,Huskies,0
+play0589O,Huskies,0
+play0590O,Huskies,0
+play0591O,Huskies,0
+play0592O,Huskies,0
+play0593O,Huskies,0
+play0594O,Huskies,0
+play0595O,Huskies,0
+play0596H,Huskies,1.5
+play0597H,Huskies,0.5
+play0598O,Huskies,0
+play0599H,Huskies,0
+play0600H,Huskies,0
+play0601O,Huskies,0
+play0602O,Huskies,0
+play0603O,Huskies,0
+play0604O,Huskies,0
+play0605O,Huskies,0
+play0606O,Huskies,0
+play0607O,Huskies,0
+play0608O,Huskies,0
+play0609O,Huskies,0
+play0610O,Huskies,0
+play0611O,Huskies,0
+play0612H,Huskies,0
+play0613O,Huskies,0
+play0614O,Huskies,0
+play0615O,Huskies,0
+play0616O,Huskies,0
+play0617O,Huskies,0
+play0618O,Huskies,0
+play0619O,Huskies,0
+play0620O,Huskies,0
+play0621O,Huskies,0
+play0622O,Huskies,0
+play0623H,Huskies,0
+play0624O,Huskies,0
+play0625O,Huskies,0
+play0626O,Huskies,0
+play0627O,Huskies,0
+play0628H,Huskies,0
+play0629O,Huskies,0
+play0630O,Huskies,0
+play0631O,Huskies,0
+play0632O,Huskies,0
+play0633O,Huskies,0
+play0634O,Huskies,0
+play0635O,Huskies,0
+play0636O,Huskies,0
+play0637O,Huskies,0
+play0638H,Huskies,0
+play0639H,Huskies,0
+play0640O,Huskies,0
+play0641H,Huskies,0
+play0642O,Huskies,0
+play0643O,Huskies,0
+play0644O,Huskies,0
+play0645O,Huskies,0
+play0646O,Huskies,0
+play0647O,Huskies,0
+play0648H,Huskies,0.5
+play0649H,Huskies,0.5
+play0650O,Huskies,0
+play0651O,Huskies,0
+play0652O,Huskies,0
+play0653O,Huskies,0
+play0654O,Huskies,0
+play0655O,Huskies,0
+play0656H,Huskies,0
+play0657O,Huskies,0
+play0658H,Huskies,0
+play0659O,Huskies,0
+play0660O,Huskies,0
+play0661O,Huskies,0
+play0662O,Huskies,0
+play0663O,Huskies,0
+play0664O,Huskies,0
+play0665H,Huskies,0
+play0666H,Huskies,0
+play0667H,Huskies,0
+play0668H,Huskies,1.0
+play0669O,Huskies,0
+play0670O,Huskies,0
+play0671H,Huskies,0
+play0672O,Huskies,0
+play0673O,Huskies,0
+play0674O,Huskies,0
+play0675H,Huskies,0
+play0676O,Huskies,0
+play0677H,Huskies,0
+play0678O,Huskies,0
+play0679H,Huskies,0.5
+play0680H,Huskies,2.5
+play0681O,Huskies,0
+play0682O,Huskies,0
+play0683H,Huskies,0.5
+play0684H,Huskies,0
+play0685H,Huskies,0
+play0686O,Huskies,0
+play0687O,Huskies,0
+play0688O,Huskies,0
+play0689O,Huskies,0
+play0690H,Huskies,1.5
+play0691O,Huskies,0
+play0692O,Huskies,0
+play0693O,Huskies,0
+play0694H,Huskies,0
+play0695O,Huskies,0
+play0696H,Huskies,0
+play0697O,Huskies,0
+play0698O,Huskies,0
+play0699O,Huskies,0
+play0700H,Huskies,0
+play0701O,Huskies,0
+play0702O,Huskies,0
+play0703O,Huskies,0
+play0704O,Huskies,0
+play0705H,Huskies,0
+play0706O,Huskies,0
+play0707O,Huskies,0
+play0708O,Huskies,0
+play0709H,Huskies,0
+play0710O,Huskies,0
+play0711H,Huskies,0
+play0712O,Huskies,0
+play0713H,Huskies,0
+play0714H,Huskies,0
+play0715O,Huskies,0
+play0716O,Huskies,0
+play0717O,Huskies,0
+play0718H,Huskies,0
+play0719O,Huskies,0
+play0720O,Huskies,0
+play0721H,Huskies,0
+play0722H,Huskies,0
+play0723H,Huskies,0.5
+play0724O,Huskies,0
+play0725H,Huskies,0
+play0726H,Huskies,0
+play0727H,Huskies,0
+play0728H,Huskies,0
+play0729H,Huskies,1.0
+play0730O,Huskies,0
+play0731H,Huskies,1.0
+play0732O,Huskies,0
+play0733H,Huskies,0
+play0734H,Huskies,0.5
+play0735H,Huskies,0
+play0736O,Huskies,0
+play0737O,Huskies,0
+play0738H,Huskies,0
+play0739O,Huskies,0
+play0740H,Huskies,0
+play0741H,Huskies,0
+play0742O,Huskies,0
+play0743O,Huskies,0
+play0744O,Huskies,0
+play0745O,Huskies,0
+play0746H,Huskies,0
+play0747O,Huskies,0
+play0748O,Huskies,0
+play0749O,Huskies,0
+play0750H,Huskies,1.0
+play0751H,Huskies,0
+play0752H,Huskies,0
+play0753H,Huskies,0
+play0754H,Huskies,1.0
+play0755H,Huskies,0
+play0756O,Huskies,0
+play0757H,Huskies,0
+play0758H,Huskies,0
+play0759O,Huskies,0
+play0760H,Huskies,1.0
+play0761O,Huskies,0
+play0762O,Huskies,0
+play0763H,Huskies,1.0
+play0764O,Huskies,0
+play0765O,Huskies,0
+play0766H,Huskies,0
+play0767O,Huskies,0
+play0768O,Huskies,0
+play0769O,Huskies,0
+play0770O,Huskies,0
+play0771O,Huskies,0
+play0772H,Huskies,0
+play0773O,Huskies,0
+play0774O,Huskies,0
+play0775O,Huskies,0
+play0776H,Huskies,0
+play0777O,Huskies,0
+play0778H,Huskies,0
+play0779H,Huskies,0
+play0780O,Huskies,0
+play0781O,Huskies,0
+play0782O,Huskies,0
+play0783H,Huskies,0
+play0784H,Huskies,0
+play0785O,Huskies,0
+play0786O,Huskies,0
+play0787O,Huskies,0
+play0788O,Huskies,0
+play0789H,Huskies,0
+play0790O,Huskies,0
+play0791H,Huskies,0
+play0792H,Huskies,0.5
+play0793O,Huskies,0
+play0794O,Huskies,0
+play0795O,Huskies,0
+play0796O,Huskies,0
+play0797H,Huskies,0
+play0798O,Huskies,0
+play0799O,Huskies,0
+play0800O,Huskies,0
+play0801O,Huskies,0
+play0802H,Huskies,0
+play0803O,Huskies,0
+play0804O,Huskies,0
+play0805H,Huskies,0.5
+play0806H,Huskies,0
+play0807O,Huskies,0
+play0808H,Huskies,0
+play0809O,Huskies,0
+play0810O,Huskies,0
+play0811H,Huskies,0
+play0812H,Huskies,0
+play0813O,Huskies,0
+play0814O,Huskies,0
+play0815O,Huskies,0
+play0816O,Huskies,0
+play0817O,Huskies,0
+play0818O,Huskies,0
+play0819O,Huskies,0
+play0820H,Huskies,0
+play0821H,Huskies,0
+play0822O,Huskies,0
+play0823O,Huskies,0
+play0824O,Huskies,0
+play0825H,Huskies,0
+play0826H,Huskies,0
+play0827H,Huskies,0.5
+play0828O,Huskies,0
+play0829H,Huskies,0
+play0830H,Huskies,0.5
+play0831H,Huskies,0
+play0832O,Huskies,0
+play0833O,Huskies,0
+play0834H,Huskies,0.5
+play0835O,Huskies,0
+play0836O,Huskies,0
+play0837H,Huskies,1.0
+play0838O,Huskies,0
+play0839H,Huskies,0
+play0840H,Huskies,0.5
+play0841H,Huskies,0
+play0842H,Huskies,0.5
+play0843H,Huskies,0
+play0844H,Huskies,0
+play0845O,Huskies,0
+play0846H,Huskies,0
+play0847H,Huskies,0
+play0848O,Huskies,0
+play0849O,Huskies,0
+play0850H,Huskies,0
+play0851H,Huskies,1.0
+play0852O,Huskies,0
+play0853O,Huskies,0
+play0854H,Huskies,0
+play0855O,Huskies,0
+play0856H,Huskies,0.5
+play0857O,Huskies,0
+play0858H,Huskies,0
+play0859O,Huskies,0
+play0860O,Huskies,0
+play0861H,Huskies,0
+play0862O,Huskies,0
+play0863O,Huskies,0
+play0864O,Huskies,0
+play0865O,Huskies,0
+play0866H,Huskies,0.5
+play0867O,Huskies,0
+play0868O,Huskies,0
+play0869H,Huskies,0
+play0870O,Huskies,0
+play0871O,Huskies,0
+play0872H,Huskies,0
+play0873H,Huskies,0
+play0874O,Huskies,0
+play0875O,Huskies,0
+play0876O,Huskies,0
+play0877O,Huskies,0
+play0878H,Huskies,0.5
+play0879H,Huskies,3.0
+play0880O,Huskies,0
+play0881H,Huskies,1.0
+play0882O,Huskies,0
+play0883O,Huskies,0
+play0884O,Huskies,0
+play0885O,Huskies,0
+play0886O,Huskies,0
+play0887H,Huskies,0
+play0888H,Huskies,0
+play0889O,Huskies,0
+play0890O,Huskies,0
+play0891H,Huskies,0
+play0892O,Huskies,0
+play0893O,Huskies,0
+play0894H,Huskies,0
+play0895O,Huskies,0
+play0896O,Huskies,0
+play0897O,Huskies,0
+play0898H,Huskies,0
+play0899H,Huskies,0.5
+play0900H,Huskies,0
+play0901O,Huskies,0
+play0902H,Huskies,0.5
+play0903H,Huskies,0
+play0904H,Huskies,0
+play0905O,Huskies,0
+play0906O,Huskies,0
+play0907H,Huskies,0
+play0908O,Huskies,0
+play0909O,Huskies,0
+play0910H,Huskies,0
+play0911O,Huskies,0
+play0912O,Huskies,0
+play0913O,Huskies,0
+play0914O,Huskies,0
+play0915H,Huskies,0
+play0916H,Huskies,0
+play0917H,Huskies,0
+play0918H,Huskies,0
+play0919H,Huskies,0
+play0920O,Huskies,0
+play0921O,Huskies,0
+play0922O,Huskies,0
+play0923H,Huskies,0
+play0924H,Huskies,0
+play0925O,Huskies,0
+play0926O,Huskies,0
+play0927O,Huskies,0
+play0928H,Huskies,0.5
+play0929O,Huskies,0
+play0930O,Huskies,0
+play0931O,Huskies,0
+play0932O,Huskies,0
+play0933O,Huskies,0
+play0934H,Huskies,0
+play0935H,Huskies,0
+play0936O,Huskies,0
+play0937O,Huskies,0
+play0938H,Huskies,0
+play0939H,Huskies,1.5
+play0940O,Huskies,0
+play0941H,Huskies,0
+play0942H,Huskies,0
+play0943H,Huskies,0
+play0944H,Huskies,0.5
+play0945H,Huskies,0.5
+play0946H,Huskies,0
+play0947H,Huskies,1.0
+play0948H,Huskies,0
+play0949H,Huskies,0
+play0950H,Huskies,0
+play0951O,Huskies,0
+play0952H,Huskies,0
+play0953H,Huskies,0
+play0954H,Huskies,0
+play0955O,Huskies,0
+play0956O,Huskies,0
+play0957H,Huskies,0
+play0958O,Huskies,0
+play0959O,Huskies,0
+play0960O,Huskies,0
+play0961H,Huskies,0.5
+play0962O,Huskies,0
+play0963H,Huskies,0
+play0964O,Huskies,0
+play0965O,Huskies,0
+play0966O,Huskies,0
+play0967O,Huskies,0
+play0968O,Huskies,0
+play0969H,Huskies,0
+play0970O,Huskies,0
+play0971H,Huskies,0
+play0972O,Huskies,1.5
+play0973O,Huskies,0
+play0974O,Huskies,0.5
+play0975H,Huskies,1.0
+play0976H,Huskies,0
+play0977H,Huskies,0
+play0978O,Huskies,0
+play0979O,Huskies,0
+play0980H,Huskies,0
+play0981H,Huskies,0
+play0982O,Huskies,0
+play0983H,Huskies,0.5
+play0984H,Huskies,0
+play0985O,Huskies,0
+play0986O,Huskies,0
+play0987O,Huskies,0
+play0988O,Huskies,0
+play0989O,Huskies,0
+play0990O,Huskies,0
+play0991O,Huskies,0
+play0992O,Huskies,0
+play0993O,Huskies,0
+play0994H,Huskies,0
+play0995O,Huskies,0
+play0996H,Huskies,0
+play0997O,Huskies,0
+play0998H,Huskies,0.5
+play0999H,Huskies,0
+play1000H,Huskies,0
+play1001O,Huskies,0
+play1002H,Huskies,1.5
+play1003O,Huskies,0
+play1004O,Huskies,0
+play1005O,Huskies,0
+play1006O,Huskies,0
+play1007H,Huskies,0
+play1008H,Huskies,0
+play1009O,Huskies,0
+play1010H,Huskies,1.0
+play1011O,Huskies,0
+play1012O,Huskies,0
+play1013H,Huskies,0
+play1014O,Huskies,0
+play1015H,Huskies,0
+play1016O,Huskies,0
+play1017H,Huskies,0
+play1018H,Huskies,0
+play1019H,Huskies,1.5
+play1020O,Huskies,0
+play1021H,Huskies,0.5
+play1022H,Huskies,0.5
+play1023H,Huskies,1.0
+play1024H,Huskies,0
+play1025O,Huskies,0
+play1026H,Huskies,0
+play1027H,Huskies,0.5
+play1028O,Huskies,0
+play1029H,Huskies,0.5
+play1030O,Huskies,0
+play1031O,Huskies,0
+play1032O,Huskies,0.5
+play1033O,Huskies,0
+play1034H,Huskies,0
+play1035O,Huskies,0
+play1036H,Huskies,0
+play1037O,Huskies,0
+play1038O,Huskies,0
+play1039H,Huskies,2.0
+play1040H,Huskies,0
+play1041O,Huskies,0
+play1042H,Huskies,0
+play1043O,Huskies,0
+play1044H,Huskies,0
+play1045H,Huskies,0
+play1046O,Huskies,0
+play1047H,Huskies,0
+play1048H,Huskies,0
+play1049H,Huskies,0
+play1050H,Huskies,0.5
+play1051O,Huskies,0
+play1052H,Huskies,0.5
+play1053H,Huskies,0
+play1054O,Huskies,0
+play1055H,Huskies,0
+play1056O,Huskies,0
+play1057H,Huskies,0
+play1058O,Huskies,0
+play1059O,Huskies,0
+play1060O,Huskies,0
+play1061H,Huskies,2.5
+play1062O,Huskies,0
+play1063O,Huskies,0
+play1064O,Huskies,0
+play1065H,Huskies,0
+play1066O,Huskies,0
+play1067O,Huskies,0
+play1068O,Huskies,0
+play1069O,Huskies,0
+play1070H,Huskies,0.5
+play1071O,Huskies,0
+play1072O,Huskies,0
+play1073H,Huskies,0
+play1074H,Huskies,1.0
+play1075H,Huskies,0
+play1076H,Huskies,0.5
+play1077H,Huskies,0.5
+play1078O,Huskies,0
+play1079O,Huskies,0
+play1080H,Huskies,0
+play1081H,Huskies,0
+play1082H,Huskies,0.5
+play1083H,Huskies,0
+play1084H,Huskies,0
+play1085H,Huskies,0
+play1086O,Huskies,0
+play1087H,Huskies,0
+play1088O,Huskies,0
+play1089O,Huskies,0
+play1090H,Huskies,0
+play1091H,Huskies,0
+play1092O,Huskies,0
+play1093H,Huskies,3.5
+play1094H,Huskies,0
+play1095O,Huskies,0
+play1096O,Huskies,0
+play1097O,Huskies,0
+play1098O,Huskies,0
+play1099H,Huskies,0
+play1100O,Huskies,0
+play1101H,Huskies,0
+play1102O,Huskies,0
+play1103O,Huskies,0
+play1104O,Huskies,0
+play1105O,Huskies,0
+play1106O,Huskies,0
+play1107H,Huskies,0
+play1108O,Huskies,0
+play1109O,Huskies,0
+play1110O,Huskies,0
+play1111O,Huskies,0
+play1112O,Huskies,0
+play1113O,Huskies,0
+play1114O,Huskies,0
+play1115H,Huskies,0
+play1116O,Huskies,0
+play1117H,Huskies,1.0
+play1118O,Huskies,0
+play1119O,Huskies,0
+play1120O,Huskies,0
+play1121O,Huskies,0
+play1122O,Huskies,0
+play1123O,Huskies,0
+play1124O,Huskies,0
+play1125O,Huskies,0
+play1126O,Huskies,0
+play1127H,Huskies,0
+play1128O,Huskies,0
+play1129O,Huskies,0
+play1130O,Huskies,0
+play1131O,Huskies,0
+play1132O,Huskies,0
+play1133O,Huskies,0
+play1134O,Huskies,0
+play1135O,Huskies,0
+play1136O,Huskies,0
+play1137H,Huskies,0
+play1138O,Huskies,0
+play1139O,Huskies,0
+play1140H,Huskies,0
+play1141O,Huskies,0
+play1142H,Huskies,0
+play1143O,Huskies,0
+play1144H,Huskies,0
+play1145O,Huskies,0
+play1146O,Huskies,0
+play1147O,Huskies,0
+play1148H,Huskies,0
+play1149O,Huskies,0
+play1150H,Huskies,1.0
+play1151O,Huskies,0
+play1152O,Huskies,0
+play1153O,Huskies,0
+play1154O,Huskies,0
+play1155O,Huskies,0
+play1156H,Huskies,0
+play1157H,Huskies,1.0
+play1158O,Huskies,0
+play1159H,Huskies,0.5
+play1160H,Huskies,0
+play1161O,Huskies,0
+play1162H,Huskies,0
+play1163O,Huskies,0
+play1164H,Huskies,0
+play1165O,Huskies,0
+play1166O,Huskies,0
+play1167O,Huskies,0
+play1168O,Huskies,0
+play1169H,Huskies,0
+play1170O,Huskies,0
+play1171O,Huskies,0
+play1172H,Huskies,0.5
+play1173O,Huskies,0
+play1174O,Huskies,0
+play1175H,Huskies,0
+play1176O,Huskies,0
+play1177H,Huskies,0
+play1178O,Huskies,0
+play1179O,Huskies,0
+play1180O,Huskies,0
+play1181O,Huskies,0
+play1182O,Huskies,0
+play1183O,Huskies,0
+play1184O,Huskies,0
+play1185H,Huskies,0
+play1186O,Huskies,0
+play1187O,Huskies,0
+play1188O,Huskies,0
+play1189O,Huskies,0
+play1190O,Huskies,0
+play1191O,Huskies,0
+play1192O,Huskies,0
+play1193O,Huskies,0
+play1194H,Huskies,0
+play1195O,Huskies,0
+play1196O,Huskies,0
+play1197O,Huskies,0
+play1198O,Huskies,0
+play1199O,Huskies,0
+play1200O,Huskies,0
+play1201H,Huskies,0
+play1202O,Huskies,0
+play1203H,Huskies,0
+play1204O,Huskies,0
+play1205H,Huskies,0
+play1206O,Huskies,0
+play1207H,Huskies,0.5
+play1208O,Huskies,0
+play1209O,Huskies,0
+play1210O,Huskies,0
+play1211O,Huskies,0
+play1212O,Huskies,0
+play1213H,Huskies,0
+play1214O,Huskies,0
+play1215H,Huskies,0
+play1216H,Huskies,0
+play1217O,Huskies,0
+play1218O,Huskies,0
+play1219O,Huskies,0
+play1220H,Huskies,0
+play1221H,Huskies,1.0
+play1222H,Huskies,0
+play1223O,Huskies,0
+play1224H,Huskies,0
+play1225O,Huskies,0
+play1226H,Huskies,0
+play1227O,Huskies,0
+play1228H,Huskies,0
+play1229H,Huskies,0.5
+play1230H,Huskies,0
+play1231H,Huskies,0
+play1232O,Huskies,0
+play1233H,Huskies,0
+play1234H,Huskies,0
+play1235H,Huskies,1.0
+play1236H,Huskies,0
+play1237H,Huskies,0.5
+play1238H,Huskies,0
+play1239H,Huskies,0
+play1240H,Huskies,0
+play1241O,Huskies,0
+play1242O,Huskies,0
+play1243H,Huskies,0
+play1244O,Huskies,0
+play1245H,Huskies,0.5
+play1246H,Huskies,0.5
+play1247O,Huskies,0
+play1248H,Huskies,1.0
+play1249O,Huskies,0
+play1250O,Huskies,0
+play1251H,Huskies,1.0
+play1252H,Huskies,0
+play1253H,Huskies,0
+play1254H,Huskies,0
+play1255H,Huskies,0
+play1256O,Huskies,0
+play1257H,Huskies,0
+play1258O,Huskies,0
+play1259O,Huskies,0
+play1260H,Huskies,0.5
+play1261H,Huskies,1.0
+play1262H,Huskies,1.0
+play1263H,Huskies,0
+play1264O,Huskies,0
+play1265O,Huskies,0
+play1266O,Huskies,0
+play1267O,Huskies,0
+play1268O,Huskies,0
+play1269H,Huskies,0
+play1270H,Huskies,0.5
+play1271H,Huskies,0
+play1272O,Huskies,0
+play1273H,Huskies,0.5
+play1274O,Huskies,0
+play1275H,Huskies,0
+play1276O,Huskies,0
+play1277H,Huskies,1.0
+play1278O,Huskies,0
+play1279O,Huskies,0
+play1280O,Huskies,0
+play1281O,Huskies,0
+play1282H,Huskies,0
+play1283O,Huskies,0
+play1284H,Huskies,0
+play1285H,Huskies,0
+play1286O,Huskies,0
+play1287O,Huskies,0
+play1288H,Huskies,0
+play1289O,Huskies,0
+play1290O,Huskies,0
+play1291H,Huskies,0
+play1292O,Huskies,0
+play1293H,Huskies,0
+play1294H,Huskies,0.5
+play1295O,Huskies,0
+play1296H,Huskies,0
+play1297H,Huskies,0
+play1298H,Huskies,0.5
+play1299H,Huskies,0
+play1300O,Huskies,0
+play1301O,Huskies,0
+play1302H,Huskies,0.5
+play1303O,Huskies,0
+play1304O,Huskies,0
+play1305H,Huskies,0.5
+play1306O,Huskies,0
+play1307O,Huskies,0
+play1308O,Huskies,0
+play1309H,Huskies,0
+play1310O,Huskies,0
+play1311H,Huskies,0.5
+play1312O,Huskies,0
+play1313H,Huskies,0
+play1314H,Huskies,0
+play1315O,Huskies,0
+play1316H,Huskies,0
+play1317H,Huskies,0
+play1318O,Huskies,0
+play1319H,Huskies,0
+play1320O,Huskies,0
+play1321H,Huskies,0
+play1322O,Huskies,0
+play1323O,Huskies,0
+play1324H,Huskies,0.5
+play1325O,Huskies,1.0
+play1326O,Huskies,0
+play1327H,Huskies,0
+play1328O,Huskies,0
+play1329O,Huskies,0
+play1330H,Huskies,0
+play1331H,Huskies,1.0
+play1332O,Huskies,0
+play1333O,Huskies,0
+play1334H,Huskies,0
+play1335O,Huskies,0
+play1336O,Huskies,0
+play1337H,Huskies,1.0
+play1338O,Huskies,0
+play1339O,Huskies,0
+play1340O,Huskies,0
+play1341H,Huskies,0
+play1342H,Huskies,0
+play1343H,Huskies,0
+play1344O,Huskies,0
+play1345H,Huskies,0
+play1346H,Huskies,0
+play1347O,Huskies,0
+play1348H,Huskies,0
+play1349H,Huskies,0
+play1350O,Huskies,0
+play1351H,Huskies,0
+play1352O,Huskies,0
+play1353O,Huskies,0
+play1354H,Huskies,0
+play1355O,Huskies,0
+play1356O,Huskies,0
+play1357H,Huskies,0
+play1358O,Huskies,0
+play1359H,Huskies,0
+play1360H,Huskies,2.0
+play1361H,Huskies,0.5
+play1362H,Huskies,0
+play1363O,Huskies,0

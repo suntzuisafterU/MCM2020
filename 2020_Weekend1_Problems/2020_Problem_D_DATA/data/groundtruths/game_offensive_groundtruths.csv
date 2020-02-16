@@ -1,76 +1,76 @@
 MatchID,TeamID,GroundTruth
-game01_1H, 6.0
-game01_2H, 10.5
-game02_1H, 6.5
-game02_2H, 3.0
-game03_1H, 2.5
-game03_2H, 9.0
-game04_1H, 8.5
-game04_2H, 11.0
-game05_1H, 4.0
-game05_2H, 6.0
-game06_1H, 10.0
-game06_2H, 14.0
-game07_1H, 13.5
-game07_2H, 26.0
-game08_1H, 8.0
-game08_2H, 10.5
-game09_1H, 6.0
-game09_2H, 7.0
-game10_1H, 6.5
-game10_2H, 15.0
-game11_1H, 4.0
-game11_2H, 7.5
-game12_1H, 5.0
-game12_2H, 6.0
-game13_1H, 4.0
-game13_2H, 3.5
-game14_1H, 5.0
-game14_2H, 7.0
-game15_1H, 3.5
-game15_2H, 6.0
-game16_1H, 1.0
-game16_2H, 1.5
-game17_1H, 6.0
-game17_2H, 3.5
-game18_1H, 6.5
-game18_2H, 7.5
-game19_1H, 4.5
-game19_2H, 4.0
-game20_1H, 5.5
-game20_2H, 8.0
-game21_1H, 7.0
-game21_2H, 7.0
-game22_1H, 11.5
-game22_2H, 9.0
-game23_1H, 6.5
-game23_2H, 2.5
-game24_1H, 5.5
-game24_2H, 9.5
-game25_1H, 11.5
-game25_2H, 5.5
-game26_1H, 7.0
-game26_2H, 14.5
-game27_1H, 8.5
-game27_2H, 7.5
-game28_1H, 5.0
-game28_2H, 9.5
-game29_1H, 8.5
-game29_2H, 9.5
-game30_1H, 16.5
-game30_2H, 5.0
-game31_1H, 5.0
-game31_2H, 19.0
-game32_1H, 5.0
-game32_2H, 6.0
-game33_1H, 5.5
-game33_2H, 7.0
-game34_1H, 7.0
-game34_2H, 9.0
-game35_1H, 11.5
-game35_2H, 2.5
-game36_1H, 5.5
-game36_2H, 4.0
-game37_1H, 7.0
-game37_2H, 9.5
-game38_1H, 7.5
+game01_1H,Huskies,6.0
+game01_2H,Huskies,10.5
+game02_1H,Huskies,6.5
+game02_2H,Huskies,3.0
+game03_1H,Huskies,2.5
+game03_2H,Huskies,9.0
+game04_1H,Huskies,8.5
+game04_2H,Huskies,11.0
+game05_1H,Huskies,4.0
+game05_2H,Huskies,6.0
+game06_1H,Huskies,10.0
+game06_2H,Huskies,14.0
+game07_1H,Huskies,13.5
+game07_2H,Huskies,26.0
+game08_1H,Huskies,8.0
+game08_2H,Huskies,10.5
+game09_1H,Huskies,6.0
+game09_2H,Huskies,7.0
+game10_1H,Huskies,6.5
+game10_2H,Huskies,15.0
+game11_1H,Huskies,4.0
+game11_2H,Huskies,7.5
+game12_1H,Huskies,5.0
+game12_2H,Huskies,6.0
+game13_1H,Huskies,4.0
+game13_2H,Huskies,3.5
+game14_1H,Huskies,5.0
+game14_2H,Huskies,7.0
+game15_1H,Huskies,3.5
+game15_2H,Huskies,6.0
+game16_1H,Huskies,1.0
+game16_2H,Huskies,1.5
+game17_1H,Huskies,6.0
+game17_2H,Huskies,3.5
+game18_1H,Huskies,6.5
+game18_2H,Huskies,7.5
+game19_1H,Huskies,4.5
+game19_2H,Huskies,4.0
+game20_1H,Huskies,5.5
+game20_2H,Huskies,8.0
+game21_1H,Huskies,7.0
+game21_2H,Huskies,7.0
+game22_1H,Huskies,11.5
+game22_2H,Huskies,9.0
+game23_1H,Huskies,6.5
+game23_2H,Huskies,2.5
+game24_1H,Huskies,5.5
+game24_2H,Huskies,9.5
+game25_1H,Huskies,11.5
+game25_2H,Huskies,5.5
+game26_1H,Huskies,7.0
+game26_2H,Huskies,14.5
+game27_1H,Huskies,8.5
+game27_2H,Huskies,7.5
+game28_1H,Huskies,5.0
+game28_2H,Huskies,9.5
+game29_1H,Huskies,8.5
+game29_2H,Huskies,9.5
+game30_1H,Huskies,16.5
+game30_2H,Huskies,5.0
+game31_1H,Huskies,5.0
+game31_2H,Huskies,19.0
+game32_1H,Huskies,5.0
+game32_2H,Huskies,6.0
+game33_1H,Huskies,5.5
+game33_2H,Huskies,7.0
+game34_1H,Huskies,7.0
+game34_2H,Huskies,9.0
+game35_1H,Huskies,11.5
+game35_2H,Huskies,2.5
+game36_1H,Huskies,5.5
+game36_2H,Huskies,4.0
+game37_1H,Huskies,7.0
+game37_2H,Huskies,9.5
+game38_1H,Huskies,7.5

@@ -69,8 +69,8 @@ def calc_offensive_groundtruth_plays():
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename}, {_ground_truth_offense(play)}\n")
-    f = open("data/groundtruths/playoffenseivegroundtruths.csv", "w")
+        play_values.append(f"{basename},{team},{_ground_truth_offense(play)}\n")
+    f = open("data/groundtruths/play_offensive_groundtruths.csv", "w")
     f.writelines(play_values)
 
 def calc_offensive_groundtruth_games():
@@ -81,7 +81,7 @@ def calc_offensive_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename}, {_ground_truth_offense(game)}\n")
+        game_values.append(f"{basename},{team},{_ground_truth_offense(game)}\n")
     f = open("data/groundtruths/game_offensive_groundtruths.csv", "w")
     f.writelines(game_values)
 
@@ -93,7 +93,7 @@ def calc_defensive_groundtruth_plays():
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename}, {_ground_truth_offense(play)}\n")
+        play_values.append(f"{basename},{team},{_ground_truth_offense(play)}\n")
     f = open("data/groundtruths/play_defenseive_groundtruths.csv", "w")
     f.writelines(play_values)
 
@@ -105,7 +105,7 @@ def calc_defensive_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename}, {_ground_truth_offense(game)}\n")
+        game_values.append(f"{basename},{team},{_ground_truth_offense(game)}\n")
     f = open("data/groundtruths/game_defensive_groundtruths.csv", "w")
     f.writelines(game_values)
 
@@ -117,7 +117,7 @@ def calc_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename}, {ground_truth(game)}\n")
+        game_values.append(f"{basename},{team},{ground_truth(game)}\n")
     f = open("data/groundtruths/game_groundtruths.csv", "w")
     f.writelines(game_values)
 
