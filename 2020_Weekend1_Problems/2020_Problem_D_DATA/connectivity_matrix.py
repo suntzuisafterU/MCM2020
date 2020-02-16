@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from readplay import read_a_bunch_of_plays_for_spectral
+from readplay import give_me_spectral_dicts
 
 import inspect
 
@@ -46,13 +46,15 @@ def largest_eig_value(df):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def evan_call_this_for_eigs(play):
+    if play is tuple:
+        play = play[1]
     team = "Huskies"
     return largest_eig_value(big_umat_df(play, team))
 
 
 if __name__ == '__main__':
-    paths = "data/plays/Hplay000?*"
-    plays = read_a_bunch_of_plays_for_spectral(paths)
+    paths = "data/plays/play000?H"
+    plays = give_me_spectral_dicts(paths)
 
     for p in plays:
         res = big_umat_df(p, "Huskies")
