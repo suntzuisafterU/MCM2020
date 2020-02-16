@@ -1,0 +1,16 @@
+Opponent2_D1
+Opponent2_D2
+Opponent2_D3
+Opponent2_D4
+Opponent2_D5
+Opponent2_D6
+Opponent2_F1
+Opponent2_F2
+Opponent2_F3
+Opponent2_G1
+Opponent2_M1
+Opponent2_M2
+Opponent2_M3
+Opponent2_M4
+Opponent2_M5
+Opponent2_M6
