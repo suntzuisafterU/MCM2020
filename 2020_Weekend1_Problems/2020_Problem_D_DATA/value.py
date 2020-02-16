@@ -3,13 +3,30 @@ from scipy.stats import linregress
 import glob
 import math
 
+class EV:
+
+    def __init__(self, play):
+        self.BEV = breadthEV(play)
+        self.TEV = tempoEV(play)
+        self.FEV = flowEV(play)
+        self.SEV = shotsEV(play)
+        self.totalEV = sum([self.BEV, self.TEV, self.FEV, self.SEV])
+
+    def report(self):
+
+        print("Breadth EV for this play was", self.BEV)
+        print("Tempo EV for this play was",   self.TEV)
+        print("Flow EV for this play was",    self.FEV)
+        print("Shots EV for this play was",   self.SEV)
+        print("Total EV for this play was",   self.totalEV)
+
+
 def breadthEV(play):
     playerset = set()
     for i in play:
-        if i[1] == "Huskies":
+        if i["TeamID"] == "Huskies":
             playerset = playerset | set(i["OriginPlayerID"])
-
-    return len(playerset) 
+    return len(playerset)
 
 
 def ballX(play):
@@ -35,7 +52,6 @@ def tempoEV(play):
         if play[i]["TeamID"] == "Huskies" and play[i+1]["TeamID"] == "Huskies":
             passtime += (play[i+1]["EventTime"] - play[i]["EventTime"])
             totalpass += 1
-
     if totalpass != 0:
         return passtime / totalpass
     else:
@@ -64,19 +80,4 @@ def shotsEV(play):
     return shots
 
 
-def shotsDistEV(play):
-    shots = 0
-
-    for i in play:
-        if i["EventType"] == "Shot" and i["TeamID"] == "Huskies":
-            x = (i["EventOrigin_x"] - 50) ** 2
-            y = (i["EventOrigin_y"] - 50) ** 2
-            dist = abs(math.sqrt(x + y))
-            shots += 1 * dist
-        elif i["EventType"] == "Shot":
-            x = (i["EventOrigin_x"] - 50) ** 2
-            y = (i["EventOrigin_y"] - 50) ** 2
-            dist = abs(math.sqrt(x + y))
-            shots -= 1 * dist
-    return shots
 

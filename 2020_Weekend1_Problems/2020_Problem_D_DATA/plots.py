@@ -17,11 +17,13 @@ def plot2d(playlist, funclist, plottype, smoother=None):
             for i in range(30,31):  # this parameter is EXTREMELY sensitive actually a window
                                     # size of ~30 gives a strong relation to alg-con
                 xs, ys = windower(i, func, play)
+                ymax = max(ys)
+                ys = [i/ymax for i in ys]
                 if smoother is not None:
                     xs = smoothing(xs, smoother)
                     ys = smoothing(ys, smoother)
-                plottype(xs, ys, label=str(func), color=(float("0."+str(i)), g, b))
-
+                plottype(xs, ys, label=str(func.__name__), color=(float("0."+str(i)), g, b))
+    plt.legend()
     plt.show()
 
 
@@ -51,13 +53,15 @@ def plot3d(playlist, funclist, smoother=None):
 if __name__ == "__main__":
 
 
-    mysmoother = gaussian(3, 3, 50)
+    mysmoother = gaussian(3, 3, 14)
 
     gameglob = int(input("what game friend? "))
-    realgame = gameglob * 2
 
-    plays_first =  read_glob_of_plays("data/plays/game" + f"{realgame:04}")
-    plays_second = read_glob_of_plays("data/plays/game" + f"{realgame+1:04}")
+
+
+
+    plays_first =  read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_1H")
+    plays_second = read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_2H")
     gamedata = []
     f = open("data/matches.csv", "r")
     f.readline()
@@ -70,7 +74,7 @@ if __name__ == "__main__":
 
 
 
-    funcs = [shotsDistEV, shotsEV]
+    funcs = [tempoEV,breadthEV]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
     plot2d(plays_second, funcs, plt.plot, mysmoother)
 

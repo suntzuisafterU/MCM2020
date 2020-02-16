@@ -21,12 +21,17 @@ def playParser(ev_list, init_max):
 
     current_play = []
 
+    opstackval = 1
     for play in ev_list:
+
         if play[1] == current_initiative and initiative_stack < init_max:
             initiative_stack += 1
+            if opstackval > 1:
+                opstackval = opstackval * 0.9  # this is really shitty exponential averaging
 
         elif play[1] != current_initiative:
-            initiative_stack -= 1
+            initiative_stack -= opstackval
+            opstackval *= 1.3
         
         if initiative_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
             if len(current_play) > 5:
@@ -35,6 +40,7 @@ def playParser(ev_list, init_max):
             initiative = 1
             current_initiative = play[1]
             curr_game = play[0]
+            opstackval = 1
 
         current_play.append(play)
 
@@ -42,7 +48,7 @@ def playParser(ev_list, init_max):
     for play in plays:
         playboys = play[0][1][0]
         fname = f"{prefix}play{playnum:04d}{playboys}"
-        f = open( fname, "w")
+        f = open(fname, "w")
         f.write(header)
         for ev in play:
             for el in ev:
