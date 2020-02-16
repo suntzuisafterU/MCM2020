@@ -28,9 +28,6 @@ def pltPlay(filename, isRand=False, gameNum=0, endShot=False):
     for line in f:
         linesplt = line.rstrip("\n").split(",")
 
-
-        print(linesplt[8])
-
         #Normalizing the time.
         if first:
             first = False
@@ -49,7 +46,7 @@ def pltPlay(filename, isRand=False, gameNum=0, endShot=False):
 
 
 def toPolar(x, y):
-    return m.sqrt(x**2 + (y+50)**2), m.atan2(y, x)
+    return m.sqrt(x**2 + (y-50)**2), m.atan2(y, x)
 
 def groundLost(play):
     startTime = play[0]["EventTime"]
@@ -57,28 +54,47 @@ def groundLost(play):
     groundGained = 0
 
     for i in play:
-        rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
-        rDst, thetaDst = toPolar(float(i["EventDestination_x"]), float(i["EventDestination_y"]))
-        groundGained += rDst - rSrc
+        if i["TeamID"] != "Huskies":
+            rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            rDst, thetaDst = toPolar(float(i["EventDestination_x"]), float(i["EventDestination_y"]))
+            groundGained += rDst - rSrc
 
-    return groundGained * (1/(endTime - startTime))
+    if (endTime - startTime) == 0:
+        return -groundGained
+    else:
+        return  -(groundGained*(1 / (endTime - startTime)))
+
+def shotsAllowedVal(play):
+    totVal = 0
+
+    for i in play:
+        if i["TeamID"] != "Huskies" and i["EventSubType"] == "Shot":
+            rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+
+            if(rSrc > 35):
+                totVal += rSrc - (rSrc/thetaSrc)
+            else:
+                totVal += rSrc * thetaSrc
+
+    return totVal
 
 #def defensiveMacho(play):
-    #for i in play:
-        #if i["EventType"] ==
+   # for i in play:
+    #    if i["EventType"] == "Defensive"
 
 def clearVal(play):
     totVal = 0
 
     for i in play:
-        if i["EventSubType"] == "Clearance":
-            r, theta =  toPolar(i["EventDestination_x"], i["EventDestination_y"])
-            if r < 20:
-                totVal += (r * theta) - 80
-            elif r < 35:
-                totVal += (r * theta) - 30
-            else:
-                totVal += r
+        if i["TeamID"] == "Huskies":
+            if i["EventSubType"] == "Clearance":
+                r, theta = toPolar(i["EventDestination_x"], i["EventDestination_y"])
+                if r < 20:
+                    totVal += (r * theta) - 80
+                elif r*theta < 35:
+                    totVal += (r * theta) - 30
+                else:
+                    totVal += r
     return totVal
 
 
@@ -93,25 +109,29 @@ if (__name__ == '__main__'):
     playPlot3d.set_zlabel('Time')
 
     try:
-        print(groundLost(rp.readplay("data/plays/OPlays/Oplay0001")))
-        print(clearVal(rp.readplay("data/plays/OPlays/Oplay0001")))
+        print("Ground:  ", groundLost(rp.readplay("data/plays/game/game0001")))
+        print("Clearance:  ", clearVal(rp.readplay("data/plays/game/game0001")))
+        print("Shots:  ",  shotsAllowedVal(rp.readplay("data/plays/game/game0001")))
+
         pltPlay("data/plays/OPlays/Oplay0004")
 
-        print(groundLost(rp.readplay("data/plays/OPlays/Oplay0002")))
-        print(clearVal(rp.readplay("data/plays/OPlays/Oplay0001")))
+        print("Ground:  ", groundLost(rp.readplay("data/plays/game/game0002")))
+        print("Clearance:  ", clearVal(rp.readplay("data/plays/game/game0002")))
+        print("Shots:  ", shotsAllowedVal(rp.readplay("data/plays/game/game0002")))
         pltPlay("data/plays/OPlays/Oplay0005")
 
 
-        print(groundLost(rp.readplay("data/plays/OPlays/Oplay0003")))
-        print(clearVal(rp.readplay("data/plays/OPlays/Oplay0001")))
+        print("Ground ", groundLost(rp.readplay("data/plays/game/game0003")))
+        print("Clearance:  ", clearVal(rp.readplay("data/plays/game/game0003")))
+        print("Shots:  ",shotsAllowedVal(rp.readplay("data/plays/game/game0003")))
         pltPlay("data/plays/OPlays/Oplay0006")
 
-        plt.show()
+        #plt.show()
 
     except:
         pass
 
-    plt.show()
+    #plt.show()
     #for i in rp.read_glob_of_plays("data/plays/OPlays/*"):
         #print(groundLost(i))
 
