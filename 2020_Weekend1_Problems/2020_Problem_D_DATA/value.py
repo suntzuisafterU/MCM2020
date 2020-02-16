@@ -3,6 +3,9 @@ from scipy.stats import linregress
 import glob
 import math as m
 
+from globals import *
+
+
 class EV:
 
     def __init__(self, play):
@@ -28,7 +31,7 @@ class EV:
 def breadthEV(play):
     playerset = set()
     for i in play:
-        if i["TeamID"] == "Huskies":
+        if i["TeamID"] == team:
             playerset = playerset | set(i["OriginPlayerID"])
     return len(playerset)
 
@@ -53,7 +56,7 @@ def tempoEV(play):
     passtime = 0
     totalpass = 0
     for i in range(len(play) - 1):
-        if play[i]["TeamID"] == "Huskies" and play[i+1]["TeamID"] == "Huskies":
+        if play[i]["TeamID"] == team and play[i+1]["TeamID"] == team:
             passtime += (play[i+1]["EventTime"] - play[i]["EventTime"])
             totalpass += 1
     if totalpass != 0:
@@ -66,7 +69,7 @@ def flowEV(play):
     flowmetric = 1
 
     for i in play:
-        if i["TeamID"] == "Huskies":
+        if i["TeamID"] == team:
             flowmetric *= 1.2
         else:
             flowmetric *= 0.8
@@ -77,7 +80,7 @@ def flowEV(play):
 def shotsEV(play):
     shots = 0
     for i in play:
-        if i["EventType"] == "Shot" and i["TeamID"] == "Huskies":
+        if i["EventType"] == "Shot" and i["TeamID"] == team:
             shots += 10
         elif i["EventType"] == "Shot":
             shots -= 10
@@ -96,7 +99,7 @@ def groundLost(play):
     groundGained = 0
 
     for i in play:
-        if i["TeamID"] != "Huskies":
+        if i["TeamID"] != team:
             rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             rDst, thetaDst = toPolar(float(i["EventDestination_x"]), float(i["EventDestination_y"]))
             groundGained += rDst - rSrc
@@ -111,7 +114,7 @@ def shotsAllowedVal(play):
     totVal = 0
     count = 0
     for i in play:
-        if i["TeamID"] != "Huskies" and i["EventSubType"] == "Shot":
+        if i["TeamID"] != team and i["EventSubType"] == "Shot":
             rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             #print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             count += 1
@@ -133,7 +136,7 @@ def clearVal(play):
     totVal = 0
 
     for i in play:
-        if i["TeamID"] == "Huskies":
+        if i["TeamID"] == team:
             if i["EventSubType"] == "Clearance":
                 r, theta = toPolar(i["EventDestination_x"], i["EventDestination_y"])
                 if r < 20:
