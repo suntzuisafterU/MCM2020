@@ -34,25 +34,26 @@ def time_average(slicein):
 
     time = 0
     for i in slicein:
-        time += i[5]
+        time += i["EventTime"]
     return time / len(slicein)
 
 
 def averageX(slicein):
     xpos = 0
     for i in slicein:
-        xpos += i[8]
+        xpos += i["EventOrigin_x"]
     return xpos / (len(slicein) + 1)
 
 
 def averageY(slicein):
     ypos = 0
     for i in slicein:
-        ypos += i[9]
+        ypos += i["EventOrigin_y"]
     return ypos / (len(slicein) + 1)
 
 
 def smoothing(pts, dist):
+
     newpts = []
     for i in range(len(pts) - len(dist)):
         newpt = 0
@@ -64,8 +65,9 @@ def smoothing(pts, dist):
 
 
 def gaussian(mu, sig, size):
-    x = np.linspace(-3, 3, 5)
+    x = np.linspace(-3, 3, size)
     return np.exp(-np.power(x - mu, 2.) / (2 * np.power(sig, 2.)))
+
 
 
 
