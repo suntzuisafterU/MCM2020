@@ -1,11 +1,6 @@
 from value import *
 from readplay import *
-<<<<<<< HEAD
-from random import randint
-from connectivity_matrix import *
 
-=======
->>>>>>> 11c551255a385be49921d6aa30fe675beb8add87
 import numpy as np
 
 def windower(window_size, analysisfn, myplay):
