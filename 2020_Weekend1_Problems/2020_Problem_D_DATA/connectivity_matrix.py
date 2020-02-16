@@ -5,7 +5,6 @@ import networkx as nx
 
 from readplay import read_glob_of_plays
 
-import inspect
 
 ################################
 # Begin Connectivity Matrix ####
@@ -25,6 +24,11 @@ def filter_event(event):
     return event['EventSubType'] in valid_passes \
            and team == event["TeamID"] \
            and event['DestinationPlayerID'] != float("NaN")
+
+def drop_non_active_players(df : pd.DataFrame):
+    a = df.loc[(df!=0).any(axis=1)]
+    a = a.loc[:, (a.T!=0).any(axis=1)]
+    return a
 
 def get_playerids(filepath):
     f = open(filepath)
@@ -66,6 +70,11 @@ def big_umat_df(play : dict):
             pass
     return umat
 
+def local_umat_df(play : dict):
+    df = big_umat_df(play)
+    res = drop_non_active_players(df)
+    return res
+
 def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
 
@@ -89,10 +98,36 @@ def laplacian(play : dict):
     L = D - A
     return L
 
+def normalized_laplacian(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    res = nx.normalized_laplacian_matrix(G)
+    return res
+
+def normalized_laplacian_spectrum(play : dict):
+    G = nx.Graph(big_umat_df(play))
+    res = nx.normalized_laplacian_spectrum(G)
+    return res
+
+def directed_laplacian(play: dict):
+    raise NotImplementedError
+
 def algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     L = laplacian(play)
     return np.sort(np.linalg.eigvals(np.array(L)))[-2]
+
+def nx_algebraic_connectivity(play : dict):
+    """ return the second smallest eigen value of the laplacian of the connectivity matrix """
+    df = local_umat_df(play)
+    G = nx.Graph(df)
+    return nx.algebraic_connectivity(G)
+
+def normalized_algebraic_connectivity(play : dict):
+    """ return the second smallest eigen value of the laplacian of the connectivity matrix """
+    df = local_umat_df(play)
+    print(df)
+    G = nx.Graph(df)
+    return nx.algebraic_connectivity(G, normalized=True)
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -100,7 +135,7 @@ def degree_centrality(play : dict):
     res = {x : res[x] for x in res if res[x] != 0}
     return res
 
-def closeness_centralit(play : dict):
+def closeness_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
     res = nx.closeness_centrality(G)
     res = {x : res[x] for x in res if res[x] != 0}
@@ -117,12 +152,12 @@ def triadic_census(play : dict):
     res = nx.triadic_census(DG)
     return res
 
-def plot_network(play : dict):
+def nx_spectral_layout(play : dict):
     G = nx.Graph(big_umat_df(play))
-    nx.spectral_layout(G)
+    return nx.spectral_layout(G)
 
 if __name__ == '__main__':
-    paths = "data/plays/play000?H"
+    paths = "data/games/game*"
     plays = read_glob_of_plays(paths)
 
     for p in plays:
@@ -130,8 +165,11 @@ if __name__ == '__main__':
         # print(degree_centrality(p))
         # print(closeness_centralit(p))
         # print(betweenness_centrality(p))
-        # print(triadic_census(p))
-        plot_network(p)
+        # print(triadic_census(p)['300'])
+        # print(normalized_laplacian_spectrum(p))
+        print(normalized_algebraic_connectivity(p))
+        print(nx_algebraic_connectivity(p))
+
 
     # for p in plays:
     #     res = big_umat_df(p)
