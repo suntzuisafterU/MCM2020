@@ -46,6 +46,8 @@ def largest_eig_value(df):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def evan_call_this_for_eigs(play):
+    if play is tuple:
+        play = play[1]
     team = "Huskies"
     return largest_eig_value(big_umat_df(play, team))
 
