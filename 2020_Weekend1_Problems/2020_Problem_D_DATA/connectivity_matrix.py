@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from readplay import read_a_bunch_of_plays_for_spectral
+from readplay import give_me_spectral_dicts
 
 import inspect
 
@@ -51,8 +51,8 @@ def evan_call_this_for_eigs(play):
 
 
 if __name__ == '__main__':
-    paths = "data/plays/Hplay000?*"
-    plays = read_a_bunch_of_plays_for_spectral(paths)
+    paths = "data/plays/play000?H"
+    plays = give_me_spectral_dicts(paths)
 
     for p in plays:
         res = big_umat_df(p, "Huskies")
