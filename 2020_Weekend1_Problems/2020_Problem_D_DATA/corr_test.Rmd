@@ -75,6 +75,27 @@ pd2 <- subset(pd, select=-c(X1))
 res <- cor(as.matrix(sapply(pd2, as.numeric)))
 ggcorrplot(res)
 ```
+```{r}
+sd <- readr::read_csv("data/groundtruths/allskrims_metricdata.csv")
+method = c("pearson", "spearman")
+sd2 <- subset(sd, select=-c(X1))
+res <- cor(as.matrix(sapply(sd2, as.numeric)))
+ggcorrplot(res)
+```
 
 
+```{r}
+names(gd2)
+```
+
+
+```{r}
+m1 <- glm(OpponentScore ~ 0 + shotsAllowedVal, data=gd2); # summary(m1)
+m2 <- glm(shotsAllowedVal ~ complete_triad_sum, data=gd2); # summary(m2) # REALLY GOOD MODEL
+m3 <- glm(shotsAllowedVal ~ ground_truth_defense, data=gd2); # summary(m3)
+
+m4 <- glm(Outcome ~ 0 + complete_triad_sum, data=gd2); # summary(m4)
+m5 <- glm(OpponentScore ~ 0 + complete_triad_sum, data=gd2); # summary(m5)
+m6 <- glm(OwnScore ~ 0 + complete_triad_sum, data=gd2); summary(m6)
+```
 
