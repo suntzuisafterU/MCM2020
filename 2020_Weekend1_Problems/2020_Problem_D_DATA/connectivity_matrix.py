@@ -35,6 +35,11 @@ def filter_event(event):
            and team == event["TeamID"] \
            and event['DestinationPlayerID'] != float("NaN")
 
+def filter_event_dont_touch(event):
+    return event['EventSubType'] in valid_passes \
+           and team != event["TeamID"] \
+           and event['DestinationPlayerID'] != float("NaN")
+
 def drop_non_active_players(df : pd.DataFrame):
     a = df.loc[(df!=0).any(axis=1)]
     a = a.loc[:, (a.T!=0).any(axis=1)]
@@ -95,7 +100,13 @@ def defensive_damage2(play : dict):
 def defensive_damage3(play: dict):
     df = mat_with_duel_cons2(play)
     res = drop_non_active_players(df)
+
+    global team
+    orig_team = team
+    team = this_opp(play)
     algcon = algebraic_connectivity(play)
+    team = orig_team
+
     G = nx.Graph(res)
     res = nx.algebraic_connectivity(G)
     if res == 0:
@@ -116,10 +127,8 @@ def defensive_damage5(play: dict):
     G = nx.Graph(res)
     return nx.algebraic_connectivity(G)
 
-def mat_with_duel_cons(play: dict):
-    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
-
-    thisgame = play[0]["MatchID"]
+def this_opp(play: dict):
+    thisgame = this_game(play)
     thisopp = "?"
     fiiil = open("data/matches.csv", "r")
     fiiil.readline()
@@ -131,6 +140,17 @@ def mat_with_duel_cons(play: dict):
             else:
                 thisopp = "Huskies"
             break
+    return thisopp
+
+def this_game(play : dict):
+    return play[0]["MatchID"]
+
+def mat_with_duel_cons(play: dict):
+    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
+    thisgame = this_game(play)
+
+    thisopp = this_opp(play)
+
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
     playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
@@ -143,7 +163,7 @@ def mat_with_duel_cons(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    passes = [event for event in play if filter_event(event)]
+    passes = [event for event in play if filter_event_dont_touch(event)]
     for passing_event in passes:
         try:
             res = (passing_event['OriginPlayerID'],
@@ -168,18 +188,8 @@ def mat_with_duel_cons(play: dict):
 def mat_with_duel_cons2(play: dict):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
 
-    thisgame = play[0]["MatchID"]
-    thisopp = "?"
-    fiiil = open("data/matches.csv", "r")
-    fiiil.readline()
-    for f in fiiil:
-        x = f.split(",")
-        if int(x[0]) == thisgame:
-            if team == "Huskies":
-                thisopp = x[1]
-            else:
-                thisopp = "Huskies"
-            break
+    thisgame = this_game(play)
+    thisopp = this_opp(play)
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
     playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
@@ -192,16 +202,18 @@ def mat_with_duel_cons2(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    passes = [event for event in play if filter_event(event)]
+    passes = [event for event in play if filter_event_dont_touch(event)]
     for passing_event in passes:
         try:
-            if passing_event["TeamID"] == team:
+            if passing_event["TeamID"] == thisopp:
                 res = (passing_event['OriginPlayerID'],
                        passing_event['DestinationPlayerID'])
                 umat[res[0]][res[1]] += 1
                 res = (passing_event['DestinationPlayerID'],
                        passing_event['OriginPlayerID'])
                 umat[res[0]][res[1]] += 1
+            else:
+                raise AssertionError
         except (TypeError, KeyError):
             pass
 
@@ -465,11 +477,8 @@ if __name__ == '__main__':
         # print(nx_algebraic_connectivity(p))
         # print(poison_umat(p))
         #print(algebraic_connectivity(p))
-        print(defensive_damage(p))
         print(defensive_damage2(p))
         print(defensive_damage3(p))
-        print(defensive_damage4(p))
-        print(defensive_damage5(p))
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))
