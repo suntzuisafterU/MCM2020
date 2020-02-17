@@ -89,6 +89,7 @@ def defensive_damage2(play : dict):
     res = nx.algebraic_connectivity(G)
     if res == 0:
         print("HERE2")
+        print(np.array(G.adj))
         return 0
     return abs(res - algcon)
 
@@ -101,6 +102,7 @@ def defensive_damage3(play: dict):
     res = nx.algebraic_connectivity(G)
     if res == 0:
         print("HERE3")
+        print(np.array(G.adj))
         return 0
     return abs(res - algcon)
 
@@ -461,7 +463,9 @@ if __name__ == '__main__':
         print(defensive_damage3(p))
         print(defensive_damage4(p))
         print(defensive_damage5(p))
+    print(i)
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))
+
 

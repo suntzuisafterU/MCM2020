@@ -136,8 +136,8 @@ def game_all_data():
     with open(f"data/groundtruths/fullgame_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
-skirmishes_all_data()
-print("skirms")
+# skirmishes_all_data()
+# print("skirms")
 game_all_data()
 print("games")
 plays_all_data()
