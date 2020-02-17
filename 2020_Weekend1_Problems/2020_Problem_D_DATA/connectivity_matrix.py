@@ -86,7 +86,7 @@ def local_umat_df(play : dict):
 def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
 
-def evan_call_this_for_eigs(play : dict):
+def network_strength_eigen_value(play : dict):
     return largest_eig_value(big_umat_df(play))
 
 def laplacian(play : dict):
