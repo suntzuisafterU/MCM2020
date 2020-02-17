@@ -82,7 +82,7 @@ def calc_offensive_groundtruth_games():
         basename = ntpath.basename(path)
         game = readplay(path)
         game_values.append(f"{basename},{team},{_ground_truth_offense(game)}\n")
-    f = open(f"data/groundtruths/game_{team}offensive_groundtruths.csv", "w")
+    f = open(f"data/groundtruths/game_{team}_offensive_groundtruths.csv", "w")
     f.writelines(game_values)
 
 def calc_defensive_groundtruth_plays():

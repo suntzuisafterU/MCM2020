@@ -1,5 +1,6 @@
 #! /bin/bash
 
 ### DOESN'T SEEM TO WORK
-# python groundtruth.py
-# python gamegroundanal.py
+rm -f data/groundtruths/*.csv
+python groundtruth.py
+python gamegroundanal.py
