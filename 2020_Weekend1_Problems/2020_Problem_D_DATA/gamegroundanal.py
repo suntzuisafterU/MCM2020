@@ -8,24 +8,29 @@ metrics = [clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
            normalized_algebraic_connectivity, triad_sum, diadic_sum]
 
 def anal_game_off_metrics():
-    f = open("data/groundtruths/gameoffensivegroundtruths.csv", "r")
+    f = open(f"data/groundtruths/game_{team}_offensive_groundtruths.csv", "r")
 
     data = []
     for line in f:
         data.append(line.rstrip().rsplit(","))
+    del data[0] # delete data header
 
 
     metricdata = []
-    header = ["GameName", "GroundVal"]
+    header = ["GameName", "GroundTruth"]
     for metric in metrics:
-        header.append(str(metric.__name__))
+        name = str(metric.__name__)
+        if name == 'wrapper':
+            raise AssertionError # Should have a different name
+        else:
+            header.append(name)
 
     metricdata.append(header)
 
     for half in data:
         thishalf = []
         halfname = half[0]
-        halfgroundval = float(half[1])
+        halfgroundval = float(half[2])
         thishalf.append(halfname)
         thishalf.append(halfgroundval)
         thisplay = readplay("data/games/" + halfname)
@@ -36,7 +41,7 @@ def anal_game_off_metrics():
         metricdata.append(thishalf)
 
 
-    f = open("data/groundtruths/metricdata.csv", "w")
+    f = open(f"data/groundtruths/game_{team}_metricdata.csv", "w")
 
     for line in metricdata:
         for item in line:
@@ -44,20 +49,21 @@ def anal_game_off_metrics():
             f.write(",")
         f.write("\n")
 
-    print(metricdata)
+    f.close()
 
 
 
 def anal_play_off_metrics():
-    f = open("data/groundtruths/play_offenseive_groundtruths.csv", "r")
+    f = open(f"data/groundtruths/play_{team}_offensive_groundtruths.csv", "r")
 
     data = []
     for line in f:
         data.append(line.rstrip().rsplit(","))
+    del data[0] # delete header
 
 
     metricdata = []
-    header = ["GameName", "GroundVal"]
+    header = ["GameName", "GroundTruth"]
     for metric in metrics:
         header.append(str(metric.__name__))
 
@@ -66,7 +72,7 @@ def anal_play_off_metrics():
     for half in data:
         thishalf = []
         halfname = half[0]
-        halfgroundval = float(half[1])
+        halfgroundval = float(half[2])
         thishalf.append(halfname)
         thishalf.append(halfgroundval)
         thisplay = readplay("data/plays/" + halfname)
@@ -77,7 +83,7 @@ def anal_play_off_metrics():
         metricdata.append(thishalf)
 
 
-    f = open("data/groundtruths/playmetricdata.csv", "w")
+    f = open(f"data/groundtruths/play_{team}_metricdata.csv", "w")
 
     for line in metricdata:
         for item in line:
@@ -90,3 +96,4 @@ def anal_play_off_metrics():
 
 
 anal_play_off_metrics()
+anal_game_off_metrics()

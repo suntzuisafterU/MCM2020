@@ -12,6 +12,7 @@ def accept_invalid_network(func):
             return func(play)
         except nx.NetworkXError:
             return 0
+    wrapper.__name__ = func.__name__
     return wrapper
 
 

@@ -2,5 +2,8 @@ __pycache__
 .idea
 data/plays
 data/games/game*
-data/groundtruths/*
 
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
