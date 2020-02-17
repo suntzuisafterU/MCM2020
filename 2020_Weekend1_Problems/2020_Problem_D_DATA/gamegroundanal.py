@@ -133,7 +133,11 @@ def game_all_data():
         final.to_csv(f)
 
 skirmishes_all_data()
+print("skirms")
 game_all_data()
+print("games")
 plays_all_data()
-anal_game_off_metrics()
+print("plays")
+# anal_game_off_metrics()
+print("?")
 
