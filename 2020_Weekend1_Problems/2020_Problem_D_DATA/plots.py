@@ -21,8 +21,7 @@ def plot2d(playlist, funclist, plottype, smoother=None):
                     xs = smoothing(xs, smoother)
                     ys = smoothing(ys, smoother)
                 plottype(xs, ys, label=str(func.__name__))
-    plt.legend()
-    plt.show()
+
 
 
 def plot3d(playlist, funclist, smoother=None):
@@ -48,20 +47,27 @@ def plot3d(playlist, funclist, smoother=None):
 if __name__ == "__main__":
 
 
-    mysmoother = gaussian(3, 3, 50)
+    mysmoother = gaussian(3, 3, 15)
 
    # gameglob = input("what glob friend? ")
 
 
 
-    plays_first = read_glob_of_plays('data/games/game12_1H')
+    plays_first = read_glob_of_plays('data/games/game02_1H')
 
     # plays_first =  read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_1H")
     # plays_second = read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_2H")
 
 
-    funcs = [shotsAllowedVal, defensive_damage2, defensive_damage3]
+    funcs = [defensive_damage4, defensive_damage5, defensive_damage6]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
+
+    # funcs = [groundLost, defensive_damage4, defensive_damage5]
+    # plot2d(plays_first, funcs, plt.plot, mysmoother)
+
+    plt.legend()
+    plt.show()
+
     #plot3d(plays_first, funcs, mysmoother)
    # plot2d(plays_second, funcs, plt.plot, mysmoother)
 
