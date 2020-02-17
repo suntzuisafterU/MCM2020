@@ -20,29 +20,41 @@ def playParser(ev_list, init_max):
     initiative_stack = 1
 
     current_play = []
-
     opstackval = 1
+    pastot = 1
+    dueltot = 1
     for play in ev_list:
 
         if play[1] == current_initiative and initiative_stack < init_max:
-            initiative_stack += 1
             if opstackval > 1:
                 opstackval = opstackval * 0.9  # this is really shitty exponential averaging
+            initiative_stack += opstackval
+
+            if play[6] == "Pass":
+                pastot += 1
+
+            if play[6] == "Shot":
+                pastot += 1
 
         elif play[1] != current_initiative:
+            opstackval *= 1.1
             initiative_stack -= opstackval
-            opstackval *= 1.3
+            if play[6] == "Duel":
+                dueltot += 1
         
         if initiative_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
-            if len(current_play) > 5:
+            passpercent = pastot/(pastot+dueltot)
+            if len(current_play) > 5 and passpercent > .60:
                 plays.append(current_play)
             current_play = []
-            initiative = 1
             current_initiative = play[1]
             curr_game = play[0]
             opstackval = 1
+            pastot = 1
+            dueltot = 1
 
         current_play.append(play)
+    print(len(plays))
 
     playnum = 0
     for play in plays:
@@ -98,38 +110,53 @@ def skirmishParser(ev_list, init_max):
     plays = []
     curr_game = ev_list[0][0]
     current_initiative = ev_list[0][1]
-    initiative_stack = 1
+    dual_stack = 10
 
     current_play = []
 
+    pastot = 1
+    dultot = 1
     opstackval = 1
+    dual_flag = 0
     for play in ev_list:
 
-        if play[1] == current_initiative and initiative_stack < init_max:
-            initiative_stack += 1
-            if opstackval > 1:
+        if play[1] == current_initiative:
+            dual_stack -= opstackval
+            opstackval = opstackval * 1.4  # this is really shitty exponential averaging
+            if play[6] == "Pass":
+                pastot += 1
 
-                opstackval = opstackval * 1.5  # this is really shitty exponential averaging
+        elif play[1] != current_initiative and dual_stack < init_max:
+            if play[6] == "Duel":
+                dual_flag += 1
+                dual_stack += opstackval * 1.2
+                opstackval *= 0.8
+                dultot += 1
+            else:
+                dual_stack += opstackval * 1.1
+            current_initiative = play[1]
 
-        elif play[1] != current_initiative:
-            initiative_stack -= opstackval
-            opstackval *= 0.8
-
-        if initiative_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
-            if len(current_play) > 5:
+        if dual_stack < 1 or play[0] != curr_game or play[6] in terminals:  # we have a new initiative starting
+            duelperc = dultot / (pastot + dultot)
+            if len(current_play) > 5 and duelperc > 0.5:
                 plays.append(current_play)
             current_play = []
-            initiative = 1
+            dual_stack = 10
             current_initiative = play[1]
             curr_game = play[0]
             opstackval = 1
+            dual_flag = 0
+            pastot = 1
+            dultot = 1
 
         current_play.append(play)
+
+    print(len(plays))
 
     playnum = 0
     for play in plays:
         playboys = play[0][1][0]
-        fname = f"{prefix}skirmish{playnum:04d}{playboys}"
+        fname = f"{prefix}skirmish{playnum:04d}"
         f = open(fname, "w")
         f.write(header)
         for ev in play:
@@ -145,9 +172,9 @@ def skirmishParser(ev_list, init_max):
 
 
 # gameParser(event_list)
-# playParser(event_list, 4)
+#playParser(event_list, 7)
 
-skirmishParser(event_list, 4)
+skirmishParser(event_list, 12)
     
 
 
