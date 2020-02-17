@@ -1,0 +1,64 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+source("deps.R")
+```
+
+```{r}
+gd = readr::read_csv("data/groundtruths/fullgame_Huskies_metricdata.csv")
+summary(gd)
+```
+```{r}
+method = c("pearson", "kendall", "spearman")
+```
+
+
+```{r}
+library("Hmisc")
+method = c("pearson", "spearman")
+gd2 <- subset(gd, select=-c(MatchID, OpponentID, X1, Side, CoachID))
+gd2$Outcome = unclass(factor(gd$Outcome, levels = c("loss","tie","win")))
+rcorr(as.matrix(gd2), type = "pearson")
+```
+
+
+
+
+
+
+```{r}
+# method = c("pearson", "kendall", "spearman")
+#"shotsEV"                           "flowEV"                           
+#"tempoEV"                           "breadthEV"                        
+#"evan_call_this_for_eigs"           "algebraic_connectivity"           
+#"normalized_algebraic_connectivity" "triad_sum"                        
+#"diadic_sum"                       
+
+
+method = "pearson"
+res <- list(
+  triad_sum=list(cor=cor(gd2$GroundTruth, gd2$triad_sum, method=method),
+             pvalue=cor.test(gd2$GroundTruth, gd2$triad_sum, method=method)),
+  flowEV=list(cor=cor(gd2$GroundTruth, gd2$flowEV, method=method),
+             pvalue=cor.test(gd2$GroundTruth, gd2$flowEV, method=method)),
+  algebraic_connectivity=list(cor=cor(gd2$GroundTruth, gd2$algebraic_connectivity, method=method),
+             pvalue=cor.test(gd2$GroundTruth, gd2$algebraic_connectivity, method=method))
+)
+
+print(res)
+```
+
+
+```{r}
+library(ggcorrplot)
+res <- cor(as.matrix(sapply(gd2, as.numeric)))
+ggcorrplot(res)
+```
+
+
+
+
+
+
