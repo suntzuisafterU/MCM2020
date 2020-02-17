@@ -143,7 +143,8 @@ def mat_with_duel_cons(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    for passing_event in play:
+    passes = [event for event in play if filter_event(event)]
+    for passing_event in passes:
         try:
             res = (passing_event['OriginPlayerID'],
                    passing_event['DestinationPlayerID'])
@@ -155,7 +156,6 @@ def mat_with_duel_cons(play: dict):
             pass
 
     for i in range(len(play) - 1):
-
         if play[i]["EventType"] == "Duel" and play[i + 1]["EventType"] == "Duel":
             res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
             umat[res[0]][res[1]] += 1
@@ -192,7 +192,8 @@ def mat_with_duel_cons2(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    for passing_event in play:
+    passes = [event for event in play if filter_event(event)]
+    for passing_event in passes:
         try:
             if passing_event["TeamID"] == team:
                 res = (passing_event['OriginPlayerID'],
