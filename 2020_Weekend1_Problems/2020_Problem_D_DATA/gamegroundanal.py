@@ -139,5 +139,4 @@ print("games")
 plays_all_data()
 print("plays")
 # anal_game_off_metrics()
-print("?")
 
