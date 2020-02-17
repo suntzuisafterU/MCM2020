@@ -16,26 +16,38 @@ offense_markers = {
     "Cross": 0.5
 }
 
+team_offensive_duel_markers = {
+    "Ground loose ball duel": 0.2,
+    "Air duel": 0.2,
+    "Ground attackingduel": 0.3
+}
+
 def ground_truth_offense(play):
     # sum shots and crosses with scalar
     value = 0
-    for event in play:
+    last_passer = None
+    for event in reversed(play):
+        if event["EventType"] == "Pass":
+            last_passer = event['TeamID']
         for key, scalar in offense_markers.items():
             if event["TeamID"] == team and event["EventSubType"] == key:
+                value += scalar
+        for key, scalar in team_offensive_duel_markers.items():
+            if event["TeamID"] == team and last_passer == team:
                 value += scalar
     return value
 
 our_team_defensive_markers = {
-    "Clearance":  0.5
+    "Clearance":  0.1
 }
 
 opponent_team_defensive_markers = {
-    # "Shot": -1.0
+    "Shot": -1.0
 }
 
 team_defensive_duel_markers = {
-    "Ground loose ball duel": 0.1,
-    "Air duel": 0.1,
+    "Ground loose ball duel": 0.2,
+    "Air duel": 0.2,
     "Ground defending duel": 0.3
 }
 
