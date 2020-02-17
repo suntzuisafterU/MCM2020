@@ -10,7 +10,9 @@ metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
            # breadthEV,
            network_strength_eigen_value, algebraic_connectivity,
            # normalized_algebraic_connectivity,
-           triad_sum, diadic_sum
+           complete_triad_sum,
+           triad_sum,
+           diadic_sum
            ]
 
 def anal_game_off_metrics():

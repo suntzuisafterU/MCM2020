@@ -92,9 +92,6 @@ def ddddddddddddd(infile):
     dim = len(idx_to_name)
     uadjmat = np.zeros((dim,dim), np.int)
 
-
-
-
 def poison_def_met(play : dict):
     """ IMPORTANT: FILTER TO MAKE MATRIX """
 
@@ -247,6 +244,13 @@ strong_triads = [
     "030C",
     "120C"
 ]
+
+complete_triad = "300"
+
+def complete_triad_sum(play : dict):
+    ts = triadic_census(play)
+    res = ts[complete_triad]
+    return res
 
 def triad_sum(play : dict):
     """ sum the strong triads """
