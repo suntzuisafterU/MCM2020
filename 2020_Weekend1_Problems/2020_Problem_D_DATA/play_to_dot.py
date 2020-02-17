@@ -53,9 +53,25 @@ if __name__ == '__main__':
 
     # mat plot lib stuff
 
-    layout = nx_spectral_layout(allplays)
-    nx.draw_networkx(DG, layout=layout)
+    spectral_layout = nx.spectral_layout(DG)
+    sprint_layout = nx.spring_layout(DG)
 
+    E = [e for e in DG.edges]
+    colors = [DG.get_edge_data(*e)['weight'] for e in E]
+    print(colors)
+    
+
+    for name in plt.cm.cmaps_listed:
+        print(name)
+
+    options = {
+        "layout" :  spectral_layout,
+        "node_color": "#A0CBE2",
+        "edge_color": colors,
+        "width": 4,
+        "edge_cmap": plt.cm.get_cmap("magma")
+    }
+    nx.draw_networkx(DG, **options)
     plt.show()
 
 

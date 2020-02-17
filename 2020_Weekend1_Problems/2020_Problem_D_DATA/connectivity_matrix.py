@@ -560,7 +560,7 @@ def algebraic_connectivity(play : dict):
     res = np.sort(np.linalg.eigvals(np.array(L)))
     if len(res) < 2:
         return 0
-    return res[-2]
+    return float(res[-2])
 
 @accept_invalid_network
 def nx_algebraic_connectivity(play : dict):
