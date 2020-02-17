@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     # funcs = [groundLost, defensive_damage4, defensive_damage5]
     # plot2d(plays_first, funcs, plt.plot, mysmoother)
-
+    
     plt.legend()
     plt.show()
 
