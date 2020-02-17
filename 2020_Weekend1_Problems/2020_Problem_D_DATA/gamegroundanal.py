@@ -6,7 +6,7 @@ from readplay import *
 import csv
 
 metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
-           clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
+           shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
            breadthEV, evan_call_this_for_eigs, algebraic_connectivity,
            normalized_algebraic_connectivity, triad_sum, diadic_sum
            ]
