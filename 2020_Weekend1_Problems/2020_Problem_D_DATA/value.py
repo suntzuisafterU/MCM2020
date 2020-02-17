@@ -91,8 +91,14 @@ def shotsEV(play):
             shots -= 10
     return shots
 
+#The terms in here are not very justifiable (why 14 th root)
 def lnDist(x1, y1, x2, y2, n):
     return (((x2-x1)**n + (y2 - y1)**n)**(1.0/14*n) - 2)
+
+#The terms in here are justifyable, 30 being the width from the cetner where
+#shots are acceptible.
+def lnDist2(x1, y1, x2, y2, n):
+    return (((x2-x1)**n + (y2 - y1)**n)**(1.0/n) - 30)
 
 def sigmoid(x):
     return 1/(1 + m.exp(-x))
@@ -105,8 +111,6 @@ def shotsEV2(play):
         elif i["EventType"] == "Shot":
             shots -= 10 * sigmoid(lnDist(50, 50, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]), 2))
     return shots
-
-
 
 
 def toPolar(x, y):
