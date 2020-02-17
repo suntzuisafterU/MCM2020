@@ -40,14 +40,19 @@ if __name__ == '__main__':
         plays = read_glob_of_plays(sys.argv[1])
         out_path = sys.argv[2]
     else:
-        plays = read_glob_of_plays("data/games/game01*")
-        out_path = "data/dotgraphs/game01"
+        plays = read_glob_of_plays("data/games/game*")
+        out_path = "data/dotgraphs/allgames"
 
     allplays = reduce(operator.add, plays, [])
 
     df_dimat = local_dimat_df(allplays)
 
     DG = nx.DiGraph(df_dimat)
+
+    threshold = 20
+    DG.remove_nodes_from(
+        (n for n,d in DG.degree() if d < threshold)
+    )
 
     write_dot(DG, out_path)
 
@@ -59,7 +64,9 @@ if __name__ == '__main__':
     E = [e for e in DG.edges]
     colors = [DG.get_edge_data(*e)['weight'] for e in E]
     print(colors)
-    
+
+
+
 
     for name in plt.cm.cmaps_listed:
         print(name)
