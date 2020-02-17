@@ -78,10 +78,48 @@ def big_umat_df(play : dict):
             pass
     return umat
 
+# weighted adj mat
 def local_umat_df(play : dict):
     df = big_umat_df(play)
     res = drop_non_active_players(df)
     return res
+
+
+
+def poison_def_met(play : dict):
+    """ IMPORTANT: FILTER TO MAKE MATRIX """
+
+
+    playerids = get_playerids(f"data/playerfiles/all_players.txt")
+    dim = len(playerids)
+    umat = pd.DataFrame(data=np.zeros((dim,dim), np.int),columns=playerids, index=playerids, dtype=int)
+
+    for passing_event in play:
+        try:
+
+            if passing_event["EventSubType"] == "Ground defending duel" and passing_event['TeamID'] == "Huskies":
+                res = passing_event['OriginPlayerID']
+                for player in playerids:
+                    if umat[res][player] > 1:
+                        umat[res][player] -= 1
+                    if umat[player][res] > 1:
+                        umat[player][res] -= 1
+            if passing_event["EventType"] == "Pass" and passing_event['TeamID'] == "Huskies":
+                res = (passing_event['OriginPlayerID'],
+                     passing_event['DestinationPlayerID'])
+                umat[res[0]][res[1]] += 1
+                umat[res[1]][res[0]] += 1
+
+        except (TypeError, KeyError):
+            pass
+    return umat
+
+
+def poison_umat(play : dict):
+    df = poison_def_met(play)
+    res = drop_non_active_players(df)
+    return res
+
 
 def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
@@ -137,6 +175,12 @@ def normalized_algebraic_connectivity(play : dict):
     df = local_umat_df(play)
     G = nx.Graph(df)
     return nx.algebraic_connectivity(G, normalized=True)
+
+@accept_invalid_network
+def defensive_damage(play : dict):
+    df = poison_umat(play)
+    G = nx.Graph(df)
+    return nx.algebraic_connectivity(G)
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -218,11 +262,12 @@ if __name__ == '__main__':
         # print(betweenness_centrality(p))
         # print(triadic_census(p)['300'])
         # print(normalized_laplacian_spectrum(p))
-        print("========================================")
-        print(normalized_algebraic_connectivity(p) )
-        print(nx_algebraic_connectivity(p))
-        print(triad_sum(p))
-
+        # print("========================================")
+        # print(normalized_algebraic_connectivity(p) )
+        # print(nx_algebraic_connectivity(p))
+        # print(poison_umat(p))
+        #print(algebraic_connectivity(p))
+        print(some_fucking_bullshit(p))
 
     # for p in plays:
     #     res = big_umat_df(p)
