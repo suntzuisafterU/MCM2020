@@ -96,11 +96,10 @@ def defensive_damage2(play : dict):
     global team
     orig_team = team
     team = this_opp(play)
-    algcon = nx_algebraic_connectivity(play)
-    G = nx.Graph(res)
+    algcon = algebraic_connectivity(play)
     team = orig_team
 
-    res = nx.algebraic_connectivity(G)
+    res = algebraic_connectivity(res)
     if res == 0:
         return 0
     return res - algcon
@@ -116,43 +115,23 @@ def defensive_damage3(play: dict):
     algcon = algebraic_connectivity(play)
     team = orig_team
 
-    G = nx.Graph(res)
-    res = algebraic_connectivity(G)
+    res = algebraic_connectivity(res)
     if res == 0:
         return 0
     return res - algcon
-
-@accept_invalid_network
-def defensive_damage4(play : dict):
-    df = mat_with_duel_cons(play)
-    res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G)* 10
-
-@accept_invalid_network
-def defensive_damage5(play: dict):
-    df = mat_with_duel_cons2(play)
-    res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G)* 10
-
 
 ### Checking FOR DEFENSIVE INTEG SPECIFICALLY
 @accept_invalid_network
 def defensive_damage6(play: dict):
     df = mat_with_duel_cons3(play)
     res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G)* 10
+    return algebraic_connectivity(res)
 
 @accept_invalid_network
 def defensive_damage7(play: dict):
     df = mat_with_duel_cons4(play)
     res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G)* 10
-
-
+    return algebraic_connectivity(res)
 
 
 #### CHECKING ATTACKING INTEG
@@ -160,16 +139,14 @@ def defensive_damage7(play: dict):
 def defensive_damage8(play: dict):
     df = mat_with_duel_cons5(play)
     res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G)* 10
+    return algebraic_connectivity(res)
 
 
 @accept_invalid_network
 def defensive_damage9(play: dict):
     df = mat_with_duel_cons6(play)
     res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G) * 10
+    return algebraic_connectivity(res)
 
 
 def this_opp(play: dict):
@@ -436,19 +413,6 @@ def mat_with_duel_cons6(play: dict):
             umat[res[1]][res[0]] += 1
     return umat
 
-
-
-
-
-
-
-
-def defensive_damage(play : dict):
-    df = poison_umat(play)
-    G = nx.Graph(df)
-    return nx.algebraic_connectivity(G) * 10
-
-
 def duels_umat(play: dict):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
 
@@ -589,17 +553,11 @@ def nx_algebraic_connectivity(play : dict):
     return nx.algebraic_connectivity(G)
 
 @accept_invalid_network
-def normalized_algebraic_connectivity(play : dict):
+def nx_normalized_algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
     df = local_umat_df(play)
     G = nx.Graph(df)
     return nx.algebraic_connectivity(G, normalized=True)
-
-@accept_invalid_network
-def defensive_damage(play : dict):
-    df = poison_umat(play)
-    G = nx.Graph(df)
-    return nx.algebraic_connectivity(G)
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -685,7 +643,7 @@ def extract_triads(play : dict, tris : list):
     for u,v,w in combs:
         triname = nx.algorithms.triads.TRICODE_TO_NAME[nx.algorithms.triads._tricode(DG, u, v, w)]
         if triname in tris:
-            res.append( (u,v,w, triname) )
+            res.append( ((u,v,w,), triname) )
     return res
 
 regressed1 = {
@@ -730,7 +688,7 @@ if __name__ == '__main__':
         print(complete_triad_sum(p))
         print(extract_triads(p, strong_triads))
 
-        # print(defensive_damage2(p))
+        print(defensive_damage2(p))
         # print(defensive_damage3(p))
     # for p in plays:
     #     res = big_umat_df(p)
