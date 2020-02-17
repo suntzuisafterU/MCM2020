@@ -5,7 +5,9 @@ import itertools
 import networkx as nx
 
 from readplay import read_glob_of_plays
+
 from globals import *
+from playGraph import *
 
 
 
@@ -111,11 +113,11 @@ def defensive_damage3(play: dict):
     global team
     orig_team = team
     team = this_opp(play)
-    algcon = nx_algebraic_connectivity(play)
+    algcon = algebraic_connectivity(play)
     team = orig_team
 
     G = nx.Graph(res)
-    res = nx.algebraic_connectivity(G)
+    res = algebraic_connectivity(G)
     if res == 0:
         return 0
     return res - algcon
@@ -452,14 +454,12 @@ complete_triad = "300"
 def complete_triad_sum(play : dict):
     ts = triadic_census(play)
     res = ts[complete_triad]
-    print(res)
     return res
 
 def triad_sum(play : dict):
     """ sum the strong triads """
     ts = triadic_census(play)
     res = [ts[t] for t in strong_triads]
-    print(res)
     return sum(res)
 
 def diadic_sum(play : dict):
@@ -479,10 +479,15 @@ def extract_triads(play : dict, tris : list):
             res.append( (u,v,w, triname) )
     return res
 
-def modularity(play : dict):
-    G = nx.Graph(local_umat_df(play))
-    res = nx.algorithms.community.modularity(G)
-    return res
+regressed = {
+    network_strength_eigen_value : 0.0745845,
+    shotsAllowedVal : -0.0006122,
+    complete_triad_sum : -0.0651175
+}
+
+def regression_fit(play : dict):
+    return sum([metric(play) for metric in regressed])
+
 
 
 
@@ -506,7 +511,6 @@ if __name__ == '__main__':
         print(triad_sum(p))
         print(complete_triad_sum(p))
         print(extract_triads(p, strong_triads))
-
 
         # print(defensive_damage2(p))
         # print(defensive_damage3(p))
