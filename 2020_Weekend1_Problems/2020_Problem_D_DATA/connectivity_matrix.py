@@ -100,7 +100,7 @@ def defensive_damage2(play : dict):
     res = nx.algebraic_connectivity(G)
     if res == 0:
         return 0
-    return abs(res - algcon)
+    return res - algcon
 
 @accept_invalid_network
 def defensive_damage3(play: dict):
@@ -117,7 +117,7 @@ def defensive_damage3(play: dict):
     res = nx.algebraic_connectivity(G)
     if res == 0:
         return 0
-    return abs(res - algcon)
+    return res - algcon
 
 @accept_invalid_network
 def defensive_damage4(play : dict):
