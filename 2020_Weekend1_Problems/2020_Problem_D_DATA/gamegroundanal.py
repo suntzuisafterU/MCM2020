@@ -6,27 +6,26 @@ from readplay import *
 import csv
 
 metrics = [
+    defensive_vulnerability,
+    network_strength_eigen_value,
+    algebraic_connectivity,
     regression_fit1,
+    shotsAllowedVal,
     ground_truth,
     ground_truth_offense,
     ground_truth_defense,
-    shotsAllowedVal,
     shotsTakenVal,
-    flowEV,
-    tempoEV,
-    # breadthEV,
     complete_triad_sum,
     triad_sum,
     diadic_sum,
-    network_strength_eigen_value,
-    algebraic_connectivity,
+    flowEV,
+    tempoEV,
+    # breadthEV,
     # nx_algebraic_connectivity,
     # normalized_algebraic_connectivity,
-    defensive_disruption,
     # defensive_damage6,
     # defensive_damage7,
     # defensive_damage8,
-    defensive_vulnerability
 ]
 
 def anal_game_off_metrics():

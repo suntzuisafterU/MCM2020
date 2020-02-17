@@ -603,6 +603,7 @@ def extract_triads(play : dict, tris : list):
     return res
 
 regressed1 = {
+    defensive_vulnerability : 0.01,
     network_strength_eigen_value : 0.0745845,
     shotsAllowedVal : -0.0006122,
     complete_triad_sum : -0.0651175
@@ -610,18 +611,6 @@ regressed1 = {
 
 def regression_fit1(play : dict):
     return sum([metric(play) for metric in regressed1])
-
-regressed2 = {
-    network_strength_eigen_value : 0.0745845,
-    shotsAllowedVal : -0.0006122,
-    complete_triad_sum : -0.0651175
-}
-
-def regression_fit2(play : dict):
-    return sum([metric(play) for metric in regressed2])
-
-
-
 
 if __name__ == '__main__':
     paths = "data/games/game*"

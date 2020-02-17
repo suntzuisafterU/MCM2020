@@ -50,9 +50,9 @@ if __name__ == '__main__':
     DG = nx.DiGraph(df_dimat)
 
     threshold = 20
-    DG.remove_nodes_from(
-        (n for n,d in DG.degree() if d < threshold)
-    )
+    degs = [d for d in DG.degree()]
+    to_remove = (n for n, d in degs if d < threshold)
+    DG.remove_nodes_from( to_remove )
 
     write_dot(DG, out_path)
 
