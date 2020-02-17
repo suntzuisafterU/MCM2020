@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import itertools
 
 import networkx as nx
 
@@ -332,7 +333,7 @@ def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def network_strength_eigen_value(play : dict):
-    return largest_eig_value(big_umat_df(play))
+    return float(largest_eig_value(big_umat_df(play)))
 
 def laplacian(play : dict):
     """ calculate the laplacian matrix
@@ -467,13 +468,27 @@ def diadic_sum(play : dict):
     res = ds[diad]
     return res
 
-def extract_all_triads(play : dict):
+def extract_triads(play : dict, tris : list):
     DG = nx.DiGraph(big_dimat_df(play))
     ds = nx.triadic_census(DG)
+    combs = itertools.combinations(DG.nodes, 3)
+    res = []
+    for u,v,w in combs:
+        triname = nx.algorithms.triads.TRICODE_TO_NAME[nx.algorithms.triads._tricode(DG, u, v, w)]
+        if triname in tris:
+            res.append( (u,v,w, triname) )
+    return res
+
+def modularity(play : dict):
+    G = nx.Graph(local_umat_df(play))
+    res = nx.algorithms.community.modularity(G)
+    return res
+
 
 
 if __name__ == '__main__':
     paths = "data/games/game*"
+    paths = "data/plays/play*"
     plays = read_glob_of_plays(paths)
 
     for p in plays:
@@ -490,6 +505,9 @@ if __name__ == '__main__':
         #print(algebraic_connectivity(p))
         print(triad_sum(p))
         print(complete_triad_sum(p))
+        print(extract_triads(p, strong_triads))
+
+
         # print(defensive_damage2(p))
         # print(defensive_damage3(p))
     # for p in plays:
