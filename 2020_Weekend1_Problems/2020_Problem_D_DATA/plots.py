@@ -60,7 +60,7 @@ if __name__ == "__main__":
     # plays_second = read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_2H")
 
 
-    funcs = [shotsAllowedVal, defensive_damage, algebraic_connectivity]
+    funcs = [shotsAllowedVal, defensive_damage2, defensive_damage3]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
     #plot3d(plays_first, funcs, mysmoother)
    # plot2d(plays_second, funcs, plt.plot, mysmoother)
