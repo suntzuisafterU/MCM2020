@@ -89,24 +89,8 @@ def big_umat_df(play : dict):
     return umat
 
 @accept_invalid_network
-def defensive_damage2(play : dict):
+def defensive_disruption(play : dict):
     df = mat_with_duel_cons(play)
-    res = drop_non_active_players(df)
-
-    global team
-    orig_team = team
-    team = this_opp(play)
-    algcon = algebraic_connectivity(play)
-    team = orig_team
-
-    res = algebraic_connectivity(res)
-    if res == 0:
-        return 0
-    return res - algcon
-
-@accept_invalid_network
-def defensive_damage3(play: dict):
-    df = mat_with_duel_cons2(play)
     res = drop_non_active_players(df)
 
     global team
@@ -143,7 +127,7 @@ def defensive_damage8(play: dict):
 
 
 @accept_invalid_network
-def defensive_damage9(play: dict):
+def defensive_vulnerability(play: dict):
     df = mat_with_duel_cons6(play)
     res = drop_non_active_players(df)
     return algebraic_connectivity(res)
@@ -203,51 +187,6 @@ def mat_with_duel_cons(play: dict, directed=False):
             umat[res[0]][res[1]] += 1
             umat[res[1]][res[0]] += 1
     return umat
-
-
-
-# does it without adding adverserial passing edges
-def mat_with_duel_cons2(play: dict, directed=False):
-    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
-
-    thisgame = this_game(play)
-    thisopp = this_opp(play)
-    playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
-    if thisgame == 26:
-        playerids += ["Opponent5_M3"]
-    if thisgame == 33:
-        playerids += ["Opponent13_D1"]
-    if thisgame == 34:
-        playerids += ["Opponent14_F2"]
-
-    dim = len(playerids)
-    umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
-
-    passes = [event for event in play if filter_event_dont_touch(event)]
-    for passing_event in passes:
-        try:
-            if passing_event["TeamID"] == thisopp:
-                res = (passing_event['OriginPlayerID'],
-                       passing_event['DestinationPlayerID'])
-                umat[res[0]][res[1]] += 1
-                res = (passing_event['DestinationPlayerID'],
-                       passing_event['OriginPlayerID'])
-                umat[res[0]][res[1]] += 1
-            else:
-                raise AssertionError
-        except (TypeError, KeyError):
-            pass
-
-    for i in range(len(play) - 1):
-        if play[i]["EventType"] == "Duel" and play[i + 1]["EventType"] == "Duel":
-            res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
-            umat[res[0]][res[1]] += 1
-            umat[res[1]][res[0]] += 1
-    return umat
-
-
-
 
 def mat_with_duel_cons3(play: dict):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")

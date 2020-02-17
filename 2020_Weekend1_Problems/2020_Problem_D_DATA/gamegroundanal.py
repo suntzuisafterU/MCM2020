@@ -7,23 +7,26 @@ import csv
 
 metrics = [
     regression_fit1,
-    regression_fit2,
-    ground_truth, ground_truth_offense, ground_truth_defense,
-    shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
+    ground_truth,
+    ground_truth_offense,
+    ground_truth_defense,
+    shotsAllowedVal,
+    shotsTakenVal,
+    flowEV,
+    tempoEV,
     # breadthEV,
     complete_triad_sum,
     triad_sum,
     diadic_sum,
     network_strength_eigen_value,
     algebraic_connectivity,
-    nx_algebraic_connectivity,
+    # nx_algebraic_connectivity,
     # normalized_algebraic_connectivity,
-    defensive_damage2,
-    defensive_damage3,
-    defensive_damage6,
-    defensive_damage7,
-    defensive_damage8,
-    defensive_damage9
+    defensive_disruption,
+    # defensive_damage6,
+    # defensive_damage7,
+    # defensive_damage8,
+    defensive_vulnerability
 ]
 
 def anal_game_off_metrics():
