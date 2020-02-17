@@ -30,10 +30,15 @@ class EV:
 
 def breadthEV(play):
     playerset = set()
+    totplayers = 0
     for i in play:
         if i["TeamID"] == team:
             playerset = playerset | set(i["OriginPlayerID"])
-    return len(playerset)
+            totplayers += 1
+        else:
+            totplayers -= 1
+    return (totplayers + 1) / len(playerset)
+
 
 
 def ballX(play):
@@ -60,7 +65,7 @@ def tempoEV(play):
             passtime += (play[i+1]["EventTime"] - play[i]["EventTime"])
             totalpass += 1
     if totalpass != 0:
-        return passtime / totalpass
+        return (passtime / totalpass ) * 10
     else:
         return 0    
 
@@ -74,7 +79,7 @@ def flowEV(play):
         else:
             flowmetric *= 0.8
 
-    return flowmetric
+    return flowmetric * 10
 
 
 def shotsEV(play):
