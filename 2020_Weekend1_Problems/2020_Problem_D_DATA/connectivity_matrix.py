@@ -86,7 +86,11 @@ def defensive_damage2(play : dict):
     res = drop_non_active_players(df)
     algcon = algebraic_connectivity(play)
     G = nx.Graph(res)
-    return abs(nx.algebraic_connectivity(G) - algcon)
+    res = nx.algebraic_connectivity(G)
+    if res == 0:
+        print("HERE2")
+        return 0
+    return abs(res - algcon)
 
 @accept_invalid_network
 def defensive_damage3(play: dict):
@@ -94,7 +98,11 @@ def defensive_damage3(play: dict):
     res = drop_non_active_players(df)
     algcon = algebraic_connectivity(play)
     G = nx.Graph(res)
-    return abs(nx.algebraic_connectivity(G) - algcon)
+    res = nx.algebraic_connectivity(G)
+    if res == 0:
+        print("HERE3")
+        return 0
+    return abs(res - algcon)
 
 @accept_invalid_network
 def defensive_damage4(play : dict):
