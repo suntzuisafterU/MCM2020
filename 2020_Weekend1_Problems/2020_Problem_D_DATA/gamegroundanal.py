@@ -1,11 +1,15 @@
 
 from value import *
 from connectivity_matrix import *
-from readplay import readplay
+from groundtruth import *
+from readplay import *
+import csv
 
-metrics = [clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
+metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
+           clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
            breadthEV, evan_call_this_for_eigs, algebraic_connectivity,
-           normalized_algebraic_connectivity, triad_sum, diadic_sum]
+           normalized_algebraic_connectivity, triad_sum, diadic_sum
+           ]
 
 def anal_game_off_metrics():
     f = open(f"data/groundtruths/game_{team}_offensive_groundtruths.csv", "r")
@@ -14,7 +18,6 @@ def anal_game_off_metrics():
     for line in f:
         data.append(line.rstrip().rsplit(","))
     del data[0] # delete data header
-
 
     metricdata = []
     header = ["GameName", "GroundTruth"]
@@ -41,27 +44,13 @@ def anal_game_off_metrics():
         metricdata.append(thishalf)
 
 
-    f = open(f"data/groundtruths/game_{team}_metricdata.csv", "w")
-
-    for line in metricdata:
-        for item in line:
-            f.write(str(item))
-            f.write(",")
-        f.write("\n")
-
-    f.close()
+    with open(f"data/groundtruths/game_{team}_metricdata.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerows(metricdata)
 
 
 
 def anal_play_off_metrics():
-    f = open(f"data/groundtruths/play_{team}_offensive_groundtruths.csv", "r")
-
-    data = []
-    for line in f:
-        data.append(line.rstrip().rsplit(","))
-    del data[0] # delete header
-
-
     metricdata = []
     header = ["GameName", "GroundTruth"]
     for metric in metrics:
@@ -83,17 +72,46 @@ def anal_play_off_metrics():
         metricdata.append(thishalf)
 
 
-    f = open(f"data/groundtruths/play_{team}_metricdata.csv", "w")
+    with open(f"data/groundtruths/play_{team}_metricdata.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerows(metricdata)
 
-    for line in metricdata:
-        for item in line:
-            f.write(str(item))
-            f.write(",")
-        f.write("\n")
+def game_all_data():
+    df = pd.read_csv("data/matches.csv")
+    header = []
+    # there are 38 games
+    # metric_data = {i: np.zeros((len(metrics),1), np.float) for i in range(1,39)}
+    metric_data = []
+    for metric in metrics:
+        name = str(metric.__name__)
+        if name == 'wrapper':
+            raise AssertionError # Should have a different name
+        else:
+            header.append(name)
 
+    games = read_glob_of_plays("data/games/game*")
 
+    for g in games:
+        temp_event = g[0]
+        res = [metric(g) for metric in metrics]
+        metric_data.append(res)
+        # metric_data[temp_event["MatchID"]] += res
 
+    metric_data.append(np.zeros((len(metrics),), np.float)) # dirty hack, add row of zeroes
+    metric_data = np.array(metric_data)
 
+    s1 = metric_data[1::2]
+    s2 = metric_data[::2]
 
-anal_play_off_metrics()
-anal_game_off_metrics()
+    s3 = s1 + s2
+
+    mdf = pd.DataFrame(s3, columns=header)
+    final = pd.concat([df, mdf], axis=1)
+    print(final)
+
+    with open(f"data/groundtruths/fullgame_{team}_metricdata.csv", "w") as f:
+        final.to_csv(f)
+
+game_all_data()
+# anal_game_off_metrics()
+# anal_play_off_metrics()
