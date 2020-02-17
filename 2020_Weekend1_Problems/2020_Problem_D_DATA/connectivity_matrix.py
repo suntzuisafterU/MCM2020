@@ -167,7 +167,7 @@ def this_opp(play: dict):
 def this_game(play : dict):
     return play[0]["MatchID"]
 
-def mat_with_duel_cons(play: dict):
+def mat_with_duel_cons(play: dict, directed=False):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
     thisgame = this_game(play)
 
@@ -207,7 +207,7 @@ def mat_with_duel_cons(play: dict):
 
 
 # does it without adding adverserial passing edges
-def mat_with_duel_cons2(play: dict):
+def mat_with_duel_cons2(play: dict, directed=False):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
 
     thisgame = this_game(play)
@@ -458,6 +458,12 @@ def local_umat_df(play : dict):
     res = drop_non_active_players(df)
     return res
 
+# weighted adj mat
+def local_dimat_df(play : dict):
+    df = big_dimat_df(play)
+    res = drop_non_active_players(df)
+    return res
+
 def ddddddddddddd(infile):
     playerids = get_playerids(f"data/playerfiles/all_players.txt")
     idx_to_name = {i:name for i,name in enumerate(playerids)}
@@ -510,14 +516,11 @@ def largest_eig_value(df : pd.DataFrame):
 def network_strength_eigen_value(play : dict):
     return float(largest_eig_value(big_umat_df(play)))
 
-def laplacian(play : dict):
+def laplacian(A : np.ndarray, degrees: np.ndarray):
     """ calculate the laplacian matrix
     L = D - A
     D is the degree matrix
     """
-    A = np.array(big_umat_df(play))
-    temp = np.array(big_dimat_df(play))
-    degrees = np.sum(temp, 0)
     dim = len(A[0])
     D = np.zeros((dim,dim), np.int)
     D[A != 0] = -1
@@ -542,8 +545,22 @@ def directed_laplacian(play: dict):
 
 def algebraic_connectivity(play : dict):
     """ return the second smallest eigen value of the laplacian of the connectivity matrix """
-    L = laplacian(play)
-    return np.sort(np.linalg.eigvals(np.array(L)))[-2]
+    if len(play) == 0:
+        return 0
+    if isinstance(play, pd.DataFrame):
+        A = np.array(play)
+        tempDiGraph = np.array(play)
+        degrees = np.sum(tempDiGraph, 0)/2
+    else:
+        assert isinstance(play, list) and not isinstance(play, nx.Graph)
+        A = np.array(big_umat_df(play))
+        tempDiGraph = np.array(big_dimat_df(play))
+        degrees = np.sum(tempDiGraph, 0)
+    L = laplacian(A, degrees)
+    res = np.sort(np.linalg.eigvals(np.array(L)))
+    if len(res) < 2:
+        return 0
+    return res[-2]
 
 @accept_invalid_network
 def nx_algebraic_connectivity(play : dict):
