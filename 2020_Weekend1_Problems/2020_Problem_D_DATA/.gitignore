@@ -3,3 +3,7 @@ __pycache__
 data/plays
 data/games/game*
 
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
