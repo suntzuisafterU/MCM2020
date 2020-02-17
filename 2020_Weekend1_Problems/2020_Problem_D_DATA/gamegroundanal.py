@@ -19,7 +19,11 @@ def anal_game_off_metrics():
     metricdata = []
     header = ["GameName", "GroundTruth"]
     for metric in metrics:
-        header.append(str(metric.__name__))
+        name = str(metric.__name__)
+        if name == 'wrapper':
+            raise AssertionError # Should have a different name
+        else:
+            header.append(name)
 
     metricdata.append(header)
 
