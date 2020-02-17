@@ -390,7 +390,7 @@ def normalized_algebraic_connectivity(play : dict):
 def defensive_damage(play : dict):
     df = poison_umat(play)
     G = nx.Graph(df)
-    return nx.algebraic_connectivity(G) * 10
+    return nx.algebraic_connectivity(G)
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -479,14 +479,23 @@ def extract_triads(play : dict, tris : list):
             res.append( (u,v,w, triname) )
     return res
 
-regressed = {
+regressed1 = {
     network_strength_eigen_value : 0.0745845,
     shotsAllowedVal : -0.0006122,
     complete_triad_sum : -0.0651175
 }
 
-def regression_fit(play : dict):
-    return sum([metric(play) for metric in regressed])
+def regression_fit1(play : dict):
+    return sum([metric(play) for metric in regressed1])
+
+regressed2 = {
+    network_strength_eigen_value : 0.0745845,
+    shotsAllowedVal : -0.0006122,
+    complete_triad_sum : -0.0651175
+}
+
+def regression_fit2(play : dict):
+    return sum([metric(play) for metric in regressed2])
 
 
 

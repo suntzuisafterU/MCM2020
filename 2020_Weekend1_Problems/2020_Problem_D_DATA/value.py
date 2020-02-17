@@ -98,7 +98,7 @@ def lnDist(x1, y1, x2, y2, n):
 #The terms in here are justifyable, 30 being the width from the cetner where
 #shots are acceptible.
 def lnDist2(x1, y1, x2, y2, n):
-    return (((x2-x1)**n + (y2 - y1)**n)**(1.0/n) - 30)
+    return ((abs(x2-x1)**n + abs(y2 - y1)**n)**(1.0/n) - 30)
 
 def sigmoid(x):
     return 1/(1 + m.exp(-x))

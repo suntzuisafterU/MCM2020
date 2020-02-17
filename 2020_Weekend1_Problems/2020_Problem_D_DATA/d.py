@@ -57,8 +57,6 @@ class LocalOnlyConnectivityMats(object):
 ################################
 
 
-
-
 def heatmap(mat: np.array):
     plt.imshow(mat)
     plt.show()

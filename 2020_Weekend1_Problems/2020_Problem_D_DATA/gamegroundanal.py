@@ -6,7 +6,8 @@ from readplay import *
 import csv
 
 metrics = [
-    regression_fit,
+    regression_fit1,
+    regression_fit2,
     ground_truth, ground_truth_offense, ground_truth_defense,
            shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
            # breadthEV,
