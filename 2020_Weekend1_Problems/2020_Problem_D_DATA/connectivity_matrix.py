@@ -95,9 +95,15 @@ def duels_umat(play: dict):
             thisopp = x[1]
             break
 
-
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
     playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    if thisgame == 26:
+        playerids += ["Opponent5_M3"]
+    if thisgame == 33:
+        playerids += ["Opponent13_D1"]
+    if thisgame == 34:
+        playerids += ["Opponent14_F2"]
+
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
@@ -223,7 +229,7 @@ def normalized_algebraic_connectivity(play : dict):
 def defensive_damage(play : dict):
     df = poison_umat(play)
     G = nx.Graph(df)
-    return nx.algebraic_connectivity(G) * 10
+    return nx.algebraic_connectivity(G)
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -322,4 +328,5 @@ if __name__ == '__main__':
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))
+
 

@@ -175,8 +175,4 @@ def skirmishParser(ev_list, init_max):
 #playParser(event_list, 7)
 
 skirmishParser(event_list, 12)
-    
-
-
-
 

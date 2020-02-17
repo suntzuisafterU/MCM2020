@@ -8,6 +8,7 @@ import csv
 metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
            shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
            # breadthEV,
+           defensive_damage,
            network_strength_eigen_value, algebraic_connectivity,
            # normalized_algebraic_connectivity,
            complete_triad_sum,
@@ -74,6 +75,26 @@ def plays_all_data():
     with open(f"data/groundtruths/allplays_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
+def skirmishes_all_data():
+    data = []
+    metric_data = []
+    header = []
+    for metric in metrics:
+        header.append(str(metric.__name__))
+
+    skirms = read_glob_of_plays("data/plays/skirmish*")
+
+    for s in skirms:
+        res = [metric(s) for metric in metrics]
+        metric_data.append(res)
+
+    final = pd.DataFrame(data=metric_data, columns=header)
+
+    print(final)
+
+    with open(f"data/groundtruths/allskrims_metricdata.csv", "w") as f:
+        final.to_csv(f)
+
 
 def game_all_data():
     df = pd.read_csv("data/matches.csv")
@@ -111,6 +132,7 @@ def game_all_data():
     with open(f"data/groundtruths/fullgame_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
+skirmishes_all_data()
 game_all_data()
 plays_all_data()
 anal_game_off_metrics()
