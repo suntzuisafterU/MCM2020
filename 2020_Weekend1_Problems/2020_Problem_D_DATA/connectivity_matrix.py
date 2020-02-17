@@ -88,8 +88,6 @@ def defensive_damage2(play : dict):
     G = nx.Graph(res)
     res = nx.algebraic_connectivity(G)
     if res == 0:
-        print("HERE2")
-        print(np.array(G.adj))
         return 0
     return abs(res - algcon)
 
@@ -101,8 +99,6 @@ def defensive_damage3(play: dict):
     G = nx.Graph(res)
     res = nx.algebraic_connectivity(G)
     if res == 0:
-        print("HERE3")
-        print(np.array(G.adj))
         return 0
     return abs(res - algcon)
 
@@ -130,10 +126,13 @@ def mat_with_duel_cons(play: dict):
     for f in fiiil:
         x = f.split(",")
         if int(x[0]) == thisgame:
-            thisopp = x[1]
+            if team == "Huskies":
+                thisopp = x[1]
+            else:
+                thisopp = "Huskies"
             break
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -176,10 +175,13 @@ def mat_with_duel_cons2(play: dict):
     for f in fiiil:
         x = f.split(",")
         if int(x[0]) == thisgame:
-            thisopp = x[1]
+            if team == "Huskies":
+                thisopp = x[1]
+            else:
+                thisopp = "Huskies"
             break
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -192,7 +194,7 @@ def mat_with_duel_cons2(play: dict):
 
     for passing_event in play:
         try:
-            if passing_event["TeamID"] == "Huskies":
+            if passing_event["TeamID"] == team:
                 res = (passing_event['OriginPlayerID'],
                        passing_event['DestinationPlayerID'])
                 umat[res[0]][res[1]] += 1
@@ -226,12 +228,15 @@ def duels_umat(play: dict):
     for f in fiiil:
         x = f.split(",")
         if int(x[0]) == thisgame:
-            thisopp = x[1]
+            if team == "Huskies":
+                thisopp = x[1]
+            else:
+                thisopp = "Huskies"
             break
 
 
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -277,15 +282,14 @@ def poison_def_met(play : dict):
 
     for passing_event in play:
         try:
-
-            if passing_event["EventSubType"] == "Ground defending duel" and passing_event['TeamID'] == "Huskies":
+            if passing_event["EventSubType"] == "Ground defending duel" and passing_event['TeamID'] == team:
                 res = passing_event['OriginPlayerID']
                 for player in playerids:
                     if umat[res][player] > 1:
                         umat[res][player] -= 1
                     if umat[player][res] > 1:
                         umat[player][res] -= 1
-            if passing_event["EventType"] == "Pass" and passing_event['TeamID'] == "Huskies":
+            if passing_event["EventType"] == "Pass" and passing_event['TeamID'] == team:
                 res = (passing_event['OriginPlayerID'],
                      passing_event['DestinationPlayerID'])
                 umat[res[0]][res[1]] += 1
@@ -442,6 +446,8 @@ def diadic_sum(play : dict):
     res = ds[diad]
     return res
 
+
+
 if __name__ == '__main__':
     paths = "data/games/game*"
     plays = read_glob_of_plays(paths)
@@ -463,7 +469,6 @@ if __name__ == '__main__':
         print(defensive_damage3(p))
         print(defensive_damage4(p))
         print(defensive_damage5(p))
-    print(i)
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))

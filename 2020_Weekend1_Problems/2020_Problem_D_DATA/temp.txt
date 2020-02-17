@@ -1,0 +1,1809 @@
+    MatchID  OpponentID  ... defensive_damage4  defensive_damage5
+0         1   Opponent1  ...          8.760282           2.982076
+1         2   Opponent2  ...          7.656230           5.392790
+2         3   Opponent3  ...         12.994525           3.875498
+3         4   Opponent4  ...         13.164003           4.968319
+4         5   Opponent5  ...         11.520728           2.987662
+5         6   Opponent6  ...         14.814185           2.009368
+6         7   Opponent7  ...         16.457387           3.974154
+7         8   Opponent8  ...         14.841944           3.912082
+8         9   Opponent9  ...          8.391132           2.635322
+9        10  Opponent10  ...         11.207655           8.375946
+10       11  Opponent11  ...         10.742892           8.317391
+11       12  Opponent12  ...          7.907006           1.966414
+12       13  Opponent13  ...         13.342685           2.031064
+13       14  Opponent14  ...         13.081956           4.878329
+14       15  Opponent15  ...         10.241482           4.734072
+15       16  Opponent16  ...          5.613766           1.895441
+16       17  Opponent17  ...         10.398487           6.865983
+17       18  Opponent18  ...          4.042460           5.088353
+18       19   Opponent3  ...         13.047338           5.842261
+19       20  Opponent19  ...          9.723095           5.802230
+20       21   Opponent6  ...          2.038761           2.000970
+21       22   Opponent5  ...          9.585998           8.883900
+22       23   Opponent4  ...         17.241063           7.671893
+23       24  Opponent19  ...          9.167471           4.843167
+24       25  Opponent10  ...         12.516698           4.032062
+25       26   Opponent9  ...          8.733089           4.775388
+26       27  Opponent12  ...          3.803107           3.854381
+27       28  Opponent11  ...         14.913752           7.317280
+28       29   Opponent7  ...          7.574216           8.124216
+29       30   Opponent8  ...          8.812890           7.474350
+30       31   Opponent1  ...          7.599702           4.369942
+31       32   Opponent2  ...          5.769869           3.914855
+32       33  Opponent16  ...          6.481103           3.949732
+33       34  Opponent18  ...         13.992165           2.955972
+34       35  Opponent17  ...         10.938297           7.830265
+35       36  Opponent15  ...         12.980945           5.691969
+36       37  Opponent13  ...          8.824283           3.866253
+37       38  Opponent14  ...          5.593896           1.021905
+
+[38 rows x 24 columns]
+games
+HERE2
+['Opponent1_D1' 'Opponent1_D2' 'Opponent1_F2' 'Opponent1_F3'
+ 'Opponent1_M2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_M1'
+ 'Huskies_M3']
+HERE2
+['Opponent1_D3' 'Opponent1_G1' 'Opponent1_M2' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_M1']
+HERE2
+['Opponent1_D4' 'Opponent1_M1' 'Huskies_D4' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_M2']
+HERE3
+['Opponent1_D4' 'Opponent1_M1' 'Huskies_D4' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_M2']
+HERE2
+['Opponent1_M1' 'Huskies_D3' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent1_M1' 'Huskies_D3' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent1_D1' 'Opponent1_D4' 'Opponent1_F1' 'Opponent1_F2'
+ 'Opponent1_M1' 'Huskies_D1' 'Huskies_D2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M3']
+HERE3
+['Opponent1_F2' 'Huskies_D1' 'Huskies_D2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M3']
+HERE2
+['Opponent1_D1' 'Opponent1_F2' 'Opponent1_M1' 'Opponent1_M3' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D3' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M2' 'Huskies_M3']
+HERE3
+['Opponent1_F2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M2' 'Huskies_M3']
+HERE2
+['Opponent1_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1']
+HERE3
+['Opponent1_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1']
+HERE2
+['Opponent1_D2' 'Opponent1_D3' 'Opponent1_M1' 'Opponent1_M3' 'Huskies_D1'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_F3' 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent1_M3' 'Huskies_D1' 'Huskies_F1' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent2_D2' 'Opponent2_D4' 'Opponent2_G1' 'Opponent2_M3' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D6' 'Huskies_M1']
+HERE2
+['Opponent2_D3' 'Opponent2_D4' 'Opponent2_F2' 'Opponent2_G1'
+ 'Opponent2_M2' 'Opponent2_M3' 'Huskies_D1' 'Huskies_D3' 'Huskies_G1'
+ 'Huskies_M4']
+HERE2
+['Opponent2_D2' 'Opponent2_G1' 'Opponent2_M1' 'Opponent2_M4' 'Huskies_D6'
+ 'Huskies_G1']
+HERE2
+['Opponent2_D4' 'Opponent2_F2' 'Opponent2_F3' 'Opponent2_M1'
+ 'Opponent2_M2' 'Opponent2_M3' 'Opponent2_M4' 'Huskies_D2' 'Huskies_M1']
+HERE3
+['Opponent2_F2' 'Opponent2_F3' 'Huskies_D2' 'Huskies_M1']
+HERE2
+['Opponent2_D3' 'Opponent2_D4' 'Opponent2_G1' 'Opponent2_M3' 'Huskies_D1'
+ 'Huskies_D3' 'Huskies_D6' 'Huskies_G1' 'Huskies_M3']
+HERE3
+['Opponent2_M3' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6' 'Huskies_G1'
+ 'Huskies_M3']
+HERE2
+['Opponent2_D3' 'Opponent2_D4' 'Opponent2_G1' 'Opponent2_M1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_F2' 'Huskies_M3']
+HERE2
+['Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_M1' 'Huskies_M2'
+ 'Huskies_M3']
+HERE3
+['Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_M1' 'Huskies_M2'
+ 'Huskies_M3']
+HERE2
+['Opponent2_D2' 'Opponent2_D4' 'Opponent2_F2' 'Opponent2_F3'
+ 'Opponent2_M1' 'Opponent2_M2' 'Opponent2_M4' 'Huskies_D4' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_M6']
+HERE3
+['Opponent2_F3' 'Opponent2_M4' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M6']
+HERE2
+['Opponent2_D2' 'Opponent2_D3' 'Opponent2_D4' 'Opponent2_D5'
+ 'Opponent2_F3' 'Opponent2_G1' 'Opponent2_M1' 'Opponent2_M2'
+ 'Opponent2_M3' 'Opponent2_M4' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M2' 'Huskies_M6']
+HERE3
+['Opponent2_D2' 'Opponent2_M4' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M2' 'Huskies_M6']
+HERE2
+['Opponent2_D2' 'Opponent2_D4' 'Opponent2_D5' 'Opponent2_F3'
+ 'Opponent2_M2' 'Huskies_M2' 'Huskies_M6']
+HERE3
+['Opponent2_D5' 'Opponent2_M4' 'Huskies_M2' 'Huskies_M6']
+HERE3
+['Opponent2_F3' 'Opponent2_M1' 'Opponent2_M2' 'Opponent2_M5' 'Huskies_D1'
+ 'Huskies_D3' 'Huskies_D6' 'Huskies_F1' 'Huskies_M1' 'Huskies_M2'
+ 'Huskies_M7']
+HERE2
+['Opponent2_D5' 'Opponent2_F2' 'Opponent2_M1' 'Opponent2_M2'
+ 'Opponent2_M4' 'Opponent2_M5' 'Huskies_D1' 'Huskies_D6' 'Huskies_M7']
+HERE3
+['Opponent2_M2' 'Opponent2_M5' 'Huskies_D1' 'Huskies_D6' 'Huskies_M7']
+HERE2
+['Opponent3_D2' 'Opponent3_M1' 'Huskies_D3' 'Huskies_F3']
+HERE2
+['Opponent3_D3' 'Opponent3_D4' 'Huskies_D1' 'Huskies_D2']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_F1' 'Opponent3_G1'
+ 'Opponent3_M1' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_F2' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent3_F1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D6' 'Huskies_F2' 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6']
+HERE3
+['Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6']
+HERE2
+['Opponent3_D1' 'Opponent3_D3' 'Opponent3_D4' 'Opponent3_F1'
+ 'Opponent3_F2' 'Opponent3_M1' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent3_D4' 'Opponent3_F1' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_D6' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M4']
+HERE2
+['Opponent3_D1' 'Opponent3_M1' 'Opponent3_M2' 'Opponent3_M3' 'Huskies_D1'
+ 'Huskies_F3' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent3_M1' 'Opponent3_M2' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M6']
+HERE2
+['Opponent3_D4' 'Huskies_D2' 'Huskies_D3' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent3_D4' 'Huskies_D2' 'Huskies_D3' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_M1' 'Opponent3_M2' 'Huskies_D4']
+HERE2
+['Opponent3_D2' 'Opponent3_D4' 'Opponent3_F2' 'Opponent3_M3' 'Huskies_D4'
+ 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_M1'
+ 'Opponent3_M3' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M4' 'Huskies_M6']
+HERE3
+['Opponent3_D2' 'Opponent3_F1' 'Huskies_D2' 'Huskies_D4']
+HERE2
+['Opponent3_F1' 'Opponent3_M1' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_F2']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F1'
+ 'Opponent3_F2' 'Opponent3_G1' 'Opponent3_M1' 'Opponent3_M3'
+ 'Opponent3_M4' 'Huskies_D2' 'Huskies_D3' 'Huskies_F3' 'Huskies_G1'
+ 'Huskies_M4']
+HERE3
+['Opponent3_F1' 'Opponent3_M3' 'Huskies_D2' 'Huskies_D3' 'Huskies_F3'
+ 'Huskies_G1' 'Huskies_M4']
+HERE3
+['Opponent3_F2' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_G1']
+HERE2
+['Opponent3_D1' 'Opponent3_D3' 'Opponent3_G1' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_F2' 'Opponent3_M1'
+ 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D6' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent3_D2' 'Opponent3_F2' 'Opponent3_M4' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_D6' 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent3_F1' 'Opponent3_M1' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_F3' 'Huskies_M1' 'Huskies_M4' 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_G1']
+HERE3
+['Opponent3_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_G1']
+HERE2
+['Opponent3_D1' 'Opponent3_D3' 'Huskies_D3' 'Huskies_D4' 'Huskies_G1']
+HERE2
+['Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_M1']
+HERE3
+['Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_M1']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F1'
+ 'Opponent3_F2' 'Opponent3_G1' 'Opponent3_M1' 'Opponent3_M2'
+ 'Opponent3_M3' 'Opponent3_M4' 'Huskies_F3']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F2'
+ 'Opponent3_G1' 'Huskies_F2' 'Huskies_F3' 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F2'
+ 'Opponent3_M2' 'Opponent3_M3' 'Huskies_D4']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F2'
+ 'Opponent3_G1' 'Opponent3_M1' 'Opponent3_M4' 'Huskies_D1' 'Huskies_G1'
+ 'Huskies_M7']
+HERE2
+['Opponent3_D1' 'Opponent3_F1' 'Opponent3_G1' 'Opponent3_M4' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D3' 'Huskies_G1' 'Huskies_M1' 'Huskies_M6'
+ 'Huskies_M7']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F1'
+ 'Opponent3_F2' 'Opponent3_M1' 'Huskies_D6' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M7']
+HERE2
+['Opponent3_D2' 'Opponent3_D3' 'Opponent3_G1' 'Opponent3_M1'
+ 'Opponent3_M2' 'Huskies_D3' 'Huskies_D6' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_M1' 'Huskies_M7']
+HERE2
+['Opponent3_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_M7']
+HERE3
+['Opponent3_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_M7']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_D4'
+ 'Opponent3_F1' 'Opponent3_G1' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D2']
+HERE2
+['Opponent3_D1' 'Opponent3_D4' 'Opponent3_F2' 'Opponent3_M2' 'Huskies_D1'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_F2' 'Huskies_G1' 'Huskies_M6'
+ 'Huskies_M7']
+HERE3
+['Opponent3_F2' 'Opponent3_M2' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M6' 'Huskies_M7']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D3' 'Opponent3_F2'
+ 'Opponent3_M1' 'Opponent3_M4' 'Huskies_D3' 'Huskies_D4' 'Huskies_M1'
+ 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Opponent3_D4' 'Opponent3_F2' 'Opponent3_M3' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M7']
+HERE3
+['Opponent3_F2' 'Opponent3_M3' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M7']
+HERE3
+['Opponent3_F1' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D2' 'Huskies_M7']
+HERE2
+['Opponent3_D4' 'Opponent3_M1' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D1'
+ 'Huskies_G1']
+HERE2
+['Opponent3_D3' 'Opponent3_M2' 'Opponent3_M3' 'Opponent3_M5' 'Huskies_F1']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D3' 'Opponent4_D4'
+ 'Opponent4_F1' 'Opponent4_G1' 'Opponent4_M1' 'Opponent4_M3' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_F3' 'Huskies_M1'
+ 'Huskies_M6']
+HERE3
+['Opponent4_D1' 'Opponent4_D3' 'Opponent4_F1' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F2' 'Huskies_F3' 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent4_D1' 'Opponent4_D5' 'Opponent4_M3' 'Huskies_D4' 'Huskies_M2'
+ 'Huskies_M6']
+HERE2
+['Opponent4_D1' 'Opponent4_D4' 'Opponent4_D5' 'Opponent4_F1'
+ 'Opponent4_M1' 'Opponent4_M4' 'Huskies_D5']
+HERE2
+['Opponent4_D3' 'Opponent4_G1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_M3']
+HERE2
+['Opponent4_D1' 'Opponent4_D3' 'Opponent4_D5' 'Opponent4_G1'
+ 'Opponent4_M2' 'Opponent4_M3' 'Opponent4_M4' 'Huskies_D5' 'Huskies_M3']
+HERE3
+['Opponent4_D5' 'Opponent4_M4' 'Huskies_D5' 'Huskies_M3']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D3' 'Opponent4_D4'
+ 'Opponent4_D5' 'Opponent4_F1' 'Opponent4_G1' 'Opponent4_M1'
+ 'Opponent4_M2' 'Opponent4_M3' 'Opponent4_M4' 'Huskies_D1' 'Huskies_D5']
+HERE3
+['Opponent4_D5' 'Opponent4_M4' 'Huskies_D1' 'Huskies_D5']
+HERE2
+['Opponent4_D1' 'Opponent4_D5' 'Opponent4_M2' 'Opponent4_M4' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_F3' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent4_M2' 'Huskies_D2' 'Huskies_D4' 'Huskies_F3' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D3' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_M3']
+HERE2
+['Opponent4_D2' 'Opponent4_D3' 'Opponent4_D4' 'Opponent4_M4' 'Huskies_D2'
+ 'Huskies_F3' 'Huskies_G1']
+HERE2
+['Opponent4_D1' 'Opponent4_D4' 'Opponent4_D5' 'Opponent4_M1'
+ 'Opponent4_M2' 'Huskies_D1' 'Huskies_D4' 'Huskies_F2']
+HERE3
+['Opponent4_D4' 'Huskies_D1' 'Huskies_D4' 'Huskies_F2']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_G1' 'Opponent4_M4' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M4']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_G1' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3']
+HERE2
+['Opponent4_D2' 'Opponent4_D4' 'Opponent4_F1' 'Opponent4_G1'
+ 'Opponent4_M1' 'Opponent4_M3' 'Opponent4_M5' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_M6']
+HERE3
+['Opponent4_F1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_F2' 'Huskies_M6']
+HERE2
+['Opponent5_D3' 'Huskies_D3' 'Huskies_D4' 'Huskies_D5' 'Huskies_G1'
+ 'Huskies_M3']
+HERE3
+['Opponent5_D3' 'Huskies_D3' 'Huskies_D4' 'Huskies_D5' 'Huskies_G1'
+ 'Huskies_M3']
+HERE2
+['Opponent5_D2' 'Opponent5_D3' 'Opponent5_M1' 'Opponent5_M2'
+ 'Opponent5_M4']
+HERE2
+['Opponent5_D1' 'Opponent5_D3' 'Opponent5_F1' 'Opponent5_F2'
+ 'Opponent5_M2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_F2'
+ 'Huskies_M1']
+HERE3
+['Opponent5_F2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_F2'
+ 'Huskies_M1']
+HERE2
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_D4' 'Huskies_D5' 'Huskies_M4']
+HERE2
+['Opponent5_D4' 'Opponent5_M1' 'Opponent5_M4' 'Huskies_D5' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_F1' 'Opponent5_G1'
+ 'Opponent5_M1' 'Opponent5_M2' 'Opponent5_M4' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent5_D1' 'Opponent5_F2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M6']
+HERE3
+['Opponent5_F2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M4'
+ 'Huskies_M6']
+HERE2
+['Opponent5_D2' 'Opponent5_F1' 'Opponent5_F2' 'Opponent5_M2'
+ 'Opponent5_M3' 'Opponent5_M4' 'Huskies_F2' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent5_D1' 'Opponent5_D3' 'Opponent5_F2' 'Opponent5_G1' 'Huskies_D3'
+ 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent5_D2' 'Opponent5_D3' 'Opponent5_F1' 'Opponent5_F2'
+ 'Opponent5_M1' 'Opponent5_M3' 'Huskies_D2']
+HERE2
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_D3' 'Opponent5_D4'
+ 'Opponent5_G1' 'Opponent5_M1' 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D2'
+ 'Huskies_D3']
+HERE2
+['Opponent5_D3' 'Opponent5_M2' 'Huskies_D1' 'Huskies_D5' 'Huskies_F2'
+ 'Huskies_M4']
+HERE2
+['Opponent5_D2' 'Opponent5_D3' 'Opponent5_D4' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent5_M2' 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D4' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent5_D3' 'Opponent5_F1' 'Opponent5_F2' 'Opponent5_G1'
+ 'Opponent5_M1' 'Opponent5_M2' 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent5_D1' 'Opponent5_D3' 'Opponent5_D4' 'Opponent5_F2'
+ 'Opponent5_M1' 'Huskies_D2' 'Huskies_D3' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent5_D4' 'Huskies_D2' 'Huskies_D3' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent5_D3' 'Opponent5_M3' 'Huskies_D5' 'Huskies_M4']
+HERE2
+['Opponent5_D4' 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent5_D3' 'Opponent5_F2' 'Opponent5_M1' 'Opponent5_M4' 'Huskies_D5'
+ 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent5_D1' 'Opponent5_F2' 'Opponent5_M2' 'Opponent5_M3' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D3' 'Huskies_D5' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent5_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_G1' 'Huskies_M4']
+HERE3
+['Opponent5_D1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_G1' 'Huskies_M4']
+HERE2
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_D3' 'Opponent5_D4'
+ 'Opponent5_F1' 'Opponent5_M1' 'Opponent5_M2' 'Opponent5_M3'
+ 'Opponent5_M4' 'Huskies_D3']
+HERE2
+['Opponent5_D1' 'Opponent5_D3' 'Opponent5_F2' 'Opponent5_M2'
+ 'Opponent5_M3' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M6']
+HERE2
+['Opponent5_D3' 'Opponent5_M1' 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D5'
+ 'Huskies_F2' 'Huskies_M6']
+HERE3
+['Opponent5_M3' 'Huskies_D5' 'Huskies_F2' 'Huskies_M6']
+HERE2
+['Opponent5_D2' 'Opponent5_D3' 'Opponent5_F1' 'Opponent5_M2'
+ 'Opponent5_M3' 'Opponent5_M4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D5' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M4'
+ 'Huskies_M6']
+HERE2
+['Opponent5_M1' 'Opponent5_M5' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent5_M1' 'Opponent5_M2' 'Opponent5_M3' 'Opponent5_M4'
+ 'Opponent5_M5' 'Huskies_D2' 'Huskies_D4' 'Huskies_F2' 'Huskies_F3'
+ 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent5_M2' 'Opponent5_M5' 'Huskies_D2' 'Huskies_D4' 'Huskies_F2'
+ 'Huskies_F3' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_D3' 'Opponent5_D4'
+ 'Opponent5_F1' 'Opponent5_G1' 'Opponent5_M1' 'Opponent5_M2'
+ 'Opponent5_M3' 'Opponent5_M4' 'Opponent5_M5' 'Opponent5_M6' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_F1' 'Huskies_F2' 'Huskies_F3' 'Huskies_M3']
+HERE3
+['Opponent5_D1' 'Opponent5_D2' 'Opponent5_D4' 'Opponent5_M1'
+ 'Opponent5_M5' 'Huskies_D2' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_F3' 'Huskies_M3']
+HERE2
+['Opponent5_M2' 'Opponent5_M3' 'Huskies_D3' 'Huskies_F2' 'Huskies_F3']
+HERE2
+['Opponent5_D2' 'Opponent5_D3' 'Opponent5_M1' 'Opponent5_M6' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_G1']
+HERE2
+['Opponent5_F1' 'Opponent5_M3' 'Huskies_D1' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_M3']
+HERE2
+['Opponent6_D3' 'Opponent6_D4' 'Opponent6_G1' 'Opponent6_M1'
+ 'Opponent6_M2' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M2'
+ 'Huskies_M3']
+HERE3
+['Opponent6_D3' 'Opponent6_M1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M2' 'Huskies_M3']
+HERE2
+['Opponent6_D1' 'Opponent6_D4' 'Opponent6_M2' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent6_D1' 'Opponent6_F1' 'Opponent6_M1' 'Opponent6_M2'
+ 'Opponent6_M3' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent6_F1' 'Opponent6_M3' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent6_D2' 'Opponent6_D3' 'Opponent6_D4' 'Opponent6_F2'
+ 'Opponent6_G1' 'Opponent6_M3' 'Huskies_M2']
+HERE2
+['Opponent6_D1' 'Opponent6_D2' 'Opponent6_D3' 'Opponent6_F2'
+ 'Opponent6_M1' 'Opponent6_M2' 'Opponent6_M3' 'Opponent6_M4' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M2' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent6_D2' 'Opponent6_F2' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_F2' 'Huskies_M1' 'Huskies_M2' 'Huskies_M3'
+ 'Huskies_M6']
+HERE2
+['Opponent6_D4' 'Opponent6_M3' 'Huskies_M1' 'Huskies_M2' 'Huskies_M3']
+HERE2
+['Opponent6_D2' 'Opponent6_D3' 'Opponent6_D4' 'Opponent6_F1'
+ 'Opponent6_F2' 'Opponent6_M1' 'Opponent6_M2' 'Opponent6_M3'
+ 'Opponent6_M4' 'Huskies_D4' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M2' 'Huskies_M3']
+HERE3
+['Opponent6_F1' 'Opponent6_F2' 'Huskies_D4' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M2' 'Huskies_M3']
+HERE2
+['Opponent6_D2' 'Opponent6_D3' 'Opponent6_F1' 'Opponent6_G1' 'Huskies_D2'
+ 'Huskies_D6' 'Huskies_F1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent6_D2' 'Opponent6_F1' 'Huskies_D2' 'Huskies_D6' 'Huskies_F1'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent6_D1' 'Opponent6_D3' 'Opponent6_F2' 'Opponent6_M2'
+ 'Opponent6_M3' 'Huskies_D2' 'Huskies_D4' 'Huskies_D6']
+HERE3
+['Opponent6_F2' 'Opponent6_M3' 'Huskies_D2' 'Huskies_D4' 'Huskies_D6']
+HERE2
+['Opponent6_D1' 'Opponent6_D3' 'Opponent6_F1' 'Opponent6_F2'
+ 'Opponent6_M2' 'Huskies_D2' 'Huskies_D4' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent6_F2' 'Huskies_D2' 'Huskies_D4' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent7_F1' 'Opponent7_M3' 'Opponent7_M4' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_M6']
+HERE2
+['Opponent7_F1' 'Opponent7_G1' 'Huskies_D5' 'Huskies_F1' 'Huskies_M1'
+ 'Huskies_M6']
+HERE3
+['Opponent7_M1' 'Opponent7_M5' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent7_D1' 'Opponent7_D2' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent7_D4' 'Opponent7_F1' 'Opponent7_M2' 'Huskies_D4' 'Huskies_M3'
+ 'Huskies_M6']
+HERE2
+['Opponent7_D2' 'Opponent7_M3' 'Huskies_D1' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent7_D4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_F4' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent7_D4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_F4' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent7_D3' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1']
+HERE3
+['Opponent7_D3' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_D5'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent7_D2' 'Opponent7_D4' 'Opponent7_F1' 'Opponent7_M1'
+ 'Opponent7_M2' 'Opponent7_M4' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F1' 'Huskies_F4' 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent7_D4' 'Opponent7_F1' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4'
+ 'Huskies_D5' 'Huskies_F1' 'Huskies_F4' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent7_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_F3' 'Huskies_M4'
+ 'Huskies_M6']
+HERE3
+['Opponent7_D4' 'Huskies_D5' 'Huskies_F2' 'Huskies_F3' 'Huskies_M4'
+ 'Huskies_M6']
+HERE2
+['Opponent7_D3' 'Huskies_D2' 'Huskies_D4' 'Huskies_F3']
+HERE3
+['Opponent7_D3' 'Huskies_D2' 'Huskies_D4' 'Huskies_F3']
+HERE2
+['Opponent8_M1' 'Opponent8_M2' 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M9']
+HERE3
+['Opponent8_M2' 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D6' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M9']
+HERE2
+['Opponent8_D3' 'Opponent8_D4' 'Opponent8_G1' 'Opponent8_M4' 'Huskies_D4'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent8_D3' 'Opponent8_M1' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6']
+HERE2
+['Opponent8_D4' 'Opponent8_M4' 'Huskies_D6' 'Huskies_M9']
+HERE2
+['Opponent8_D1' 'Opponent8_D2' 'Opponent8_G1' 'Opponent8_M3'
+ 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6'
+ 'Huskies_M1']
+HERE2
+['Opponent8_D1' 'Opponent8_D2' 'Opponent8_D3' 'Opponent8_D4'
+ 'Opponent8_F1' 'Opponent8_G1' 'Opponent8_M3' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_M1']
+HERE3
+['Opponent8_F1' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6'
+ 'Huskies_M1']
+HERE2
+['Opponent8_D2' 'Opponent8_D3' 'Opponent8_G1' 'Opponent8_M1'
+ 'Opponent8_M5' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent8_D1' 'Opponent8_D3' 'Opponent8_M1' 'Opponent8_M3'
+ 'Opponent8_M4' 'Opponent8_M5' 'Huskies_D6' 'Huskies_F1' 'Huskies_M3'
+ 'Huskies_M6']
+HERE3
+['Opponent8_M4' 'Huskies_D6' 'Huskies_F1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent8_D1' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1'
+ 'Huskies_F2']
+HERE3
+['Opponent8_D1' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1'
+ 'Huskies_F2']
+HERE2
+['Opponent8_M1' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent8_M1' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent8_D1' 'Opponent8_D3' 'Opponent8_D4' 'Opponent8_F1'
+ 'Opponent8_G1' 'Opponent8_M1' 'Opponent8_M2' 'Opponent8_M4'
+ 'Opponent8_M5' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_G1' 'Huskies_M9']
+HERE3
+['Opponent8_D3' 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M9']
+HERE2
+['Opponent8_D3' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M6' 'Huskies_M9']
+HERE3
+['Opponent8_D3' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M6' 'Huskies_M9']
+HERE2
+['Opponent8_G1' 'Opponent8_M2' 'Huskies_D1' 'Huskies_D6']
+HERE2
+['Opponent8_D2' 'Opponent8_D3' 'Opponent8_F1' 'Opponent8_G1'
+ 'Opponent8_M1' 'Opponent8_M2' 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_F1' 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent8_F1' 'Opponent8_M2' 'Opponent8_M4' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D6' 'Huskies_F1' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent8_M2' 'Opponent8_M5' 'Huskies_F2' 'Huskies_G1']
+HERE2
+['Opponent8_D1' 'Opponent8_D3' 'Opponent8_D4' 'Opponent8_F1'
+ 'Opponent8_G1' 'Opponent8_M2' 'Opponent8_M3' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent8_D3' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent8_D1' 'Opponent8_D4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent8_D1' 'Opponent8_D4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent8_D1' 'Opponent8_D3' 'Opponent8_F1' 'Opponent8_G1'
+ 'Opponent8_M1' 'Opponent8_M2' 'Huskies_D1' 'Huskies_D6' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent8_F1' 'Opponent8_M1' 'Huskies_D1' 'Huskies_D6' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent8_D4' 'Opponent8_F1' 'Opponent8_M3' 'Opponent8_M5' 'Huskies_D1'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_D6' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6' 'Huskies_M9']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_D5' 'Opponent9_F1' 'Opponent9_F2' 'Opponent9_G1'
+ 'Opponent9_M1' 'Opponent9_M2' 'Opponent9_M3' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_M6' 'Huskies_M9']
+HERE3
+['Opponent9_D2' 'Opponent9_F1' 'Opponent9_F2' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_M6' 'Huskies_M9']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_F1' 'Opponent9_F2' 'Opponent9_M3' 'Huskies_D2']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_D5' 'Opponent9_F1' 'Opponent9_F2' 'Opponent9_M1' 'Huskies_D7'
+ 'Huskies_F2']
+HERE2
+['Opponent9_D2' 'Opponent9_D3' 'Opponent9_D5' 'Opponent9_F2'
+ 'Opponent9_G1' 'Opponent9_M1' 'Opponent9_M2' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D4' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent9_D5' 'Huskies_D1' 'Huskies_D2' 'Huskies_D4' 'Huskies_M1'
+ 'Huskies_M6']
+HERE2
+['Opponent9_D2' 'Opponent9_D3' 'Opponent9_G1' 'Opponent9_M2'
+ 'Opponent9_M3' 'Huskies_F1' 'Huskies_F2' 'Huskies_M6' 'Huskies_M9']
+HERE3
+['Opponent9_D2' 'Huskies_F1' 'Huskies_F2' 'Huskies_M6' 'Huskies_M9']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_D5' 'Opponent9_F1' 'Opponent9_M1' 'Opponent9_M2'
+ 'Opponent9_M3' 'Huskies_F1' 'Huskies_F2']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_D5' 'Opponent9_F1' 'Opponent9_M1' 'Opponent9_M2'
+ 'Opponent9_M3' 'Huskies_M6' 'Huskies_M9']
+HERE3
+['Opponent9_D3' 'Opponent9_F1' 'Huskies_D4' 'Huskies_D7' 'Huskies_G1']
+HERE3
+['Opponent9_D3' 'Opponent9_F2' 'Huskies_D1' 'Huskies_M6']
+HERE2
+['Opponent9_D5' 'Opponent9_F1' 'Opponent9_F2' 'Opponent9_M1'
+ 'Opponent9_M3' 'Huskies_D1' 'Huskies_D3' 'Huskies_D7' 'Huskies_F1'
+ 'Huskies_M4' 'Huskies_M6']
+HERE3
+['Opponent9_M2' 'Opponent9_M3' 'Huskies_G1' 'Huskies_M9']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D5' 'Opponent9_M2'
+ 'Opponent9_M3' 'Huskies_D4' 'Huskies_F4']
+HERE3
+['Opponent9_D3' 'Opponent9_D5' 'Huskies_D4' 'Huskies_F4']
+HERE2
+['Opponent9_D2' 'Opponent9_D3' 'Opponent9_D5' 'Opponent9_G1'
+ 'Opponent9_M2' 'Opponent9_M3' 'Opponent9_M5' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_M9']
+HERE3
+['Opponent9_M2' 'Opponent9_M3' 'Huskies_D3' 'Huskies_D4' 'Huskies_M9']
+HERE2
+['Opponent9_D1' 'Opponent9_D2' 'Opponent9_D3' 'Opponent9_D4'
+ 'Opponent9_D5' 'Opponent9_F1' 'Opponent9_G1' 'Opponent9_M2'
+ 'Opponent9_M3' 'Opponent9_M4' 'Opponent9_M5' 'Huskies_D1' 'Huskies_G1'
+ 'Huskies_M9']
+HERE2
+['Opponent10_D4' 'Opponent10_M2' 'Opponent10_M3' 'Huskies_D3' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent10_D4' 'Huskies_D3' 'Huskies_D7' 'Huskies_F1' 'Huskies_G1'
+ 'Huskies_M1']
+HERE2
+['Opponent10_D1' 'Opponent10_D4' 'Opponent10_D5' 'Opponent10_G1'
+ 'Opponent10_M3' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M4' 'Huskies_M5' 'Huskies_M8']
+HERE3
+['Opponent10_D1' 'Opponent10_M3' 'Huskies_D3' 'Huskies_D4' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M4' 'Huskies_M5'
+ 'Huskies_M8']
+HERE2
+['Opponent10_D3' 'Opponent10_D4' 'Huskies_D2' 'Huskies_D3' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_M8']
+HERE2
+['Opponent10_D2' 'Opponent10_F1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_M4' 'Huskies_M5' 'Huskies_M8']
+HERE3
+['Opponent10_D2' 'Opponent10_F1' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_M4' 'Huskies_M5' 'Huskies_M8']
+HERE2
+['Opponent10_D1' 'Opponent10_D2' 'Opponent10_D3' 'Opponent10_D4'
+ 'Opponent10_D5' 'Opponent10_F1' 'Opponent10_G1' 'Opponent10_M1'
+ 'Opponent10_M3' 'Huskies_D2' 'Huskies_D3' 'Huskies_D4' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M4' 'Huskies_M5'
+ 'Huskies_M8']
+HERE3
+['Opponent10_D1' 'Opponent10_D4' 'Opponent10_D5' 'Huskies_D2' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M4' 'Huskies_M5' 'Huskies_M8']
+HERE2
+['Opponent10_D1' 'Opponent10_D2' 'Opponent10_D4' 'Opponent10_D5'
+ 'Opponent10_G1' 'Opponent10_M1' 'Opponent10_M2' 'Opponent10_M3'
+ 'Opponent10_M4' 'Huskies_D2' 'Huskies_D3' 'Huskies_D7' 'Huskies_M1']
+HERE2
+['Opponent10_D3' 'Opponent10_D4' 'Opponent10_M2' 'Opponent10_M3'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent10_M2' 'Huskies_F2' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent10_D4' 'Opponent10_D5' 'Opponent10_F1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_M1']
+HERE2
+['Opponent10_D1' 'Opponent10_F1' 'Opponent10_G1' 'Opponent10_M4'
+ 'Huskies_D2' 'Huskies_D4' 'Huskies_D7' 'Huskies_F2' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M5' 'Huskies_M8']
+HERE3
+['Opponent10_D1' 'Opponent10_M4' 'Huskies_D2' 'Huskies_D4' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M5' 'Huskies_M8']
+HERE2
+['Opponent10_D1' 'Opponent10_D3' 'Opponent10_D4' 'Opponent10_D5'
+ 'Opponent10_G1' 'Opponent10_M1' 'Huskies_D4' 'Huskies_D7']
+HERE3
+['Opponent10_D1' 'Opponent10_D3' 'Huskies_D4' 'Huskies_D7']
+HERE2
+['Opponent10_D1' 'Opponent10_D2' 'Opponent10_D4' 'Opponent10_F1'
+ 'Opponent10_M1' 'Opponent10_M2' 'Opponent10_M4' 'Huskies_D4' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M5' 'Huskies_M11']
+HERE3
+['Opponent10_D1' 'Opponent10_F1' 'Huskies_D4' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M5' 'Huskies_M11']
+HERE2
+['Opponent10_D1' 'Opponent10_D2' 'Opponent10_D4' 'Opponent10_D5'
+ 'Opponent10_G1' 'Opponent10_M2' 'Huskies_D3' 'Huskies_D7' 'Huskies_F2'
+ 'Huskies_F4' 'Huskies_M4']
+HERE3
+['Opponent10_D5' 'Huskies_D3' 'Huskies_D7' 'Huskies_F2' 'Huskies_F4'
+ 'Huskies_M4']
+HERE2
+['Opponent10_D1' 'Opponent10_D3' 'Opponent10_D4' 'Opponent10_M2'
+ 'Opponent10_M3' 'Huskies_F4' 'Huskies_M1']
+HERE3
+['Opponent10_D1' 'Opponent10_M2' 'Huskies_F4' 'Huskies_M1']
+HERE2
+['Opponent10_D1' 'Opponent10_D2' 'Opponent10_D5' 'Opponent10_F1'
+ 'Opponent10_M1' 'Huskies_F4' 'Huskies_G1']
+HERE2
+['Opponent13_D2' 'Opponent13_D4' 'Opponent13_G1' 'Huskies_D2' 'Huskies_F1'
+ 'Huskies_M5']
+HERE3
+['Opponent13_D4' 'Opponent13_M1' 'Opponent13_M2' 'Huskies_D3' 'Huskies_M3'
+ 'Huskies_M8']
+HERE2
+['Opponent13_D1' 'Opponent13_D2' 'Opponent13_D3' 'Opponent13_D4'
+ 'Opponent13_M1' 'Opponent13_M2' 'Opponent13_M3' 'Opponent13_M4'
+ 'Opponent13_M5' 'Huskies_M3' 'Huskies_M5']
+HERE2
+['Opponent13_D1' 'Opponent13_D2' 'Opponent13_D4' 'Opponent13_F1'
+ 'Opponent13_M1' 'Opponent13_M3' 'Opponent13_M5' 'Huskies_D2' 'Huskies_F1'
+ 'Huskies_M3' 'Huskies_M5']
+HERE3
+['Opponent13_D1' 'Opponent13_M1' 'Huskies_D2' 'Huskies_F1' 'Huskies_M3'
+ 'Huskies_M5']
+HERE2
+['Opponent13_D3' 'Opponent13_F2' 'Opponent13_M3' 'Opponent13_M4'
+ 'Huskies_D3']
+HERE2
+['Opponent14_D2' 'Opponent14_D5' 'Opponent14_F1' 'Opponent14_G1'
+ 'Opponent14_M2' 'Opponent14_M3' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D3' 'Opponent14_D4'
+ 'Opponent14_F2' 'Opponent14_M3' 'Huskies_D2' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent14_F2' 'Opponent14_M3' 'Huskies_D2' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent14_D3' 'Opponent14_D4' 'Opponent14_G1' 'Opponent14_M1'
+ 'Opponent14_M2' 'Huskies_D2' 'Huskies_D7' 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent14_D2' 'Opponent14_D5' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F2' 'Huskies_M4' 'Huskies_M6']
+HERE3
+['Opponent14_D5' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_M4' 'Huskies_M6']
+HERE2
+['Opponent14_D1' 'Opponent14_D4' 'Opponent14_F2' 'Opponent14_M1'
+ 'Opponent14_M2' 'Huskies_D6']
+HERE2
+['Opponent14_D2' 'Opponent14_D4' 'Opponent14_G1' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_G1' 'Huskies_M1' 'Huskies_M4' 'Huskies_M8']
+HERE3
+['Opponent14_D1' 'Opponent14_F2' 'Opponent14_M1' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M4']
+HERE2
+['Opponent14_D2' 'Opponent14_D4' 'Opponent14_M1' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1'
+ 'Huskies_M4' 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent14_D1' 'Opponent14_D4' 'Opponent14_M2' 'Opponent14_M3'
+ 'Huskies_D5' 'Huskies_D6' 'Huskies_F1' 'Huskies_G1']
+HERE3
+['Opponent14_D4' 'Opponent14_M3' 'Huskies_D5' 'Huskies_D6' 'Huskies_F1'
+ 'Huskies_G1']
+HERE2
+['Opponent14_D3' 'Opponent14_D4' 'Opponent14_G1' 'Opponent14_M1'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_M4' 'Huskies_M8']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D3' 'Opponent14_D4'
+ 'Opponent14_D5' 'Opponent14_F1' 'Opponent14_M1' 'Opponent14_M2'
+ 'Opponent14_M3' 'Huskies_D5' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_G1' 'Huskies_M4' 'Huskies_M6' 'Huskies_M8']
+HERE3
+['Opponent14_D2' 'Opponent14_D3' 'Opponent14_F1' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M4' 'Huskies_M6'
+ 'Huskies_M8']
+HERE2
+['Opponent14_D1' 'Opponent14_D3' 'Opponent14_D4' 'Opponent14_F1'
+ 'Opponent14_M2' 'Huskies_D5']
+HERE2
+['Opponent14_D3' 'Opponent14_D5' 'Opponent14_F2' 'Huskies_M4' 'Huskies_M8']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D3' 'Opponent14_D5'
+ 'Opponent14_F1' 'Opponent14_F3' 'Opponent14_G1' 'Opponent14_M2'
+ 'Huskies_D2']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_F4' 'Opponent14_M1'
+ 'Opponent14_M3' 'Huskies_D5']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D4' 'Opponent14_D5'
+ 'Opponent14_F3' 'Opponent14_M1' 'Huskies_D5' 'Huskies_D7' 'Huskies_F1'
+ 'Huskies_M6']
+HERE3
+['Opponent14_D2' 'Opponent14_D5' 'Opponent14_F3' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_M6']
+HERE2
+['Opponent15_D1' 'Opponent15_D2' 'Opponent15_D3' 'Opponent15_F1'
+ 'Opponent15_G1' 'Opponent15_M1' 'Opponent15_M2' 'Opponent15_M3'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1' 'Huskies_M4'
+ 'Huskies_M8']
+HERE3
+['Opponent15_F1' 'Huskies_D7' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M4' 'Huskies_M8']
+HERE2
+['Opponent15_D1' 'Opponent15_M2' 'Opponent15_M3' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_G1' 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent15_M2' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent15_F1' 'Opponent15_M3' 'Huskies_D7' 'Huskies_M8']
+HERE2
+['Opponent15_D2' 'Opponent15_D3' 'Opponent15_F1' 'Opponent15_G1'
+ 'Opponent15_M2' 'Huskies_D7' 'Huskies_M1' 'Huskies_M8']
+HERE2
+['Opponent15_D4' 'Opponent15_F2' 'Opponent15_M1' 'Opponent15_M3'
+ 'Huskies_D6' 'Huskies_D7']
+HERE3
+['Opponent15_D4' 'Opponent15_F2' 'Huskies_D6' 'Huskies_D7']
+HERE2
+['Opponent15_G1' 'Opponent15_M1' 'Opponent15_M2' 'Opponent15_M3']
+HERE2
+['Opponent16_D2' 'Opponent16_D3' 'Opponent16_D4' 'Opponent16_F2'
+ 'Opponent16_M1' 'Opponent16_M2' 'Opponent16_M3' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent16_D3' 'Opponent16_F3' 'Opponent16_M3' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_M4']
+HERE3
+['Opponent16_D4' 'Opponent16_F2' 'Opponent16_F3' 'Huskies_D6' 'Huskies_F1']
+HERE2
+['Opponent16_D1' 'Opponent16_D2' 'Opponent16_D3' 'Opponent16_D4'
+ 'Opponent16_F1' 'Opponent16_F2' 'Opponent16_F3' 'Opponent16_M1'
+ 'Opponent16_M2' 'Opponent16_M3' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent16_D1' 'Opponent16_D2' 'Opponent16_D3' 'Opponent16_F1'
+ 'Opponent16_M2' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M6']
+HERE3
+['Opponent16_D2' 'Opponent16_F2' 'Opponent16_M3' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F4' 'Huskies_M4']
+HERE2
+['Opponent16_D3' 'Opponent16_F1' 'Opponent16_F2' 'Opponent16_F3'
+ 'Opponent16_M1' 'Opponent16_M2' 'Opponent16_M3' 'Huskies_D5' 'Huskies_F1'
+ 'Huskies_F4' 'Huskies_M6']
+HERE3
+['Opponent16_F1' 'Opponent16_F2' 'Huskies_D5' 'Huskies_F1' 'Huskies_F4'
+ 'Huskies_M6']
+HERE2
+['Opponent16_D1' 'Opponent16_D2' 'Opponent16_D3' 'Opponent16_D4'
+ 'Opponent16_F1' 'Opponent16_G1' 'Opponent16_M1' 'Opponent16_M2'
+ 'Opponent16_M3' 'Huskies_F1' 'Huskies_F4' 'Huskies_G1']
+HERE3
+['Opponent16_D2' 'Huskies_F1' 'Huskies_F4' 'Huskies_G1']
+HERE2
+['Opponent16_D3' 'Opponent16_D4' 'Opponent16_F1' 'Opponent16_M2'
+ 'Opponent16_M3' 'Huskies_M1' 'Huskies_M8']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_F1' 'Opponent16_F4'
+ 'Opponent16_M1' 'Opponent16_M3' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1']
+HERE3
+['Opponent16_D4' 'Opponent16_F1' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1']
+HERE3
+['Opponent16_F1' 'Opponent16_F3' 'Opponent16_M3' 'Huskies_D5' 'Huskies_D6']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_M1' 'Opponent17_M2'
+ 'Opponent17_M3' 'Opponent17_M4' 'Opponent17_M5' 'Huskies_D5' 'Huskies_F2'
+ 'Huskies_M1']
+HERE3
+['Opponent17_D1' 'Opponent17_M1' 'Opponent17_M2' 'Opponent17_M5'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent17_D2' 'Opponent17_M2' 'Opponent17_M4' 'Opponent17_M5'
+ 'Huskies_D2' 'Huskies_M3']
+HERE2
+['Opponent17_D2' 'Opponent17_F1' 'Opponent17_M3' 'Huskies_D6' 'Huskies_G1']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_D3' 'Opponent17_F1'
+ 'Opponent17_G1' 'Opponent17_M4' 'Opponent17_M5' 'Huskies_D7' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_M1']
+HERE3
+['Opponent17_D3' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1']
+HERE2
+['Opponent17_F1' 'Opponent17_M1' 'Opponent17_M2' 'Opponent17_M5'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent17_D3' 'Opponent17_D4' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6'
+ 'Huskies_M8']
+HERE3
+['Opponent17_D2' 'Opponent17_D3' 'Huskies_D5' 'Huskies_F1']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_D3' 'Opponent17_F1'
+ 'Opponent17_M1' 'Opponent17_M4' 'Opponent17_M5' 'Huskies_D6' 'Huskies_F1'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent17_D2' 'Opponent17_D3' 'Huskies_D6' 'Huskies_F1' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent17_D1' 'Opponent17_D3' 'Opponent17_D4' 'Opponent17_G1'
+ 'Opponent17_M2' 'Huskies_D7' 'Huskies_M1' 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_D3' 'Opponent17_M1'
+ 'Opponent17_M2' 'Opponent17_M4' 'Opponent17_M5' 'Huskies_M8']
+HERE2
+['Opponent17_D1' 'Opponent17_D4' 'Opponent17_M2' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M3'
+ 'Huskies_M6']
+HERE3
+['Opponent17_D1' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_D3' 'Opponent17_D4'
+ 'Opponent17_F1' 'Opponent17_G1' 'Opponent17_M1' 'Opponent17_M2'
+ 'Opponent17_M4' 'Opponent17_M5' 'Huskies_D2' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_G1']
+HERE3
+['Opponent17_F1' 'Opponent17_M5' 'Huskies_D2' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_G1']
+HERE2
+['Opponent17_D1' 'Opponent17_D3' 'Opponent17_D4' 'Opponent17_M2'
+ 'Opponent17_M5' 'Huskies_D6' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6' 'Huskies_M9']
+HERE3
+['Opponent17_D1' 'Opponent17_D4' 'Huskies_D6' 'Huskies_D7' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6'
+ 'Huskies_M9']
+HERE2
+['Opponent18_D1' 'Opponent18_D3' 'Opponent18_D4' 'Opponent18_F2'
+ 'Opponent18_M2' 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_G1']
+HERE3
+['Opponent18_D3' 'Opponent18_F2' 'Huskies_D2' 'Huskies_D6' 'Huskies_F1'
+ 'Huskies_G1']
+HERE2
+['Opponent18_D2' 'Opponent18_D3' 'Opponent18_M2' 'Opponent18_M4'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent18_D3' 'Opponent18_M2' 'Opponent18_M3' 'Opponent18_M4'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent18_D3' 'Opponent18_M2' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent18_D1' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M8']
+HERE3
+['Opponent18_D1' 'Huskies_D5' 'Huskies_D6' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M8']
+HERE2
+['Opponent18_D3' 'Opponent18_D4' 'Opponent18_F2' 'Opponent18_M3'
+ 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6' 'Huskies_M8']
+HERE3
+['Opponent18_F2' 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6'
+ 'Huskies_M8']
+HERE2
+['Opponent18_D1' 'Opponent18_D2' 'Opponent18_D3' 'Opponent18_D4'
+ 'Opponent18_M1' 'Opponent18_M2' 'Opponent18_M3' 'Opponent18_M4'
+ 'Opponent18_M5' 'Huskies_M3']
+HERE2
+['Opponent18_M1' 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6'
+ 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent18_D1' 'Opponent18_D2' 'Opponent18_F2' 'Opponent18_M1'
+ 'Opponent18_M2' 'Huskies_D2' 'Huskies_D6' 'Huskies_M6']
+HERE2
+['Opponent18_D1' 'Opponent18_D4' 'Opponent18_G1' 'Opponent18_M2'
+ 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent18_D4' 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_D6'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M6']
+HERE2
+['Opponent18_D2' 'Opponent18_F2' 'Opponent18_M1' 'Opponent18_M5'
+ 'Huskies_D6' 'Huskies_F1' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M6']
+HERE3
+['Opponent18_D2' 'Opponent18_M1' 'Huskies_D6' 'Huskies_F1' 'Huskies_F2'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent18_D1' 'Opponent18_D2' 'Opponent18_G1' 'Opponent18_M1'
+ 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D2' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M8']
+HERE2
+['Opponent18_D2' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M3' 'Huskies_M8']
+HERE3
+['Opponent18_D2' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_F2' 'Huskies_M3' 'Huskies_M8']
+HERE2
+['Opponent18_M1' 'Opponent18_M4' 'Opponent18_M5' 'Huskies_D6' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M4']
+HERE2
+['Opponent18_D1' 'Opponent18_M1' 'Opponent18_M4' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_D7' 'Huskies_F2' 'Huskies_M1' 'Huskies_M4'
+ 'Huskies_M6' 'Huskies_M10']
+HERE3
+['Opponent18_D1' 'Opponent18_M1' 'Opponent18_M4' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_D7' 'Huskies_F2' 'Huskies_M1' 'Huskies_M4'
+ 'Huskies_M6' 'Huskies_M10']
+HERE2
+['Opponent18_D2' 'Opponent18_D3' 'Opponent18_D4' 'Opponent18_F2'
+ 'Opponent18_F3' 'Opponent18_M2' 'Opponent18_M3' 'Opponent18_M4'
+ 'Huskies_D2' 'Huskies_F2' 'Huskies_M10']
+HERE3
+['Opponent18_D3' 'Opponent18_D4' 'Opponent18_F2' 'Huskies_D2' 'Huskies_F2'
+ 'Huskies_M10']
+HERE2
+['Opponent18_D1' 'Opponent18_F2' 'Opponent18_F3' 'Opponent18_M2'
+ 'Opponent18_M3' 'Opponent18_M4' 'Opponent18_M6' 'Huskies_D5'
+ 'Huskies_M10']
+HERE3
+['Opponent18_F2' 'Opponent18_M3' 'Huskies_D5' 'Huskies_M10']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D4' 'Opponent3_D5'
+ 'Opponent3_F2' 'Opponent3_G1' 'Opponent3_M2' 'Opponent3_M3'
+ 'Opponent3_M5' 'Huskies_D1' 'Huskies_D5' 'Huskies_F1' 'Huskies_M3'
+ 'Huskies_M4']
+HERE3
+['Opponent3_F2' 'Huskies_D1' 'Huskies_D5' 'Huskies_F1' 'Huskies_M3'
+ 'Huskies_M4']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D4' 'Opponent3_M3' 'Huskies_D7'
+ 'Huskies_M1']
+HERE2
+['Opponent3_M2' 'Opponent3_M4' 'Opponent3_M5' 'Huskies_D7']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_F2' 'Opponent3_G1'
+ 'Opponent3_M3' 'Huskies_D1' 'Huskies_F1']
+HERE3
+['Opponent3_F4' 'Opponent3_M2' 'Opponent3_M5' 'Huskies_D1' 'Huskies_F1'
+ 'Huskies_M3']
+HERE2
+['Opponent3_D4' 'Opponent3_M3' 'Huskies_M1' 'Huskies_M3' 'Huskies_M8']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D4' 'Opponent3_D5'
+ 'Opponent3_M5' 'Huskies_D5' 'Huskies_M4' 'Huskies_M6']
+HERE2
+['Opponent3_D2' 'Opponent3_F2' 'Opponent3_M2' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D7']
+HERE2
+['Opponent3_D5' 'Opponent3_F2' 'Opponent3_M2' 'Opponent3_M3'
+ 'Opponent3_M5' 'Huskies_D1' 'Huskies_D3' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F1' 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D5' 'Opponent3_F4'
+ 'Opponent3_M5' 'Huskies_D3' 'Huskies_M6']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D5' 'Opponent3_M2'
+ 'Opponent3_M3' 'Huskies_G1' 'Huskies_M1']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D5' 'Opponent3_M3'
+ 'Opponent3_M4' 'Huskies_M8']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D5' 'Opponent3_M3'
+ 'Opponent3_M4' 'Opponent3_M5' 'Huskies_D5' 'Huskies_G1' 'Huskies_M3']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D4' 'Opponent3_D5'
+ 'Opponent3_F4' 'Opponent3_M2' 'Opponent3_M4' 'Opponent3_M5' 'Huskies_D3'
+ 'Huskies_D5' 'Huskies_D7' 'Huskies_F1' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_D4' 'Opponent3_F2'
+ 'Opponent3_M2' 'Opponent3_M3' 'Opponent3_M4' 'Opponent3_M5' 'Huskies_D1']
+HERE3
+['Opponent3_F4' 'Opponent3_M2' 'Opponent3_M4' 'Opponent3_M5' 'Huskies_D1'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_M1' 'Huskies_M3' 'Huskies_M4'
+ 'Huskies_M8']
+HERE2
+['Opponent3_D5' 'Opponent3_M3' 'Opponent3_M4' 'Huskies_D5' 'Huskies_M4'
+ 'Huskies_M6']
+HERE2
+['Opponent3_F2' 'Opponent3_M2' 'Opponent3_M3' 'Huskies_D5' 'Huskies_F1'
+ 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent3_D1' 'Opponent3_D2' 'Opponent3_M1' 'Opponent3_M2' 'Huskies_D5'
+ 'Huskies_F1' 'Huskies_F3' 'Huskies_M3']
+HERE2
+['Opponent3_D2' 'Opponent3_M2' 'Huskies_D1' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_D7' 'Huskies_M3']
+HERE2
+['Opponent3_D1' 'Opponent3_F4' 'Opponent3_M1' 'Opponent3_M3' 'Huskies_M11']
+HERE2
+['Opponent3_D1' 'Opponent3_D4' 'Opponent3_F3' 'Opponent3_M1'
+ 'Opponent3_M2' 'Opponent3_M3' 'Huskies_D7']
+HERE2
+['Opponent19_D4' 'Opponent19_M2' 'Opponent19_M3' 'Opponent19_M4'
+ 'Huskies_D2' 'Huskies_M12']
+HERE3
+['Opponent19_D4' 'Opponent19_M2' 'Huskies_D2' 'Huskies_M12']
+HERE2
+['Opponent5_D6' 'Opponent5_F3' 'Opponent5_M1' 'Opponent5_M4'
+ 'Opponent5_M5' 'Opponent5_M6' 'Opponent5_M7' 'Huskies_D1' 'Huskies_D5'
+ 'Huskies_F4' 'Huskies_G1']
+HERE3
+['Opponent5_D6' 'Huskies_D1' 'Huskies_D5' 'Huskies_F4' 'Huskies_G1']
+HERE2
+['Opponent5_D5' 'Opponent5_D6' 'Opponent5_M5' 'Opponent5_M7' 'Huskies_D2'
+ 'Huskies_D6' 'Huskies_G1']
+HERE3
+['Opponent5_D5' 'Huskies_D2' 'Huskies_D6' 'Huskies_G1']
+HERE2
+['Opponent5_D1' 'Opponent5_D5' 'Opponent5_D6' 'Opponent5_D7'
+ 'Opponent5_F3' 'Opponent5_M4' 'Opponent5_M6' 'Opponent5_M7' 'Huskies_D1'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_F4' 'Huskies_G1'
+ 'Huskies_M3' 'Huskies_M4' 'Huskies_M8' 'Huskies_M9' 'Huskies_M13']
+HERE3
+['Opponent5_D1' 'Opponent5_D5' 'Opponent5_D6' 'Opponent5_D7'
+ 'Opponent5_F3' 'Opponent5_M6' 'Opponent5_M7' 'Huskies_D1' 'Huskies_D2'
+ 'Huskies_D5' 'Huskies_D6' 'Huskies_F4' 'Huskies_G1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M8' 'Huskies_M9' 'Huskies_M13']
+HERE3
+['Opponent5_D5' 'Opponent5_M1' 'Huskies_F1' 'Huskies_M9']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_D6'
+ 'Opponent4_F1' 'Opponent4_F2' 'Opponent4_M1' 'Opponent4_M3'
+ 'Opponent4_M5' 'Huskies_D3' 'Huskies_D5' 'Huskies_D7' 'Huskies_M13']
+HERE3
+['Opponent4_F1' 'Opponent4_F2' 'Opponent4_M5' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_D7' 'Huskies_M13']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_F1'
+ 'Opponent4_G1' 'Opponent4_M1' 'Opponent4_M4' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_F5' 'Huskies_G1' 'Huskies_M1' 'Huskies_M6']
+HERE2
+['Opponent4_D5' 'Opponent4_D6' 'Opponent4_F2' 'Opponent4_M3'
+ 'Opponent4_M5' 'Huskies_F2' 'Huskies_F5' 'Huskies_M12']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D6' 'Opponent4_M1'
+ 'Opponent4_M3' 'Opponent4_M4' 'Opponent4_M5' 'Huskies_D6' 'Huskies_F2'
+ 'Huskies_F5' 'Huskies_M6' 'Huskies_M13']
+HERE3
+['Opponent4_D1' 'Opponent4_M5' 'Huskies_D6' 'Huskies_F2' 'Huskies_F5'
+ 'Huskies_M6' 'Huskies_M13']
+HERE3
+['Opponent4_F1' 'Opponent4_F2' 'Opponent4_M1' 'Opponent4_M5' 'Huskies_D3'
+ 'Huskies_D6' 'Huskies_D7' 'Huskies_M13']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_M4' 'Opponent4_M5' 'Huskies_D3'
+ 'Huskies_D5' 'Huskies_G1' 'Huskies_M6']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_D6'
+ 'Opponent4_F1' 'Opponent4_F2' 'Opponent4_M1' 'Opponent4_M3'
+ 'Opponent4_M4' 'Opponent4_M5' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2'
+ 'Huskies_F5' 'Huskies_M1' 'Huskies_M6' 'Huskies_M13']
+HERE3
+['Opponent4_F1' 'Opponent4_F2' 'Opponent4_M5' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_F5' 'Huskies_M1' 'Huskies_M6' 'Huskies_M13']
+HERE2
+['Opponent4_D1' 'Opponent4_G1' 'Opponent4_M5' 'Huskies_D5' 'Huskies_F2'
+ 'Huskies_M6']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_D6'
+ 'Opponent4_F2' 'Opponent4_M1' 'Opponent4_M3' 'Opponent4_M4'
+ 'Opponent4_M5' 'Huskies_D3' 'Huskies_D5' 'Huskies_D7' 'Huskies_F1'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M8' 'Huskies_M13']
+HERE3
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_M3' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M8'
+ 'Huskies_M13']
+HERE2
+['Opponent4_D2' 'Opponent4_M1' 'Opponent4_M3' 'Huskies_D3' 'Huskies_D5'
+ 'Huskies_D6' 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M6' 'Huskies_M8']
+HERE3
+['Opponent4_D2' 'Opponent4_M3' 'Huskies_D3' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_D7' 'Huskies_F1' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M6' 'Huskies_M8']
+HERE2
+['Opponent4_D1' 'Opponent4_D2' 'Opponent4_D5' 'Opponent4_D6'
+ 'Opponent4_G1' 'Opponent4_M1' 'Opponent4_M3' 'Opponent4_M5' 'Huskies_D3'
+ 'Huskies_D5' 'Huskies_M1']
+HERE2
+['Opponent4_D1' 'Opponent4_D5' 'Opponent4_F2' 'Opponent4_M1'
+ 'Opponent4_M5' 'Opponent4_M7' 'Huskies_D7' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M8']
+HERE3
+['Opponent4_F2' 'Huskies_D7' 'Huskies_M1' 'Huskies_M3' 'Huskies_M8']
+HERE2
+['Opponent4_F2' 'Opponent4_M1' 'Opponent4_M4' 'Huskies_D5' 'Huskies_F1'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent4_D2' 'Opponent4_D6' 'Opponent4_G1' 'Opponent4_M7'
+ 'Opponent4_M8' 'Huskies_D3' 'Huskies_D5' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3']
+HERE2
+['Opponent4_M2' 'Opponent4_M4' 'Opponent4_M7' 'Huskies_D7' 'Huskies_M3'
+ 'Huskies_M8']
+HERE2
+['Opponent4_D5' 'Opponent4_M4' 'Opponent4_M8' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_F2' 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent4_M8' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3']
+HERE2
+['Opponent4_D2' 'Opponent4_M2' 'Opponent4_M4' 'Opponent4_M7' 'Huskies_D3'
+ 'Huskies_F2' 'Huskies_G1' 'Huskies_M1' 'Huskies_M6']
+HERE3
+['Opponent4_M2' 'Huskies_D3' 'Huskies_F2' 'Huskies_G1' 'Huskies_M1'
+ 'Huskies_M6']
+HERE2
+['Opponent19_F1' 'Opponent19_M4' 'Huskies_D5' 'Huskies_M6']
+HERE2
+['Opponent19_D4' 'Opponent19_F2' 'Huskies_M6' 'Huskies_M9' 'Huskies_M13']
+HERE2
+['Opponent19_D2' 'Opponent19_D3' 'Opponent19_F1' 'Huskies_D2' 'Huskies_D6'
+ 'Huskies_F5' 'Huskies_M3' 'Huskies_M6' 'Huskies_M9' 'Huskies_M13']
+HERE3
+['Opponent19_D2' 'Opponent19_F1' 'Huskies_D2' 'Huskies_D6' 'Huskies_F5'
+ 'Huskies_M3' 'Huskies_M6' 'Huskies_M9' 'Huskies_M13']
+HERE2
+['Opponent19_D2' 'Opponent19_D3' 'Opponent19_M3' 'Opponent19_M5'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_D7' 'Huskies_F6'
+ 'Huskies_M3' 'Huskies_M6' 'Huskies_M9' 'Huskies_M13']
+HERE2
+['Opponent19_D1' 'Opponent19_D2' 'Opponent19_D3' 'Opponent19_D4'
+ 'Opponent19_M3' 'Opponent19_M4' 'Opponent19_M5' 'Huskies_D5']
+HERE3
+['Opponent19_D2' 'Opponent19_D3' 'Opponent19_F1' 'Opponent19_M5'
+ 'Huskies_D2' 'Huskies_D5' 'Huskies_D6' 'Huskies_D7' 'Huskies_F5'
+ 'Huskies_F6' 'Huskies_G1' 'Huskies_M3' 'Huskies_M6' 'Huskies_M13']
+HERE2
+['Opponent19_M1' 'Opponent19_M4' 'Huskies_D2' 'Huskies_D5' 'Huskies_D6'
+ 'Huskies_D7' 'Huskies_F6' 'Huskies_G1' 'Huskies_M3' 'Huskies_M6'
+ 'Huskies_M9' 'Huskies_M13']
+HERE2
+['Opponent19_M1' 'Huskies_D2' 'Huskies_D7' 'Huskies_F5' 'Huskies_F6'
+ 'Huskies_M3' 'Huskies_M6']
+HERE3
+['Opponent19_M1' 'Huskies_D2' 'Huskies_D7' 'Huskies_F5' 'Huskies_F6'
+ 'Huskies_M3' 'Huskies_M6']
+HERE2
+['Opponent19_D2' 'Opponent19_D4' 'Opponent19_M4' 'Huskies_D2' 'Huskies_D5'
+ 'Huskies_F5']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_M6' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_D9' 'Huskies_F6' 'Huskies_M3' 'Opponent5_M3']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D5' 'Opponent9_D6'
+ 'Opponent9_M3' 'Huskies_D2' 'Huskies_D7' 'Huskies_G1' 'Huskies_M3'
+ 'Huskies_M4' 'Opponent5_M3']
+HERE3
+['Opponent9_D6' 'Huskies_D2' 'Huskies_D7' 'Huskies_G1' 'Huskies_M3'
+ 'Huskies_M4']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D5' 'Opponent9_D6'
+ 'Opponent9_M1' 'Opponent9_M3' 'Huskies_D2' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_M1' 'Huskies_M4' 'Opponent5_M3']
+HERE3
+['Huskies_D2' 'Huskies_D5' 'Huskies_D7' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent9_D6' 'Opponent9_M2' 'Huskies_D2' 'Huskies_D7' 'Huskies_F4']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_M1' 'Opponent9_M2'
+ 'Opponent9_M6' 'Huskies_D2' 'Huskies_D7' 'Huskies_F4' 'Huskies_G1']
+HERE3
+['Opponent9_D3' 'Opponent9_M2' 'Opponent9_M6' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_F4' 'Huskies_G1']
+HERE2
+['Opponent9_D4' 'Opponent9_D5' 'Opponent9_D6' 'Opponent9_M1'
+ 'Opponent9_M2' 'Opponent9_M3' 'Huskies_D2' 'Huskies_D5' 'Huskies_D9'
+ 'Huskies_F1' 'Opponent5_M3']
+HERE3
+['Opponent9_D5' 'Huskies_D2' 'Huskies_D5' 'Huskies_D9' 'Huskies_F1']
+HERE3
+['Opponent9_F3' 'Opponent9_M6' 'Huskies_D2' 'Huskies_D7' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D5' 'Opponent9_D6'
+ 'Opponent9_M1' 'Opponent9_M3' 'Opponent9_M4' 'Opponent9_M6' 'Huskies_D5']
+HERE2
+['Opponent9_D3' 'Opponent9_D5' 'Opponent9_D6' 'Opponent9_F3'
+ 'Opponent9_M1' 'Opponent9_M3' 'Opponent9_M4' 'Huskies_D5' 'Huskies_D7'
+ 'Huskies_D9' 'Huskies_F1' 'Huskies_F4' 'Huskies_F5' 'Huskies_M1'
+ 'Huskies_M12']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D6' 'Opponent9_M3'
+ 'Opponent9_M4' 'Opponent5_M3']
+HERE2
+['Opponent9_D6' 'Opponent9_M1' 'Opponent9_M3' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_D9' 'Huskies_F1' 'Huskies_G1' 'Huskies_M1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M12' 'Opponent5_M3']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_D5' 'Opponent9_D6'
+ 'Opponent9_M3' 'Opponent9_M4' 'Huskies_D5' 'Huskies_F1' 'Huskies_M4']
+HERE2
+['Opponent9_D3' 'Opponent9_D4' 'Opponent9_M6' 'Huskies_D2' 'Huskies_D7'
+ 'Huskies_D9' 'Huskies_F5' 'Huskies_G1']
+HERE3
+['Opponent9_D3' 'Huskies_D2' 'Huskies_D7' 'Huskies_D9' 'Huskies_F5'
+ 'Huskies_G1']
+HERE2
+['Opponent9_D3' 'Opponent9_D5' 'Opponent9_D6' 'Opponent9_F3'
+ 'Opponent9_M1' 'Opponent9_M6' 'Huskies_G1' 'Opponent5_M3']
+HERE2
+['Opponent12_F2' 'Opponent12_M2' 'Opponent12_M4' 'Huskies_F4' 'Huskies_M1'
+ 'Huskies_M4']
+HERE3
+['Opponent12_M4' 'Huskies_F4' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent12_D2' 'Opponent12_D5' 'Opponent12_D6' 'Opponent12_M2'
+ 'Opponent12_M3' 'Opponent12_M4' 'Huskies_D9' 'Huskies_G1']
+HERE2
+['Opponent12_D2' 'Opponent12_M5' 'Huskies_D1' 'Huskies_D9' 'Huskies_G1']
+HERE2
+['Opponent12_D7' 'Opponent12_F1' 'Opponent12_F2' 'Opponent12_M2'
+ 'Opponent12_M3' 'Opponent12_M4' 'Opponent12_M5']
+HERE2
+['Opponent12_D2' 'Opponent12_D6' 'Opponent12_D7' 'Opponent12_F1'
+ 'Opponent12_F2' 'Opponent12_M2' 'Opponent12_M4' 'Opponent12_M5'
+ 'Huskies_D1' 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent12_F1' 'Opponent12_M5' 'Huskies_D1' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent12_D7' 'Opponent12_M4' 'Huskies_D8' 'Huskies_F2' 'Huskies_F6'
+ 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent12_D7' 'Huskies_D8' 'Huskies_F2' 'Huskies_F6' 'Huskies_G1'
+ 'Huskies_M1']
+HERE2
+['Opponent12_D2' 'Opponent12_D5' 'Opponent12_D6' 'Opponent12_F1'
+ 'Opponent12_F2' 'Opponent12_M3' 'Opponent12_M4' 'Opponent12_M5'
+ 'Huskies_D1']
+HERE2
+['Huskies_D1' 'Huskies_D2' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2']
+HERE3
+['Huskies_D1' 'Huskies_D2' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2']
+HERE2
+['Opponent12_D6' 'Opponent12_D7' 'Opponent12_F2' 'Opponent12_M2'
+ 'Opponent12_M3' 'Opponent12_M5' 'Huskies_D5' 'Huskies_M1']
+HERE3
+['Opponent12_F2' 'Opponent12_M3' 'Huskies_D5' 'Huskies_M1']
+HERE2
+['Opponent12_D7' 'Opponent12_F2' 'Opponent12_M2' 'Opponent12_M4'
+ 'Opponent12_M5' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2' 'Huskies_F4'
+ 'Huskies_F6' 'Huskies_M1']
+HERE3
+['Opponent12_F2' 'Opponent12_M5' 'Huskies_D5' 'Huskies_D7' 'Huskies_F2'
+ 'Huskies_F4' 'Huskies_F6' 'Huskies_M1']
+HERE2
+['Opponent12_D7' 'Opponent12_F1' 'Opponent12_M4' 'Huskies_D7' 'Huskies_F2'
+ 'Huskies_F6' 'Huskies_M6']
+HERE2
+['Opponent2_D1' 'Opponent2_D4' 'Opponent2_D6' 'Opponent2_F1'
+ 'Opponent2_F3' 'Opponent2_M1' 'Opponent2_M2' 'Opponent2_M4' 'Huskies_F1'
+ 'Huskies_G1']
+HERE3
+['Opponent2_D2' 'Opponent2_D6' 'Opponent2_F1' 'Opponent2_F3'
+ 'Opponent2_M3' 'Huskies_F5' 'Huskies_F6' 'Huskies_M4']
+HERE2
+['Opponent2_D1' 'Opponent2_D2' 'Opponent2_D4' 'Opponent2_M1'
+ 'Opponent2_M3' 'Opponent2_M4' 'Opponent2_M5' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_G1' 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent2_D1' 'Opponent2_D2' 'Opponent2_D6' 'Opponent2_F1'
+ 'Opponent2_M1' 'Opponent2_M2' 'Opponent2_M3' 'Opponent2_M4'
+ 'Opponent2_M5' 'Huskies_F1' 'Huskies_M3']
+HERE2
+['Opponent2_D1' 'Opponent2_D2' 'Opponent2_D4' 'Opponent2_D6'
+ 'Opponent2_G1' 'Opponent2_M1' 'Opponent2_M2' 'Opponent2_M3'
+ 'Opponent2_M4' 'Opponent2_M5' 'Huskies_F6']
+HERE2
+['Opponent2_D4' 'Opponent2_D5' 'Opponent2_D6' 'Opponent2_F1'
+ 'Opponent2_M1' 'Opponent2_M2' 'Huskies_D3' 'Huskies_G1' 'Huskies_M11']
+HERE2
+['Opponent2_D1' 'Opponent2_D4' 'Opponent2_D5' 'Opponent2_M1'
+ 'Opponent2_M2' 'Opponent2_M5' 'Opponent2_M6' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D8' 'Huskies_F4' 'Huskies_F6' 'Huskies_M11'
+ 'Huskies_M12']
+HERE3
+['Opponent2_D5' 'Opponent2_M5' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D8' 'Huskies_F4' 'Huskies_F6' 'Huskies_M11' 'Huskies_M12']
+HERE2
+['Opponent16_F1' 'Opponent16_M3' 'Opponent16_M4' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D8' 'Huskies_F5' 'Huskies_G1' 'Opponent13_D1']
+HERE3
+['Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D8' 'Huskies_F5'
+ 'Huskies_G1' 'Opponent13_D1']
+HERE3
+['Opponent16_F1' 'Opponent16_F3' 'Huskies_D1' 'Huskies_D8']
+HERE3
+['Opponent16_F1' 'Opponent16_M4' 'Huskies_D8' 'Huskies_F2']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F1'
+ 'Opponent16_F3' 'Opponent16_F6' 'Opponent16_M1' 'Opponent16_M3'
+ 'Opponent16_M4' 'Huskies_D1' 'Huskies_F2' 'Huskies_M4' 'Opponent13_D1']
+HERE3
+['Opponent16_F3' 'Opponent16_M1' 'Huskies_D1' 'Huskies_F2' 'Huskies_M4']
+HERE3
+['Opponent16_D4' 'Opponent16_F3' 'Huskies_D3' 'Huskies_F6' 'Huskies_M3']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F6'
+ 'Opponent16_M1' 'Opponent16_M3' 'Huskies_D1' 'Huskies_D3' 'Huskies_F2'
+ 'Huskies_F6' 'Huskies_M3' 'Huskies_M4' 'Huskies_M12' 'Opponent13_D1']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F1'
+ 'Opponent16_F6' 'Opponent16_M1' 'Opponent16_M3' 'Huskies_D4' 'Huskies_D8'
+ 'Huskies_M3' 'Huskies_M4' 'Opponent13_D1']
+HERE3
+['Opponent16_F1' 'Opponent16_F6' 'Huskies_D4' 'Huskies_D8' 'Huskies_M3'
+ 'Huskies_M4']
+HERE2
+['Opponent16_D1' 'Opponent16_G2' 'Huskies_D1' 'Huskies_G1' 'Opponent13_D1']
+HERE2
+['Opponent16_M1' 'Huskies_D1' 'Huskies_D4' 'Huskies_F2' 'Huskies_M3'
+ 'Opponent13_D1']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F6'
+ 'Opponent16_G2' 'Opponent16_M1' 'Opponent16_M4' 'Huskies_M3'
+ 'Huskies_M12' 'Opponent13_D1']
+HERE3
+['Opponent16_D5' 'Opponent16_F6' 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F1'
+ 'Opponent16_G2' 'Opponent16_M1' 'Opponent16_M3' 'Opponent16_M4'
+ 'Huskies_D3' 'Huskies_D8' 'Huskies_F2' 'Huskies_F5' 'Huskies_M4'
+ 'Huskies_M12' 'Opponent13_D1']
+HERE3
+['Opponent16_F1' 'Opponent16_M4' 'Huskies_D3' 'Huskies_D8' 'Huskies_F2'
+ 'Huskies_F5' 'Huskies_M4' 'Huskies_M12']
+HERE2
+['Opponent16_D4' 'Opponent16_D5' 'Opponent16_F1' 'Opponent16_F3'
+ 'Opponent16_F6' 'Opponent16_M1' 'Opponent16_M3' 'Opponent16_M4'
+ 'Huskies_D8' 'Huskies_F5' 'Opponent13_D1']
+HERE3
+['Opponent16_F1' 'Huskies_D8' 'Huskies_F5' 'Opponent13_D1']
+HERE2
+['Opponent16_D4' 'Opponent16_D5' 'Opponent16_G2' 'Opponent16_M4'
+ 'Huskies_D3' 'Huskies_G1' 'Huskies_M12' 'Opponent13_D1']
+HERE2
+['Opponent16_D5' 'Opponent16_F3' 'Opponent16_F6' 'Opponent16_M3'
+ 'Opponent16_M4' 'Huskies_D1' 'Huskies_M3' 'Huskies_M12' 'Opponent13_D1']
+HERE3
+['Opponent16_F3' 'Huskies_D1' 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent16_D4' 'Opponent16_D5' 'Opponent16_F3' 'Opponent16_F6'
+ 'Opponent16_G2' 'Opponent16_M1' 'Opponent16_M4' 'Huskies_D1' 'Huskies_D8'
+ 'Opponent13_D1']
+HERE3
+['Opponent16_F3' 'Opponent16_F6' 'Huskies_D1' 'Huskies_D8']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_D5' 'Opponent16_F1'
+ 'Opponent16_F3' 'Opponent16_M1' 'Opponent16_M3' 'Opponent16_M4'
+ 'Huskies_D1' 'Huskies_D4' 'Huskies_F1' 'Huskies_F5' 'Huskies_F6'
+ 'Opponent13_D1']
+HERE3
+['Opponent16_D1' 'Opponent16_D5' 'Opponent16_F3' 'Huskies_D1' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_F5' 'Huskies_F6']
+HERE2
+['Opponent16_D5' 'Opponent16_F6' 'Opponent16_M1' 'Huskies_D1' 'Huskies_D4'
+ 'Huskies_F1' 'Huskies_F6' 'Huskies_M1']
+HERE2
+['Opponent16_D1' 'Opponent16_D4' 'Opponent16_F3' 'Opponent16_G2'
+ 'Opponent16_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D8'
+ 'Huskies_M1' 'Huskies_M4' 'Opponent13_D1']
+HERE3
+['Opponent16_F3' 'Opponent16_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D8' 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent16_D4' 'Opponent16_D5' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D8' 'Huskies_M3']
+HERE2
+['Opponent18_D2' 'Opponent18_D3' 'Opponent18_D4' 'Opponent18_M3'
+ 'Opponent18_M7' 'Opponent18_M8' 'Huskies_F6' 'Opponent14_F2']
+HERE2
+['Opponent18_D1' 'Opponent18_D2' 'Opponent18_D3' 'Opponent18_D4'
+ 'Opponent18_F3' 'Opponent18_M1' 'Opponent18_M3' 'Opponent18_M7'
+ 'Opponent18_M8' 'Huskies_D1' 'Huskies_D3' 'Huskies_D8' 'Huskies_M1'
+ 'Huskies_M3' 'Opponent14_F2']
+HERE3
+['Huskies_D1' 'Huskies_D3' 'Huskies_D8' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent18_D1' 'Opponent18_M1' 'Opponent18_M8' 'Huskies_D3' 'Huskies_D8'
+ 'Huskies_F6' 'Huskies_M1' 'Huskies_M3' 'Opponent14_F2']
+HERE2
+['Opponent18_D4' 'Opponent18_M8' 'Huskies_D1' 'Huskies_D3' 'Huskies_F2'
+ 'Huskies_F5' 'Huskies_M1' 'Opponent14_F2']
+HERE2
+['Opponent18_D1' 'Opponent18_D3' 'Opponent18_D4' 'Opponent18_F3'
+ 'Opponent18_G1' 'Opponent18_M3' 'Opponent18_M7' 'Opponent18_M8'
+ 'Huskies_D4' 'Huskies_F2' 'Huskies_M1' 'Huskies_M3' 'Huskies_M12']
+HERE3
+['Opponent18_M3' 'Opponent18_M7' 'Huskies_D4' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent18_D2' 'Huskies_D1' 'Huskies_D3' 'Huskies_F2' 'Huskies_F5'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M3' 'Opponent14_F2']
+HERE3
+['Opponent18_D2' 'Huskies_D1' 'Huskies_D3' 'Huskies_F2' 'Huskies_F5'
+ 'Huskies_G1' 'Huskies_M1' 'Huskies_M3' 'Opponent14_F2']
+HERE2
+['Opponent18_F3' 'Opponent18_M1' 'Opponent18_M8' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_D8' 'Huskies_F6' 'Huskies_M1' 'Opponent14_F2']
+HERE2
+['Opponent18_D3' 'Opponent18_G1' 'Opponent18_M7' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_M3' 'Huskies_M12']
+HERE3
+['Opponent18_D1' 'Opponent18_D2' 'Opponent18_D3' 'Opponent18_M3'
+ 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D8' 'Huskies_F2'
+ 'Huskies_F5' 'Huskies_F6' 'Huskies_M1' 'Huskies_M3' 'Huskies_M12'
+ 'Opponent14_F2']
+HERE2
+['Opponent18_D3' 'Opponent18_F3' 'Opponent18_G1' 'Opponent18_M8'
+ 'Huskies_D4' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent17_F3' 'Opponent17_F4' 'Opponent17_M2' 'Opponent17_M3'
+ 'Opponent17_M7' 'Huskies_F2' 'Huskies_F6' 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent17_M7' 'Huskies_F2' 'Huskies_F6' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent17_D1' 'Opponent17_D2' 'Opponent17_M1' 'Opponent17_M2'
+ 'Huskies_D3' 'Huskies_D4' 'Huskies_D8' 'Huskies_F2' 'Huskies_M1'
+ 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent17_D5' 'Opponent17_F3' 'Opponent17_F4' 'Huskies_D1' 'Huskies_D3'
+ 'Huskies_D4' 'Huskies_D8' 'Huskies_F5' 'Huskies_M12']
+HERE2
+['Opponent15_D5' 'Opponent15_D6' 'Opponent15_F3' 'Opponent15_M3'
+ 'Opponent15_M5' 'Opponent15_M6' 'Huskies_F5' 'Huskies_M1' 'Huskies_M3']
+HERE3
+['Opponent15_M6' 'Huskies_F5' 'Huskies_M1' 'Huskies_M3']
+HERE2
+['Opponent15_F4' 'Opponent15_M3' 'Opponent15_M7' 'Huskies_D3' 'Huskies_M3'
+ 'Huskies_M9']
+HERE2
+['Opponent13_D2' 'Opponent13_D3' 'Opponent13_D4' 'Opponent13_D5'
+ 'Opponent13_D6' 'Opponent13_F1' 'Opponent13_M1' 'Opponent13_M2'
+ 'Opponent13_M7' 'Huskies_D8' 'Huskies_F5' 'Huskies_M3' 'Huskies_M12']
+HERE3
+['Opponent13_D4' 'Huskies_D8' 'Huskies_F5' 'Huskies_M3' 'Huskies_M12']
+HERE2
+['Opponent13_D6' 'Huskies_D8' 'Huskies_F5' 'Huskies_M1']
+HERE3
+['Opponent13_D6' 'Huskies_D8' 'Huskies_F5' 'Huskies_M1']
+HERE2
+['Opponent13_D2' 'Opponent13_D4' 'Opponent13_D6' 'Opponent13_F1'
+ 'Opponent13_G2' 'Opponent13_M1' 'Opponent13_M2' 'Opponent13_M6'
+ 'Opponent13_M7' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_G1'
+ 'Huskies_M3' 'Huskies_M4' 'Huskies_M12']
+HERE3
+['Opponent13_D2' 'Opponent13_F1' 'Opponent13_M2' 'Opponent13_M6'
+ 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_G1' 'Huskies_M3'
+ 'Huskies_M4' 'Huskies_M12']
+HERE2
+['Opponent13_D2' 'Opponent13_D4' 'Opponent13_F1' 'Opponent13_M1'
+ 'Opponent13_M2' 'Opponent13_M7' 'Huskies_D8' 'Huskies_G1']
+HERE2
+['Opponent13_D4' 'Opponent13_D5' 'Opponent13_D6' 'Opponent13_M1'
+ 'Opponent13_M2' 'Opponent13_M6' 'Huskies_D1' 'Huskies_D4' 'Huskies_D8'
+ 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent13_M1' 'Opponent13_M6' 'Huskies_D1' 'Huskies_D4' 'Huskies_D8'
+ 'Huskies_G1' 'Huskies_M1']
+HERE3
+['Opponent13_D5' 'Opponent13_F1' 'Opponent13_M1' 'Opponent13_M6'
+ 'Huskies_D1' 'Huskies_D3' 'Huskies_F5' 'Huskies_M3' 'Huskies_M4'
+ 'Huskies_M9' 'Huskies_M12']
+HERE2
+['Opponent13_D4' 'Opponent13_F1' 'Huskies_D4' 'Huskies_D8' 'Huskies_F5'
+ 'Huskies_M3' 'Huskies_M9']
+HERE3
+['Opponent13_F1' 'Huskies_D4' 'Huskies_D8' 'Huskies_F5' 'Huskies_M3'
+ 'Huskies_M9']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D4' 'Opponent14_D6'
+ 'Opponent14_F1' 'Opponent14_G2' 'Opponent14_M1' 'Opponent14_M3'
+ 'Opponent14_M4' 'Opponent14_M5' 'Opponent14_M6' 'Huskies_D1'
+ 'Huskies_D10' 'Huskies_F5' 'Huskies_M1' 'Huskies_M4']
+HERE3
+['Opponent14_M1' 'Opponent14_M6' 'Huskies_D1' 'Huskies_D10' 'Huskies_F5'
+ 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_D4' 'Opponent14_D6'
+ 'Opponent14_G2' 'Opponent14_M1' 'Opponent14_M3' 'Opponent14_M4'
+ 'Opponent14_M5' 'Huskies_F4']
+HERE2
+['Opponent14_F1' 'Opponent14_G2' 'Opponent14_M1' 'Opponent14_M6'
+ 'Huskies_D1' 'Huskies_D4' 'Huskies_F4' 'Huskies_M3' 'Huskies_M4']
+HERE2
+['Opponent14_D1' 'Opponent14_F1' 'Opponent14_M1' 'Opponent14_M3'
+ 'Huskies_D3' 'Huskies_F5']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_F1' 'Opponent14_G2'
+ 'Opponent14_M1' 'Opponent14_M4' 'Huskies_D1' 'Huskies_D4' 'Huskies_F4'
+ 'Huskies_M3']
+HERE2
+['Opponent14_D1' 'Opponent14_D2' 'Opponent14_F1' 'Opponent14_G2'
+ 'Huskies_D1' 'Huskies_D3' 'Huskies_D4' 'Huskies_D10' 'Huskies_F5'
+ 'Huskies_M1' 'Huskies_M4']
+HERE2
+['Opponent14_M6' 'Huskies_D1' 'Huskies_D3' 'Huskies_D8' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M4']
+HERE3
+['Opponent14_M6' 'Huskies_D1' 'Huskies_D3' 'Huskies_D8' 'Huskies_G1'
+ 'Huskies_M1' 'Huskies_M3' 'Huskies_M4']
+HERE2
+['Opponent14_D2' 'Opponent14_M3' 'Opponent14_M6' 'Huskies_D1' 'Huskies_G1'
+ 'Huskies_M3']
+HERE2
+['Opponent14_D2' 'Opponent14_D4' 'Opponent14_F1' 'Opponent14_M1'
+ 'Opponent14_M4' 'Opponent14_M6' 'Huskies_D1' 'Huskies_D8' 'Huskies_F4'
+ 'Huskies_M1']
+HERE3
+['Opponent14_D2' 'Opponent14_F1' 'Huskies_D1' 'Huskies_D8' 'Huskies_F4'
+ 'Huskies_M1']
+HERE2
+['Opponent14_M1' 'Opponent14_M5' 'Huskies_D8' 'Huskies_F4' 'Huskies_F6'
+ 'Huskies_M1' 'Huskies_M2' 'Huskies_M4']
+HERE2
+['Opponent14_D6' 'Opponent14_M4' 'Huskies_D1' 'Huskies_D3' 'Huskies_D8'
+ 'Huskies_F4' 'Huskies_F6' 'Huskies_M1' 'Huskies_M4' 'Huskies_M12']
+HERE2
+['Opponent14_D1' 'Huskies_D4' 'Huskies_F4' 'Huskies_F6' 'Huskies_M1'
+ 'Huskies_M2' 'Huskies_M3']
+HERE3
+['Opponent14_D1' 'Huskies_D4' 'Huskies_F4' 'Huskies_F6' 'Huskies_M1'
+ 'Huskies_M2' 'Huskies_M3']
+HERE2
+['Opponent14_F1' 'Opponent14_M6' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F6' 'Huskies_M1' 'Huskies_M12']
+HERE3
+['Opponent14_F1' 'Opponent14_M6' 'Huskies_D1' 'Huskies_D3' 'Huskies_D4'
+ 'Huskies_F6' 'Huskies_M1' 'Huskies_M12']
+     ground_truth  ground_truth_offense  ...  defensive_damage4  defensive_damage5
+0             0.0                   0.0  ...           0.333100           0.000000
+1            16.8                   8.4  ...           0.000000           2.054869
+2            11.2                   5.6  ...           0.000000           1.000000
+3             6.6                   3.8  ...           0.000000           0.000000
+4             4.2                   2.1  ...           0.585786           0.585786
+5             9.8                   4.9  ...           0.381966           0.381966
+6            15.4                   7.7  ...           0.404073           0.404073
+7             5.6                   2.8  ...           0.000000           0.000000
+8            14.0                   7.0  ...           0.821730           0.821730
+9             5.6                   2.8  ...           0.000000           0.000000
+10           32.2                  16.1  ...           0.888429           0.888429
+11           19.6                   9.8  ...           0.000000           0.000000
+12            0.1                   0.0  ...           1.000000           0.000000
+13            8.4                   4.2  ...           0.000000           0.000000
+14           11.3                   6.4  ...           0.000000           0.000000
+15            8.4                   4.2  ...           0.000000           0.518806
+16            5.6                   2.8  ...           0.000000           0.585786
+17            2.8                   1.4  ...           0.000000           2.000000
+18            0.0                   0.0  ...           0.000000           0.000000
+19            7.4                   4.2  ...           0.000000           0.000000
+20            8.4                   4.2  ...           0.000000           1.104893
+21            5.6                   2.8  ...           0.000000           0.000000
+22            4.8                   2.6  ...           0.000000           0.000000
+23           18.2                   9.1  ...           0.000000           0.000000
+24            2.9                   1.4  ...           0.000000           1.000000
+25           -1.0                   0.0  ...           0.198062           2.000000
+26            2.9                   1.4  ...           0.468035           0.000000
+27            4.2                   2.1  ...           1.000000           1.000000
+28            5.7                   2.8  ...           0.219880           0.000000
+29            9.9                   4.9  ...           0.000000           0.000000
+..            ...                   ...  ...                ...                ...
+644           0.0                   0.0  ...           0.190147           2.000000
+645           8.4                   4.2  ...           0.000000           0.000000
+646           5.6                   2.8  ...           0.381966           0.381966
+647           0.0                   0.0  ...           0.645103           0.000000
+648           5.6                   2.8  ...           0.000000           0.000000
+649           8.9                   4.7  ...           0.152241           0.152241
+650          -1.0                   0.0  ...           0.381966           0.000000
+651           1.4                   0.7  ...           0.000000           2.000000
+652           0.0                   0.0  ...           0.585786           0.000000
+653          12.2                   6.6  ...           0.000000           1.000000
+654           1.8                   1.4  ...           0.000000           2.000000
+655           8.4                   4.2  ...           0.000000           0.585786
+656          27.6                  14.3  ...           0.000000           0.190852
+657           2.9                   1.4  ...           0.962623           0.000000
+658          16.4                   8.7  ...           0.160220           0.588596
+659          16.8                   8.4  ...           0.469022           0.547968
+660          15.4                   7.7  ...           0.000000           0.000000
+661           5.6                   2.8  ...           0.407138           0.657077
+662           0.0                   0.0  ...           1.000000           0.000000
+663           5.6                   2.8  ...           0.152241           0.585786
+664           2.8                   1.4  ...           0.000000           1.000000
+665           7.5                   4.2  ...           0.000000           0.000000
+666          15.4                   7.7  ...           0.000000           0.894517
+667           9.8                   4.9  ...           0.399853           0.400753
+668          15.4                   7.7  ...           0.555816           0.555816
+669          12.6                   6.3  ...           0.000000           0.381966
+670          10.4                   6.2  ...           0.000000           0.000000
+671           0.0                   0.0  ...           1.000000           2.000000
+672          10.3                   5.4  ...           0.000000           0.000000
+673           0.0                   0.0  ...           0.428800           2.000000
+
+[674 rows x 17 columns]
+plays
+
+Process finished with exit code 0
