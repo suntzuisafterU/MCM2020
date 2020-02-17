@@ -6,6 +6,8 @@ import networkx as nx
 from readplay import read_glob_of_plays
 from globals import *
 
+
+
 def accept_invalid_network(func):
     def wrapper(play):
         try:
@@ -78,11 +80,43 @@ def big_umat_df(play : dict):
             pass
     return umat
 
+
+
+def duels_umat(play: dict):
+    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
+
+    thisgame = play[0]["MatchID"]
+    thisopp = "?"
+    fiiil = open("data/matches.csv", "r")
+    fiiil.readline()
+    for f in fiiil:
+        x = f.split(",")
+        if int(x[0]) == thisgame:
+            thisopp = x[1]
+            break
+
+
+    playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
+    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    dim = len(playerids)
+    umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
+
+    for i in range(len(play) - 1):
+
+        if play[i]["EventType"] == "Duel" and play[i + 1]["EventType"] == "Duel":
+            res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
+            umat[res[0]][res[1]] += 1
+            umat[res[1]][res[0]] += 1
+    return umat
+
+
+
 # weighted adj mat
 def local_umat_df(play : dict):
     df = big_umat_df(play)
     res = drop_non_active_players(df)
     return res
+
 
 
 
@@ -115,8 +149,11 @@ def poison_def_met(play : dict):
     return umat
 
 
+
+
+
 def poison_umat(play : dict):
-    df = poison_def_met(play)
+    df = duels_umat(play)
     res = drop_non_active_players(df)
     return res
 
@@ -180,7 +217,7 @@ def normalized_algebraic_connectivity(play : dict):
 def defensive_damage(play : dict):
     df = poison_umat(play)
     G = nx.Graph(df)
-    return nx.algebraic_connectivity(G)
+    return nx.algebraic_connectivity(G) * 10
 
 def degree_centrality(play : dict):
     G = nx.Graph(big_umat_df(play))
@@ -267,7 +304,7 @@ if __name__ == '__main__':
         # print(nx_algebraic_connectivity(p))
         # print(poison_umat(p))
         #print(algebraic_connectivity(p))
-        print(some_fucking_bullshit(p))
+        print(defensive_damage(p))
 
     # for p in plays:
     #     res = big_umat_df(p)
