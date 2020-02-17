@@ -451,12 +451,14 @@ complete_triad = "300"
 def complete_triad_sum(play : dict):
     ts = triadic_census(play)
     res = ts[complete_triad]
+    print(res)
     return res
 
 def triad_sum(play : dict):
     """ sum the strong triads """
     ts = triadic_census(play)
     res = [ts[t] for t in strong_triads]
+    print(res)
     return sum(res)
 
 def diadic_sum(play : dict):
@@ -481,13 +483,15 @@ if __name__ == '__main__':
         # print(betweenness_centrality(p))
         # print(triadic_census(p)['300'])
         # print(normalized_laplacian_spectrum(p))
-        # print("========================================")
+        print("========================================")
         # print(normalized_algebraic_connectivity(p) )
         # print(nx_algebraic_connectivity(p))
         # print(poison_umat(p))
         #print(algebraic_connectivity(p))
-        print(defensive_damage2(p))
-        print(defensive_damage3(p))
+        print(triad_sum(p))
+        print(complete_triad_sum(p))
+        # print(defensive_damage2(p))
+        # print(defensive_damage3(p))
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))
