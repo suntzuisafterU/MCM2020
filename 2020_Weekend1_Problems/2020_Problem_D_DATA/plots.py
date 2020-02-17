@@ -58,8 +58,9 @@ if __name__ == "__main__":
     # plays_first =  read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_1H")
     # plays_second = read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_2H")
 
+    print(len(plays_first))
 
-    funcs = [defensive_damage4, defensive_damage5, defensive_damage6]
+    funcs = [defensive_vulnerability, algebraic_connectivity]
     plot2d(plays_first, funcs, plt.plot, mysmoother)
 
     # funcs = [groundLost, defensive_damage4, defensive_damage5]

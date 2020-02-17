@@ -603,10 +603,9 @@ def extract_triads(play : dict, tris : list):
     return res
 
 regressed1 = {
-    defensive_vulnerability : 0.01,
-    network_strength_eigen_value : 0.0745845,
-    shotsAllowedVal : -0.0006122,
-    complete_triad_sum : -0.0651175
+    defensive_vulnerability : 0.0131026,
+    shotsAllowedVal : 0.0006785,
+    diadic_sum : 0.0021844
 }
 
 def regression_fit1(play : dict):
@@ -629,11 +628,12 @@ if __name__ == '__main__':
         # print(nx_algebraic_connectivity(p))
         # print(poison_umat(p))
         #print(algebraic_connectivity(p))
+        raise AssertionError
         print(triad_sum(p))
         print(complete_triad_sum(p))
         print(extract_triads(p, strong_triads))
 
-        print(defensive_damage2(p))
+        print(defensive_vulnerability(p))
         # print(defensive_damage3(p))
     # for p in plays:
     #     res = big_umat_df(p)

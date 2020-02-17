@@ -88,7 +88,7 @@ if __name__ == '__main__':
     nx.draw_networkx(DG, **options)
     plt.show()
 
-    tris = extract_triads(plays, strong_triads)
+    tris = extract_triads(allplays, strong_triads)
     print(tris)
 
 
