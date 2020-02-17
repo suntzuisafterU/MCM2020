@@ -91,8 +91,14 @@ def shotsEV(play):
             shots -= 10
     return shots
 
+#The terms in here are not very justifiable (why 14 th root)
 def lnDist(x1, y1, x2, y2, n):
     return (((x2-x1)**n + (y2 - y1)**n)**(1.0/14*n) - 2)
+
+#The terms in here are justifyable, 30 being the width from the cetner where
+#shots are acceptible.
+def lnDist2(x1, y1, x2, y2, n):
+    return (((x2-x1)**n + (y2 - y1)**n)**(1.0/n) - 30)
 
 def sigmoid(x):
     return 1/(1 + m.exp(-x))
@@ -107,10 +113,8 @@ def shotsEV2(play):
     return shots
 
 
-
-
 def toPolar(x, y):
-    return m.sqrt(x**2 + (y-50)**2), m.atan2(y, x)
+    return m.sqrt(x**2 + (y-50)**2), m.atan2(y-50, x)
 
 
 def groundLost(play):
@@ -145,7 +149,7 @@ def shotsAllowedVal(play):
             count += 1
 
             if(rSrc > 35):
-                totVal += rSrc*(thetaSrc)
+                totVal += rSrc * (thetaSrc)
             else:
                 totVal += rSrc - (rSrc/thetaSrc)
     #print(count)

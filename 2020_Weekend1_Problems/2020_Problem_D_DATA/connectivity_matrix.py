@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
+import itertools
 
 import networkx as nx
 
 from readplay import read_glob_of_plays
+
 from globals import *
+from playGraph import *
 
 
 
@@ -33,6 +36,11 @@ valid_passes = [
 def filter_event(event):
     return event['EventSubType'] in valid_passes \
            and team == event["TeamID"] \
+           and event['DestinationPlayerID'] != float("NaN")
+
+def filter_event_dont_touch(event):
+    return event['EventSubType'] in valid_passes \
+           and team != event["TeamID"] \
            and event['DestinationPlayerID'] != float("NaN")
 
 def drop_non_active_players(df : pd.DataFrame):
@@ -84,108 +92,76 @@ def big_umat_df(play : dict):
 def defensive_damage2(play : dict):
     df = mat_with_duel_cons(play)
     res = drop_non_active_players(df)
-    algcon = algebraic_connectivity(play)
+
+    global team
+    orig_team = team
+    team = this_opp(play)
+    algcon = nx_algebraic_connectivity(play)
     G = nx.Graph(res)
-    return abs(nx.algebraic_connectivity(G) - algcon)
+    team = orig_team
+
+    res = nx.algebraic_connectivity(G)
+    if res == 0:
+        return 0
+    return res - algcon
 
 @accept_invalid_network
 def defensive_damage3(play: dict):
     df = mat_with_duel_cons2(play)
     res = drop_non_active_players(df)
+
+    global team
+    orig_team = team
+    team = this_opp(play)
     algcon = algebraic_connectivity(play)
+    team = orig_team
+
     G = nx.Graph(res)
-    return abs(nx.algebraic_connectivity(G) - algcon)
+    res = algebraic_connectivity(G)
+    if res == 0:
+        return 0
+    return res - algcon
 
 @accept_invalid_network
 def defensive_damage4(play : dict):
     df = mat_with_duel_cons(play)
     res = drop_non_active_players(df)
     G = nx.Graph(res)
-    return nx.algebraic_connectivity(G) * 10
+    return nx.algebraic_connectivity(G)
 
 @accept_invalid_network
 def defensive_damage5(play: dict):
     df = mat_with_duel_cons2(play)
     res = drop_non_active_players(df)
     G = nx.Graph(res)
-    return nx.algebraic_connectivity(G) * 10
+    return nx.algebraic_connectivity(G)
 
-@accept_invalid_network
-def defensive_damage6(play: dict):
-    df = mat_with_duel_cons3(play)
-    res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G) * 10
-
-@accept_invalid_network
-def defensive_damage7(play: dict):
-    df = mat_with_duel_cons4(play)
-    res = drop_non_active_players(df)
-    G = nx.Graph(res)
-    return nx.algebraic_connectivity(G) * 10
-
-
-#
-def mat_with_duel_cons4(play: dict):
-    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
-
-    thisgame = play[0]["MatchID"]
+def this_opp(play: dict):
+    thisgame = this_game(play)
     thisopp = "?"
     fiiil = open("data/matches.csv", "r")
     fiiil.readline()
     for f in fiiil:
         x = f.split(",")
         if int(x[0]) == thisgame:
-            thisopp = x[1]
+            if team == "Huskies":
+                thisopp = x[1]
+            else:
+                thisopp = "Huskies"
             break
-    playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
-    if thisgame == 26:
-        playerids += ["Opponent5_M3"]
-    if thisgame == 33:
-        playerids += ["Opponent13_D1"]
-    if thisgame == 34:
-        playerids += ["Opponent14_F2"]
+    return thisopp
 
-    dim = len(playerids)
-    umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
+def this_game(play : dict):
+    return play[0]["MatchID"]
 
-    for passing_event in play:
-        try:
-            res = (passing_event['OriginPlayerID'],
-                   passing_event['DestinationPlayerID'])
-            umat[res[0]][res[1]] += 1
-            res = (passing_event['DestinationPlayerID'],
-                   passing_event['OriginPlayerID'])
-            umat[res[0]][res[1]] += 1
-        except (TypeError, KeyError):
-            pass
-
-    for i in range(len(play) - 1):
-
-        if play[i]["EventSubType"] == "Ground defending duel" and play[i]["TeamID"] == "Huskies" and play[i + 1]["EventType"] == "Duel":
-            res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
-            umat[res[0]][res[1]] += 1
-            umat[res[1]][res[0]] += 1
-    return umat
-
-
-
-#
 def mat_with_duel_cons(play: dict):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
+    thisgame = this_game(play)
 
-    thisgame = play[0]["MatchID"]
-    thisopp = "?"
-    fiiil = open("data/matches.csv", "r")
-    fiiil.readline()
-    for f in fiiil:
-        x = f.split(",")
-        if int(x[0]) == thisgame:
-            thisopp = x[1]
-            break
+    thisopp = this_opp(play)
+
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -196,7 +172,8 @@ def mat_with_duel_cons(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    for passing_event in play:
+    passes = [event for event in play if filter_event_dont_touch(event)]
+    for passing_event in passes:
         try:
             res = (passing_event['OriginPlayerID'],
                    passing_event['DestinationPlayerID'])
@@ -208,56 +185,7 @@ def mat_with_duel_cons(play: dict):
             pass
 
     for i in range(len(play) - 1):
-
         if play[i]["EventType"] == "Duel" and play[i + 1]["EventType"] == "Duel":
-            res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
-            umat[res[0]][res[1]] += 1
-            umat[res[1]][res[0]] += 1
-    return umat
-
-
-
-
-
-
-def mat_with_duel_cons3(play: dict):
-    #playerids = get_playerids(f"data/playerfiles/all_players.txt")
-
-    thisgame = play[0]["MatchID"]
-    thisopp = "?"
-    fiiil = open("data/matches.csv", "r")
-    fiiil.readline()
-    for f in fiiil:
-        x = f.split(",")
-        if int(x[0]) == thisgame:
-            thisopp = x[1]
-            break
-    playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
-    if thisgame == 26:
-        playerids += ["Opponent5_M3"]
-    if thisgame == 33:
-        playerids += ["Opponent13_D1"]
-    if thisgame == 34:
-        playerids += ["Opponent14_F2"]
-
-    dim = len(playerids)
-    umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
-
-    for passing_event in play:
-        try:
-            res = (passing_event['OriginPlayerID'],
-                   passing_event['DestinationPlayerID'])
-            umat[res[0]][res[1]] += 1
-            res = (passing_event['DestinationPlayerID'],
-                   passing_event['OriginPlayerID'])
-            umat[res[0]][res[1]] += 1
-        except (TypeError, KeyError):
-            pass
-
-    for i in range(len(play) - 1):
-
-        if play[i]["EventSubType"] == "Ground defending duel" and play[i]["TeamID"] == "Huskies" and play[i + 1]["EventType"] == "Duel":
             res = (play[i]["OriginPlayerID"], play[i + 1]["OriginPlayerID"])
             umat[res[0]][res[1]] += 1
             umat[res[1]][res[0]] += 1
@@ -269,17 +197,10 @@ def mat_with_duel_cons3(play: dict):
 def mat_with_duel_cons2(play: dict):
     #playerids = get_playerids(f"data/playerfiles/all_players.txt")
 
-    thisgame = play[0]["MatchID"]
-    thisopp = "?"
-    fiiil = open("data/matches.csv", "r")
-    fiiil.readline()
-    for f in fiiil:
-        x = f.split(",")
-        if int(x[0]) == thisgame:
-            thisopp = x[1]
-            break
+    thisgame = this_game(play)
+    thisopp = this_opp(play)
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -290,15 +211,18 @@ def mat_with_duel_cons2(play: dict):
     dim = len(playerids)
     umat = pd.DataFrame(data=np.zeros((dim, dim), np.int), columns=playerids, index=playerids, dtype=int)
 
-    for passing_event in play:
+    passes = [event for event in play if filter_event_dont_touch(event)]
+    for passing_event in passes:
         try:
-            if passing_event["TeamID"] == "Huskies":
+            if passing_event["TeamID"] == thisopp:
                 res = (passing_event['OriginPlayerID'],
                        passing_event['DestinationPlayerID'])
                 umat[res[0]][res[1]] += 1
                 res = (passing_event['DestinationPlayerID'],
                        passing_event['OriginPlayerID'])
                 umat[res[0]][res[1]] += 1
+            else:
+                raise AssertionError
         except (TypeError, KeyError):
             pass
 
@@ -326,12 +250,15 @@ def duels_umat(play: dict):
     for f in fiiil:
         x = f.split(",")
         if int(x[0]) == thisgame:
-            thisopp = x[1]
+            if team == "Huskies":
+                thisopp = x[1]
+            else:
+                thisopp = "Huskies"
             break
 
 
     playerids = get_playerids(f"data/playerfiles/{thisopp}_players.txt")
-    playerids += get_playerids(f"data/playerfiles/Huskies_players.txt")
+    playerids += get_playerids(f"data/playerfiles/{team}_players.txt")
     if thisgame == 26:
         playerids += ["Opponent5_M3"]
     if thisgame == 33:
@@ -377,15 +304,14 @@ def poison_def_met(play : dict):
 
     for passing_event in play:
         try:
-
-            if passing_event["EventSubType"] == "Ground defending duel" and passing_event['TeamID'] == "Huskies":
+            if passing_event["EventSubType"] == "Ground defending duel" and passing_event['TeamID'] == team:
                 res = passing_event['OriginPlayerID']
                 for player in playerids:
                     if umat[res][player] > 1:
                         umat[res][player] -= 1
                     if umat[player][res] > 1:
                         umat[player][res] -= 1
-            if passing_event["EventType"] == "Pass" and passing_event['TeamID'] == "Huskies":
+            if passing_event["EventType"] == "Pass" and passing_event['TeamID'] == team:
                 res = (passing_event['OriginPlayerID'],
                      passing_event['DestinationPlayerID'])
                 umat[res[0]][res[1]] += 1
@@ -409,7 +335,7 @@ def largest_eig_value(df : pd.DataFrame):
     return np.max(np.linalg.eigvals(np.array(df)))
 
 def network_strength_eigen_value(play : dict):
-    return largest_eig_value(big_umat_df(play))
+    return float(largest_eig_value(big_umat_df(play)))
 
 def laplacian(play : dict):
     """ calculate the laplacian matrix
@@ -542,8 +468,32 @@ def diadic_sum(play : dict):
     res = ds[diad]
     return res
 
+def extract_triads(play : dict, tris : list):
+    DG = nx.DiGraph(big_dimat_df(play))
+    ds = nx.triadic_census(DG)
+    combs = itertools.combinations(DG.nodes, 3)
+    res = []
+    for u,v,w in combs:
+        triname = nx.algorithms.triads.TRICODE_TO_NAME[nx.algorithms.triads._tricode(DG, u, v, w)]
+        if triname in tris:
+            res.append( (u,v,w, triname) )
+    return res
+
+regressed = {
+    network_strength_eigen_value : 0.0745845,
+    shotsAllowedVal : -0.0006122,
+    complete_triad_sum : -0.0651175
+}
+
+def regression_fit(play : dict):
+    return sum([metric(play) for metric in regressed])
+
+
+
+
 if __name__ == '__main__':
     paths = "data/games/game*"
+    paths = "data/plays/play*"
     plays = read_glob_of_plays(paths)
 
     for p in plays:
@@ -553,17 +503,19 @@ if __name__ == '__main__':
         # print(betweenness_centrality(p))
         # print(triadic_census(p)['300'])
         # print(normalized_laplacian_spectrum(p))
-        # print("========================================")
+        print("========================================")
         # print(normalized_algebraic_connectivity(p) )
         # print(nx_algebraic_connectivity(p))
         # print(poison_umat(p))
         #print(algebraic_connectivity(p))
-        print(defensive_damage(p))
-        print(defensive_damage2(p))
-        print(defensive_damage3(p))
-        print(defensive_damage4(p))
-        print(defensive_damage5(p))
+        print(triad_sum(p))
+        print(complete_triad_sum(p))
+        print(extract_triads(p, strong_triads))
+
+        # print(defensive_damage2(p))
+        # print(defensive_damage3(p))
     # for p in plays:
     #     res = big_umat_df(p)
     #     print(largest_eig_value(res))
+
 

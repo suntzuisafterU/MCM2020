@@ -5,15 +5,20 @@ from groundtruth import *
 from readplay import *
 import csv
 
-metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
+metrics = [
+    regression_fit,
+    ground_truth, ground_truth_offense, ground_truth_defense,
            shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
            # breadthEV,
-           defensive_damage,
-           network_strength_eigen_value, algebraic_connectivity,
-           # normalized_algebraic_connectivity,
            complete_triad_sum,
            triad_sum,
-           diadic_sum
+           diadic_sum,
+           network_strength_eigen_value,
+           algebraic_connectivity,
+           nx_algebraic_connectivity,
+           # normalized_algebraic_connectivity,
+           defensive_damage2,
+           defensive_damage3
            ]
 
 def anal_game_off_metrics():
@@ -92,7 +97,7 @@ def skirmishes_all_data():
 
     print(final)
 
-    with open(f"data/groundtruths/allskrims_metricdata.csv", "w") as f:
+    with open(f"data/groundtruths/allskrims_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
 
@@ -132,11 +137,13 @@ def game_all_data():
     with open(f"data/groundtruths/fullgame_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
-skirmishes_all_data()
-print("skirms")
 game_all_data()
 print("games")
 plays_all_data()
 print("plays")
+skirmishes_all_data()
+print("skirms")
 # anal_game_off_metrics()
+# full_season_data()
+# print("season")
 
