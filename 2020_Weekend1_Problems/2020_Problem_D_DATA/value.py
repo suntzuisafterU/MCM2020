@@ -91,6 +91,21 @@ def shotsEV(play):
             shots -= 10
     return shots
 
+def lnDist(x1, y1, x2, y2, n):
+    return (((x2-x1)**n + (y2 - y1)**n)**(1.0/14*n) - 2)
+
+def sigmoid(x):
+    return 1/(1 + m.exp(-x))
+
+def shotsEV2(play):
+    shots = 0
+    for i in play:
+        if i["EventType"] == "Shot" and i["TeamID"] == team:
+            shots += 10 * sigmoid(lnDist(50, 50, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]), 2))
+        elif i["EventType"] == "Shot":
+            shots -= 10 * sigmoid(lnDist(50, 50, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]), 2))
+    return shots
+
 
 
 
@@ -114,12 +129,34 @@ def groundLost(play):
     else:
         return  -(groundGained*(1 / (endTime - startTime)))
 
+def oriented_src(event):
+    origX, origY = float(event["EventOrigin_x"]), float(event["EventOrigin_y"])
+    dstX, dstY = float(event["EventDestination_x"]), float(event["EventDestination_y"])
+    return abs(origX - dstX), abs(origY - dstY)
 
 def shotsAllowedVal(play):
     totVal = 0
     count = 0
     for i in play:
         if i["TeamID"] != team and i["EventSubType"] == "Shot":
+            xSrc, ySrc = oriented_src(i)
+            rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            #print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
+            count += 1
+
+            if(rSrc > 35):
+                totVal += rSrc*(thetaSrc)
+            else:
+                totVal += rSrc - (rSrc/thetaSrc)
+    #print(count)
+    return totVal
+
+def shotsTakenVal(play):
+    totVal = 0
+    count = 0
+    for i in play:
+        if i["TeamID"] == team and i["EventSubType"] == "Shot":
+            xSrc, ySrc = oriented_src(i)
             rSrc, thetaSrc = toPolar(float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             #print(rSrc, thetaSrc, float(i["EventOrigin_x"]), float(i["EventOrigin_y"]))
             count += 1

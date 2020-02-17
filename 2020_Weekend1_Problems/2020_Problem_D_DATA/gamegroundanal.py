@@ -6,9 +6,11 @@ from readplay import *
 import csv
 
 metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
-           clearVal, shotsAllowedVal, shotsEV, flowEV, tempoEV,
-           breadthEV, evan_call_this_for_eigs, algebraic_connectivity,
-           normalized_algebraic_connectivity, triad_sum, diadic_sum
+           shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
+           # breadthEV,
+           network_strength_eigen_value, algebraic_connectivity,
+           # normalized_algebraic_connectivity,
+           triad_sum, diadic_sum
            ]
 
 def anal_game_off_metrics():
@@ -50,31 +52,24 @@ def anal_game_off_metrics():
 
 
 
-def anal_play_off_metrics():
-    metricdata = []
-    header = ["GameName", "GroundTruth"]
+def plays_all_data():
+    data = []
+    metric_data = []
+    header = []
     for metric in metrics:
         header.append(str(metric.__name__))
 
-    metricdata.append(header)
+    plays = read_glob_of_plays("data/plays/play*")
 
-    for half in data:
-        thishalf = []
-        halfname = half[0]
-        halfgroundval = float(half[2])
-        thishalf.append(halfname)
-        thishalf.append(halfgroundval)
-        thisplay = readplay("data/plays/" + halfname)
-        for metric in metrics:
-            metricval = metric(thisplay)
-            thishalf.append(metricval)
+    for p in plays:
+        res = [metric(p) for metric in metrics]
+        metric_data.append(res)
 
-        metricdata.append(thishalf)
+    final = pd.DataFrame(data=metric_data, columns=header)
 
+    with open(f"data/groundtruths/allplays_{team}_metricdata.csv", "w") as f:
+        final.to_csv(f)
 
-    with open(f"data/groundtruths/play_{team}_metricdata.csv", "w") as f:
-        writer = csv.writer(f)
-        writer.writerows(metricdata)
 
 def game_all_data():
     df = pd.read_csv("data/matches.csv")
@@ -113,5 +108,6 @@ def game_all_data():
         final.to_csv(f)
 
 game_all_data()
-# anal_game_off_metrics()
-# anal_play_off_metrics()
+plays_all_data()
+anal_game_off_metrics()
+
