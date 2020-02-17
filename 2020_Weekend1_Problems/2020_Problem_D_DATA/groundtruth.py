@@ -14,7 +14,7 @@ def play_to_np_array(play):
 offense_markers = {
     "Shot": 1.0,
     "Cross": 0.5,
-    "Smart pass": 10.0
+    "Smart pass": 0.5
 }
 
 team_offensive_duel_markers = {

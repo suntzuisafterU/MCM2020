@@ -93,7 +93,7 @@ def defensive_damage2(play : dict):
     global team
     orig_team = team
     team = this_opp(play)
-    algcon = algebraic_connectivity(play)
+    algcon = nx_algebraic_connectivity(play)
     G = nx.Graph(res)
     team = orig_team
 
@@ -110,7 +110,7 @@ def defensive_damage3(play: dict):
     global team
     orig_team = team
     team = this_opp(play)
-    algcon = algebraic_connectivity(play)
+    algcon = nx_algebraic_connectivity(play)
     team = orig_team
 
     G = nx.Graph(res)
@@ -465,6 +465,9 @@ def diadic_sum(play : dict):
     res = ds[diad]
     return res
 
+def extract_all_triads(play : dict):
+    DG = nx.DiGraph(big_dimat_df(play))
+    ds = nx.triadic_census(DG)
 
 
 if __name__ == '__main__':
