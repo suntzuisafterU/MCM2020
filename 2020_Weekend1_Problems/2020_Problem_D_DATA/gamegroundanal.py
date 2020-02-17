@@ -8,12 +8,16 @@ import csv
 metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
            shotsAllowedVal, shotsTakenVal, flowEV, tempoEV,
            # breadthEV,
-           defensive_damage,
-           network_strength_eigen_value, algebraic_connectivity,
-           # normalized_algebraic_connectivity,
            complete_triad_sum,
            triad_sum,
-           diadic_sum
+           diadic_sum,
+           network_strength_eigen_value, algebraic_connectivity,
+           # normalized_algebraic_connectivity,
+           defensive_damage,
+           defensive_damage2,
+           defensive_damage3,
+           defensive_damage4,
+           defensive_damage5,
            ]
 
 def anal_game_off_metrics():
