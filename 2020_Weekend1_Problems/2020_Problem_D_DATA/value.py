@@ -56,7 +56,7 @@ def tempoEV(play):
     passtime = 0
     totalpass = 0
     for i in range(len(play) - 1):
-        if play[i]["TeamID"] == team and play[i+1]["TeamID"] == team:
+        if play[i]["TeamID"] == team and play[i+1]["TeamID"] == team and play[i]["EventType"] == "Pass":
             passtime += (play[i+1]["EventTime"] - play[i]["EventTime"])
             totalpass += 1
     if totalpass != 0:
