@@ -16,7 +16,9 @@ metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
            nx_algebraic_connectivity,
            # normalized_algebraic_connectivity,
            defensive_damage2,
-           defensive_damage3
+           defensive_damage3,
+           defensive_damage4,
+           defensive_damage5
            ]
 
 def anal_game_off_metrics():

@@ -89,8 +89,14 @@ def big_umat_df(play : dict):
 def defensive_damage2(play : dict):
     df = mat_with_duel_cons(play)
     res = drop_non_active_players(df)
+
+    global team
+    orig_team = team
+    team = this_opp(play)
     algcon = algebraic_connectivity(play)
     G = nx.Graph(res)
+    team = orig_team
+
     res = nx.algebraic_connectivity(G)
     if res == 0:
         return 0
