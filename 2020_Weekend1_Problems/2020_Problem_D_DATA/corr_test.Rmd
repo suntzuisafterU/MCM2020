@@ -37,17 +37,17 @@ gd2$Outcome = unclass(factor(gd$Outcome, levels = c("loss","tie","win")))
 #"diadic_sum"                       
 
 
-method = "pearson"
-res <- list(
-  triad_sum=list(cor=cor(gd2$Outcome, gd2$triad_sum, method=method),
-             pvalue=cor.test(gd2$Outcome, gd2$triad_sum, method=method)),
-  flowEV=list(cor=cor(gd2$Outcome, gd2$flowEV, method=method),
-             pvalue=cor.test(gd2$Outcome, gd2$flowEV, method=method)),
-  algebraic_connectivity=list(cor=cor(gd2$Outcome, gd2$algebraic_connectivity, method=method),
-             pvalue=cor.test(gd2$Outcome, gd2$algebraic_connectivity, method=method))
-)
-
-print(res)
+# method = "pearson"
+# res <- list(
+#   triad_sum=list(cor=cor(gd2$Outcome, gd2$triad_sum, method=method),
+#              pvalue=cor.test(gd2$Outcome, gd2$triad_sum, method=method)),
+#   flowEV=list(cor=cor(gd2$Outcome, gd2$flowEV, method=method),
+#              pvalue=cor.test(gd2$Outcome, gd2$flowEV, method=method)),
+#   algebraic_connectivity=list(cor=cor(gd2$Outcome, gd2$algebraic_connectivity, method=method),
+#              pvalue=cor.test(gd2$Outcome, gd2$algebraic_connectivity, method=method))
+# )
+# 
+# print(res)
 ```
 
 
@@ -56,14 +56,7 @@ library(ggcorrplot)
 ss <- readr::read_csv("data/huskies_saves_and_shots.csv")
 gd2 <- cbind(gd2,ss)
 res <- cor(as.matrix(sapply(gd2, as.numeric)))
-ggcorrplot(res)
-```
-```{r}
-ss2 <- data.frame(cbind(gd2$Outcome, gd2$OpponentScore, gd2$shots_against, gd2$save_attempts))
-colnames(ss2) <- c("Outcome", "OpponentScore", "shots_against", "save_attempts")
-res <- cor(as.matrix(ss2))
-ggcorrplot(res)
-
+ggcorrplot(res) + labs(title = "Huskies Games Outcomes and \nScore to Metrics Correlation")
 ```
 
 
@@ -73,14 +66,14 @@ pd <- readr::read_csv("data/groundtruths/allplays_Huskies_metricdata.csv")
 method = c("pearson", "spearman")
 pd2 <- subset(pd, select=-c(X1))
 res <- cor(as.matrix(sapply(pd2, as.numeric)))
-ggcorrplot(res)
+ggcorrplot(res) + labs(title = "Huskies Play by Play \nMetric Correlations")
 ```
 ```{r}
-sd <- readr::read_csv("data/groundtruths/allskrims_metricdata.csv")
+sd <- readr::read_csv("data/groundtruths/allskrims_Huskies_metricdata.csv")
 method = c("pearson", "spearman")
 sd2 <- subset(sd, select=-c(X1))
 res <- cor(as.matrix(sapply(sd2, as.numeric)))
-ggcorrplot(res)
+ggcorrplot(res) + labs(title = "Huskies Skirmishes \nMetric Correlations")
 ```
 
 
@@ -94,8 +87,29 @@ m1 <- glm(OpponentScore ~ 0 + shotsAllowedVal, data=gd2); # summary(m1)
 m2 <- glm(shotsAllowedVal ~ complete_triad_sum, data=gd2); # summary(m2) # REALLY GOOD MODEL
 m3 <- glm(shotsAllowedVal ~ ground_truth_defense, data=gd2); # summary(m3)
 
-m4 <- glm(Outcome ~ 0 + complete_triad_sum, data=gd2); # summary(m4)
+m4 <- glm(Outcome ~ complete_triad_sum, data=gd2); # summary(m4)
 m5 <- glm(OpponentScore ~ 0 + complete_triad_sum, data=gd2); # summary(m5)
-m6 <- glm(OwnScore ~ 0 + complete_triad_sum, data=gd2); summary(m6)
+
+m8 <- glm(Outcome ~ shotsAllowedVal + ground_truth + complete_triad_sum, data=gd2); # summary(m8) # GOOD MODEl
+m9 <- glm(Outcome ~ algebraic_connectivity + shotsAllowedVal + complete_triad_sum, data=gd2); # summary(m9) # REALLY GOOD MODEL
+```
+
+```{r}
+# This is regression model 1 network_strength_eigen_value 
+m10 <- glm(Outcome ~ 0 + defensive_vulnerability + shotsAllowedVal + diadic_sum, data=gd2);# summary(m10) # REALLY GOOD MODEL 
+m10 <- glm(Outcome ~ 0 + defensive_vulnerability + shotsAllowedVal + diadic_sum, data=gd2); summary(m10) # REALLY GOOD MODEL 
+
+# m11 <- glm(Outcome ~ 0 + regression_fit1, data=gd2); # summary(m11) # REALLY GOOD MODEL
+```
+
+```{r}
+
+# m11 <- glm(Outcome ~ 0 + defensive_damage2 + network_strength_eigen_value + triad_sum, data=gd2); summary(m11) # REALLY GOOD MODEL
+#m12 <- glm(Outcome ~ 0 + defensive_damage2 + network_strength_eigen_value + ground_truth + triad_sum, data=gd2); summary(m12) # REALLY GOOD MODEL
+```
+
+```{r}
+#  TODO: Here is the paper stuff
+cor.test(gd2$Outcome, gd2$d)
 ```
 
