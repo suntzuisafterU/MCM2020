@@ -10,7 +10,9 @@ metrics = [ground_truth, ground_truth_offense, ground_truth_defense,
            # breadthEV,
            network_strength_eigen_value, algebraic_connectivity,
            # normalized_algebraic_connectivity,
-           triad_sum, diadic_sum
+           complete_triad_sum,
+           triad_sum,
+           diadic_sum
            ]
 
 def anal_game_off_metrics():
@@ -66,6 +68,8 @@ def plays_all_data():
         metric_data.append(res)
 
     final = pd.DataFrame(data=metric_data, columns=header)
+
+    print(final)
 
     with open(f"data/groundtruths/allplays_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)

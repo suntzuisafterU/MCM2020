@@ -20,7 +20,7 @@ library("Hmisc")
 method = c("pearson", "spearman")
 gd2 <- subset(gd, select=-c(MatchID, OpponentID, X1, Side, CoachID))
 gd2$Outcome = unclass(factor(gd$Outcome, levels = c("loss","tie","win")))
-rcorr(as.matrix(gd2), type = "pearson")
+#rcorr(as.matrix(gd2), type = "pearson")
 ```
 
 
@@ -39,12 +39,12 @@ rcorr(as.matrix(gd2), type = "pearson")
 
 method = "pearson"
 res <- list(
-  triad_sum=list(cor=cor(gd2$GroundTruth, gd2$triad_sum, method=method),
-             pvalue=cor.test(gd2$GroundTruth, gd2$triad_sum, method=method)),
-  flowEV=list(cor=cor(gd2$GroundTruth, gd2$flowEV, method=method),
-             pvalue=cor.test(gd2$GroundTruth, gd2$flowEV, method=method)),
-  algebraic_connectivity=list(cor=cor(gd2$GroundTruth, gd2$algebraic_connectivity, method=method),
-             pvalue=cor.test(gd2$GroundTruth, gd2$algebraic_connectivity, method=method))
+  triad_sum=list(cor=cor(gd2$Outcome, gd2$triad_sum, method=method),
+             pvalue=cor.test(gd2$Outcome, gd2$triad_sum, method=method)),
+  flowEV=list(cor=cor(gd2$Outcome, gd2$flowEV, method=method),
+             pvalue=cor.test(gd2$Outcome, gd2$flowEV, method=method)),
+  algebraic_connectivity=list(cor=cor(gd2$Outcome, gd2$algebraic_connectivity, method=method),
+             pvalue=cor.test(gd2$Outcome, gd2$algebraic_connectivity, method=method))
 )
 
 print(res)
@@ -53,12 +53,28 @@ print(res)
 
 ```{r}
 library(ggcorrplot)
+ss <- readr::read_csv("data/huskies_saves_and_shots.csv")
+gd2 <- cbind(gd2,ss)
 res <- cor(as.matrix(sapply(gd2, as.numeric)))
 ggcorrplot(res)
+```
+```{r}
+ss2 <- data.frame(cbind(gd2$Outcome, gd2$OpponentScore, gd2$shots_against, gd2$save_attempts))
+colnames(ss2) <- c("Outcome", "OpponentScore", "shots_against", "save_attempts")
+res <- cor(as.matrix(ss2))
+ggcorrplot(res)
+
 ```
 
 
 
+```{r}
+pd <- readr::read_csv("data/groundtruths/allplays_Huskies_metricdata.csv")
+method = c("pearson", "spearman")
+pd2 <- subset(pd, select=-c(X1))
+res <- cor(as.matrix(sapply(pd2, as.numeric)))
+ggcorrplot(res)
+```
 
 
 

@@ -117,7 +117,13 @@ def local_umat_df(play : dict):
     res = drop_non_active_players(df)
     return res
 
+def ddddddddddddd(infile):
+    playerids = get_playerids(f"data/playerfiles/all_players.txt")
+    idx_to_name = {i:name for i,name in enumerate(playerids)}
+    name_to_idx = {name:i for i,name in enumerate(playerids)}
 
+    dim = len(idx_to_name)
+    uadjmat = np.zeros((dim,dim), np.int)
 
 
 def poison_def_met(play : dict):
@@ -275,6 +281,13 @@ strong_triads = [
     "030C",
     "120C"
 ]
+
+complete_triad = "300"
+
+def complete_triad_sum(play : dict):
+    ts = triadic_census(play)
+    res = ts[complete_triad]
+    return res
 
 def triad_sum(play : dict):
     """ sum the strong triads """
