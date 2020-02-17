@@ -49,8 +49,14 @@ if __name__ == '__main__':
 
     DG = nx.DiGraph(df_dimat)
 
-    threshold = 20
     degs = [d for d in DG.degree()]
+
+    # idx = int(len(degs)/100 * 10)
+    idx = len(degs) - 11
+    threshold = sorted(degs, key=lambda x: x[1])[idx][1]
+    print(idx, len(degs), threshold)
+
+
     to_remove = (n for n, d in degs if d < threshold)
     DG.remove_nodes_from( to_remove )
 
@@ -73,6 +79,7 @@ if __name__ == '__main__':
 
     options = {
         "layout" :  spectral_layout,
+        # "layout" : sprint_layout,
         "node_color": "#A0CBE2",
         "edge_color": colors,
         "width": 4,
@@ -80,6 +87,10 @@ if __name__ == '__main__':
     }
     nx.draw_networkx(DG, **options)
     plt.show()
+
+    tris = extract_triads(plays, strong_triads)
+    print(tris)
+
 
 
 
