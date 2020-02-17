@@ -114,7 +114,7 @@ def shotsEV2(play):
 
 
 def toPolar(x, y):
-    return m.sqrt(x**2 + (y-50)**2), m.atan2(y, x)
+    return m.sqrt(x**2 + (y-50)**2), m.atan2(y-50, x)
 
 
 def groundLost(play):
@@ -149,7 +149,7 @@ def shotsAllowedVal(play):
             count += 1
 
             if(rSrc > 35):
-                totVal += rSrc*(thetaSrc)
+                totVal += rSrc * (thetaSrc)
             else:
                 totVal += rSrc - (rSrc/thetaSrc)
     #print(count)
