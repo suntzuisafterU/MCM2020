@@ -55,7 +55,7 @@ def anal_game_off_metrics():
 def plays_all_data():
     data = []
     metric_data = []
-    header = ["PlayID", "GroundTruth"]
+    header = []
     for metric in metrics:
         header.append(str(metric.__name__))
 
@@ -67,7 +67,7 @@ def plays_all_data():
 
     final = pd.DataFrame(data=metric_data, columns=header)
 
-    with open(f"data/groundtruths/play_{team}_metricdata.csv", "w") as f:
+    with open(f"data/groundtruths/allplays_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
 
