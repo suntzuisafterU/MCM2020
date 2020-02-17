@@ -11,6 +11,46 @@ from globals import *
 def play_to_np_array(play):
     return np.array([[event[key] for key in event] for event in play])
 
+""" TYPES OF SUB EVENTS
+Acceleration
+Air duel
+Ball out of the field
+Clearance
+Corner
+Cross
+EventSubType
+Foul
+Free Kick
+Free kick cross
+Free kick shot
+Goal kick
+Goalkeeper leaving line
+Ground attacking duel
+Ground defending duel
+Ground loose ball duel
+Hand foul
+Hand pass
+Head pass
+High pass
+Late card foul
+Launch
+Out of game foul
+Penalty
+Protest
+Reflexes
+Save attempt
+Shot
+Simple pass
+Simulation
+Smart pass
+Substitution
+Throw in
+Time lost foul
+Touch
+Violent Foul
+Whistle
+"""
+
 offense_markers = {
     "Shot": 1.0,
     "Cross": 0.5,
@@ -20,7 +60,8 @@ offense_markers = {
 team_offensive_duel_markers = {
     "Ground loose ball duel": 0.2,
     "Air duel": 0.2,
-    "Ground attackingduel": 0.3
+    "Ground attacking duel": 0.3
+
 }
 
 def ground_truth_offense(play):
