@@ -67,6 +67,8 @@ def plays_all_data():
 
     final = pd.DataFrame(data=metric_data, columns=header)
 
+    print(final)
+
     with open(f"data/groundtruths/allplays_{team}_metricdata.csv", "w") as f:
         final.to_csv(f)
 
