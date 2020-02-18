@@ -54,9 +54,10 @@ if __name__ == "__main__":
    # gameglob = input("what glob friend? ")
 
 
-
+    game = '02'
+    half = '2'
     # plays_first = read_glob_of_plays('data/games/game02_2H')
-    plays_first = read_glob_of_plays('data/games/game31_2H')
+    plays_first = read_glob_of_plays(f'data/games/game{game}_{half}H')
 
     # plays_first =  read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_1H")
     # plays_second = read_glob_of_plays("data/games/game" + f"{gameglob:02}" + "_2H")
@@ -70,8 +71,9 @@ if __name__ == "__main__":
 
     # funcs = [groundLost, defensive_damage4, defensive_damage5]
     # plot2d(plays_first, funcs, plt.plot, mysmoother)
-    
+
     plt.legend()
+    plt.title(f"Huskies game {game} half {half}")
     plt.show()
 
     #plot3d(plays_first, funcs, mysmoother)
