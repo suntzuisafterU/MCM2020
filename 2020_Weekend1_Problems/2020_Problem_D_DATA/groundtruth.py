@@ -64,7 +64,7 @@ team_offensive_duel_markers = {
 
 }
 
-def ground_truth_offense(play):
+def weighted_offensive_statistics(play):
     # sum shots and crosses with scalar
     value = 0
     last_passer = None
@@ -93,7 +93,7 @@ team_defensive_duel_markers = {
     "Ground defending duel": 0.3
 }
 
-def ground_truth_defense(play : list):
+def weighted_defensive_statistics(play : list):
     # sum shots and crosses with scalar
     value = 0
     last_passer = None
@@ -112,8 +112,8 @@ def ground_truth_defense(play : list):
 
     return value
 
-def ground_truth(play):
-    return ground_truth_offense(play) + ground_truth_defense(play)
+def weighted_statistics(play):
+    return weighted_offensive_statistics(play) + weighted_defensive_statistics(play)
 
 def calc_offensive_groundtruth_plays():
     playglob = "data/plays/play*"
@@ -123,7 +123,7 @@ def calc_offensive_groundtruth_plays():
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename},{team},{ground_truth_offense(play)}\n")
+        play_values.append(f"{basename},{team},{weighted_offensive_statistics(play)}\n")
     f = open(f"data/groundtruths/play_{team}_offensive_groundtruths.csv", "w")
     f.writelines(play_values)
 
@@ -135,7 +135,7 @@ def calc_offensive_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename},{team},{ground_truth_offense(game)}\n")
+        game_values.append(f"{basename},{team},{weighted_offensive_statistics(game)}\n")
     f = open(f"data/groundtruths/game_{team}_offensive_groundtruths.csv", "w")
     f.writelines(game_values)
 
@@ -147,7 +147,7 @@ def calc_defensive_groundtruth_plays():
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename},{team},{ground_truth_defense(play)}\n")
+        play_values.append(f"{basename},{team},{weighted_defensive_statistics(play)}\n")
     f = open(f"data/groundtruths/play_{team}_defenseive_groundtruths.csv", "w")
     f.writelines(play_values)
 
@@ -159,7 +159,7 @@ def calc_defensive_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename},{team},{ground_truth_defense(game)}\n")
+        game_values.append(f"{basename},{team},{weighted_defensive_statistics(game)}\n")
     f = open(f"data/groundtruths/game_{team}_defensive_groundtruths.csv", "w")
     f.writelines(game_values)
 
@@ -171,7 +171,7 @@ def calc_groundtruth_games():
     for path in game_paths:
         basename = ntpath.basename(path)
         game = readplay(path)
-        game_values.append(f"{basename},{team},{ground_truth(game)}\n")
+        game_values.append(f"{basename},{team},{weighted_statistics(game)}\n")
     f = open(f"data/groundtruths/game_{team}_groundtruths.csv", "w")
     f.writelines(game_values)
 
@@ -183,7 +183,7 @@ def calc_groundtruth_plays():
     for path in play_paths:
         basename = ntpath.basename(path)
         play = readplay(path)
-        play_values.append(f"{basename},{team},{ground_truth(play)}\n")
+        play_values.append(f"{basename},{team},{weighted_statistics(play)}\n")
     f = open(f"data/groundtruths/play_{team}_groundtruths.csv", "w")
     f.writelines(play_values)
 
