@@ -110,6 +110,7 @@ m10 <- glm(Outcome ~ 0 + defensive_vulnerability + shotsAllowedVal + diadic_sum,
 
 ```{r}
 #  TODO: Here is the paper stuff
-cor.test(gd2$Outcome, gd2$d)
+# cor.test(gd2$Outcome, gd2$defensive_vulnerability)
+cor.test(gd2$Outcome, gd2$regression_fit1)
 ```
 
