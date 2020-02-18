@@ -1,4 +1,4 @@
-,defensive_vulnerability,regression_fit1,shotsAllowedVal,algebraic_connectivity,network_strength_eigen_value,diadic_sum,triad_sum,complete_triad_sum,ground_truth,ground_truth_offense,ground_truth_defense
+,defensive_vulnerability,regression_fit1,shotsAllowedVal,algebraic_connectivity,network_strength_eigen_value,diadic_sum,triad_sum,complete_triad_sum,weighted_statistics,weighted_offensive_statistics,weighted_defensive_statistics
 0,3.353628292190914,3.353628292190914,0.0,0.0,0.0,0,0,0,0.0,0.0,0.0
 1,2.561552812808831,52.561552812808834,0.0,4.616066632853337,4.658373985536889,50,3,0,16.800000000000004,8.400000000000002,8.400000000000002
 2,2.9999999999999996,55.0,0.0,4.6533119314590365,2.9999999999999987,52,1,0,11.200000000000001,5.6000000000000005,5.6000000000000005
