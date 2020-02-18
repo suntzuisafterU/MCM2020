@@ -1,4 +1,4 @@
-,MatchID,OpponentID,Outcome,OwnScore,OpponentScore,Side,CoachID,defensive_vulnerability,regression_fit1,shotsAllowedVal,algebraic_connectivity,network_strength_eigen_value,diadic_sum,triad_sum,complete_triad_sum,ground_truth,ground_truth_offense,ground_truth_defense
+,MatchID,OpponentID,Outcome,OwnScore,OpponentScore,Side,CoachID,defensive_vulnerability,regression_fit1,shotsAllowedVal,algebraic_connectivity,network_strength_eigen_value,diadic_sum,triad_sum,complete_triad_sum,weighted_statistics,weighted_offensive_statistics,weighted_defensive_statistics
 0,1,Opponent1,win,1,0,home,Coach1,39.8259313500958,107.21307439534047,-896.6128569547554,83.2264206272573,85.95168649775258,964.0,170.0,42.0,973.299999999994,500.09999999999684,473.19999999999715
 1,2,Opponent2,tie,1,1,away,Coach1,74.60736827839438,-647.5091206806237,-1351.1164889590182,36.137576191540944,34.22657698249734,629.0,86.0,10.0,578.8000000000004,302.9,275.90000000000043
 2,3,Opponent3,loss,0,2,away,Coach1,87.6477062468553,-540.3526663186275,-1434.0003725654828,61.38863924908963,63.692243872520386,806.0,143.0,27.0,775.0999999999971,401.6999999999984,373.3999999999987
